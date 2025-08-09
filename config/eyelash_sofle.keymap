@@ -104,11 +104,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp DOWN_ARROW  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp RET         &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &kp UP_ARROW    &kp HOME       &kp PLUS      &kp EQUAL     &kp SLASH     &kp ASTRK  &kp BACKSPACE
+&kp TAB     &kp F6  &kp F7  &kp F8  &kp F9  &kp F10    &kp DOWN_ARROW  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans     &trans
+&trans      &trans  &trans  &trans  &trans  &kp F11    &kp LEFT_ARROW  &kp PAGE_DOWN  &trans        &trans        &trans        &trans     &trans
+&trans      &trans  &trans  &trans  &trans  &kp F12    &kp RIGHT       &kp END        &trans        &trans        &trans        &trans     &trans
+&trans      &trans  &trans  &trans  &trans  &trans     &kp RET         &kp RET        &kp SPACE     &trans        &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
