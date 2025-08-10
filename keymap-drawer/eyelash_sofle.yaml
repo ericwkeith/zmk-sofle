@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - '&msc MOVE_Y(20)'
-  - '&mmv MOVE_Y(300)'
+  - '&mmv MOVE_Y(-300)'
   - '&msc MOVE_Y(-20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
