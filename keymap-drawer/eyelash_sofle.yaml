@@ -390,3 +390,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [57, 59]
+  k: {t: mouse layer default speed, h: toggle}
