@@ -98,11 +98,11 @@
 
         mousebase {
             bindings = <
-&kp ESCAPE  &trans             &trans             &trans            &trans     &trans    &kp UP_ARROW    &kp HOME   &trans     &trans     &trans     &trans      &kp BACKSPACE
-&kp TAB     &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans     &trans    &kp DOWN        &kp PG_UP  &mkp MB4   &trans     &mkp MB5   &trans      &trans
-&mo 2       &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans     &trans    &kp LEFT_ARROW  &kp PG_DN  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans      &none
-&trans      &kp LC(A)          &trans             &kp LC(C)         &kp LC(V)  &trans    &kp RIGHT       &kp END    &trans     &trans     &trans     &trans      &kp RET
-&kp C_MUTE  &trans             &trans             &trans            &trans     &trans    &kp RET         &mo 3      &trans     &trans     &trans     &kp DELETE
+&kp ESCAPE  &trans             &trans             &trans            &trans     &trans    &kp UP_ARROW    &kp HOME   &trans    &trans    &trans    &trans      &kp BACKSPACE
+&kp TAB     &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans     &trans    &kp DOWN        &kp PG_UP  &mkp MB4  &trans    &mkp MB5  &trans      &trans
+&mo 2       &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans     &trans    &kp LEFT_ARROW  &kp PG_DN  &mkp MB1  &mkp MB2  &mkp MB3  &trans      &none
+&trans      &kp LC(A)          &trans             &kp LC(C)         &kp LC(V)  &trans    &kp RIGHT       &kp END    &trans    &trans    &trans    &trans      &kp RET
+&kp C_MUTE  &trans             &trans             &trans            &trans     &trans    &kp RET         &mo 3      &trans    &trans    &trans    &kp DELETE
             >;
 
             display-name = "mouse layer default speed";
@@ -112,11 +112,11 @@
         mouseslow {
             display-name = "precision mouse layer";
             bindings = <
-&kp ESCAPE  &trans             &trans             &trans            &trans     &trans    &kp UP_ARROW    &kp HOME   &trans     &trans     &trans     &trans      &kp BACKSPACE
-&kp TAB     &msc MOVE_Y(20)    &mmv MOVE_Y(-300)  &msc MOVE_Y(-20)  &trans     &trans    &kp DOWN        &kp PG_UP  &mkp MB4   &trans     &mkp MB5   &trans      &trans
-&trans      &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans     &trans    &kp LEFT_ARROW  &kp PG_DN  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans      &none
-&kp LSHFT   &kp LC(A)          &trans             &kp LC(C)         &kp LC(V)  &trans    &kp RIGHT       &kp END    &trans     &trans     &trans     &trans      &kp RET
-&kp C_MUTE  &trans             &trans             &trans            &trans     &trans    &kp RET         &mo 3      &trans     &trans     &trans     &kp DELETE
+&kp ESCAPE  &trans             &trans             &trans            &trans     &trans    &kp UP_ARROW    &kp HOME   &trans    &trans    &trans    &trans      &kp BACKSPACE
+&kp TAB     &msc MOVE_Y(20)    &mmv MOVE_Y(-300)  &msc MOVE_Y(-20)  &trans     &trans    &kp DOWN        &kp PG_UP  &mkp MB4  &trans    &mkp MB5  &trans      &trans
+&trans      &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans     &trans    &kp LEFT_ARROW  &kp PG_DN  &mkp MB1  &mkp MB2  &mkp MB3  &trans      &none
+&kp LSHFT   &kp LC(A)          &trans             &kp LC(C)         &kp LC(V)  &trans    &kp RIGHT       &kp END    &trans    &trans    &trans    &trans      &kp RET
+&kp C_MUTE  &trans             &trans             &trans            &trans     &trans    &kp RET         &mo 3      &trans    &trans    &trans    &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -125,11 +125,11 @@
         mousefast {
             display-name = "speed mouse layer";
             bindings = <
-&kp ESCAPE  &trans             &trans             &trans            &trans     &trans    &kp UP_ARROW    &kp HOME   &trans     &trans     &trans     &trans      &kp BACKSPACE
-&kp TAB     &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans     &trans    &kp DOWN        &kp PG_UP  &mkp MB4   &trans     &mkp MB5   &trans      &trans
-&mo 2       &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans     &trans    &kp LEFT_ARROW  &kp PG_DN  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans      &none
-&trans      &kp LC(A)          &trans             &kp LC(C)         &kp LC(V)  &trans    &kp RIGHT       &kp END    &trans     &trans     &trans     &trans      &kp RET
-&kp C_MUTE  &trans             &trans             &trans            &trans     &trans    &kp RET         &trans     &trans     &trans     &trans     &kp DELETE
+&kp ESCAPE  &trans             &trans             &trans            &trans     &trans    &kp UP_ARROW    &kp HOME   &trans    &trans    &trans    &trans      &kp BACKSPACE
+&kp TAB     &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans     &trans    &kp DOWN        &kp PG_UP  &mkp MB4  &trans    &mkp MB5  &trans      &trans
+&mo 2       &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans     &trans    &kp LEFT_ARROW  &kp PG_DN  &mkp MB1  &mkp MB2  &mkp MB3  &trans      &none
+&trans      &kp LC(A)          &trans             &kp LC(C)         &kp LC(V)  &trans    &kp RIGHT       &kp END    &trans    &trans    &trans    &trans      &kp RET
+&kp C_MUTE  &trans             &trans             &trans            &trans     &trans    &kp RET         &trans     &trans    &trans    &trans    &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
