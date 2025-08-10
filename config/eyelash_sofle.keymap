@@ -80,6 +80,15 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mousetoggle {
+            bindings = <&tog 1>;
+            key-positions = <57 59>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
