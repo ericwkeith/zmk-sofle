@@ -393,3 +393,4 @@ layers:
 combos:
 - p: [57, 59]
   k: {t: mouse layer default speed, h: toggle}
+  l: [base layer, mouse layer default speed]
