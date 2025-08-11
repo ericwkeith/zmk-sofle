@@ -60,7 +60,7 @@ layers:
   - {t: numpadFunction, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: macro_features}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:backspace-reverse-outline$$'}
   - RIGHT GUI
@@ -83,7 +83,7 @@ layers:
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-600)'
   - '&msc MOVE_Y(-20)'
-  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - PG UP
@@ -96,7 +96,7 @@ layers:
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - {t: base layer, h: toggle}
+  - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - PG DN
@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '0'
+  - {t: base layer, h: toggle}
   - '0'
   - .
   - $$mdi:backspace-reverse-outline$$
@@ -256,7 +256,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: held}
   - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
