@@ -77,7 +77,7 @@ layers:
   - Ctl+A
   - Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - '&msc MOVE_Y(20)'
@@ -89,7 +89,7 @@ layers:
   - PG UP
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
