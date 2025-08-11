@@ -86,6 +86,8 @@
         mousetoggle {
             bindings = <&tog 1>;
             key-positions = <57 59>;
+            timeout-ms = <250>;
+            layers = <0 1>;
         };
     };
 
