@@ -81,8 +81,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - '&msc MOVE_X(-20)'
-  - '&msc MOVE_Y(-20)'
   - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
   - '&msc MOVE_X(20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(-600)'
   - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_Y(-600)'
   - '&mmv MOVE_X(600)'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
