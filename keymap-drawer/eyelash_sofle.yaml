@@ -102,7 +102,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
   - {t: '$$mdi:arrow-up-bold$$', type: held}
   - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
