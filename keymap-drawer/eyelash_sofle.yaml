@@ -80,10 +80,10 @@ layers:
   - F5
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&msc MOVE_X(-20)'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_Y(-600)'
-  - '&mmv MOVE_Y(-600)'
-  - '&msc MOVE_X(20)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - PG UP
@@ -93,8 +93,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
   - {t: '$$mdi:transfer$$', type: trans}
