@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -80,10 +80,10 @@ layers:
   - F5
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
+  - '&msc MOVE_X(-20)'
   - '&msc MOVE_Y(20)'
-  - '&mmv MOVE_Y(-600)'
   - '&msc MOVE_Y(-20)'
-  - '&mkp MB2'
+  - '&msc MOVE_X(20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - PG UP
@@ -95,8 +95,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_Y(-600)'
   - '&mmv MOVE_X(600)'
-  - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - PG DN
@@ -106,10 +106,10 @@ layers:
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+C
-  - Ctl+V
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
   - END
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: numpadFunction, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: macro_features}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
@@ -187,10 +187,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: numpadFunction, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', h: macro_features}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: mouse layer default speed, h: toggle}
   - {t: base layer, h: toggle}
   - '0'
   - .
@@ -233,7 +233,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,7 +255,7 @@ layers:
   - {t: numpadFunction, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: held}
   - PLAY PAUSE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: mouse layer default speed, h: toggle}
   - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -317,11 +317,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: numpadFunction, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', h: macro_features}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: mouse layer default speed, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
