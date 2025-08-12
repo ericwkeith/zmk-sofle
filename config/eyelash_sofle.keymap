@@ -109,8 +109,8 @@
 
         mousebase {
             bindings = <
-&kp ESCAPE  &trans             &trans            &trans             &trans            &trans       &kp UP_ARROW    &kp HOME   &kp RC(A)  &kp RC(X)           &trans     &kp F5  &kp BACKSPACE
-&kp TAB     &msc MOVE_X(-20)   &msc MOVE_Y(20)   &msc MOVE_Y(-20)   &msc MOVE_X(20)   &trans       &kp DOWN        &kp PG_UP  &kp RC(C)  &kp RC(V)           &kp ENTER  &trans  &trans
+&trans      &trans             &trans            &trans             &trans            &trans       &kp UP_ARROW    &kp HOME   &kp RC(A)  &kp RC(X)           &trans     &kp F5  &kp BACKSPACE
+&trans      &msc MOVE_X(-20)   &msc MOVE_Y(20)   &msc MOVE_Y(-20)   &msc MOVE_X(20)   &trans       &kp DOWN        &kp PG_UP  &kp RC(C)  &kp RC(V)           &kp ENTER  &trans  &trans
 &trans      &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &trans       &kp LEFT_ARROW  &kp PG_DN  &mkp MB1   &mkp MB2            &mkp MB3   &trans  &trans
 &trans      &trans             &trans            &trans             &trans            &trans       &kp RIGHT       &kp END    &mkp MB4   &kp RG(DOWN_ARROW)  &mkp MB5   &trans  &kp RET
 &kp C_MUTE  &trans             &trans            &trans             &to 2             &lt 3 RET    &kp RET         &trans     &to 0      &trans              &trans     &trans
