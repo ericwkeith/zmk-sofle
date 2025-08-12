@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle, type: held}
-  - {t: numpadFunction, h: toggle}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB2'
   - '&mkp MB1'
@@ -187,8 +187,8 @@ layers:
   - '&elemail'
   - '&elepass'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle}
-  - {t: '0', s: ), type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - {t: '0', s: )}
