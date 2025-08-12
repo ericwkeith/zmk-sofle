@@ -182,7 +182,7 @@ layers:
   - '3'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&elemail'
   - '&elepass'
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, h: toggle}
+  - '0'
   - {t: '0', s: )}
   - '0'
   - .
