@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: '`', h: numpadFunction, s: '~'}
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: mouse layer default speed, s: ':'}
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - mouse layer default speed
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
@@ -81,11 +81,12 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_Y(-600)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -97,13 +98,12 @@ layers:
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
-  - {t: '$$mdi:arrow-up-bold$$', type: held}
+  - $$mdi:arrow-up-bold$$
   - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle}
+  - {t: base layer, h: toggle, type: held}
   - {t: numpadFunction, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB2'
@@ -157,7 +157,7 @@ layers:
   - '*'
   - END
   - PgUp
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&eracmail'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - '&elepass'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
-  - {t: '0', s: ), type: held alternate}
+  - {t: '0', s: ), type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - {t: '0', s: )}
