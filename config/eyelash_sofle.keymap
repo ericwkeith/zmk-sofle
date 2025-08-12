@@ -113,7 +113,7 @@
 &trans      &trans  &trans             &mmv MOVE_Y(-600)  &trans            &trans    &kp DOWN        &trans    &trans    &trans  &trans          &trans           &trans
 &trans      &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &kp LEFT_ARROW  &trans    &mkp MB1  &trans  &mkp MB2        &kp UP_ARROW     &mkp MB3
 &trans      &trans  &trans             &trans             &trans            &trans    &kp RIGHT       &trans    &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
-&kp C_MUTE  &trans  &trans             &trans             &to 0             &to 2     &kp RET         &mkp MB2  &mkp MB1  &trans  &trans          &kp RIGHT_SHIFT
+&kp C_MUTE  &trans  &trans             &trans             &trans            &trans    &kp RET         &mkp MB2  &mkp MB1  &trans  &trans          &kp RIGHT_SHIFT
             >;
 
             display-name = "mouse layer default speed";
@@ -126,7 +126,7 @@
 &kp F7  &kp F8     &kp F9    &kp F10     &kp F11  &kp F12    &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK       &kp END          &kp PAGE_UP
 &trans  &eracmail  &trans    &trans      &trans   &trans     &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DELETE      &kp UP_ARROW     &kp PAGE_DOWN
 &eid    &eracpass  &trans    &xcelerate  &trans   &trans     &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
-&trans  &elemail   &elepass  &trans      &to 0    &kp N0     &kp RET         &to 1         &kp N0        &kp NUMBER_0  &kp PERIOD      &kp RIGHT_SHIFT
+&trans  &elemail   &elepass  &trans      &trans   &trans     &kp RET         &to 1         &kp N0        &kp NUMBER_0  &kp PERIOD      &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&scroll_encoder>;
