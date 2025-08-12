@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', h: numpadFunction, s: '"'}
+  - {t: '''', s: '"'}
   - {t: _, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: numpadFunction, h: toggle}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
@@ -77,26 +77,26 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_Y(-600)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&msc MOVE_Y(20)'
+  - '&mmv MOVE_Y(-600)'
+  - '&msc MOVE_Y(20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -169,7 +169,7 @@ layers:
   - '6'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
-  - {t: PgDn, type: held alternate}
+  - PgDn
   - '&eid'
   - '&eracpass'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - '&elepass'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
-  - {t: '0', s: )}
+  - {t: '0', s: ), type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - {t: '0', s: )}
