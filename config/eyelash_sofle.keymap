@@ -125,8 +125,8 @@
 &kp F1  &kp F2     &kp F3    &kp F4      &kp F5   &kp F6     &kp UP_ARROW    &kp MINUS     &kp SLASH     &kp PLUS      &kp EQUAL       &kp HOME         &kp BACKSPACE
 &kp F7  &kp F8     &kp F9    &kp F10     &kp F11  &kp F12    &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK       &kp END          &kp PAGE_UP
 &trans  &eracmail  &trans    &trans      &trans   &trans     &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DELETE      &kp UP_ARROW     &kp PAGE_DOWN
-&eid    &eracpass  &trans    &xcelerate  &trans   &trans     &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
-&trans  &elemail   &elepass  &trans      &trans   &trans     &kp RET         &to 1         &kp N0        &kp NUMBER_0  &kp PERIOD      &kp RIGHT_SHIFT
+&eid    &eracpass  &trans    &xcelerate  &trans   &trans     &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RET
+&trans  &elemail   &elepass  &trans      &trans   &trans     &kp RET         &kp NUMBER_0  &kp N0        &kp NUMBER_0  &kp PERIOD      &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&scroll_encoder>;
