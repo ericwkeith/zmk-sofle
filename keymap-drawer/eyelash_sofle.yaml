@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-600)'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&msc MOVE_Y(-20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
