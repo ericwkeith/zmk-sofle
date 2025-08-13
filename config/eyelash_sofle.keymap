@@ -110,7 +110,7 @@
 
         mouse {
             bindings = <
-&trans      &trans  &trans             &trans             &trans            &trans    &kp UP_ARROW    &mkp MB4       &kp RC(X)  &kp RC(A)  &trans          &mkp MB5         &kp BACKSPACE
+&to 0       &trans  &trans             &trans             &trans            &trans    &kp UP_ARROW    &mkp MB4       &kp RC(X)  &kp RC(A)  &trans          &mkp MB5         &kp BACKSPACE
 &trans      &trans  &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans    &kp DOWN        &kp HOME       &kp LC(C)  &kp RC(V)  &kp ENTER       &trans           &trans
 &trans      &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &kp LEFT_ARROW  &kp PAGE_UP    &mkp MB1   &mkp MB2   &mkp MB3        &kp UP_ARROW     &trans
 &trans      &trans  &trans             &trans             &trans            &trans    &kp RIGHT       &kp PAGE_DOWN  &trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
