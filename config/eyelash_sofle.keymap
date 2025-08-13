@@ -109,11 +109,11 @@
 
         mouse {
             bindings = <
-&trans      &trans  &trans             &trans             &trans            &trans    &kp UP_ARROW    &mkp MB4  &trans    &trans    &trans          &mkp MB5         &kp BACKSPACE
-&trans      &trans  &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans    &kp DOWN        &trans    &trans    &trans    &trans          &trans           &trans
-&trans      &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &kp LEFT_ARROW  &trans    &mkp MB1  &mkp MB2  &mkp MB3        &kp UP_ARROW     &trans
-&trans      &trans  &trans             &trans             &trans            &trans    &kp RIGHT       &trans    &trans    &trans    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
-&kp C_MUTE  &trans  &trans             &trans             &trans            &trans    &kp RET         &mkp MB2  &mkp MB1  &trans    &trans          &kp RIGHT_SHIFT
+&trans      &trans  &trans             &trans             &trans            &trans    &kp UP_ARROW    &mkp MB4  &trans    &trans     &trans          &mkp MB5         &kp BACKSPACE
+&trans      &trans  &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans    &kp DOWN        &trans    &trans    &kp RC(V)  &kp ENTER       &trans           &trans
+&trans      &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &kp LEFT_ARROW  &trans    &mkp MB1  &mkp MB2   &mkp MB3        &kp UP_ARROW     &trans
+&trans      &trans  &trans             &trans             &trans            &trans    &kp RIGHT       &trans    &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
+&kp C_MUTE  &trans  &trans             &trans             &trans            &trans    &kp RET         &mkp MB2  &mkp MB1  &kp RC(C)  &trans          &kp RIGHT_SHIFT
             >;
 
             display-name = "mouse layer default speed";
