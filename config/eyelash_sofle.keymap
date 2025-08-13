@@ -97,11 +97,11 @@
 
         base {
             bindings = <
-&kp ESC          &kp N1            &kp N2        &kp N3        &kp N4     &kp N5    &kp UP_ARROW     &kp N6  &kp N7       &kp N8         &kp N9         &kp N0             &kp BACKSPACE
-&kp TAB          &kp Q             &kp W         &kp E         &kp R      &kp T     &kp DOWN_ARROW   &kp Y   &kp U        &kp I          &kp O          &kp P              &kp BSLH
-&kp GRAVE        &kp A             &kp S         &kp D         &kp F      &kp G     &kp LEFT_ARROW   &kp H   &kp J        &kp K          &kp L          &kp SEMI           &kp SQT
-&mt LSHFT UNDER  &kp Z             &kp X         &kp C         &kp V      &kp B     &kp RIGHT_ARROW  &kp N   &kp M        &kp COMMA      &kp DOT        &kp FSLH           &kp RET
-&kp C_MUTE       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 RET  &none     &kp ENTER        &none   &lt 1 SPACE  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&kp ESCAPE  &kp N1  &kp N2            &kp N3        &kp N4     &kp N5    &kp UP_ARROW     &kp N6  &kp N7       &kp N8         &kp N9         &kp N0    &kp BACKSPACE
+&kp ESCAPE  &kp Q   &kp W             &kp E         &kp R      &kp T     &kp DOWN_ARROW   &kp Y   &kp U        &kp I          &kp O          &kp P     &kp BACKSPACE
+&kp TAB     &kp A   &kp S             &kp D         &kp F      &kp G     &kp LEFT_ARROW   &kp H   &kp J        &kp K          &kp L          &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z   &kp X             &kp C         &kp V      &kp B     &kp RIGHT_ARROW  &kp N   &kp M        &kp COMMA      &kp DOT        &kp FSLH  &kp RET
+&kp C_MUTE  &none   &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 RET  &none     &kp ENTER        &none   &lt 1 SPACE  &kp RIGHT_GUI  &kp RIGHT_ALT  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -111,7 +111,7 @@
         mouse {
             bindings = <
 &to 0       &trans  &trans             &trans             &trans            &trans    &kp UP_ARROW    &kp HOME       &kp RC(X)  &kp RC(A)  &trans          &trans           &kp BACKSPACE
-&trans      &trans  &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans    &kp DOWN        &kp PAGE_UP    &kp LC(C)  &kp RC(V)  &kp ENTER       &trans           &trans
+&mo 0       &trans  &msc MOVE_Y(20)    &mmv MOVE_Y(-600)  &msc MOVE_Y(-20)  &trans    &kp DOWN        &kp PAGE_UP    &kp LC(C)  &kp RC(V)  &kp ENTER       &trans           &kp BACKSPACE
 &trans      &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &kp LEFT_ARROW  &kp PAGE_DOWN  &mkp MB1   &mkp MB2   &mkp MB3        &kp UP_ARROW     &trans
 &trans      &trans  &trans             &trans             &trans            &trans    &kp RIGHT       &kp END        &trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
 &kp C_MUTE  &trans  &trans             &trans             &to 2             &trans    &kp RET         &trans         &trans     &mkp MB4   &mkp MB5        &kp RIGHT_SHIFT
