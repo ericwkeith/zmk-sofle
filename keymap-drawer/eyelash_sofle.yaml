@@ -55,16 +55,16 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - mouse layer default speed
-  - {t: '$$mdi:keyboard-space$$', h: numpadFunction}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: numpadFunction}
-  - mouse layer default speed
-  - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-command$$', h: mouse layer default speed}
+  - {t: '$$mdi:keyboard-space$$', h: numpadFunction}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: numpadFunction}
+  - {t: RIGHT GUI, h: mouse layer default speed}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   mouse layer default speed:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
