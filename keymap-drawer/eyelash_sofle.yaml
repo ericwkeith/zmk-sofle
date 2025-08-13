@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: mouse layer default speed}
-  - {t: '$$mdi:keyboard-space$$', h: numpadFunction}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: numpadFunction}
-  - {t: RIGHT GUI, h: mouse layer default speed}
+  - mouse layer default speed
+  - $$mdi:keyboard-space$$
+  - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   mouse layer default speed:
@@ -121,13 +121,13 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mkp MB2'
+  - {t: '&mkp MB2', type: held alternate}
   - '&mkp MB1'
-  - {t: Ctl+C, type: held alternate}
+  - Ctl+C
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   numpadFunction:
@@ -158,10 +158,10 @@ layers:
   - END
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&eracmail'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - '4'
@@ -170,8 +170,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
   - PgDn
-  - '&eid'
-  - '&eracpass'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&xcelerate'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,16 +186,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&elemail'
   - '&elepass'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&eracmail'
+  - '&eracpass'
+  - {t: '&eid', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
-  - {t: '0', s: ), type: held alternate}
+  - {t: '0', s: )}
   - '0'
   - .
   - $$mdi:apple-keyboard-shift$$
 combos:
 - p: [57, 59]
   k: {t: mouse layer default speed, h: toggle}
-  l: [base layer, mouse layer default speed]
+  l: [base layer]
