@@ -138,11 +138,11 @@ layers:
   - F5
   - F6
   - $$mdi:arrow-up-bold$$
-  - {t: '-', s: _}
+  - HOME
   - {t: /, s: '?'}
+  - {t: '-', s: _}
   - +
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - F7
   - F8
@@ -151,11 +151,11 @@ layers:
   - F11
   - F12
   - $$mdi:arrow-down-bold$$
+  - PgUp
   - '7'
   - '8'
   - '9'
   - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -164,10 +164,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
+  - PgDn
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -177,10 +177,10 @@ layers:
   - '&eracpass'
   - '&eid'
   - $$mdi:arrow-right-bold$$
+  - END
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,13 +188,13 @@ layers:
   - '&elepass'
   - '&eracmail'
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
   - '0'
+  - '0'
   - .
-  - $$mdi:apple-keyboard-shift$$
 combos:
 - p: [57, 59]
   k: {t: mouse layer default speed, h: toggle}
