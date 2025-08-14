@@ -57,16 +57,16 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - mouse layer default speed
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - mouse layer default speed
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   mouse layer default speed:
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:keyboard-esc$$', h: base layer}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -79,7 +79,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - base layer
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-600)'
@@ -91,7 +91,7 @@ layers:
   - Ctl+V
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
@@ -122,16 +122,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: mouse layer default speed, type: held}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, type: held}
+  - mouse layer default speed
   - $$mdi:keyboard-space$$
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:apple-keyboard-shift$$
   numpadFunction:
-  - F1
+  - {t: F1, h: base layer}
   - F2
   - F3
   - F4
@@ -187,15 +187,15 @@ layers:
   - '&elemail'
   - '&elepass'
   - '&eracmail'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: mouse layer default speed, type: held alternate}
   - {t: numpadFunction, type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - '0'
   - '0'
   - .
 combos:
-- p: [57, 59]
+- p: [56, 60]
   k: {t: mouse layer default speed, h: toggle}
   l: [base layer]
