@@ -79,19 +79,19 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
   - '&mmv MOVE_Y(-600)'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB1'
+  - HOME
   - $$mdi:arrow-down-bold$$
   - HOME
-  - Ctl+C
-  - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&mkp MB1'
+  - '&mmv MOVE_Y(-600)'
+  - '&mkp MB2'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - END
   - '&msc MOVE_Y(20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
@@ -100,11 +100,11 @@ layers:
   - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-left-bold$$
   - PgUp
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
-  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,10 +112,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
-  - PgDn
-  - AltGr+$$mdi:keyboard-tab$$
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+A
+  - Ctl+C
+  - Ctl+X
+  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
