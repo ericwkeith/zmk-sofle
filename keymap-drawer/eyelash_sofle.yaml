@@ -67,17 +67,17 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer default speed:
   - {t: '$$mdi:keyboard-esc$$', h: base layer}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - $$mdi:arrow-up-bold$$
   - Ctl+Z
   - Ctl+X
   - Ctl+A
   - '&mkp MB4'
-  - '&mkp MB5'
+  - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
