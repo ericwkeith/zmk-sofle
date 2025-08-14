@@ -151,11 +151,11 @@
 
         numpadFunction {
             bindings = <
-&lt 0 F1  &kp F2          &kp F3          &kp F4        &kp F5           &kp F6         &kp UP_ARROW    &kp HOME       &kp MINUS     &kp EQUAL     &kp SLASH     &kp ASTRK   &kp BACKSPACE
-&kp F7    &kp F8          &kp F9          &kp F10       &kp F11          &kp F12        &kp DOWN_ARROW  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &kp BACKSPACE
-&reads    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &forRewrite    &kp LEFT_ARROW  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp RET
-&gmail    &foxt           &trans          &xcelerate    &eracpass        &eid           &kp RIGHT       &kp END        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &kp RET
-&trans    &elemail        &elepass        &trans        &trans           &none          &kp RET         &none          &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD    &kp PERIOD
+&lt 0 F1  &kp F2             &kp F3            &kp F4             &kp F5            &kp F6         &kp UP_ARROW    &kp HOME       &kp MINUS     &kp EQUAL     &kp SLASH     &kp ASTRK   &kp BACKSPACE
+&kp F7    &kp F8             &kp F9            &kp F10            &kp F11           &kp F12        &kp DOWN_ARROW  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &kp BACKSPACE
+&reads    &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &forRewrite    &kp LEFT_ARROW  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp RET
+&gmail    &foxt              &trans            &xcelerate         &eracpass         &eid           &kp RIGHT       &kp END        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &kp RET
+&trans    &elemail           &elepass          &trans             &trans            &none          &kp RET         &none          &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD    &kp PERIOD
             >;
 
             sensor-bindings = <&scroll_encoder>;
