@@ -87,9 +87,9 @@ layers:
   - HOME
   - $$mdi:arrow-down-bold$$
   - HOME
-  - '&mkp MB1'
-  - '&mmv MOVE_Y(-600)'
-  - '&mkp MB2'
+  - Ctl+C
+  - Ctl+V
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - '&msc MOVE_Y(20)'
@@ -100,11 +100,11 @@ layers:
   - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-left-bold$$
   - PgUp
-  - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
-  - '&mmv MOVE_X(600)'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgDn
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,10 +112,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
+  - Ctl+PgDn
   - Ctl+A
-  - Ctl+C
+  - $$mdi:arrow-up-bold$$
   - Ctl+X
-  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
