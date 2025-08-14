@@ -76,8 +76,8 @@ layers:
   - HOME
   - Ctl+X
   - Ctl+A
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,9 +113,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
   - END
-  - '&mkp MB4'
+  - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
-  - '&mkp MB5'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: numpadFunction}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Alt+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
