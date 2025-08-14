@@ -110,11 +110,11 @@
 
         mouse {
             bindings = <
-&lt 0 ESCAPE     &trans             &trans             &trans             &trans            &trans              &kp UP_ARROW    &kp HOME       &kp RC(X)        &kp RC(A)       &mkp MB4        &mkp MB5   &kp BACKSPACE
-&trans           &trans             &trans             &mmv MOVE_Y(-600)  &trans            &trans              &kp DOWN        &kp PAGE_UP    &mt RC(V) RC(C)  &kp RC(V)       &kp ENTER       &trans     &kp BACKSPACE
-&msc MOVE_Y(20)  &mmv MOVE_X(-600)  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &kp PAGE_DOWN  &mkp MB1         &mkp MB2        &mkp MB3        &trans     &kp RC(RET)
-&trans           &trans             &trans             &trans             &trans            &trans              &kp RIGHT       &kp END        &kp RA(TAB)      &kp UP_ARROW    &trans          &kp RET    &kp RET
-&kp C_MUTE       &trans             &trans             &mo 1              &lt 2 RET         &none               &kp RET         &none          &kp SPACE        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+&lt 0 ESCAPE     &trans             &trans             &trans             &trans            &trans              &kp UP_ARROW    &trans       &kp RC(X)        &kp RC(A)       &mkp MB4        &mkp MB5       &kp BACKSPACE
+&trans           &trans             &trans             &mmv MOVE_Y(-600)  &trans            &trans              &kp DOWN        &kp HOME     &mt RC(V) RC(C)  &kp RC(V)       &kp ENTER       &kp RC(RET)    &kp BACKSPACE
+&msc MOVE_Y(20)  &mmv MOVE_X(-600)  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &kp PAGE_UP  &mkp MB1         &mkp MB2        &mkp MB3        &kp PAGE_DOWN  &kp END
+&trans           &trans             &trans             &trans             &trans            &trans              &kp RIGHT       &kp HOME     &kp RA(TAB)      &kp UP_ARROW    &trans          &kp RET        &kp RET
+&kp C_MUTE       &trans             &trans             &mo 1              &lt 2 RET         &none               &kp RET         &none        &kp SPACE        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
             >;
 
             display-name = "mouse layer default speed";
