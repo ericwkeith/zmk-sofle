@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: numpadFunction}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+$$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -139,9 +139,9 @@ layers:
   - F6
   - $$mdi:arrow-up-bold$$
   - HOME
-  - {t: /, s: '?'}
-  - {t: '-', s: _}
   - +
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - F7
