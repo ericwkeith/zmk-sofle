@@ -108,17 +108,7 @@
     behaviors {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        mousetoggle {
-            bindings = <&tog 1>;
-            key-positions = <56 60>;
-            timeout-ms = <250>;
-            layers = <0>;
-            require-prior-idle-ms = <75>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -138,11 +128,11 @@
 
         mouse {
             bindings = <
-&lt 0 ESCAPE     &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5        &kp UP_ARROW    &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9    &kp NUMBER_0   &kp BACKSPACE
-&trans           &trans             &trans             &mmv MOVE_Y(-600)  &trans            &trans              &kp DOWN        &kp HOME       &kp RC(C)     &kp RC(V)       &kp ENTER       &kp RC(RET)    &kp BACKSPACE
-&msc MOVE_Y(20)  &mmv MOVE_X(-600)  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &kp PAGE_UP    &mkp MB1      &mkp MB2        &mkp MB3        &kp PAGE_DOWN  &kp END
-&trans           &trans             &trans             &trans             &trans            &trans              &kp RIGHT       &kp PAGE_DOWN  &kp RA(TAB)   &kp UP_ARROW    &trans          &trans         &kp RET
-&kp C_MUTE       &trans             &trans             &trans             &trans            &none               &kp RET         &none          &kp SPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+&kp ESCAPE       &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5        &kp UP_ARROW    &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9    &kp NUMBER_0   &kp BACKSPACE
+&trans           &trans        &trans             &mmv MOVE_Y(-600)  &trans            &trans              &kp DOWN        &kp HOME       &kp RC(C)     &kp RC(V)       &kp ENTER       &kp RC(RET)    &kp BACKSPACE
+&msc MOVE_Y(20)  &trans        &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &kp PAGE_UP    &mkp MB1      &mkp MB2        &mkp MB3        &kp PAGE_DOWN  &kp END
+&trans           &trans        &trans             &trans             &trans            &trans              &kp RIGHT       &kp PAGE_DOWN  &kp RA(TAB)   &kp UP_ARROW    &trans          &trans         &kp RET
+&kp C_MUTE       &trans        &trans             &trans             &trans            &none               &kp RET         &none          &kp SPACE     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
             >;
 
             display-name = "mouse layer default speed";
@@ -151,11 +141,11 @@
 
         numpadFunction {
             bindings = <
-&lt 0 F1  &kp F2             &kp F3            &kp F4             &kp F5            &kp F6         &kp UP_ARROW    &kp HOME       &kp MINUS     &kp EQUAL     &kp SLASH     &kp ASTRK   &kp BACKSPACE
-&kp F7    &kp F8             &kp F9            &kp F10            &kp F11           &kp F12        &kp DOWN_ARROW  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &kp BACKSPACE
-&reads    &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &forRewrite    &kp LEFT_ARROW  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp RET
-&gmail    &foxt              &trans            &xcelerate         &eracpass         &eid           &kp RIGHT       &kp END        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &kp RET
-&trans    &elemail           &elepass          &trans             &trans            &none          &kp RET         &none          &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD    &kp PERIOD
+&kp F1  &kp F2             &kp F3            &kp F4             &kp F5            &kp F6         &kp UP_ARROW    &kp HOME       &kp MINUS     &kp EQUAL     &kp SLASH     &kp ASTRK   &kp BACKSPACE
+&kp F7  &kp F8             &kp F9            &kp F10            &kp F11           &kp F12        &kp DOWN_ARROW  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &kp BACKSPACE
+&reads  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &forRewrite    &kp LEFT_ARROW  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp RET
+&gmail  &foxt              &trans            &xcelerate         &eracpass         &eid           &kp RIGHT       &kp END        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &kp RET
+&trans  &elemail           &elepass          &trans             &trans            &none          &kp RET         &none          &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD    &kp PERIOD
             >;
 
             sensor-bindings = <&scroll_encoder>;
