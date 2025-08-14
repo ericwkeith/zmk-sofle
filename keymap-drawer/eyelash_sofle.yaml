@@ -73,7 +73,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - HOME
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+X
   - Ctl+A
   - '&mkp MB4'
@@ -86,11 +86,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
-  - PgUp
+  - HOME
   - {t: Ctl+C, h: Ctl+V}
   - Ctl+V
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_X(-600)'
@@ -99,12 +99,12 @@ layers:
   - '&mmv MOVE_X(600)'
   - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-left-bold$$
-  - PgDn
+  - PgUp
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
+  - PgDn
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,7 +112,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
-  - END
+  - HOME
   - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
