@@ -73,10 +73,10 @@ layers:
   - '4'
   - '5'
   - $$mdi:arrow-up-bold$$
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+A
-  - '&mkp MB4'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
   - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
