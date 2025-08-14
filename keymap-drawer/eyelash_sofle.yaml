@@ -56,8 +56,8 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
-  - mouse layer default speed
-  - {t: '$$mdi:keyboard-return$$', h: numpadFunction}
+  - numpadFunction
+  - {t: '$$mdi:keyboard-return$$', h: mouse layer default speed}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -87,7 +87,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - HOME
-  - {t: Ctl+C, h: Ctl+V}
+  - Ctl+C
   - Ctl+V
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
@@ -121,8 +121,8 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: mouse layer default speed, type: held}
-  - {t: '$$mdi:keyboard-return$$', h: numpadFunction}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -186,8 +186,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&elemail'
   - '&elepass'
-  - {t: mouse layer default speed, type: held alternate}
-  - {t: numpadFunction, type: held}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
