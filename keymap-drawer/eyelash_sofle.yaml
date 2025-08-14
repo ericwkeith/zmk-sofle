@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   base layer:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -13,8 +13,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - \
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: numpadFunction}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: mouse layer default speed}
+  - numpadFunction
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - mouse layer default speed
+  - $$mdi:keyboard-space$$
   - RIGHT GUI
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer default speed:
   - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: numpadFunction, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - numpadFunction
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: mouse layer default speed, type: held}
+  - $$mdi:keyboard-space$$
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:apple-keyboard-shift$$
@@ -187,11 +187,11 @@ layers:
   - '&elemail'
   - '&elepass'
   - '&eracmail'
-  - {type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '0', s: )}
+  - {t: numpadFunction, type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: mouse layer default speed, type: held alternate}
+  - $$mdi:keyboard-space$$
   - '0'
   - '0'
   - .
