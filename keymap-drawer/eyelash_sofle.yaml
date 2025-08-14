@@ -158,10 +158,10 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&reads'
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_Y(-600)'
+  - '&mmv MOVE_X(600)'
   - '&forRewrite'
   - $$mdi:arrow-left-bold$$
   - PgDn
