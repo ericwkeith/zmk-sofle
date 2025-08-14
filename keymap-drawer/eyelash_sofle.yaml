@@ -112,11 +112,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
-  - HOME
+  - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -139,10 +139,10 @@ layers:
   - F6
   - $$mdi:arrow-up-bold$$
   - HOME
-  - +
   - {t: '-', s: _}
-  - {t: /, s: '?'}
   - {t: '=', s: +}
+  - {t: /, s: '?'}
+  - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
   - F7
   - F8
@@ -155,7 +155,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '*'
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -168,8 +168,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -181,7 +181,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - +
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&elemail'
