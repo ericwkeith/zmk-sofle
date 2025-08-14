@@ -57,10 +57,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: numpadFunction}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', h: mouse layer default speed}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - numpadFunction
   - {t: '$$mdi:keyboard-space$$', h: mouse layer default speed}
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - numpadFunction
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -187,11 +187,11 @@ layers:
   - '&elemail'
   - '&elepass'
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: mouse layer default speed, type: held alternate}
   - {type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '0'
+  - {type: held alternate}
+  - {t: '0', type: held alternate}
   - '0'
   - .
   - .
