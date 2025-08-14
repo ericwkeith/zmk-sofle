@@ -82,6 +82,27 @@
             bindings = <&kp F &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE>;
             label = "FORREWRITE";
         };
+
+        gmail: gmail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp R &kp I &kp C &kp W &kp K &kp E &kp I &kp T &kp H &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "GMAIL";
+        };
+
+        reads: reads {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp E &kp A &kp D &kp S &kp N2 &kp N3 &kp N4 &kp DLLR>;
+            label = "READS";
+        };
+
+        foxt: foxt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp POUND &kp N3>;
+            label = "FOXT";
+        };
     };
 
     behaviors {
@@ -132,8 +153,8 @@
             bindings = <
 &lt 0 F1  &kp F2          &kp F3          &kp F4        &kp F5           &kp F6         &kp UP_ARROW    &kp HOME       &kp MINUS     &kp EQUAL     &kp SLASH     &kp ASTRK   &kp BACKSPACE
 &kp F7    &kp F8          &kp F9          &kp F10       &kp F11          &kp F12        &kp DOWN_ARROW  &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &kp BACKSPACE
-&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &forRewrite    &kp LEFT_ARROW  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp RET
-&trans    &trans          &trans          &xcelerate    &eracpass        &eid           &kp RIGHT       &kp END        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &kp RET
+&reads    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &forRewrite    &kp LEFT_ARROW  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp RET
+&gmail    &foxt           &trans          &xcelerate    &eracpass        &eid           &kp RIGHT       &kp END        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &kp RET
 &trans    &elemail        &elepass        &mo 1         &mo 2            &none          &kp RET         &none          &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD    &kp PERIOD
             >;
 
