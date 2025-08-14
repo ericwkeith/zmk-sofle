@@ -162,7 +162,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&forRewrite'
   - $$mdi:arrow-left-bold$$
   - PgDn
   - '4'
