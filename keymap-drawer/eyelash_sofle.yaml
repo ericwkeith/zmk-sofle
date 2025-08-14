@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - mouse layer default speed
   - $$mdi:keyboard-space$$
-  - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-control$$
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -79,7 +79,7 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - END
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
   - '&mmv MOVE_Y(-600)'
@@ -116,7 +116,7 @@ layers:
   - Ctl+A
   - $$mdi:arrow-up-bold$$
   - Ctl+X
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
