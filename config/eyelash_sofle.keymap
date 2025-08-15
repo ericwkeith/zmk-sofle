@@ -159,7 +159,7 @@
 &kp F7  &kp F8             &kp F9            &kp F10            &kp F11           &kp F12        &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
 &reads  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &forRewrite    &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &trans
 &gmail  &foxt              &eracmail         &xcelerate         &eracpass         &eracmail      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
-&trans  &eid               &cei              &element           &to 0             &trans         &kp RET         &kp NUMBER_0  &to 0         &kp NUMBER_0  &kp PERIOD  &kp DEL
+&trans  &eid               &trans            &trans             &to 0             &trans         &kp RET         &kp NUMBER_0  &to 0         &kp NUMBER_0  &kp PERIOD  &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
