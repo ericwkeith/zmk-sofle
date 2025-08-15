@@ -116,7 +116,7 @@ layers:
   - '&msc MOVE_Y(20)'
   - $$mdi:arrow-up-bold$$
   - '&msc MOVE_Y(-20)'
-  - $$mdi:backspace-reverse-outline$$
+  - Ctl+Z
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
