@@ -57,8 +57,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: numpadFunction, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
@@ -103,7 +103,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - Gui+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr+$$mdi:keyboard-tab$$
   - Ctl+Z
   - '&mmv MOVE_X(-600)'
@@ -122,10 +122,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: base layer, h: toggle}
   - {t: numpadFunction, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: mouse layer default speed, h: toggle}
   - {t: base layer, h: toggle}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -187,11 +187,11 @@ layers:
   - '&eid'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle}
   - {t: numpadFunction, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
-  - {t: base layer, h: toggle}
+  - '0'
   - '0'
   - .
   - $$mdi:backspace-reverse-outline$$
