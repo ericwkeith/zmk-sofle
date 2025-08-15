@@ -81,29 +81,29 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB2'
+  - '&mkp MB1'
   - '&mmv MOVE_Y(-600)'
   - '&mkp MB1'
   - HOME
   - $$mdi:arrow-down-bold$$
   - HOME
-  - Ctl+C
-  - Ctl+V
+  - {t: Ctl+C, h: Ctl+X}
+  - Ctl+A
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&msc MOVE_Y(20)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - PgUp
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - PgDn
+  - Ctl+V
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,9 +113,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
   - PgDn
-  - Ctl+A
-  - $$mdi:arrow-up-bold$$
-  - Ctl+X
+  - '&msc MOVE_Y(20)'
+  - '&mmv MOVE_Y(-600)'
+  - '&msc MOVE_Y(-20)'
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, type: held}
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
   numpadFunction:
   - F1
   - F2
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&gmail'
   - '&foxt'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&eracmail'
   - '&xcelerate'
   - '&eracpass'
   - '&eid'
