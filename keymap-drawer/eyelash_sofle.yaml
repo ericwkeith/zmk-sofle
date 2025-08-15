@@ -115,8 +115,8 @@ layers:
   - Ctl+X
   - '&msc MOVE_Y(20)'
   - $$mdi:arrow-up-bold$$
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
