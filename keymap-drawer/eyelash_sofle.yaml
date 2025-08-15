@@ -99,7 +99,7 @@ layers:
   - '&mmv MOVE_X(600)'
   - PgUp
   - $$mdi:arrow-left-bold$$
-  - PgUp
+  - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
@@ -112,10 +112,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - $$mdi:arrow-right-bold$$
-  - PgDn
   - '&msc MOVE_Y(20)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
