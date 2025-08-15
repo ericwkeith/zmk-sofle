@@ -106,10 +106,10 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_Y(-600)'
+  - '&mmv MOVE_X(600)'
   - PgDn
   - $$mdi:arrow-right-bold$$
   - Ctl+X
