@@ -142,11 +142,11 @@
 
         mouse {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5     &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
-&kp TAB     &trans        &mkp MB2           &mmv MOVE_Y(-600)  &mkp MB1          &kp HOME         &kp DOWN        &kp HOME      &msc MOVE_Y(-20)  &trans          &trans        &kp RC(RET)   &kp DEL
-&trans      &trans        &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &kp PAGE_UP      &kp LEFT_ARROW  &kp RC(A)     &mkp MB1          &kp RC(C)       &kp RC(V)     &mkp MB2      &mkp MB3
-&trans      &trans        &trans             &trans             &trans            &kp PAGE_DOWN    &kp RIGHT       &kp RC(X)     &msc MOVE_Y(20)   &kp UP_ARROW    &trans        &kp SLASH     &kp RET
-&kp C_MUTE  &trans        &trans             &trans             &to 0             &mo 2            &kp RET         &trans        &to 0             &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+&kp ESCAPE  &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5     &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
+&kp TAB     &trans             &mkp MB2           &mmv MOVE_Y(-600)  &mkp MB1          &kp HOME         &kp DOWN        &kp HOME      &msc MOVE_Y(-20)  &trans          &trans        &kp RC(RET)   &kp DEL
+&trans      &trans             &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &kp PAGE_UP      &kp LEFT_ARROW  &kp RC(A)     &mkp MB1          &kp RC(C)       &kp RC(V)     &mkp MB2      &mkp MB3
+&trans      &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &kp PAGE_DOWN    &kp RIGHT       &kp RC(X)     &msc MOVE_Y(20)   &kp UP_ARROW    &trans        &kp SLASH     &kp RET
+&kp C_MUTE  &trans             &trans             &trans             &to 0             &mo 2            &kp RET         &trans        &to 0             &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
             >;
 
             display-name = "mouse layer default speed";
