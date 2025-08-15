@@ -185,8 +185,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&eid'
-  - '&cei'
-  - '&element'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
