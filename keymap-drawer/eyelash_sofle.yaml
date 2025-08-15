@@ -88,10 +88,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - HOME
   - '&msc MOVE_Y(-20)'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:backspace-reverse-outline$$
+  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
@@ -101,10 +101,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - Ctl+A
   - '&mkp MB1'
-  - Ctl+C
-  - Ctl+V
   - '&mkp MB2'
   - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -113,9 +113,9 @@ layers:
   - PgDn
   - $$mdi:arrow-right-bold$$
   - Ctl+X
-  - '&msc MOVE_Y(20)'
+  - Ctl+C
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+V
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
