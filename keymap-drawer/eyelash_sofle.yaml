@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
+  - '&mkp MB2'
   - '&mmv MOVE_Y(-600)'
   - '&mkp MB1'
   - HOME
@@ -97,7 +97,7 @@ layers:
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - $$mdi:arrow-left-bold$$
   - PgUp
   - '&mkp MB1'
@@ -110,11 +110,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - $$mdi:arrow-right-bold$$
   - PgDn
   - '&msc MOVE_Y(20)'
-  - '&mmv MOVE_Y(-600)'
+  - $$mdi:arrow-up-bold$$
   - '&msc MOVE_Y(-20)'
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
-  - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
-  - '&mmv MOVE_X(600)'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   numpadFunction:
   - F1
   - F2
