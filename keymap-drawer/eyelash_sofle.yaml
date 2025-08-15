@@ -57,8 +57,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: numpadFunction, h: toggle}
-  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
@@ -80,7 +80,7 @@ layers:
   - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB2'
   - '&mmv MOVE_Y(-600)'
   - '&mkp MB1'
@@ -91,9 +91,9 @@ layers:
   - '&msc MOVE_Y(20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
+  - '&mkp MB4'
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
@@ -103,9 +103,9 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB4'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-tab$$
+  - AltGr+$$mdi:keyboard-tab$$
+  - Ctl+Z
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
@@ -119,11 +119,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: numpadFunction, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base layer, h: toggle}
+  - {t: numpadFunction, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
@@ -187,8 +187,8 @@ layers:
   - '&eid'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: numpadFunction, h: toggle}
   - {t: base layer, h: toggle}
+  - {t: numpadFunction, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - {t: base layer, h: toggle}
