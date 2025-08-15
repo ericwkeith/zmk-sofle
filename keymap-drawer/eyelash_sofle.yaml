@@ -190,7 +190,7 @@ layers:
   - {t: numpadFunction, h: toggle}
   - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '0'
+  - {t: mouse layer default speed, h: toggle}
   - {t: base layer, h: toggle}
   - '0'
   - .
