@@ -88,7 +88,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - HOME
   - '&msc MOVE_Y(-20)'
-  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
