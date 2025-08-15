@@ -87,7 +87,7 @@ layers:
   - HOME
   - $$mdi:arrow-down-bold$$
   - HOME
-  - {t: Ctl+C, h: Ctl+X}
+  - Ctl+X
   - Ctl+V
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
@@ -113,7 +113,7 @@ layers:
   - PgDn
   - $$mdi:arrow-right-bold$$
   - '&msc MOVE_Y(20)'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+C
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle}
-  - numpadFunction
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base layer, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
