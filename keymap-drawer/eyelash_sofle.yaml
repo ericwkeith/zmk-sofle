@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - mouse layer default speed
+  - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - RIGHT GUI
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, type: held}
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -188,9 +188,9 @@ layers:
   - '&cei'
   - '&element'
   - '&elepass'
-  - {t: numpadFunction, type: held}
+  - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, type: held alternate}
+  - '0'
   - '0'
   - '0'
   - .
