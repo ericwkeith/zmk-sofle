@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
   - {t: base layer, h: toggle}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: base layer, h: toggle}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -187,11 +187,11 @@ layers:
   - '&eid'
   - '&cei'
   - '&element'
-  - '&elepass'
+  - {t: base layer, h: toggle}
   - {type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
-  - '0'
+  - {t: base layer, h: toggle}
   - '0'
   - .
   - $$mdi:backspace-reverse-outline$$
