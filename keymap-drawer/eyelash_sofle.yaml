@@ -57,10 +57,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: numpadFunction, h: toggle}
-  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, h: toggle}
+  - numpadFunction
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - mouse layer default speed
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
@@ -122,10 +122,10 @@ layers:
   - Ctl+Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: numpadFunction, h: toggle}
-  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - numpadFunction
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -187,10 +187,10 @@ layers:
   - '&eid'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: numpadFunction, h: toggle}
-  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '0', s: ), type: held alternate}
   - '0'
   - '0'
   - .
