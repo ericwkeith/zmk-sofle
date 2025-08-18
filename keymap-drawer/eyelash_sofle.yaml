@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - \
-  - {t: mouse layer default speed, h: toggle}
+  - numpadFunction
   - A
   - S
   - D
@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - numpadFunction
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -104,7 +104,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   - AltGr+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: base layer, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -123,10 +123,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base layer, h: toggle}
-  - numpadFunction
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: base layer, h: toggle}
-  - $$mdi:keyboard-space$$
+  - {t: base layer, h: toggle}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
@@ -169,7 +169,7 @@ layers:
   - '6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&gmail'
   - '&foxt'
   - '&eracmail'
@@ -188,10 +188,10 @@ layers:
   - '&elepass'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
-  - '0'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '0', s: )}
+  - {t: '0', s: )}
   - '0'
   - .
   - $$mdi:backspace-reverse-outline$$
