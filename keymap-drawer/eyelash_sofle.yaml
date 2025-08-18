@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - \
-  - {t: mouse layer default speed, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: mouse layer default speed, h: toggle}
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: mouse layer default speed, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: mouse layer default speed, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
-  - {t: base layer, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - {t: base layer, h: '$$mdi:gesture-tap-hold$$'}
   - '&mkp MB5'
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -104,7 +104,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   - AltGr+$$mdi:keyboard-tab$$
-  - {t: base layer, h: '$$mdi:gesture-tap-hold$$', type: held alternate}
+  - {t: base layer, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&reads', type: held alternate}
+  - {t: base layer, h: toggle}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
@@ -169,7 +169,7 @@ layers:
   - '6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: base layer, h: toggle}
   - '&gmail'
   - '&foxt'
   - '&eracmail'
