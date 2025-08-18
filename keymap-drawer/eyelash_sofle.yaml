@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - \
-  - {t: '`', s: '~'}
+  - {t: mouse layer default speed, h: '$$mdi:gesture-tap-hold$$'}
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: mouse layer default speed, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - mouse layer default speed
+  - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
-  - '&mkp MB4'
+  - {t: base layer, h: '$$mdi:gesture-tap-hold$$', type: held}
   - '&mkp MB5'
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -103,8 +103,8 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr+$$mdi:keyboard-tab$$
+  - {t: base layer, h: '$$mdi:gesture-tap-hold$$', type: held alternate}
   - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -122,10 +122,10 @@ layers:
   - Ctl+Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: base layer, h: toggle}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&reads'
+  - {t: '&reads', type: held alternate}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
@@ -169,7 +169,7 @@ layers:
   - '6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - '&gmail'
   - '&foxt'
   - '&eracmail'
@@ -185,12 +185,12 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&eid'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&elepass'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', s: ), type: held alternate}
+  - {t: '0', s: )}
   - '0'
   - '0'
   - .
