@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: mouse layer default speed, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -80,11 +80,11 @@ layers:
   - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_Y(-600)'
-  - Ctl+A
-  - HOME
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
   - '&mkp MB5'
@@ -92,8 +92,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
   - Ctl+Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
@@ -123,9 +123,9 @@ layers:
   - '&mkp MB2'
   - '&mkp MB1'
   - {t: base layer, h: toggle}
-  - {t: base layer, h: toggle}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
+  - numpadFunction
   - {t: base layer, h: toggle}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
