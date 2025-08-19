@@ -149,11 +149,11 @@
 
         mouse {
             bindings = <
-&lt 0 ESCAPE    &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8       &kp NUMBER_9      &kp NUMBER_0  &kp BACKSPACE
-&kp TAB         &none              &mkp MB1           &mmv MOVE_Y(-600)  &mkp MB1          &none           &kp DOWN        &none         &none              &mmv MOVE_Y(-600)  &none             &none         &none
-&none           &none              &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &mkp MB1        &kp LEFT_ARROW  &none         &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &none         &none
-&kp LEFT_SHIFT  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &mkp MB1        &kp RIGHT       &none         &kp RC(C)          &kp RC(V)          &kp RET           &kp SLASH     &kp RET
-&kp C_MUTE      &mkp MB4           &mkp MB5           &mkp MCLK          &mkp MB2          &mkp MB1        &kp RET         &mkp MB1      &mkp MB2           &mkp MB3           &mkp MB4          &mkp MB5
+&lt 0 ESCAPE    &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
+&kp TAB         &none              &none              &mmv MOVE_Y(-600)  &none             &none           &kp DOWN        &none         &none         &none         &none         &none         &none
+&none           &none              &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &none           &kp LEFT_ARROW  &none         &none         &none         &none         &none         &none
+&kp LEFT_SHIFT  &mmv MOVE_X(-600)  &kp RET            &kp LC(V)          &kp LC(C)         &none           &kp RIGHT       &none         &none         &none         &none         &kp SLASH     &kp RET
+&kp C_MUTE      &mkp MB4           &mkp MB5           &mkp MCLK          &mkp MB1          &mkp MB2        &kp RET         &none         &none         &none         &none         &none
             >;
 
             display-name = "mouse layer default speed";
