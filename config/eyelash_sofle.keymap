@@ -137,7 +137,7 @@
             bindings = <
 &kp ESCAPE      &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5        &kp UP_ARROW    &kp NUMBER_6      &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9    &kp NUMBER_0  &kp BACKSPACE
 &kp TAB         &mkp MB4         &mkp MB5           &mmv MOVE_Y(-600)  &kp LC(A)         &kp HOME            &kp DOWN        &kp HOME          &kp RC(A)     &none           &none           &mkp MB4      &mkp MB5
-&mo 2           &msc MOVE_Y(20)  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &msc MOVE_Y(-20)  &mkp MB1      &mkp MB2        &none           &none         &msc MOVE_Y(20)
+&mo 2           &msc MOVE_Y(20)  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &msc MOVE_Y(-20)  &mkp MB1      &kp RC(C)       &kp RC(V)       &mkp MB2      &msc MOVE_Y(20)
 &kp LEFT_SHIFT  &kp SLASH        &none              &kp LC(V)          &kp LC(C)         &mkp MCLK           &kp RIGHT       &mkp MCLK         &kp RC(C)     &kp UP_ARROW    &kp RC(V)       &kp SLASH     &kp RET
 &kp C_MUTE      &mkp MB3         &mkp MB2           &mkp MB1           &mkp MB1          &mkp MB1            &kp RET         &to 0             &to 0         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
             >;
