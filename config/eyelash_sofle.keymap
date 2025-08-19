@@ -149,11 +149,11 @@
 
         mouse {
             bindings = <
-&lt 0 ESCAPE    &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5     &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
-&kp TAB         &none              &mkp MB2           &mmv MOVE_Y(-600)  &mkp MB1          &kp HOME         &kp DOWN        &kp HOME      &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &none         &none         &kp END
-&mo 2           &none              &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &kp PAGE_UP      &kp LEFT_ARROW  &kp RC(A)     &mkp MB1          &mkp MB2         &mkp MB3      &none         &none
-&kp LEFT_SHIFT  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &kp PAGE_DOWN    &kp RIGHT       &kp RC(X)     &kp RC(C)         &kp RC(V)        &none         &kp SLASH     &kp RET
-&kp C_MUTE      &kp LC(Z)          &none              &none              &to 0             &none            &kp RET         &mo 2         &to 0             &kp RA(TAB)      &kp DOWN      &none
+&lt 0 ESCAPE    &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
+&kp TAB         &none              &mkp MB1           &mmv MOVE_Y(-600)  &mkp MB1          &none           &kp DOWN        &kp HOME      &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &none         &none         &kp END
+&none           &none              &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &mkp MB1        &kp LEFT_ARROW  &kp RC(A)     &mkp MB1          &mkp MB2         &mkp MB3      &none         &none
+&kp LEFT_SHIFT  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &mkp MB1        &kp RIGHT       &kp RC(X)     &kp RC(C)         &kp RC(V)        &none         &kp SLASH     &kp RET
+&kp C_MUTE      &mkp MB4           &mkp MB5           &mkp MCLK          &mkp MB2          &mkp MB1        &kp RET         &mo 2         &to 0             &kp RA(TAB)      &kp DOWN      &none
             >;
 
             display-name = "mouse layer default speed";
@@ -162,11 +162,11 @@
 
         numpadFunction {
             bindings = <
-&lt 0 F1  &kp F2             &kp F3            &kp F4             &kp F5            &kp F6         &kp UP_ARROW    &kp HOME      &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
-&kp F7    &kp F8             &kp F9            &kp F10            &kp F11           &kp F12        &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
-&none     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &forRewrite    &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
-&gmail    &none              &none             &xcelerate         &none             &eracmail      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
-&eid      &none              &none             &none              &foxt4            &foxt          &kp RET         &none         &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
+&lt 0 F1    &kp F2             &kp F3            &kp F4             &kp F5            &kp F6         &kp UP_ARROW    &kp HOME      &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
+&mt F7 TAB  &kp F8             &kp F9            &kp F10            &kp F11           &kp F12        &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
+&none       &mmv MOVE_X(-600)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &forRewrite    &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
+&gmail      &none              &none             &xcelerate         &none             &eracmail      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
+&eid        &none              &none             &none              &foxt4            &foxt          &kp RET         &none         &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
