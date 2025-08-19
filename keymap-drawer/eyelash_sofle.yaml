@@ -125,7 +125,7 @@ layers:
   - '&mkp MB1'
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - base layer
+  - {t: base layer, h: toggle}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB4'
