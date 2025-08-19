@@ -54,16 +54,16 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
+  - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-control$$
+  - {t: mouse layer default speed, h: toggle}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
@@ -122,14 +122,14 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
-  - '&mkp MB1'
+  - $$mdi:keyboard-space$$
   - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: base layer, h: toggle}
+  - $$mdi:keyboard-space$$
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - $$mdi:backspace-reverse-outline$$
   numpadFunction:
   - {t: F1, h: base layer}
   - F2
@@ -187,8 +187,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&foxtrot4'
-  - {t: base layer, h: toggle}
+  - '&cei'
+  - '&element'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
   - {t: '0', s: )}
