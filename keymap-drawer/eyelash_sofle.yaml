@@ -86,7 +86,7 @@ layers:
   - Ctl+A
   - HOME
   - $$mdi:arrow-down-bold$$
-  - HOME
+  - Ctl+Z
   - Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -101,9 +101,9 @@ layers:
   - $$mdi:arrow-left-bold$$
   - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
-  - Ctl+C
   - Ctl+V
   - '&mkp MB2'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&msc MOVE_Y(20)'
   - $$mdi:apple-keyboard-shift$$
   - {t: /, s: '?'}
@@ -112,10 +112,10 @@ layers:
   - Ctl+C
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:mouse-scroll-wheel$$
+  - '&mkp MB3'
   - Ctl+C
   - $$mdi:arrow-up-bold$$
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
