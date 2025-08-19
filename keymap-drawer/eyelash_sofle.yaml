@@ -81,10 +81,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
+  - '&mkp MB1'
   - '&mmv MOVE_Y(-600)'
   - '&mkp MB1'
-  - HOME
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - HOME
   - '&msc MOVE_Y(-20)'
@@ -92,12 +92,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
-  - numpadFunction
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - PgUp
+  - '&mkp MB1'
   - $$mdi:arrow-left-bold$$
   - Ctl+A
   - '&mkp MB1'
@@ -110,7 +110,7 @@ layers:
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
   - '&mmv MOVE_X(600)'
-  - PgDn
+  - '&mkp MB1'
   - $$mdi:arrow-right-bold$$
   - Ctl+X
   - Ctl+C
@@ -119,11 +119,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - Ctl+Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: base layer, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - $$mdi:mouse-scroll-wheel$$
+  - '&mkp MB2'
+  - '&mkp MB1'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: base layer, h: toggle}
@@ -144,7 +144,7 @@ layers:
   - {t: /, s: '?'}
   - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - F7
+  - {t: '$$mdi:keyboard-tab$$', h: F7}
   - F8
   - F9
   - F10
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
