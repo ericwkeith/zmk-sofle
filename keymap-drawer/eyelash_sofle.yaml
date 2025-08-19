@@ -86,12 +86,12 @@ layers:
   - Ctl+A
   - HOME
   - $$mdi:arrow-down-bold$$
-  - Ctl+Z
-  - Ctl+A
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB4'
   - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+A
+  - Ctl+Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_X(-600)'
