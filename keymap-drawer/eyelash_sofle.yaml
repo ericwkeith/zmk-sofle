@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - \
-  - numpadFunction
+  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - mouse layer default speed
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - numpadFunction
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
@@ -104,7 +104,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
@@ -123,10 +123,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base layer, h: toggle}
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - numpadFunction
+  - {t: base layer, h: toggle}
   - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_Y(-600)'
@@ -169,7 +169,7 @@ layers:
   - '6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&gmail'
   - '&foxt'
   - '&eracmail'
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '0', s: )}
   - '0'
   - .
