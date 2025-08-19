@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - base layer
+  - {t: mouse layer default speed, h: toggle}
   - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
   mouse layer default speed:
-  - {t: '$$mdi:keyboard-esc$$', h: base layer}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: base layer, h: toggle}
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
