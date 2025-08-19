@@ -139,7 +139,7 @@
 &kp TAB          &mkp MB4      &mkp MB5           &mmv MOVE_Y(-600)  &kp LC(A)         &kp HOME            &kp DOWN        &kp HOME          &kp RC(A)          &mmv MOVE_Y(-600)  &mkp MB4          &mkp MB5      &kp TAB
 &msc MOVE_Y(20)  &to 0         &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &msc MOVE_Y(-20)  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &to 0         &msc MOVE_Y(20)
 &kp LEFT_SHIFT   &kp SLASH     &kp RET            &kp LC(V)          &kp LC(C)         &mkp MCLK           &kp RIGHT       &mkp MCLK         &kp RC(C)          &kp RC(V)          &kp RET           &kp SLASH     &kp RET
-&kp C_MUTE       &mkp MB4      &mkp MB5           &mkp MB2           &mkp MB1          &mo 2               &kp RET         &mo 0             &mkp MB1           &mkp MB2           &mkp MB4          &mkp MB5
+&kp C_MUTE       &mkp MB4      &mkp MB5           &mkp MB2           &mkp MB1          &mo 2               &kp RET         &to 0             &mkp MB1           &mkp MB2           &mkp MB4          &mkp MB5
             >;
 
             display-name = "mouse layer default speed";
