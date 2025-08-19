@@ -102,8 +102,8 @@ layers:
   - '&msc MOVE_Y(-20)'
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_Y(-600)'
   - '&mmv MOVE_X(600)'
-  - {t: base layer, h: toggle}
   - '&msc MOVE_Y(20)'
   - $$mdi:apple-keyboard-shift$$
   - {t: /, s: '?'}
