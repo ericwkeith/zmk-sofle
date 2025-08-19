@@ -88,7 +88,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - HOME
   - Ctl+A
-  - '&mmv MOVE_Y(-600)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB4'
   - '&mkp MB5'
@@ -102,20 +102,20 @@ layers:
   - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
-  - '&msc MOVE_Y(20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(20)'
   - $$mdi:apple-keyboard-shift$$
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+V
   - Ctl+C
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:mouse-scroll-wheel$$
   - Ctl+C
+  - $$mdi:arrow-up-bold$$
   - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: base layer, h: toggle}
   - {t: base layer, h: toggle}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   numpadFunction:
   - {t: F1, h: base layer}
   - F2
