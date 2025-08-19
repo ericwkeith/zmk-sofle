@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
   - '&mmv MOVE_Y(-600)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
@@ -106,11 +106,11 @@ layers:
   - '&mkp MB2'
   - '&msc MOVE_Y(20)'
   - $$mdi:apple-keyboard-shift$$
-  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+V
-  - Ctl+C
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - '&mkp MB3'
   - Ctl+C
@@ -119,9 +119,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base layer, h: toggle}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
