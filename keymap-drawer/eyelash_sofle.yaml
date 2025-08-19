@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer default speed, h: toggle}
   - $$mdi:keyboard-space$$
@@ -125,7 +125,7 @@ layers:
   - '&mkp MB1'
   - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mkp MB2'
+  - {t: mouse layer default speed, h: toggle}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
