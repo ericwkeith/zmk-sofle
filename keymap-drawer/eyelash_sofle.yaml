@@ -102,8 +102,8 @@ layers:
   - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
   - Ctl+V
-  - '&mkp MB2'
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&mkp MB2'
   - '&msc MOVE_Y(20)'
   - $$mdi:apple-keyboard-shift$$
   - {t: /, s: '?'}
