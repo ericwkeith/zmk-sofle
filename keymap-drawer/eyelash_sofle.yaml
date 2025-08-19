@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: mouse layer default speed, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -57,10 +57,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:keyboard-space$$
+  - {t: mouse layer default speed, h: toggle}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - numpadFunction
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-control$$
@@ -125,7 +125,7 @@ layers:
   - '&mkp MB1'
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - numpadFunction
+  - base layer
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB4'
@@ -188,9 +188,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '0', s: ), type: held}
+  - {t: numpadFunction, type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', type: held alternate}
+  - '0'
   - {t: '0', s: )}
   - '0'
   - .
