@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(-20)'
-  - '&mmv MOVE_Y(-600)'
   - '&msc MOVE_Y(20)'
+  - '&mmv MOVE_Y(-600)'
+  - '&msc MOVE_Y(-20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -93,11 +93,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
