@@ -60,11 +60,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - numpadFunction
   - $$mdi:keyboard-space$$
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
   - '1'
