@@ -60,11 +60,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - numpadFunction
   - $$mdi:keyboard-space$$
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:backspace-reverse-outline$$
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_Y(-600)'
+  - '&mmv MOVE_X(600)'
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
   - '1'
