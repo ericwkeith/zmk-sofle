@@ -35,9 +35,9 @@ layers:
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: RIGHT GUI}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - J
+  - K
+  - L
   - {t: ;, s: ':'}
   - {t: mouse layer default speed, h: toggle}
   - $$mdi:apple-keyboard-shift$$
@@ -54,11 +54,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
-  - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
-  - '&mmv MOVE_Y(-600)'
-  - '&mmv MOVE_X(600)'
-  - '&mkp MB1'
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
@@ -93,7 +93,7 @@ layers:
   - Ctl+A
   - Ctl+Z
   - '&msc MOVE_Y(-20)'
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
