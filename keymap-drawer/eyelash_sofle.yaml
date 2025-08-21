@@ -86,9 +86,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
   - Ctl+A
   - Ctl+Z
@@ -101,8 +101,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
-  - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
   - '&msc MOVE_Y(20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -114,8 +114,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - '&mkp MB3'
   - Ctl+C
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:keyboard-tab$$
+  - Ctl+V
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
