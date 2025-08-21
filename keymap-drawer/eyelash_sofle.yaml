@@ -93,13 +93,13 @@ layers:
   - Ctl+A
   - Ctl+Z
   - {t: base layer, h: toggle}
-  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-left-bold$$
-  - {t: base layer, h: toggle}
+  - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
   - Ctl+V
   - {t: '$$mdi:keyboard-return$$', type: enter}
