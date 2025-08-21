@@ -110,6 +110,13 @@
             bindings = <&kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp RET &kp TAB &kp TAB &kp ENTER>;
             label = "ELEMENT";
         };
+
+        autointegrate: autointegrate {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp K &kp E &kp I &kp T &kp H &kp AT &kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp C &kp O &kp R &kp P &kp DOT &kp C &kp O &kp M &kp TAB &kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp POUND &kp N4>;
+            label = "AUTOINTEGRATE";
+        };
     };
 
     behaviors {
@@ -155,11 +162,11 @@
 
         numpadFunction {
             bindings = <
-&lt 0 F1    &kp F2  &kp F3      &kp F4     &kp F5       &kp F6     &kp UP_ARROW    &kp HOME      &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
-&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12    &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
-&none       &none   &none       &eid       &forRewrite  &gmail     &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
-&none       &reads  &xcelerate  &eracmail  &foxtrot3    &none      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
-&kp C_MUTE  &none   &none       &foxtrot4  &none        &none      &kp RET         &kp NUMBER_0  &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
+&lt 0 F1    &kp F2          &kp F3      &kp F4     &kp F5       &kp F6     &kp UP_ARROW    &kp HOME      &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
+&mt F7 TAB  &kp F8          &kp F9      &kp F10    &kp F11      &kp F12    &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
+&none       &autointegrate  &none       &eid       &forRewrite  &gmail     &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
+&none       &reads          &xcelerate  &eracmail  &foxtrot3    &none      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
+&kp C_MUTE  &none           &none       &foxtrot4  &none        &none      &kp RET         &kp NUMBER_0  &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
