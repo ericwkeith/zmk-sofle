@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - numpadFunction
+  - {t: '`', s: '~'}
   - A
   - S
   - D
@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-space$$
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: base layer, h: toggle}
-  - '&mkp MB1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&eid'
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&foxtrot4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
   - {t: '0', s: )}
