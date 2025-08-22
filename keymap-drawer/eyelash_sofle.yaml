@@ -54,16 +54,16 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
-  - numpadFunction
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
+  - Ctl+C
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Ctl+C
   - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Z
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
@@ -119,8 +119,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
-  - numpadFunction
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - Ctl+V
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
@@ -128,7 +128,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - Ctl+C
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Z
   numpadFunction:
   - {t: F1, h: base layer}
@@ -184,7 +184,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&foxtrot4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
