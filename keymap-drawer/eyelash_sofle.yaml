@@ -82,7 +82,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_Y(-300)'
+  - '&mmv MOVE_Y(-200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - $$mdi:arrow-down-bold$$
@@ -94,9 +94,9 @@ layers:
   - {t: /, s: '?'}
   - {t: base layer, h: toggle}
   - {t: base layer, h: toggle}
-  - '&mmv MOVE_X(-300)'
-  - '&mmv MOVE_Y(300)'
-  - '&mmv MOVE_X(300)'
+  - '&mmv MOVE_X(-200)'
+  - '&mmv MOVE_Y(200)'
+  - '&mmv MOVE_X(200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - '&mkp MB2'
