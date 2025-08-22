@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:arrow-left-bold$$', h: numpadFunction}
+  - $$mdi:arrow-left-bold$$
   - A
   - S
   - D
@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: mouse layer default speed, h: toggle}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
+  - mouse layer default speed
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - RIGHT GUI
@@ -123,10 +123,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
-  - {t: mouse layer default speed, h: toggle}
+  - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
-  - {t: base layer, h: toggle}
+  - {t: mouse layer default speed, type: held}
+  - $$mdi:keyboard-space$$
   - {t: base layer, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -157,7 +157,7 @@ layers:
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - '&autointegrate'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&eid'
@@ -188,9 +188,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&foxtrot4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '0'
+  - {t: '0', type: held alternate}
   - {t: '0', s: )}
   - '0'
   - .
@@ -198,3 +198,5 @@ layers:
 combos:
 - p: [26, 38]
   k: {t: base layer, h: toggle}
+- p: [57, 59]
+  k: {t: mouse layer default speed, h: toggle}
