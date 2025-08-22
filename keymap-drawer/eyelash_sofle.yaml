@@ -88,8 +88,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
   - '&mkp MB5'
-  - '&msc MOVE_Y(20)'
-  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
   - {t: /, s: '?'}
   - {t: base layer, h: toggle}
@@ -101,8 +101,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
   - {t: base layer, h: toggle}
   - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
