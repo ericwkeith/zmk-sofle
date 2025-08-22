@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
+  - numpadFunction
   - $$mdi:apple-keyboard-command$$
-  - Ctl+C
-  - Ctl+V
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
   - {t: base layer, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-300)'
@@ -103,14 +103,14 @@ layers:
   - '&mkp MB1'
   - '&msc MOVE_Y(-20)'
   - '&msc MOVE_Y(20)'
+  - '&mkp MB2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(20)'
+  - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-300)'
   - '&mmv MOVE_Y(300)'
   - '&mmv MOVE_Y(-300)'
   - '&mmv MOVE_X(300)'
-  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
   - '&mkp MB3'
@@ -119,9 +119,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
+  - numpadFunction
   - $$mdi:apple-keyboard-command$$
-  - Ctl+C
-  - Ctl+V
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -184,13 +184,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&foxtrot4'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '0'
+  - $$mdi:apple-keyboard-option$$
   - {t: '0', s: )}
   - '0'
   - .
