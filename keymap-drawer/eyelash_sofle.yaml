@@ -57,14 +57,14 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - mouse layer default speed
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - mouse layer default speed
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
-  - RIGHT GUI
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -122,10 +122,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - numpadFunction
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer default speed, type: held}
+  - mouse layer default speed
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -187,10 +187,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&foxtrot4'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', type: held alternate}
+  - '0'
   - {t: '0', s: )}
   - '0'
   - .
