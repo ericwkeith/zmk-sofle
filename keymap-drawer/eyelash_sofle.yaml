@@ -79,7 +79,7 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-300)'
@@ -113,9 +113,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
-  - '&msc MOVE_Y(-20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-scroll-wheel$$
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
@@ -128,7 +128,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - '&msc MOVE_Y(20)'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&msc MOVE_Y(-20)'
   - numpadFunction
   numpadFunction:
   - {t: F1, h: base layer}
