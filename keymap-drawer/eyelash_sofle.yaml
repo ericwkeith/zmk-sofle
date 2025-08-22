@@ -97,7 +97,7 @@ layers:
   - '&mmv MOVE_X(-300)'
   - '&mmv MOVE_Y(300)'
   - '&mmv MOVE_X(300)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - $$mdi:arrow-left-bold$$
   - '&mkp MB2'
   - '&mkp MB1'
