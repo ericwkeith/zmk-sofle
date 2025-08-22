@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
-  - numpadFunction
+  - Ctl+Z
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-left-bold$$
@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Ctl+C
   - Ctl+V
-  - Ctl+Z
+  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
   mouse layer default speed:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -99,9 +99,9 @@ layers:
   - '&mmv MOVE_X(300)'
   - '&mkp MB1'
   - $$mdi:arrow-left-bold$$
-  - '&mkp MB2'
-  - '&mkp MB1'
-  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+C
+  - Ctl+V
   - '&msc MOVE_Y(20)'
   - '&mkp MB2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Ctl+C
-  - Ctl+V
+  - '&mkp MB1'
+  - '&mkp MB2'
   - Ctl+Z
   numpadFunction:
   - {t: F1, h: base layer}
