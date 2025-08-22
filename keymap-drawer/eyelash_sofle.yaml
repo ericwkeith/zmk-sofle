@@ -81,29 +81,29 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(-20)'
   - '&mmv MOVE_Y(-400)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
-  - '&mkp MB4'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(20)'
-  - '&mmv MOVE_Y(-400)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(-20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base layer, h: toggle}
-  - '&msc MOVE_Y(20)'
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_X(400)'
-  - '&msc MOVE_Y(-20)'
-  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
-  - '&mmv MOVE_X(400)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
   - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(-400)'
+  - Ctl+C
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_Y(-400)'
   - '&mmv MOVE_X(400)'
@@ -121,15 +121,15 @@ layers:
   - $$mdi:volume-off$$
   - numpadFunction
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - Ctl+C
+  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - {t: F1, h: base layer}
   - F2
