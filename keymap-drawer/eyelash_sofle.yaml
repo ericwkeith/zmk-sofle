@@ -87,7 +87,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
-  - '&mkp MB5'
+  - Ctl+C
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
