@@ -87,8 +87,8 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
-  - Ctl+C
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -121,7 +121,7 @@ layers:
   - $$mdi:volume-off$$
   - numpadFunction
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
+  - Ctl+V
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
