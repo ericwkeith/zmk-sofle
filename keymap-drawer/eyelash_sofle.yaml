@@ -112,8 +112,8 @@ layers:
   - '&mmv MOVE_X(300)'
   - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-right-bold$$
-  - '&mkp MB3'
   - Ctl+A
+  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
