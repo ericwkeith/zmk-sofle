@@ -105,12 +105,12 @@ layers:
   - Ctl+V
   - {t: base layer, h: toggle}
   - {t: mouse layer default speed, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(20)'
+  - '&mmv MOVE_X(-300)'
+  - '&mmv MOVE_Y(300)'
+  - '&mmv MOVE_Y(-300)'
+  - '&mmv MOVE_X(300)'
+  - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-right-bold$$
   - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
