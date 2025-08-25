@@ -128,7 +128,7 @@ layers:
   - '&msc MOVE_Y(-20)'
   - $$mdi:keyboard-space$$
   - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - {t: F1, h: base layer}
