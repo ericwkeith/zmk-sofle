@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', s: _}
   - numpadFunction
   - A
   - S
