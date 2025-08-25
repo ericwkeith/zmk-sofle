@@ -100,14 +100,14 @@
         cei: cei {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp E &kp I &kp RET &kp TAB &kp TAB &kp RET>;
+            bindings = <&kp C &kp E &kp I &kp RET &kp TAB &kp TAB>;
             label = "CEI";
         };
 
         element: element {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp RET &kp TAB &kp TAB &kp ENTER>;
+            bindings = <&kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp RET &kp TAB &kp TAB>;
             label = "ELEMENT";
         };
 
