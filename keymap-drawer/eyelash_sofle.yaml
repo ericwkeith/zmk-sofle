@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: mouse layer default speed, h: toggle}
+  - mouse layer default speed
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -104,7 +104,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-300)'
   - '&mmv MOVE_Y(300)'
@@ -122,10 +122,10 @@ layers:
   - Ctl+Z
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
+  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&msc MOVE_Y(20)'
   - $$mdi:keyboard-space$$
   - Ctl+C
   - Ctl+V
