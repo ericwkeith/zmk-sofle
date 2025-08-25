@@ -60,7 +60,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
+  - mouse layer default speed
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -125,10 +125,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - mouse layer default speed
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - mouse layer default speed
+  - {t: mouse layer default speed, type: held}
   - $$mdi:keyboard-space$$
-  - Ctl+V
-  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - {t: F1, h: base layer}
@@ -190,7 +190,7 @@ layers:
   - '&elemail'
   - '&eracmail'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '0', s: )}
   - '0'
   - .
