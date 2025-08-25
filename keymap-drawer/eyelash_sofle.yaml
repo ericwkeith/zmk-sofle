@@ -57,10 +57,10 @@ layers:
   - Ctl+Z
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
+  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&msc MOVE_Y(20)'
   - $$mdi:keyboard-space$$
   - Ctl+C
   - Ctl+V
