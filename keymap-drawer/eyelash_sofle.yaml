@@ -123,9 +123,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: mouse layer default speed, h: toggle}
+  - mouse layer default speed
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
+  - mouse layer default speed
   - $$mdi:keyboard-space$$
   - Ctl+V
   - Ctl+C
