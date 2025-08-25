@@ -84,7 +84,7 @@ layers:
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-300)'
   - '&msc MOVE_Y(-20)'
-  - {t: /, s: '?'}
+  - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -102,7 +102,7 @@ layers:
   - Ctl+A
   - '&mkp MB1'
   - Ctl+C
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Ctl+V
   - '&mkp MB2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -113,8 +113,8 @@ layers:
   - '&mkp MB2'
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -129,7 +129,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RETURN
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - {t: F1, h: base layer}
   - F2
