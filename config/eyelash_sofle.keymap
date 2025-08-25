@@ -125,14 +125,9 @@
     combos {
         compatible = "zmk,combos";
 
-        back2base {
-            bindings = <&to 0>;
-            key-positions = <26 38>;
-        };
-
-        mouse {
+        togglemouse {
             bindings = <&to 1>;
-            key-positions = <57 59>;
+            key-positions = <26 38>;
         };
     };
 
@@ -141,11 +136,11 @@
 
         base {
             bindings = <
-&kp ESCAPE  &kp N1     &kp N2        &kp N3            &kp N4          &kp N5     &kp UP_ARROW     &kp N6         &kp N7     &kp N8     &kp N9   &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E             &kp R           &kp T      &kp DOWN_ARROW   &kp Y          &kp U      &kp I      &kp O    &kp P          &kp DELETE
-&none       &kp A      &kp S         &kp D             &kp F           &kp G      &kp LEFT_ARROW   &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON  &mo 1
-&kp LSHFT   &kp Z      &kp X         &kp C             &kp V           &kp B      &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH       &mt RIGHT_SHIFT RET
-&kp C_MUTE  &kp LC(Z)  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp TAB    &kp ENTER        &kp RIGHT_ALT  &kp SPACE  &kp RC(C)  &none    &mo 2
+&kp ESCAPE  &kp N1     &kp N2        &kp N3            &kp N4          &kp N5     &kp UP_ARROW     &kp N6         &kp N7     &kp N8     &kp N9     &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp E             &kp R           &kp T      &kp DOWN_ARROW   &kp Y          &kp U      &kp I      &kp O      &kp P          &kp DELETE
+&mo 2       &kp A      &kp S         &kp D             &kp F           &kp G      &kp LEFT_ARROW   &kp H          &kp J      &kp K      &kp L      &kp SEMICOLON  &to 1
+&kp LSHFT   &kp Z      &kp X         &kp C             &kp V           &kp B      &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA  &kp DOT    &kp FSLH       &mt RIGHT_SHIFT RET
+&kp C_MUTE  &kp LC(Z)  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp TAB    &kp ENTER        &kp RIGHT_ALT  &kp SPACE  &kp RC(C)  &kp RC(V)  &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -158,7 +153,7 @@
 &kp TAB         &none              &msc MOVE_Y(20)    &mmv MOVE_Y(-300)  &msc MOVE_Y(-20)  &kp SLASH       &kp DOWN        &mkp MB4       &mkp MB3      &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &mkp MB5      &kp SLASH
 &to 0           &none              &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &mkp MB1        &kp LEFT_ARROW  &kp RC(A)      &mkp MB1      &kp RET           &kp RC(V)        &none         &none
 &kp LEFT_SHIFT  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_Y(-300)  &mmv MOVE_X(300)  &mkp MB2        &kp RIGHT       &kp RC(X)      &mkp MB2      &none             &none            &kp SLASH     &mt RIGHT_SHIFT RET
-&kp C_MUTE      &kp LC(Z)          &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ARROW    &kp TAB         &kp RET         &kp RIGHT_ALT  &kp SPACE     &kp RC(C)         &none            &mo 2
+&kp C_MUTE      &kp LC(Z)          &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ARROW    &kp TAB         &kp RET         &kp RIGHT_ALT  &kp SPACE     &kp RC(C)         &kp RC(V)        &kp RET
             >;
 
             display-name = "mouse layer default speed";
@@ -167,11 +162,11 @@
 
         numpadFunction {
             bindings = <
-&lt 0 F1    &kp F2          &kp F3      &kp F4     &kp F5       &kp F6     &kp UP_ARROW    &kp HOME       &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
-&mt F7 TAB  &kp F8          &kp F9      &kp F10    &kp F11      &kp F12    &kp DOWN_ARROW  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
-&none       &autointegrate  &none       &eid       &forRewrite  &gmail     &kp LEFT_ARROW  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
-&none       &reads          &xcelerate  &eracmail  &foxtrot3    &none      &kp RIGHT       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
-&kp C_MUTE  &none           &none       &foxtrot4  &kp LEFT     &kp TAB    &kp RET         &kp RIGHT_ALT  &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
+&lt 0 F1    &kp F2          &kp F3      &kp F4     &kp F5       &kp F6     &kp UP_ARROW    &kp HOME      &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
+&mt F7 TAB  &kp F8          &kp F9      &kp F10    &kp F11      &kp F12    &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
+&none       &autointegrate  &none       &eid       &forRewrite  &gmail     &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
+&none       &reads          &xcelerate  &eracmail  &foxtrot3    &none      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
+&kp C_MUTE  &none           &none       &foxtrot4  &kp LEFT     &kp TAB    &kp RET         &kp N0        &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
