@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - mouse layer default speed
+  - {t: base layer, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -55,18 +55,18 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - Ctl+Z
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - '&msc MOVE_Y(20)'
+  - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&msc MOVE_Y(-20)'
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
-  - Ctl+V
+  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   mouse layer default speed:
-  - $$mdi:keyboard-esc$$
+  - {t: base layer, h: toggle}
   - '1'
   - '2'
   - '3'
@@ -102,9 +102,9 @@ layers:
   - Ctl+A
   - '&mkp MB1'
   - Ctl+C
-  - {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - '&mmv MOVE_X(-300)'
   - '&mmv MOVE_Y(300)'
@@ -112,24 +112,24 @@ layers:
   - '&mmv MOVE_X(300)'
   - '&mkp MB2'
   - $$mdi:arrow-right-bold$$
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - Ctl+Z
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - '&msc MOVE_Y(20)'
+  - {t: mouse layer default speed, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&msc MOVE_Y(-20)'
+  - base layer
   - $$mdi:keyboard-space$$
-  - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RETURN
   numpadFunction:
   - {t: F1, h: base layer}
   - F2
