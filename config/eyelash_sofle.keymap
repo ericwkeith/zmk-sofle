@@ -100,14 +100,14 @@
         cei: cei {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp E &kp I &kp RET &kp TAB &kp TAB>;
+            bindings = <&kp C &kp E &kp I>;
             label = "CEI";
         };
 
         element: element {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp RET &kp TAB &kp TAB>;
+            bindings = <&kp E &kp L &kp E &kp M &kp E &kp N &kp T>;
             label = "ELEMENT";
         };
 
@@ -163,10 +163,10 @@
         numpadFunction {
             bindings = <
 &lt 0 F1    &kp F2  &kp F3      &kp F4     &kp F5       &kp F6       &kp UP_ARROW    &kp HOME      &kp MINUS     &kp EQUAL     &kp SLASH   &kp ASTRK  &kp BACKSPACE
-&mt F7 TAB  &kp F8  &kp F9      &element   &kp F11      &kp F12      &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
+&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12      &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &trans     &trans
 &none       &auth   &none       &eid       &forRewrite  &gmail       &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
 &none       &reads  &xcelerate  &cei       &foxtrot3    &none        &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
-&kp C_MUTE  &none   &none       &foxtrot4  &elemail     &eracmail    &kp RET         &none         &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
+&kp C_MUTE  &none   &element    &foxtrot4  &elemail     &eracmail    &kp RET         &none         &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
