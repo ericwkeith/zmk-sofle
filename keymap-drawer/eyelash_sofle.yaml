@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: F7}
   - F8
   - F9
-  - '&element'
+  - F10
   - F11
   - F12
   - $$mdi:arrow-down-bold$$
@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&element'
   - '&foxtrot4'
   - '&elemail'
   - {t: '&eracmail', type: held alternate}
