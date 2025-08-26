@@ -58,13 +58,13 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: navigation layer, h: toggle}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   mouse layer:
   - {t: base layer, h: toggle}
   - '1'
@@ -109,13 +109,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_X(-20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_X(20)'
   - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
+  - Ctl+A
   - Ctl+C
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
@@ -123,13 +123,13 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: navigation layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   numpadFunction:
   - {t: F1, h: base layer}
   - F2
@@ -239,11 +239,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_X(-20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_X(20)'
   - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
+  - Ctl+A
   - Ctl+C
-  - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: /, s: '?'}
@@ -253,13 +253,13 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: mouse layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
 combos:
 - p: [57, 59]
   k: {t: mouse layer, h: toggle}
