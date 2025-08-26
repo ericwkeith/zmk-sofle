@@ -140,7 +140,7 @@
 &kp TAB     &kp Q      &kp W         &kp E             &kp R         &kp T     &kp DOWN_ARROW   &kp Y   &kp U      &kp I      &kp O    &kp P          &kp MINUS
 &mo 2       &kp A      &kp S         &kp D             &kp F         &kp G     &kp LEFT_ARROW   &kp H   &kp J      &kp K      &kp L    &kp SEMICOLON  &to 1
 &kp LSHFT   &kp Z      &kp X         &kp C             &kp V         &kp B     &kp RIGHT_ARROW  &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH       &mt RIGHT_SHIFT RET
-&kp C_MUTE  &kp LC(Z)  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &none     &kp RET          &none   &kp SPACE  &kp SPACE  &none    &none
+&kp C_MUTE  &kp LC(Z)  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &none     &kp RET          &none   &kp SPACE  &kp SPACE  &none    &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -167,6 +167,19 @@
 &none       &auth   &none       &eid       &forRewrite  &gmail       &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans     &none
 &none       &reads  &xcelerate  &cei       &foxtrot3    &none        &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS    &trans     &kp RET
 &kp C_MUTE  &none   &element    &foxtrot4  &elemail     &eracmail    &kp RET         &kp N0        &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        nav {
+            display-name = "navigation layer";
+            bindings = <
+&to 0           &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0      &kp BACKSPACE
+&kp TAB         &none         &msc MOVE_Y(20)    &mmv MOVE_Y(-300)  &msc MOVE_Y(-20)  &kp MINUS       &kp DOWN        &mkp MB4       &kp RC(RS(TAB))   &none             &kp RC(TAB)        &mkp MB5          &kp SLASH
+&mo 2           &none         &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &kp DELETE      &kp LEFT_ARROW  &kp BACKSPACE  &mmv MOVE_X(400)  &mmv MOVE_Y(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(400)  &none
+&kp LEFT_SHIFT  &none         &msc MOVE_X(-20)   &none              &msc MOVE_X(20)   &kp LC(V)       &kp RIGHT       &kp RC(C)      &mkp MB1          &mkp MB2          &mkp MB3           &kp SLASH         &mt RIGHT_SHIFT RET
+&kp C_MUTE      &kp LC(Z)     &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none           &kp RET         &none          &kp SPACE         &kp SPACE         &none              &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
