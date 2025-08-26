@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_X(-20)'
+  - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-300)'
-  - '&msc MOVE_X(20)'
+  - '&msc MOVE_Y(-20)'
   - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
@@ -107,9 +107,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_X(-20)'
   - '&mkp MB2'
-  - '&msc MOVE_Y(-20)'
-  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_X(20)'
   - Ctl+V
   - $$mdi:arrow-right-bold$$
   - Ctl+C
