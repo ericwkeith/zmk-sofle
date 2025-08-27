@@ -136,11 +136,11 @@
 
         base {
             bindings = <
-&kp ESCAPE  &kp N1     &kp N2        &kp N3            &kp N4        &kp N5            &kp UP_ARROW     &kp N6  &kp N7     &kp N8     &kp N9   &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E             &kp R         &kp T             &kp DOWN_ARROW   &kp Y   &kp U      &kp I      &kp O    &kp P          &kp MINUS
-&mo 2       &kp A      &kp S         &kp D             &kp F         &kp G             &kp LEFT_ARROW   &kp H   &kp J      &kp K      &kp L    &kp SEMICOLON  &to 1
-&kp LSHFT   &kp Z      &kp X         &kp C             &kp V         &kp B             &kp RIGHT_ARROW  &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RET
-&kp C_MUTE  &kp LC(Z)  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT    &kp RET          &none   &kp SPACE  &none      &none    &none
+&kp ESCAPE  &kp N1     &kp N2        &kp N3            &kp N4        &kp N5    &kp UP_ARROW     &kp N6  &kp N7     &kp N8     &kp N9   &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp E             &kp R         &kp T     &kp DOWN_ARROW   &kp Y   &kp U      &kp I      &kp O    &kp P          &kp MINUS
+&mo 2       &kp A      &kp S         &kp D             &kp F         &kp G     &kp LEFT_ARROW   &kp H   &kp J      &kp K      &kp L    &kp SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z      &kp X         &kp C             &kp V         &kp B     &kp RIGHT_ARROW  &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RET
+&kp C_MUTE  &kp LC(Z)  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &to 1     &kp RET          &none   &kp SPACE  &none      &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -153,7 +153,7 @@
 &kp TAB         &none            &msc MOVE_X(-20)   &mmv MOVE_Y(-400)  &msc MOVE_X(20)   &kp MINUS           &kp DOWN        &mkp MB4      &kp RC(RS(TAB))  &mkp MB2      &kp RC(TAB)   &mkp MB5      &kp SLASH
 &mo 2           &msc MOVE_Y(20)  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc MOVE_Y(-20)    &kp LEFT_ARROW  &mkp MB3      &mkp MB1         &none         &none         &kp RET       &none
 &kp LEFT_SHIFT  &none            &none              &none              &kp LC(V)         &none               &kp RIGHT       &kp RC(A)     &kp RC(C)        &kp RC(X)     &none         &kp SLASH     &kp RET
-&kp C_MUTE      &kp LC(Z)        &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &kp LEFT_SHIFT      &kp RET         &to 0         &kp SPACE        &none         &none         &none
+&kp C_MUTE      &kp LC(Z)        &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none               &kp RET         &to 0         &kp SPACE        &none         &none         &none
             >;
 
             display-name = "mouse layer";
