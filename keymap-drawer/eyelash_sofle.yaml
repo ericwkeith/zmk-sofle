@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - Ctl+Z
   - $$mdi:apple-keyboard-command$$
@@ -60,13 +60,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer:
-  - {t: base layer, h: toggle}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -117,7 +117,7 @@ layers:
   - Ctl+X
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - Ctl+Z
   - $$mdi:apple-keyboard-command$$
@@ -125,24 +125,24 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
-  - {t: F1, h: base layer}
+  - $$mdi:keyboard-esc$$
   - F2
   - F3
   - F4
   - F5
   - F6
   - $$mdi:arrow-up-bold$$
-  - HOME
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: /, s: '?'}
-  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-tab$$', h: F7}
   - F8
@@ -155,8 +155,8 @@ layers:
   - '8'
   - '9'
   - {t: '-', s: _}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - _
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - '&auth'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -168,7 +168,7 @@ layers:
   - '5'
   - '6'
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&reads'
@@ -180,86 +180,21 @@ layers:
   - '1'
   - '2'
   - '3'
-  - +
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&element'
   - '&foxtrot4'
   - '&elemail'
   - '&eracmail'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
   - '0'
   - .
   - $$mdi:backspace-reverse-outline$$
-  navigation layer:
-  - {t: base layer, h: toggle}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - $$mdi:arrow-up-bold$$
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(20)'
-  - '&mmv MOVE_Y(-300)'
-  - '&msc MOVE_Y(-20)'
-  - {t: '-', s: _}
-  - $$mdi:arrow-down-bold$$
-  - '&mkp MB4'
-  - Ctl+Sft+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+$$mdi:keyboard-tab$$
-  - '&mkp MB5'
-  - {t: /, s: '?'}
-  - numpadFunction
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(-300)'
-  - '&mmv MOVE_Y(300)'
-  - '&mmv MOVE_X(300)'
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_Y(-400)'
-  - '&mmv MOVE_X(400)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_X(-20)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-right-bold$$
-  - Ctl+A
-  - Ctl+C
-  - $$mdi:arrow-up-bold$$
-  - '&mkp MB3'
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:volume-off$$
-  - Ctl+Z
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: mouse layer, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
 combos:
 - p: [57, 59]
   k: {t: mouse layer, h: toggle}
