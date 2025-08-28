@@ -149,11 +149,11 @@
 
         mouse {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
-&kp TAB         &none         &none              &mmv MOVE_Y(-400)  &none             &kp MINUS       &kp DOWN        &mkp MB4      &kp RC(RS(TAB))   &mkp MB2         &kp RC(TAB)   &mkp MB5      &kp SLASH
-&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &mkp MB3      &mkp MB1          &kp RC(C)        &kp RC(V)     &kp RET       &kp RC(X)
-&kp LEFT_SHIFT  &none         &none              &msc MOVE_Y(20)    &msc MOVE_Y(-20)  &none           &kp RIGHT       &kp RC(A)     &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &none         &kp SLASH     &kp RET
-&kp C_MUTE      &kp LC(Z)     &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none           &kp RET         &to 0         &kp SPACE         &none            &none         &none
+&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
+&kp TAB         &none         &none              &mmv MOVE_Y(-400)  &none             &kp MINUS       &kp DOWN        &mkp MB4      &kp RC(RS(TAB))  &kp RC(T)     &kp RC(TAB)   &mkp MB5      &kp SLASH
+&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &mkp MB3      &mkp MB1         &kp RC(C)     &kp RC(V)     &none         &kp RC(X)
+&kp LEFT_SHIFT  &none         &mkp MB2           &msc MOVE_Y(20)    &msc MOVE_Y(-20)  &none           &kp RIGHT       &kp RC(A)     &mkp MB1         &kp RC(C)     &kp RC(V)     &kp SLASH     &kp RET
+&kp C_MUTE      &kp LC(Z)     &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none           &kp RET         &to 0         &kp SPACE        &none         &none         &none
             >;
 
             display-name = "mouse layer";
@@ -162,11 +162,11 @@
 
         numpadFunction {
             bindings = <
-&kp ESCAPE  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6       &kp UP_ARROW    &none         &none         &none         &none       &none         &kp BACKSPACE
-&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12      &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS   &kp UNDER     &kp SLASH
-&none       &auth   &none       &eid       &forRewrite  &gmail       &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &kp ASTERISK  &none
-&none       &reads  &xcelerate  &cei       &foxtrot3    &none        &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &none         &kp RET
-&none       &none   &element    &foxtrot4  &elemail     &eracmail    &kp RET         &none         &kp N0        &kp NUMBER_0  &kp PERIOD  &kp DEL
+&kp ESCAPE  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6       &kp UP_ARROW    &none      &none         &none         &none         &none      &kp BACKSPACE
+&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12      &kp DOWN_ARROW  &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp ASTRK  &none
+&none       &auth   &none       &eid       &forRewrite  &gmail       &kp LEFT_ARROW  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &none
+&none       &reads  &xcelerate  &cei       &foxtrot3    &none        &kp RIGHT       &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp RET
+&none       &none   &element    &foxtrot4  &elemail     &eracmail    &kp RET         &none      &none         &kp PERIOD    &kp PERIOD    &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
