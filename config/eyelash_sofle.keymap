@@ -149,11 +149,11 @@
 
         mouse {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8      &kp NUMBER_9     &kp NUMBER_0  &kp BACKSPACE
-&kp TAB         &none         &none              &mmv MOVE_Y(-400)  &none             &kp MINUS       &kp DOWN        &mkp MB4      &kp RC(RS(TAB))  &mkp MB2          &kp RC(TAB)      &mkp MB5      &kp SLASH
-&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &mkp MB3      &mkp MB1         &kp RC(C)         &kp RC(V)        &kp RET       &kp RC(X)
-&kp LEFT_SHIFT  &none         &none              &none              &none             &none           &kp RIGHT       &kp RC(A)     &none            &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &kp SLASH     &kp RET
-&kp C_MUTE      &kp LC(Z)     &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none           &kp RET         &to 0         &kp SPACE        &none             &none            &none
+&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
+&kp TAB         &none         &none              &mmv MOVE_Y(-400)  &none             &kp MINUS       &kp DOWN        &mkp MB4      &kp RC(RS(TAB))   &mkp MB2         &kp RC(TAB)   &mkp MB5      &kp SLASH
+&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &mkp MB3      &mkp MB1          &kp RC(C)        &kp RC(V)     &kp RET       &kp RC(X)
+&kp LEFT_SHIFT  &none         &none              &msc MOVE_Y(20)    &msc MOVE_Y(-20)  &none           &kp RIGHT       &kp RC(A)     &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &none         &kp SLASH     &kp RET
+&kp C_MUTE      &kp LC(Z)     &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none           &kp RET         &to 0         &kp SPACE         &none            &none         &none
             >;
 
             display-name = "mouse layer";
