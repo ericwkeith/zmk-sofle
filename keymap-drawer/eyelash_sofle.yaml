@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - Ctl+Z
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -84,14 +84,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_Y(-400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '-', s: _}
+  - '&mkp MB5'
   - $$mdi:arrow-down-bold$$
-  - '&mkp MB4'
+  - '&mkp MB5'
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - Ctl+T
   - Ctl+$$mdi:keyboard-tab$$
-  - '&mkp MB5'
-  - {t: /, s: '?'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - numpadFunction
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-400)'
@@ -104,7 +104,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+X
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB2'
