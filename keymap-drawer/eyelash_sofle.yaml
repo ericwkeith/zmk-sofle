@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer:
   - $$mdi:keyboard-esc$$
@@ -88,7 +88,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - '&mkp MB5'
   - '&msc MOVE_Y(-20)'
-  - HOME
+  - '&mkp MB3'
   - '&msc MOVE_Y(20)'
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -102,8 +102,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - Ctl+C
-  - Ctl+V
   - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -113,8 +113,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - $$mdi:keyboard-esc$$
@@ -191,10 +191,10 @@ layers:
   - {t: mouse layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - .
-  - .
-  - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [57, 59]
   k: {t: mouse layer, h: toggle}
