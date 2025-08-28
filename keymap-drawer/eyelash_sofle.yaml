@@ -114,8 +114,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(20)'
   - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
