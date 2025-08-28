@@ -86,10 +86,10 @@ layers:
   - '&msc MOVE_Y(-20)'
   - '&mkp MB4'
   - $$mdi:arrow-down-bold$$
-  - '&mkp MB5'
-  - Ctl+Sft+$$mdi:keyboard-tab$$
-  - Ctl+T
-  - Ctl+$$mdi:keyboard-tab$$
+  - HOME
+  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
+  - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - numpadFunction
@@ -97,7 +97,7 @@ layers:
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
-  - HOME
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - Ctl+C
   - '&mkp MB1'
@@ -107,12 +107,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+A
-  - Ctl+C
-  - Ctl+V
-  - END
-  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-right-bold$$
+  - Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
