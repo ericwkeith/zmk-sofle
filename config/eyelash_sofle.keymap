@@ -151,8 +151,8 @@
             bindings = <
 &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
 &kp TAB     &kp ESCAPE    &msc MOVE_Y(20)    &mmv MOVE_Y(-400)  &msc MOVE_Y(-20)  &mkp MB4        &kp DOWN        &mkp MB5      &kp RC(RS(TAB))  &kp RC(T)     &kp RC(TAB)   &kp BACKSPACE  &none
-&mo 2       &kp TAB       &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &none         &mkp MB1         &mkp MB3      &mkp MB2      &none          &none
-&none       &none         &kp LC(A)          &kp LC(C)          &kp LC(V)         &none           &kp RIGHT       &none         &none            &none         &none         &kp SLASH      &kp RET
+&mo 2       &kp TAB       &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &kp HOME        &kp LEFT_ARROW  &none         &mkp MB1         &mkp MB3      &mkp MB2      &none          &none
+&none       &none         &kp LC(A)          &kp LC(C)          &kp LC(V)         &kp END         &kp RIGHT       &none         &none            &none         &none         &kp SLASH      &kp RET
 &kp C_MUTE  &kp LC(Z)     &kp LEFT_GUI       &kp LEFT_CONTROL   &kp LEFT_ALT      &none           &kp RET         &to 0         &kp SPACE        &none         &none         &none
             >;
 
