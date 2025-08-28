@@ -88,7 +88,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - '&mkp MB4'
   - Ctl+Sft+$$mdi:keyboard-tab$$
-  - '&mkp MB2'
+  - Ctl+T
   - Ctl+$$mdi:keyboard-tab$$
   - '&mkp MB5'
   - {t: /, s: '?'}
@@ -103,19 +103,19 @@ layers:
   - '&mkp MB1'
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+X
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
   - '&msc MOVE_Y(20)'
   - '&msc MOVE_Y(-20)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
-  - '&msc MOVE_Y(-20)'
-  - '&msc MOVE_Y(20)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
+  - Ctl+C
+  - Ctl+V
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
@@ -151,12 +151,12 @@ layers:
   - F11
   - F12
   - $$mdi:arrow-down-bold$$
-  - '7'
-  - '8'
-  - '9'
-  - {t: '-', s: _}
-  - _
-  - {t: /, s: '?'}
+  - {t: '=', s: +}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - '&auth'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -164,11 +164,11 @@ layers:
   - '&forRewrite'
   - '&gmail'
   - $$mdi:arrow-left-bold$$
+  - {t: '-', s: _}
   - '4'
-  - '5'
+  - {t: '5', s: '%'}
   - '6'
   - +
-  - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&reads'
@@ -177,11 +177,11 @@ layers:
   - '&foxtrot3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
+  - {t: '0', s: )}
   - '1'
   - '2'
   - '3'
-  - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -191,8 +191,8 @@ layers:
   - '&eracmail'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '0', s: )}
-  - '0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - .
   - .
   - $$mdi:backspace-reverse-outline$$
 combos:
