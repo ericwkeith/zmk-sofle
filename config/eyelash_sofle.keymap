@@ -162,10 +162,10 @@
 
         numpadFunction {
             bindings = <
-&kp ESCAPE  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6       &kp UP_ARROW    &none      &none         &none         &none         &none      &kp BACKSPACE
-&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12      &kp DOWN_ARROW  &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp ASTRK  &none
-&none       &auth   &none       &eid       &forRewrite  &gmail       &kp LEFT_ARROW  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &none
-&none       &reads  &xcelerate  &cei       &foxtrot3    &none        &kp RIGHT       &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp RET
+&kp ESCAPE  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6       &kp UP_ARROW    &none      &none         &none         &none         &none          &kp BACKSPACE
+&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12      &kp DOWN_ARROW  &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &none
+&none       &auth   &none       &eid       &forRewrite  &gmail       &kp LEFT_ARROW  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS       &none
+&none       &reads  &xcelerate  &cei       &foxtrot3    &none        &kp RIGHT       &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp RET
 &none       &none   &element    &foxtrot4  &elemail     &eracmail    &kp RET         &none      &none         &kp PERIOD    &kp PERIOD    &kp DEL
             >;
 
