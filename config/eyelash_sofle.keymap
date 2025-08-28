@@ -149,11 +149,11 @@
 
         mouse {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7     &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &none
-&kp TAB     &kp ESCAPE    &msc MOVE_Y(20)    &mmv MOVE_Y(-400)  &msc MOVE_Y(-20)  &mkp MB4        &kp DOWN        &mkp MB5      &kp RC(RS(TAB))  &kp RC(T)      &kp RC(TAB)   &none         &none
-&mo 2       &kp TAB       &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &kp HOME        &kp LEFT_ARROW  &kp RC(C)     &mkp MB1         &mkp MB3       &mkp MB2      &kp RC(V)     &none
-&none       &none         &kp LC(A)          &kp LC(C)          &kp LC(V)         &kp END         &kp RIGHT       &none         &none            &none          &none         &kp SLASH     &kp RET
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &none           &kp RET         &to 0         &kp SPACE        &kp BACKSPACE  &kp DEL       &none
+&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &none
+&kp TAB     &kp ESCAPE    &msc MOVE_Y(20)    &mmv MOVE_Y(-400)  &msc MOVE_Y(-20)  &mkp MB4        &kp DOWN        &kp HOME      &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &kp END       &none         &none
+&mo 2       &kp TAB       &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &kp RC(C)     &mkp MB1          &mkp MB3         &mkp MB2      &kp RC(V)     &none
+&none       &none         &none              &none              &none             &none           &kp RIGHT       &kp RC(A)     &none             &none            &none         &kp SLASH     &kp RET
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &none           &kp RET         &to 0         &kp SPACE         &kp BACKSPACE    &kp DEL       &none
             >;
 
             display-name = "mouse layer";
