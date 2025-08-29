@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: mouse layer, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -123,9 +123,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: base layer, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: mouse layer, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -188,7 +188,7 @@ layers:
   - '&element'
   - '&foxtrot4'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
   - $$mdi:keyboard-space$$
