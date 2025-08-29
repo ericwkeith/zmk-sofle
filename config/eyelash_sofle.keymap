@@ -79,7 +79,7 @@
         Rewrite: Rewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp W &kp I &kp T &kp H &kp SPACE &kp R &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp POUND &kp SPACE &kp RC(V)>;
+            bindings = <&kp LS(R) &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp R &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp SPACE &kp W &kp I &kp T &kp H &kp SPACE &kp RC(V)>;
             label = "REWRITE";
         };
 
