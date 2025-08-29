@@ -91,7 +91,7 @@ layers:
   - '&mkp MB3'
   - '&msc MOVE_Y(20)'
   - END
-  - '&mkp MB4'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - numpadFunction
   - $$mdi:keyboard-tab$$
   - '&mmv MOVE_X(-400)'
@@ -104,7 +104,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - '&mkp MB2'
-  - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
