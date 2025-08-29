@@ -113,8 +113,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - {t: '$$mdi:keyboard-esc$$', s: '`'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
