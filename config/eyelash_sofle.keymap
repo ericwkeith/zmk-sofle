@@ -76,11 +76,11 @@
             label = "XCELERATE";
         };
 
-        forRewrite: forRewrite {
+        Rewrite: Rewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
-            label = "FORREWRITE";
+            bindings = <&kp LS(P) &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp U &kp S &kp E &kp SPACE &kp R &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp POUND &kp SPACE &kp LC(V) &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp T &kp I &kp C &kp K &kp E &kp T &kp SPACE>;
+            label = "REWRITE";
         };
 
         gmail: gmail {
@@ -162,11 +162,11 @@
 
         numpadFunction {
             bindings = <
-&kp ESCAPE  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6     &kp UP_ARROW    &none         &none         &none          &none         &none          &kp BACKSPACE
-&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12    &kp DOWN_ARROW  &kp EQUAL     &kp N7        &kp N8         &kp N9        &kp BACKSPACE  &none
-&none       &auth   &none       &eid       &forRewrite  &gmail     &kp LEFT_ARROW  &kp MINUS     &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp PLUS       &none
-&none       &reads  &xcelerate  &cei       &foxtrot3    &none      &kp RIGHT       &kp DELETE    &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp SLASH      &kp RET
-&none       &none   &element    &foxtrot4  &to 1        &kp RET    &kp RET         &kp NUMBER_0  &kp SPACE     &kp BACKSPACE  &kp PERIOD    &none
+&kp ESCAPE  &kp F2  &kp F3      &kp F4     &kp F5     &kp F6     &kp UP_ARROW    &none         &none         &none          &none         &none          &kp BACKSPACE
+&mt F7 TAB  &kp F8  &kp F9      &kp F10    &kp F11    &kp F12    &kp DOWN_ARROW  &kp EQUAL     &kp N7        &kp N8         &kp N9        &kp BACKSPACE  &none
+&none       &auth   &none       &eid       &Rewrite   &gmail     &kp LEFT_ARROW  &kp MINUS     &kp NUMBER_4  &kp N5         &kp NUMBER_6  &kp PLUS       &none
+&none       &reads  &xcelerate  &cei       &foxtrot3  &none      &kp RIGHT       &kp DELETE    &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp SLASH      &kp RET
+&none       &none   &element    &foxtrot4  &to 1      &kp RET    &kp RET         &kp NUMBER_0  &kp SPACE     &kp BACKSPACE  &kp PERIOD    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
