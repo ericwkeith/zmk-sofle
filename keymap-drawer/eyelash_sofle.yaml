@@ -63,8 +63,8 @@ layers:
   - {t: mouse layer, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&bl BL_ON'
+  - '&bl BL_CYCLE'
   mouse layer:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -84,26 +84,26 @@ layers:
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-400)'
   - '&msc MOVE_Y(-20)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFF
   - $$mdi:arrow-down-bold$$
   - HOME
-  - '&msc MOVE_Y(-20)'
-  - '&mkp MB3'
-  - '&msc MOVE_Y(20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - numpadFunction
-  - $$mdi:keyboard-tab$$
+  - Ctl+V
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
+  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
   - Ctl+C
-  - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Z
@@ -113,8 +113,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -128,8 +128,8 @@ layers:
   - {t: mouse layer, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB TOG
+  - RGB EFF
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
