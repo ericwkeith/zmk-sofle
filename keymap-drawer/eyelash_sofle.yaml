@@ -161,7 +161,7 @@ layers:
   - '&auth'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&eid'
-  - '&forRewrite'
+  - '&Rewrite'
   - '&gmail'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
