@@ -57,13 +57,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: mouse layer, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer:
   - $$mdi:keyboard-esc$$
@@ -102,7 +102,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - Ctl+C
-  - '&mkp MB2'
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -114,7 +114,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Ctl+A
   - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -122,13 +122,13 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: mouse layer, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - $$mdi:keyboard-esc$$
@@ -177,7 +177,7 @@ layers:
   - '&foxtrot3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
-  - {t: '0', s: )}
+  - $$mdi:backspace-reverse-outline$$
   - '1'
   - '2'
   - '3'
@@ -187,13 +187,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&element'
   - '&foxtrot4'
-  - $$mdi:keyboard-tab$$
   - {t: mouse layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '0'
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [57, 59]
