@@ -195,6 +195,3 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
-combos:
-- p: [57, 59]
-  k: {t: mouse layer, h: toggle}

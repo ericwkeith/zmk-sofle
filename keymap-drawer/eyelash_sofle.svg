@@ -605,16 +605,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em" style="font-size: 75%">&amp;bl</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">BL_CYCLE</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<a href="#mouse-layer">
-<text x="462" y="294" class="combo tap layer-activator">
-<tspan x="462" dy="-0.6em">mouse</tspan><tspan x="462" dy="1.2em">layer</tspan>
-</text>
-</a><text x="462" y="305" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-mouse layer">
@@ -978,16 +968,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFF</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<a href="#mouse-layer">
-<text x="462" y="294" class="combo tap layer-activator">
-<tspan x="462" dy="-0.6em">mouse</tspan><tspan x="462" dy="1.2em">layer</tspan>
-</text>
-</a><text x="462" y="305" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-numpadFunction">
@@ -1320,16 +1300,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-0">
-<path d="M462,294 l-54,0" class="combo"/>
-<path d="M462,294 l54,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
-<a href="#mouse-layer">
-<text x="462" y="294" class="combo tap layer-activator">
-<tspan x="462" dy="-0.6em">mouse</tspan><tspan x="462" dy="1.2em">layer</tspan>
-</text>
-</a><text x="462" y="305" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
