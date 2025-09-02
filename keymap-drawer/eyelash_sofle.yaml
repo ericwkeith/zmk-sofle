@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - mouse layer
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - mouse layer
+  - mouse layer
   mouse layer:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -128,8 +128,8 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
@@ -193,8 +193,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '0', s: )}
   - {t: '0', type: held alternate}
-  - .
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: ., type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', type: held alternate}
 combos:
 - p: [26, 38]
   k: {t: mouse layer, h: toggle}
