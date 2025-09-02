@@ -195,3 +195,6 @@ layers:
   - {t: '0', type: held alternate}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
+combos:
+- p: [26, 38]
+  k: {t: mouse layer, h: toggle}
