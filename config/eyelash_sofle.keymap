@@ -122,7 +122,14 @@
     behaviors {
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        togglemouse {
+            bindings = <&tog 1>;
+            key-positions = <26 38>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
