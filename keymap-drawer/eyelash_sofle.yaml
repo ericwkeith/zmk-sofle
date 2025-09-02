@@ -58,11 +58,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - mouse layer
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer:
@@ -123,11 +123,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: base layer, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: mouse layer, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
@@ -188,10 +188,10 @@ layers:
   - '&element'
   - '&foxtrot4'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - '0'
+  - $$mdi:keyboard-space$$
+  - {t: '0', type: held alternate}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
