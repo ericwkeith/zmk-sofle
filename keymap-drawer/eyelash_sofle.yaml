@@ -60,11 +60,11 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', h: numpadFunction}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - mouse layer
-  - mouse layer
-  - mouse layer
+  - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
@@ -177,7 +177,7 @@ layers:
   - '&foxtrot3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: \, s: '|'}
   - '1'
   - '2'
   - '3'
@@ -190,11 +190,11 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '0', s: )}
-  - {t: '0', type: held alternate}
+  - '0'
   - {t: ., type: held alternate}
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [26, 38]
   k: {t: mouse layer, h: toggle}
