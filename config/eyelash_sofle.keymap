@@ -143,7 +143,7 @@
         mouse {
             bindings = <
 &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0  &kp BACKSPACE
-&kp TAB     &kp ESCAPE    &msc MOVE_Y(20)    &mmv MOVE_Y(-400)  &msc MOVE_Y(-20)  &none           &kp DOWN        &kp HOME      &none         &none            &none             &kp END       &none
+&kp TAB     &kp ESCAPE    &none              &mmv MOVE_Y(-400)  &none             &none           &kp DOWN        &kp HOME      &none         &none            &none             &kp END       &none
 &mo 2       &kp LC(V)     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &none         &mkp MB1      &msc MOVE_Y(20)  &msc MOVE_Y(-20)  &kp RC(C)     &none
 &none       &kp LC(Z)     &none              &none              &none             &none           &kp RIGHT       &kp RC(A)     &mkp MB2      &mkp MB3         &none             &kp SLASH     &kp RET
 &kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp RET           &to 0           &kp RET         &to 1         &kp SPACE     &none            &none             &none
