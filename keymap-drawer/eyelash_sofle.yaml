@@ -62,9 +62,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&bl BL_ON'
-  - '&bl BL_CYCLE'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -84,7 +84,7 @@ layers:
   - '&msc MOVE_Y(20)'
   - '&mmv MOVE_Y(-400)'
   - '&msc MOVE_Y(-20)'
-  - RGB EFF
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -117,7 +117,7 @@ layers:
   - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: mouse layer, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - RGB TOG
-  - RGB EFF
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
@@ -182,7 +182,7 @@ layers:
   - '2'
   - '3'
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&element'
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '0'
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
