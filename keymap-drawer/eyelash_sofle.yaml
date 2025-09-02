@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-esc$$
-  - '&msc MOVE_Y(20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_Y(-400)'
-  - '&msc MOVE_Y(-20)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - HOME
