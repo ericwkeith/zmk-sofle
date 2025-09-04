@@ -146,7 +146,7 @@
 &kp TAB         &kp ESCAPE    &none              &mmv MOVE_Y(-400)  &none             &none           &kp DOWN        &none         &kp HOME          &mkp MB2      &kp END          &none         &none
 &mo 2           &kp LC(V)     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &none         &msc MOVE_Y(-20)  &mkp MB1      &msc MOVE_Y(20)  &kp RC(C)     &none
 &kp LEFT_SHIFT  &kp LC(Z)     &none              &none              &none             &none           &kp RIGHT       &kp RC(A)     &none             &mkp MB3      &none            &kp SLASH     &kp RET
-&kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &kp RET         &kp RET         &mo 2         &none             &kp SPACE     &kp BACKSPACE    &kp DELETE
+&kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &kp RET         &kp RET         &mo 2         &none             &kp SPACE     &kp LEFT_ARROW   &kp RIGHT
             >;
 
             display-name = "mouse layer";
