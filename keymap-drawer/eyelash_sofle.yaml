@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: numpadFunction}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
@@ -100,8 +100,8 @@ layers:
   - Ctl+V
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
+  - '&msc MOVE_Y(-20)'
   - '&msc MOVE_Y(20)'
   - Ctl+C
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&element'
   - '&foxtrot4'
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
