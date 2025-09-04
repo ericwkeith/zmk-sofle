@@ -100,8 +100,8 @@ layers:
   - Ctl+V
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB1'
   - '&msc MOVE_Y(-20)'
+  - '&mkp MB1'
   - '&msc MOVE_Y(20)'
   - Ctl+C
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -127,9 +127,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - numpadFunction
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
@@ -192,6 +192,6 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '0', s: ), type: held alternate}
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: '0', s: ), type: held alternate}
   - .
   - $$mdi:backspace-reverse-outline$$
