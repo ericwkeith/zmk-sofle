@@ -97,7 +97,7 @@ layers:
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(-20)'
