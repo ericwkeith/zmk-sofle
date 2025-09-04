@@ -128,8 +128,8 @@ layers:
   - numpadFunction
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-space$$', type: held alternate}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
