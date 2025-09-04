@@ -101,8 +101,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
-  - '&msc MOVE_Y(20)'
   - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
   - Ctl+C
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
