@@ -99,10 +99,10 @@ layers:
   - '&mmv MOVE_X(400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc MOVE_Y(-20)'
+  - Ctl+A
+  - Ctl+C
   - '&mkp MB1'
-  - '&msc MOVE_Y(20)'
+  - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
@@ -112,10 +112,10 @@ layers:
   - Ctl+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
-  - Ctl+A
-  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&msc MOVE_Y(-20)'
   - '&mkp MB3'
-  - Ctl+V
+  - '&msc MOVE_Y(20)'
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
