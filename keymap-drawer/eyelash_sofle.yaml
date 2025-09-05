@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -128,8 +128,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - $$mdi:backspace-reverse-outline$$
   - {t: base layer, h: toggle}
+  - $$mdi:backspace-reverse-outline$$
   numpadFunction:
   - $$mdi:keyboard-esc$$
   - F2
@@ -193,5 +193,5 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '0', s: )}
   - {t: '0', s: )}
-  - $$mdi:backspace-reverse-outline$$
   - .
+  - $$mdi:backspace-reverse-outline$$
