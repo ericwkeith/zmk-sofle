@@ -93,17 +93,17 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - numpadFunction
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc MOVE_Y(-20)'
   - '&mkp MB1'
   - '&msc MOVE_Y(20)'
-  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - Ctl+Z
@@ -113,9 +113,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - Ctl+A
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+C
   - '&mkp MB3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
