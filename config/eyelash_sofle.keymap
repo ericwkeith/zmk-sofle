@@ -140,7 +140,7 @@
 &kp TAB     &kp Q         &kp W         &kp E             &kp R    &kp T      &kp DOWN_ARROW  &kp Y          &kp U      &kp I      &kp O    &kp P          &kp MINUS
 &mo 2       &kp A         &kp S         &kp D             &kp F    &kp G      &kp LEFT_ARROW  &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON  &to 1
 &kp LSHFT   &kp Z         &kp X         &kp C             &kp V    &kp B      &kp RIGHT       &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp RET
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp TAB  &kp RET    &kp RET         &kp BACKSPACE  &kp SPACE  &kp SPACE  &kp DEL  &none
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp TAB  &kp RET    &kp RET         &kp BACKSPACE  &kp SPACE  &kp SPACE  &none    &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -153,7 +153,7 @@
 &kp TAB         &kp ESCAPE    &none              &mmv MOVE_Y(-400)  &none             &none           &kp DOWN        &none          &kp HOME          &mkp MB2      &kp END          &none         &none
 &mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &kp RC(A)      &kp RC(C)         &mkp MB1      &kp RC(V)        &none         &none
 &kp LEFT_SHIFT  &kp LC(Z)     &none              &kp LC(C)          &kp LC(V)         &none           &kp RIGHT       &none          &msc MOVE_Y(-20)  &mkp MB3      &msc MOVE_Y(20)  &kp SLASH     &kp RET
-&kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &kp RET         &kp RET         &kp BACKSPACE  &kp SPACE         &kp SPACE     &kp DEL          &to 0
+&kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &kp RET         &kp RET         &kp BACKSPACE  &kp SPACE         &kp SPACE     &to 0            &kp DELETE
             >;
 
             display-name = "mouse layer";
@@ -166,7 +166,7 @@
 &mt F7 TAB      &kp F8  &kp F9      &kp F10    &kp F11    &kp F12    &kp DOWN_ARROW  &kp EQUAL      &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &none
 &none           &auth   &none       &eid       &Rewrite   &gmail     &kp LEFT_ARROW  &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS       &none
 &kp LEFT_SHIFT  &reads  &xcelerate  &cei       &Foxtrot5  &none      &kp RIGHT       &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp RET
-&none           &none   &element    &foxtrot4  &kp TAB    &kp RET    &kp RET         &kp BACKSPACE  &kp N0        &kp N0        &kp DEL       &kp PERIOD
+&none           &none   &element    &foxtrot4  &kp TAB    &kp RET    &kp RET         &kp BACKSPACE  &kp N0        &kp N0        &kp PERIOD    &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
