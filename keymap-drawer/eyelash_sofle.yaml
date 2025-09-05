@@ -22,8 +22,8 @@ layers:
   - T
   - $$mdi:arrow-down-bold$$
   - Y
-  - U
-  - I
+  - {t: U, h: RIGHT GUI}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - P
   - {t: '-', s: _}
