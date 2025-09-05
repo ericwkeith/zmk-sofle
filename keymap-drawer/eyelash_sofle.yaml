@@ -16,7 +16,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
-  - W
+  - {t: W, h: '$$mdi:apple-keyboard-control$$'}
   - E
   - R
   - T
@@ -24,7 +24,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - P
   - {t: '-', s: _}
   - numpadFunction
