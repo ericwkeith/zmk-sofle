@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: mouse layer, h: toggle}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -61,9 +61,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: mouse layer, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - $$mdi:keyboard-esc$$
@@ -93,7 +93,7 @@ layers:
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - numpadFunction
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
@@ -103,7 +103,7 @@ layers:
   - Ctl+C
   - '&mkp MB1'
   - Ctl+V
-  - {t: base layer, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - Ctl+Z
@@ -126,9 +126,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - {t: base layer, h: toggle}
+  - $$mdi:keyboard-space$$
+  - {t: mouse layer, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   numpadFunction:
   - $$mdi:keyboard-esc$$
@@ -143,7 +143,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-tab$$', h: F7}
   - F8
   - F9
@@ -151,11 +151,11 @@ layers:
   - F11
   - F12
   - $$mdi:arrow-down-bold$$
-  - {t: '=', s: +}
+  - {t: '-', s: _}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - '&auth'
@@ -164,11 +164,11 @@ layers:
   - '&Rewrite'
   - '&gmail'
   - $$mdi:arrow-left-bold$$
-  - {t: '-', s: _}
+  - {t: \, s: '|'}
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - +
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - '&reads'
@@ -177,12 +177,12 @@ layers:
   - '&Foxtrot5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
-  - {t: \, s: '|'}
+  - +
   - '1'
   - '2'
   - '3'
-  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&element'
