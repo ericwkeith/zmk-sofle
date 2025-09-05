@@ -103,7 +103,7 @@ layers:
   - Ctl+C
   - '&mkp MB1'
   - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - Ctl+Z
