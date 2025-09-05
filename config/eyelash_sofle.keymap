@@ -151,8 +151,8 @@
             bindings = <
 &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp BACKSPACE
 &kp TAB         &kp ESCAPE    &none              &mmv MOVE_Y(-400)  &none             &none           &kp DOWN        &none          &kp HOME          &mkp MB2      &kp END          &none         &none
-&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &none          &msc MOVE_Y(-20)  &mkp MB1      &msc MOVE_Y(20)  &none         &none
-&kp LEFT_SHIFT  &kp LC(Z)     &none              &kp LC(C)          &kp LC(V)         &none           &kp RIGHT       &kp RC(A)      &kp RC(C)         &mkp MB3      &kp RC(V)        &kp SLASH     &kp RET
+&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &kp RC(A)      &kp RC(C)         &mkp MB1      &kp RC(V)        &none         &none
+&kp LEFT_SHIFT  &kp LC(Z)     &none              &kp LC(C)          &kp LC(V)         &none           &kp RIGHT       &none          &msc MOVE_Y(-20)  &mkp MB3      &msc MOVE_Y(20)  &kp SLASH     &kp RET
 &kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &kp RET         &kp RET         &kp BACKSPACE  &kp SPACE         &kp SPACE     &kp DEL          &to 0
             >;
 
