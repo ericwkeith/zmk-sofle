@@ -19,7 +19,7 @@
 
 &mmv {
     time-to-max-speed-ms = <75>;
-    acceleration-exponent = <2>;
+    acceleration-exponent = <0>;
     trigger-period-ms = <1>;
     delay-ms = <0>;
 };
@@ -53,6 +53,7 @@
             param = "acceleration-exponent";
             value = <0>;
         };
+
         accel1: accel1 {
             compatible = "zmk,behavior-param-value";
             #binding-cells = <0>;
@@ -60,6 +61,7 @@
             param = "acceleration-exponent";
             value = <1>;
         };
+
         accel2: accel2 {
             compatible = "zmk,behavior-param-value";
             #binding-cells = <0>;
