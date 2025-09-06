@@ -155,7 +155,7 @@
 &kp TAB     &kp Q         &kp W             &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y   &kp U           &kp I                    &kp O                 &kp P          &kp MINUS
 &mo 2       &kp A         &kp S             &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H   &kp J           &kp K                    &kp L                 &kp SEMICOLON  &kp SQT
 &kp LSHFT   &kp Z         &mt LEFT_ALT X    &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &kp N   &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp FSLH       &mt RIGHT_SHIFT RETURN
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI        &kp TAB         &kp RET    &kp RET         &tog 1  &none           &lt 1 SPACE              &trans                &kp DELETE
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI        &kp TAB         &kp RET    &kp RET         &to 1   &to 0           &lt 1 SPACE              &none                 &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -164,11 +164,11 @@
 
         mouse {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp BACKSPACE
-&kp TAB         &kp ESCAPE    &none              &mmv MOVE_Y(-400)  &none             &none           &kp DOWN        &kp HOME       &msc MOVE_Y(-20)  &mkp MB3      &msc MOVE_Y(20)  &kp END       &none
-&mo 2           &none         &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none           &kp LEFT_ARROW  &kp RC(A)      &kp RC(C)         &mkp MB1      &kp RC(V)        &kp RET       &none
-&kp LEFT_SHIFT  &kp LC(Z)     &none              &none              &none             &none           &kp RIGHT       &mkp MB2       &none             &none         &none            &kp SLASH     &kp RET
-&kp C_MUTE      &kp LEFT_ALT  &kp LEFT_GUI       &kp LEFT_CONTROL   &kp TAB           &kp RET         &kp RET         &kp BACKSPACE  &to 0             &kp SPACE     &trans           &kp DELETE
+&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
+&trans  &trans     &trans             &mmv MOVE_Y(-400)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&trans  &trans     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &kp LC(Z)  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &trans            &trans    &trans           &trans   &trans
+&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans
             >;
 
             display-name = "mouse layer";
@@ -177,11 +177,11 @@
 
         numpadFunction {
             bindings = <
-&kp ESCAPE      &kp F2  &kp F3      &kp F4     &kp F5     &kp F6     &kp UP_ARROW    &kp F7         &kp F8        &kp F9        &kp F10            &kp F11     &kp F12
-&kp TAB         &none   &none       &none      &resreply  &none      &kp DOWN_ARROW  &kp MINUS      &kp N7        &kp N8        &kp N9             &kp EQUAL   &none
-&none           &auth   &none       &eid       &Rewrite   &gmail     &kp LEFT_ARROW  &kp BACKSLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6       &kp SLASH   &none
-&kp LEFT_SHIFT  &reads  &xcelerate  &cei       &Foxtrot5  &none      &kp RIGHT       &kp PLUS       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp RET     &none
-&none           &none   &element    &foxtrot4  &kp TAB    &kp RET    &kp RET         &kp BACKSPACE  &kp N0        &kp N0        &kp RIGHT_CONTROL  &kp DELETE
+&trans  &kp F2  &kp F3  &kp F4  &kp F5     &kp F6    &trans  &kp F7         &kp F8                 &kp F9                 &kp F10                &kp F11     &kp F12
+&trans  &trans  &trans  &trans  &resreply  &trans    &trans  &kp EQUAL      &kp N7                 &kp N8                 &kp N9                 &kp EQUAL   &trans
+&trans  &auth   &trans  &eid    &Rewrite   &gmail    &trans  &kp PLUS       &kp NUMBER_4           &kp N5                 &kp NUMBER_6           &kp MINUS   &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans  &kp BACKSLASH  &mt NUMBER_1 NUMBER_1  &mt NUMBER_2 NUMBER_2  &mt NUMBER_3 NUMBER_3  &trans      &trans
+&trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans         &kp N0                 &kp N0                 &kp PERIOD             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
