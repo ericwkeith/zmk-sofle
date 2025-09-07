@@ -28,6 +28,12 @@
     bindings = <&kp>, <&kp>;
 };
 
+&mmv {
+    trigger-period-ms = <0>;
+    delay-ms = <0>;
+    time-to-max-speed-ms = <60>;
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
