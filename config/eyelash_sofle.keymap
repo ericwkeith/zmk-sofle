@@ -148,9 +148,9 @@
             bindings = <
 &none            &none             &none           &none               &none           &none      &kp UP_ARROW    &none              &none           &none                    &none                 &none                  &none
 &kp ESCAPE       &kp Q             &kp W           &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P                  &kp BACKSLASH
-&kp TAB          &kp A             &kp S           &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &kp SEMICOLON          &kp RET
+&mo 3            &kp A             &kp S           &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &kp SEMICOLON          &kp RET
 &kp RIGHT_SHIFT  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
-&kp C_MUTE       &kp LEFT          &kp DOWN        &kp BACKSPACE       &kp TAB         &kp RET    &kp RET         &kp RIGHT_SHIFT    &mo 3           &lt 2 SPACE              &kp DOWN              &kp RIGHT
+&kp C_MUTE       &kp LEFT          &kp DOWN        &kp BACKSPACE       &kp TAB         &kp RET    &kp RET         &kp RIGHT_SHIFT    &sl 4           &kp SPACE                &kp DOWN              &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -159,11 +159,11 @@
 
         mouse {
             bindings = <
-&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
-&trans  &trans     &trans             &mmv MOVE_Y(-400)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
-&trans  &trans     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
-&trans  &kp LC(Z)  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &trans            &trans    &trans           &trans   &trans
-&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &mo 3             &trans    &trans           &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
+&trans  &trans  &trans             &mmv MOVE_Y(-400)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&mo 3   &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &trans            &trans    &trans           &trans   &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &mo 4             &mo 2     &trans           &trans
             >;
 
             display-name = "mouse layer";
@@ -175,9 +175,21 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans             &mmv MOVE_Y(-100)  &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mo 3   &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &mo 3   &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &sl 4   &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        numfunctions {
+            bindings = <
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &none  &kp F7     &kp F8        &kp F9        &kp F10       &kp F11    &kp F12
+&none   &none   &none   &to 1   &none   &none     &none  &none      &kp N7        &kp N8        &kp N9        &none      &none
+&none   &to 0   &to 1   &to 1   &to 1   &gmail    &none  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &to 0      &none
+&none   &none   &none   &none   &none   &none     &none  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &none
+&none   &none   &none   &none   &none   &none     &none  &none      &sl 4         &kp N0        &kp PERIOD    &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -187,31 +199,9 @@
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &to 5  &to 0  &to 1  &to 4  &none  &none
+&none  &none  &none  &none  &to 0  &none    &none  &none  &to 1  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &mo 3  &to 2  &none  &none
-            >;
-        };
-
-        numpadFunction {
-            bindings = <
-&none  &kp F2        &kp F3        &kp F4        &kp F5        &kp F6    &none  &kp F7        &kp F8        &kp F9        &kp F10       &kp F11     &kp F12
-&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &none  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0      &none
-&none  &none         &none         &eid          &Rewrite      &gmail    &none  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL   &none
-&none  &none         &none         &none         &none         &none     &none  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH   &none
-&none  &none         &none         &none         &none         &none     &none  &none         &mo 3         &kp N0        &kp N0        &kp PERIOD
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
-        macroetc {
-            bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &mo 3  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &sl 4  &none  &none  &none
             >;
         };
     };
