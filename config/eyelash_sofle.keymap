@@ -163,7 +163,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &to 0   &to 2   &to 4   &to 5   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &to 3   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &sl 1   &to 3   &trans  &trans
             >;
         };
 
@@ -187,7 +187,7 @@
 &trans  &trans  &trans             &mmv MOVE_Y(-100)  &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &sl 1   &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -199,7 +199,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0      &trans
 &trans  &trans        &trans        &eid          &Rewrite      &gmail    &trans  &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL   &trans
 &trans  &trans        &trans        &trans        &trans        &trans    &trans  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &trans
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans        &kp N0        &kp N0        &kp N0        &kp PERIOD
+&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans        &sl 1         &kp N0        &kp N0        &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -211,7 +211,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &sl 1   &trans  &trans  &trans
             >;
         };
     };
