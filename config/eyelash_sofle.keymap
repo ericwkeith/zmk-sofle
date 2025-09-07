@@ -42,41 +42,6 @@
         tap-ms = <100>;
     };
 
-    mmvx500to100: mmvx500to100 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MMVX500TO100";
-        #binding-cells = <0>;
-        mods = <(MOD_RGUI)>;
-        bindings = <&mmv MOVE_X(500)>, <&mmv MOVE_X(100)>;
-    };
-
-    mmvxneg500toneg100: mmvxneg500toneg100 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MMVXNEG500TONEG100";
-        bindings = <&mmv MOVE_X(-500)>, <&mmv MOVE_X(-100)>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_RGUI)>;
-    };
-
-    mmvy500to100: mmvy500to100 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MMVY500TO100";
-        bindings = <&mmv MOVE_Y(500)>, <&mmv MOVE_Y(100)>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_RGUI)>;
-    };
-
-    mmvyneg500toneg100: mmvyneg500toneg100 {
-        compatible = "zmk,behavior-mod-morph";
-        label = "MMVYNEG500TONEG100";
-        bindings = <&mmv MOVE_Y(-500)>, <&mmv MOVE_Y(-100)>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_RGUI)>;
-    };
-
     macros {
         foxtrot3: eracpass {
             compatible = "zmk,behavior-macro";
@@ -189,9 +154,9 @@
             bindings = <
 &kp ESCAPE  &kp N1        &kp N2            &kp N3              &kp N4          &kp N5     &kp UP_ARROW    &kp N6         &kp N7           &kp N8                   &kp N9                &kp N0         &kp BACKSPACE
 &kp TAB     &kp Q         &kp W             &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y          &kp U            &kp I                    &kp O                 &kp P          &kp MINUS
-&mo 2       &kp A         &kp S             &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H          &kp J            &kp K                    &kp L                 &kp SEMICOLON  &kp SQT
+&mo 4       &kp A         &kp S             &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H          &kp J            &kp K                    &kp L                 &kp SEMICOLON  &kp SQT
 &to 0       &kp Z         &mt LEFT_ALT X    &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &kp N          &mt LEFT_GUI M   &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp FSLH       &to 1
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI        &kp TAB         &kp RET    &kp RET         &kp BACKSPACE  &kp RIGHT_SHIFT  &kp SPACE                &kp DEL               &to 2
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI        &kp TAB         &kp RET    &kp RET         &kp BACKSPACE  &kp RIGHT_SHIFT  &kp SPACE                &kp DEL               &to 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -200,14 +165,40 @@
 
         mouse {
             bindings = <
-&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans             &trans           &trans   &trans
-&trans  &trans     &trans             &mmv MOVE_Y(-500)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3           &msc MOVE_Y(20)  &kp END  &trans
-&trans  &trans     &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1           &kp RC(V)        &kp RET  &trans
-&trans  &kp LC(Z)  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &kp RIGHT_GUI     &kp RIGHT_CONTROL  &kp RIGHT_ALT    &trans   &trans
-&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans             &trans           &trans
+&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
+&trans  &trans     &trans             &mmv MOVE_Y(-400)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&trans  &trans     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &kp LC(Z)  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &mo 2             &none     &mo 3            &trans   &trans
+&trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans
             >;
 
             display-name = "mouse layer";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        slowmouse {
+            display-name = "slowmouselayer";
+            bindings = <
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &mmv MOVE_Y(-100)  &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        fastmouse {
+            display-name = "fastmouselayer";
+            bindings = <
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &mmv MOVE_Y(-600)  &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
