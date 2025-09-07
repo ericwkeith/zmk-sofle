@@ -57,11 +57,11 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: nav, h: '$$mdi:gesture-tap-hold$$'}
+  - nav
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - {t: nav, h: '$$mdi:gesture-tap-hold$$'}
+  - nav
   - {t: '$$mdi:keyboard-space$$', h: slowmouselayer}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
