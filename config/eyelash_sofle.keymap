@@ -18,7 +18,12 @@
     delay-ms = <0>;                   // 0
 };
 
-&mmv { time-to-max-speed-ms = <200>; };
+&mmv {
+    time-to-max-speed-ms = <0>;
+    delay-ms = <0>;
+    trigger-period-ms = <0>;
+    acceleration-exponent = <1>;
+};
 
 &mt {
     tapping-term-ms = <260>;
@@ -35,6 +40,42 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <100>;
+    };
+
+    acc_exp_0: acc_exp_0 {
+        compatible = "zmk,behavior-input-two-axis";
+        label = "ACC_EXP_0";
+        #binding-cells = <1>;
+        x-input-code = <0>;
+        y-input-code = <0>;
+        time-to-max-speed-ms = <0>;
+        acceleration-exponent = <0>;
+        trigger-period-ms = <0>;
+        delay-ms = <0>;
+    };
+
+    acc_exp_1: acc_exp_1 {
+        compatible = "zmk,behavior-input-two-axis";
+        label = "ACC_EXP_1";
+        #binding-cells = <1>;
+        x-input-code = <0>;
+        y-input-code = <0>;
+        trigger-period-ms = <0>;
+        delay-ms = <0>;
+        time-to-max-speed-ms = <0>;
+        acceleration-exponent = <1>;
+    };
+
+    acc_exp_2: acc_exp_2 {
+        compatible = "zmk,behavior-input-two-axis";
+        label = "ACC_EXP_2";
+        #binding-cells = <1>;
+        x-input-code = <0>;
+        y-input-code = <0>;
+        trigger-period-ms = <0>;
+        delay-ms = <0>;
+        time-to-max-speed-ms = <0>;
+        acceleration-exponent = <2>;
     };
 
     macros {
