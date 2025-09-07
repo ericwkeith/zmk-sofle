@@ -19,6 +19,8 @@
 };
 
 &mmv {
+    time-to-max-speed-ms = <400>;
+    acceleration-exponent = <2>;
 };
 
 &mt {
@@ -162,8 +164,8 @@
         mouse {
             bindings = <
 &trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
-&trans  &trans     &trans             &mmv MOVE_Y(-600)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
-&trans  &trans     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &trans     &trans             &mmv MOVE_Y(-500)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&trans  &trans     &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
 &trans  &kp LC(Z)  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &trans            &trans    &trans           &trans   &trans
 &trans  &trans     &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans
             >;
