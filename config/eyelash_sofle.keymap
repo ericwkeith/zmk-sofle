@@ -147,11 +147,11 @@
 
         base {
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2            &kp N3              &kp N4          &kp N5     &kp UP_ARROW    &kp N6  &kp N7          &kp N8                   &kp N9                &kp N0         &kp BACKSPACE
-&kp TAB     &kp Q         &kp W             &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y   &kp U           &kp I                    &kp O                 &kp P          &kp MINUS
-&mo 2       &kp A         &kp S             &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H   &kp J           &kp K                    &kp L                 &kp SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z         &mt LEFT_ALT X    &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &kp N   &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp FSLH       &mt RIGHT_SHIFT RETURN
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI        &kp TAB         &kp RET    &kp RET         &to 1   &to 0           &lt 1 SPACE              &none                 &kp DELETE
+&kp ESCAPE  &kp N1        &kp N2            &kp N3              &kp N4          &kp N5     &kp UP_ARROW    &kp N6         &kp N7           &kp N8                   &kp N9                &kp N0         &kp BACKSPACE
+&kp TAB     &kp Q         &kp W             &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y          &kp U            &kp I                    &kp O                 &kp P          &kp MINUS
+&mo 2       &kp A         &kp S             &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H          &kp J            &kp K                    &kp L                 &kp SEMICOLON  &kp SQT
+&to 0       &kp Z         &mt LEFT_ALT X    &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &kp N          &mt LEFT_GUI M   &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp FSLH       &to 1
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI        &kp TAB         &kp RET    &kp RET         &kp BACKSPACE  &kp RIGHT_SHIFT  &kp SPACE                &kp DEL               &to 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
