@@ -146,11 +146,11 @@
 
         base {
             bindings = <
-&none            &none     &none           &none               &none           &none               &kp UP_ARROW    &none              &none           &none                    &none                 &none          &none
-&kp ESCAPE       &kp Q     &kp W           &kp E               &kp R           &kp T               &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P          &kp BACKSLASH
-&kp TAB          &kp A     &kp S           &kp D               &kp F           &kp G               &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &kp SEMICOLON  &kp RET
-&kp RIGHT_SHIFT  &kp Z     &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &mt LEFT_SHIFT B    &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE       &kp LEFT  &kp DOWN        &kp BACKSPACE       &mo 1           &kp LEFT_SHIFT      &kp RET         &kp RIGHT_SHIFT    &mo 1           &lt 3 SPACE              &kp DOWN              &kp RIGHT
+&none            &none             &none           &none               &none           &none             &kp UP_ARROW    &none              &none           &none                    &none                 &none                  &none
+&kp ESCAPE       &kp Q             &kp W           &kp E               &kp R           &kp T             &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P                  &kp BACKSLASH
+&kp TAB          &kp A             &kp S           &kp D               &kp F           &kp G             &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &kp SEMICOLON          &kp RET
+&kp RIGHT_SHIFT  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B             &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
+&kp C_MUTE       &kp LEFT          &kp DOWN        &kp BACKSPACE       &mo 1           &kp LEFT_SHIFT    &kp RET         &kp RIGHT_SHIFT    &mo 1           &lt 3 SPACE              &kp DOWN              &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
