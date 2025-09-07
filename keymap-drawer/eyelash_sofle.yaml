@@ -63,7 +63,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: nav, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   mouse layer:
   - {t: '$$mdi:transfer$$', type: trans}
