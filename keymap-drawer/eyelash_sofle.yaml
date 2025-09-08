@@ -260,3 +260,14 @@ layers:
   - {t: '0', s: ), type: held alternate}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
+combos:
+- p: [61, 34]
+  k: {t: mouse layer, h: toggle}
+  l: [base layer, mouse layer, nav andslowmouselayer, numfunctions]
+- p: [61, 55]
+  k: {t: base layer, h: toggle}
+  l: [base layer, mouse layer, nav andslowmouselayer, numfunctions]
+- p: [61, 26]
+  k: {t: numfunctions, h: toggle}
+- p: [30, 34]
+  k: {t: base layer, h: toggle}
