@@ -147,43 +147,25 @@
 
         slowmouse {
             bindings = <&to 1>;
-            key-positions = <47 48 49>;
+            key-positions = <47 48>;
             layers = <0 1 4 3 2>;
         };
 
         tobase {
             bindings = <&to 0>;
-            key-positions = <30 28 29>;
+            key-positions = <30 29>;
             layers = <0 1 4 3 2>;
         };
 
         fastmouse {
             bindings = <&to 3>;
-            key-positions = <23 22 21>;
+            key-positions = <22 21>;
             layers = <0 1 4 3 2>;
-        };
-
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <34 35>;
-            layers = <0 1 3 4 2>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <47 48>;
-            layers = <0 1 3 4 2>;
-        };
-
-        selectall {
-            bindings = <&kp LC(A)>;
-            key-positions = <26 27>;
-            layers = <0 1 3 4 2>;
         };
 
         medmouse {
             bindings = <&to 2>;
-            key-positions = <35 34 36>;
+            key-positions = <35 34>;
             layers = <0 1 4 3 2>;
         };
     };
@@ -221,8 +203,8 @@
             display-name = "mouse layer";
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
-&trans  &trans  &trans             &mmv MOVE_Y(-300)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
-&mo 4   &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &trans  &trans             &mmv MOVE_Y(-400)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&mo 4   &trans  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &trans    &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &trans            &trans    &trans           &trans   &trans
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans
             >;
