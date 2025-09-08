@@ -97,9 +97,9 @@ layers:
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+A
+  - {t: base layer, h: toggle}
   - Ctl+C
   - '&mkp MB1'
   - Ctl+V
