@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: mouse layer}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   mouse layer:
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   numfunctions:
@@ -192,31 +192,34 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: '0', s: ), type: held alternate}
+  - {t: '0', s: )}
   - .
   - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [61, 34]
   k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
 - p: [61, 55]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
 - p: [61, 26]
   k: {t: numfunctions, h: toggle}
-  l: [base layer, mouse layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, mouse layer, numfunctions, mouse layer]
 - p: [30, 34]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, mouse layer, numfunctions, mouse layer]
 - p: [61, 36]
   k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
 - p: [34, 35]
   k: Ctl+C
-  l: [base layer, mouse layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, mouse layer, numfunctions, mouse layer]
 - p: [47, 48]
   k: Ctl+V
-  l: [base layer, mouse layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, mouse layer, numfunctions, mouse layer]
 - p: [26, 27]
   k: Ctl+A
-  l: [base layer, mouse layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, mouse layer, numfunctions, mouse layer]
+- p: [61, 35]
+  k: {t: mouse layer, h: toggle}
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
