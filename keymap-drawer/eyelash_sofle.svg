@@ -644,12 +644,12 @@ rect.held, rect.combo.held {
 </a><text x="700" y="210" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="182" y="211" width="28" height="26" class="combo"/>
-<text x="196" y="224" class="combo tap">Ctl+C</text>
+<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
+<text x="700" y="144" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
-<text x="252" y="231" class="combo tap">Ctl+V</text>
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
@@ -1095,20 +1095,20 @@ rect.held, rect.combo.held {
 </a><text x="700" y="210" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="182" y="211" width="28" height="26" class="combo"/>
-<text x="196" y="224" class="combo tap">Ctl+C</text>
+<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
+<text x="700" y="144" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-11">
-<rect rx="6" ry="6" x="182" y="211" width="28" height="26" class="combo"/>
-<text x="196" y="224" class="combo tap">Ctl+C</text>
+<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
+<text x="700" y="144" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
-<text x="252" y="231" class="combo tap">Ctl+V</text>
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
-<text x="252" y="231" class="combo tap">Ctl+V</text>
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
@@ -1504,12 +1504,12 @@ rect.held, rect.combo.held {
 </a><text x="700" y="210" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="182" y="211" width="28" height="26" class="combo"/>
-<text x="196" y="224" class="combo tap">Ctl+C</text>
+<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
+<text x="700" y="144" class="combo tap">Ctl+C</text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
-<text x="252" y="231" class="combo tap">Ctl+V</text>
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>

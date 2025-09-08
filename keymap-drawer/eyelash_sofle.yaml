@@ -211,10 +211,10 @@ combos:
 - p: [61, 35]
   k: {t: mouse layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer]
-- p: [42, 54]
+- p: [34, 35]
   k: Ctl+C
   l: [base layer, mouse layer, mouse layer, numfunctions]
-- p: [43, 55]
+- p: [29, 30]
   k: Ctl+V
   l: [base layer, mouse layer, mouse layer, numfunctions]
 - p: [26, 27]
