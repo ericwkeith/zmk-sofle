@@ -142,7 +142,7 @@
     combos {
         compatible = "zmk,combos";
 
-        tomouse {
+        slowmouse {
             bindings = <&to 1>;
             key-positions = <47 48 49>;
             layers = <0 1 4 3 2>;
@@ -150,20 +150,8 @@
 
         tobase {
             bindings = <&to 0>;
-            key-positions = <61 55>;
+            key-positions = <30 28 29>;
             layers = <0 1 4 3 2>;
-        };
-
-        tonumpad {
-            bindings = <&to 4>;
-            key-positions = <61 26>;
-            layers = <0 1 3 4 2>;
-        };
-
-        base {
-            bindings = <&to 0>;
-            key-positions = <30 34>;
-            layers = <0 1 3 4 2>;
         };
 
         fastmouse {
@@ -186,13 +174,13 @@
 
         selectall {
             bindings = <&kp LC(A)>;
-            key-positions = <26 27 55>;
+            key-positions = <26 27>;
             layers = <0 1 3 4 2>;
         };
 
         medmouse {
             bindings = <&to 2>;
-            key-positions = <61 35 34 36>;
+            key-positions = <35 34 36>;
             layers = <0 1 4 3 2>;
         };
     };
@@ -202,7 +190,7 @@
 
         base {
             bindings = <
-&kp ESCAPE      &none             &none           &none               &none           &none      &kp UP_ARROW    &none              &none            &none                    &none                 &none                  &kp BACKSPACE
+&kp ESCAPE      &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6       &kp N7           &kp N8                   &kp N9                &kp N0                 &kp BACKSPACE
 &kp TAB         &kp Q             &kp W           &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y              &kp U            &kp I                    &kp O                 &kp P                  &kp BACKSLASH
 &mo 4           &kp A             &kp S           &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H              &kp J            &kp K                    &kp L                 &kp SEMICOLON          &kp RET
 &kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M   &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
@@ -213,7 +201,7 @@
             display-name = "base layer";
         };
 
-        mouse {
+        slowmouse {
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
 &trans  &trans  &trans             &mmv MOVE_Y(-100)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
