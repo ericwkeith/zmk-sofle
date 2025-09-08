@@ -214,7 +214,7 @@ combos:
 - p: [34, 35]
   k: Ctl+C
   l: [base layer, mouse layer, mouse layer, numfunctions]
-- p: [29, 30]
+- p: [47, 48]
   k: Ctl+V
   l: [base layer, mouse layer, mouse layer, numfunctions]
 - p: [26, 27]
