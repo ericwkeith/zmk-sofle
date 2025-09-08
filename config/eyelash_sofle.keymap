@@ -174,13 +174,13 @@
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <42 54>;
+            key-positions = <34 35>;
             layers = <0 1 2 3>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <43 55>;
+            key-positions = <29 30>;
             layers = <0 1 2 3>;
         };
 
