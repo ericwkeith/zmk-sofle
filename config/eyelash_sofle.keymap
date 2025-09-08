@@ -163,6 +163,12 @@
             bindings = <&to 0>;
             key-positions = <30 34>;
         };
+
+        fastmouse {
+            bindings = <&to 2>;
+            key-positions = <61 35>;
+            layers = <0 1 3>;
+        };
     };
 
     keymap {
