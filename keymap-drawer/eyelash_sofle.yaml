@@ -60,8 +60,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
