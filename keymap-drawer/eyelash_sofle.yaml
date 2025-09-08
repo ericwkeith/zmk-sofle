@@ -52,7 +52,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-option$$'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -209,3 +209,9 @@ combos:
 - p: [61, 35]
   k: {t: mouse layer, h: toggle}
   l: [base layer, mouse layer, numfunctions]
+- p: [42, 54]
+  k: Ctl+C
+- p: [43, 55]
+  k: Ctl+V
+- p: [26, 27]
+  k: Ctl+A
