@@ -206,3 +206,6 @@ combos:
   k: {t: numfunctions, h: toggle}
 - p: [30, 34]
   k: {t: base layer, h: toggle}
+- p: [61, 35]
+  k: {t: mouse layer, h: toggle}
+  l: [base layer, mouse layer, numfunctions]
