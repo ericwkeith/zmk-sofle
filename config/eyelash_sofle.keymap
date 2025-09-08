@@ -139,7 +139,31 @@
     behaviors {
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tomouse {
+            bindings = <&to 1>;
+            key-positions = <61 34>;
+            layers = <0 1 2 3>;
+        };
+
+        tobase {
+            bindings = <&to 0>;
+            key-positions = <61 55>;
+            layers = <0 1 2 3>;
+        };
+
+        tonumpad {
+            bindings = <&to 3>;
+            key-positions = <61 26>;
+        };
+
+        base {
+            bindings = <&to 0>;
+            key-positions = <30 34>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
