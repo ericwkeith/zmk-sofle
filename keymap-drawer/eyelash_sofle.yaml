@@ -199,7 +199,7 @@ combos:
 - p: [47, 48]
   k: {t: mouse layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
-- p: [30, 29]
+- p: [28, 27]
   k: {t: base layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
 - p: [22, 21]
