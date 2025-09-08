@@ -180,7 +180,7 @@
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <29 30>;
+            key-positions = <47 48>;
             layers = <0 1 2 3>;
         };
 
