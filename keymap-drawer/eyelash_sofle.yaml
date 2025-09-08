@@ -198,20 +198,25 @@ layers:
 combos:
 - p: [61, 34]
   k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, numfunctions, mouse layer]
 - p: [61, 55]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, numfunctions, mouse layer]
 - p: [61, 26]
   k: {t: numfunctions, h: toggle}
+  l: [base layer, mouse layer, mouse layer, numfunctions]
 - p: [30, 34]
   k: {t: base layer, h: toggle}
+  l: [base layer, mouse layer, mouse layer, numfunctions]
 - p: [61, 35]
   k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, numfunctions, mouse layer]
 - p: [42, 54]
   k: Ctl+C
+  l: [base layer, mouse layer, mouse layer, numfunctions]
 - p: [43, 55]
   k: Ctl+V
+  l: [base layer, mouse layer, mouse layer, numfunctions]
 - p: [26, 27]
   k: Ctl+A
+  l: [base layer, mouse layer, mouse layer, numfunctions]
