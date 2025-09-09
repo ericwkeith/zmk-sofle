@@ -86,17 +86,24 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
+  - '&msc MOVE_Y(-20)'
+  - '&mkp MB3'
+  - '&msc MOVE_Y(20)'
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - numfunctions
+  - {t: base layer, h: toggle}
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
+  - {t: base layer, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+A
+  - Ctl+C
+  - '&mkp MB1'
+  - Ctl+V
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -105,17 +112,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
+  - {t: mouse layer, h: toggle}
+  - {t: mouse layer, h: toggle}
+  - {t: mouse layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -198,9 +198,9 @@ layers:
 combos:
 - p: [28, 27]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
+  l: [base layer, mouse layer, numfunctions]
 - p: [35, 34]
-  k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
+  k: {t: base layer, h: toggle}
+  l: [base layer, mouse layer, numfunctions]
 - p: [26, 27, 28]
   k: Ctl+A
