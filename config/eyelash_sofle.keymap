@@ -184,7 +184,7 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
 &trans  &none   &mkp MB2           &mmv MOVE_Y(-100)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &to 0       &trans  &kp RC(A)  &to 1      &mkp MB1          &to 2            &trans  &trans
+&mo 4   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &to 0       &trans  &kp RC(A)  &to 1      &to 2             &mkp MB1         &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &kp RC(C)  &kp RC(V)         &to 3            &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
             >;
@@ -198,7 +198,7 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
 &trans  &none   &mkp MB2           &mmv MOVE_Y(-300)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &none   &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &to 0       &trans  &kp RC(A)  &to 1      &mkp MB1          &to 2            &trans  &trans
+&mo 4   &none   &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &to 0       &trans  &kp RC(A)  &to 1      &to 2             &mkp MB1         &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &kp RC(C)  &kp RC(V)         &to 3            &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
             >;
@@ -211,7 +211,7 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
 &trans  &none   &mkp MB2           &mmv MOVE_Y(-600)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &none   &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &to 0       &trans  &kp RC(A)  &to 1      &mkp MB1          &to 2            &trans  &trans
+&mo 4   &none   &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &to 0       &trans  &kp RC(A)  &to 1      &to 2             &mkp MB1         &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &kp RC(C)  &kp RC(V)         &to 3            &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
             >;
