@@ -100,9 +100,9 @@ layers:
   - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
-  - {t: mouse layer, h: toggle}
-  - {t: mouse layer, h: toggle}
+  - Ctl+C
   - '&mkp MB1'
+  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,8 +113,8 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - Ctl+C
-  - Ctl+V
+  - {t: mouse layer, h: toggle}
+  - {t: mouse layer, h: toggle}
   - {t: mouse layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
