@@ -200,7 +200,7 @@ combos:
   k: {t: base layer, h: toggle}
   l: [base layer, mouse layer, numfunctions]
 - p: [35, 34]
-  k: {t: base layer, h: toggle}
+  k: {t: mouse layer, h: toggle}
   l: [base layer, mouse layer, numfunctions]
 - p: [26, 27, 28]
   k: Ctl+A

@@ -609,9 +609,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<a href="#base-layer">
+<a href="#mouse-layer">
 <text x="700" y="144" class="combo tap layer-activator">
-<tspan x="700" dy="-0.6em">base</tspan><tspan x="700" dy="1.2em">layer</tspan>
+<tspan x="700" dy="-0.6em">mouse</tspan><tspan x="700" dy="1.2em">layer</tspan>
 </text>
 </a><text x="700" y="154" class="combo hold">toggle</text>
 </g>
@@ -995,9 +995,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<a href="#base-layer">
+<a href="#mouse-layer">
 <text x="700" y="144" class="combo tap layer-activator">
-<tspan x="700" dy="-0.6em">base</tspan><tspan x="700" dy="1.2em">layer</tspan>
+<tspan x="700" dy="-0.6em">mouse</tspan><tspan x="700" dy="1.2em">layer</tspan>
 </text>
 </a><text x="700" y="154" class="combo hold">toggle</text>
 </g>
@@ -1354,9 +1354,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<a href="#base-layer">
+<a href="#mouse-layer">
 <text x="700" y="144" class="combo tap layer-activator">
-<tspan x="700" dy="-0.6em">base</tspan><tspan x="700" dy="1.2em">layer</tspan>
+<tspan x="700" dy="-0.6em">mouse</tspan><tspan x="700" dy="1.2em">layer</tspan>
 </text>
 </a><text x="700" y="154" class="combo hold">toggle</text>
 </g>
