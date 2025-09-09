@@ -145,21 +145,9 @@
     combos {
         compatible = "zmk,combos";
 
-        slowmouse {
-            bindings = <&to 1>;
-            key-positions = <47 48>;
-            layers = <0 1 4 3 2>;
-        };
-
         tobase {
             bindings = <&to 0>;
             key-positions = <28 27>;
-            layers = <0 1 4 3 2>;
-        };
-
-        fastmouse {
-            bindings = <&to 3>;
-            key-positions = <22 21>;
             layers = <0 1 4 3 2>;
         };
 
