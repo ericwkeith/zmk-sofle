@@ -169,11 +169,11 @@
 
         base {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6       &kp N7          &kp N8                   &kp N9                &kp N0                 &kp BACKSPACE
-&kp TAB         &kp Q             &kp W           &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P                  &kp BACKSLASH
-&mo 4           &kp A             &kp S           &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &to 1                  &kp SQT
-&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT SLASH  &to 1
-&kp C_MUTE      &kp LEFT          &kp DOWN        &kp LEFT_GUI        &kp BACKSPACE   &kp TAB    &kp RET         &kp RET            &kp SPACE       &kp RIGHT_CONTROL        &kp UP_ARROW          &kp RIGHT
+&kp ESCAPE  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6       &kp N7          &kp N8                   &kp N9                &kp N0                 &kp BACKSPACE
+&kp TAB     &kp Q             &kp W           &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P                  &kp BACKSLASH
+&mo 4       &kp A             &kp S           &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &to 1                  &kp SQT
+&to 0       &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT SLASH  &to 1
+&kp C_MUTE  &kp LEFT          &kp DOWN        &kp LEFT_GUI        &kp BACKSPACE   &kp TAB    &kp RET         &kp RET            &kp SPACE       &kp RIGHT_CONTROL        &kp UP_ARROW          &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -184,7 +184,7 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
 &trans  &none   &mkp MB2           &mmv MOVE_Y(-100)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &to 0   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &to 0       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &trans  &trans
+&mo 4   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &to 1      &to 2             &to 3            &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
             >;
@@ -198,7 +198,7 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
 &trans  &none   &mkp MB2           &mmv MOVE_Y(-300)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &to 0   &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &to 0       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &to 1   &trans
+&mo 4   &none   &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &none       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &to 1   &trans
 &trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &to 1      &to 2             &to 3            &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
             >;
@@ -211,7 +211,7 @@
             bindings = <
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
 &trans  &none   &mkp MB2           &mmv MOVE_Y(-600)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &to 0   &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &to 0       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &to 1   &trans
+&mo 4   &none   &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &none       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &to 1   &trans
 &trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &to 1      &to 2             &to 3            &trans  &trans
 &trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
             >;
@@ -224,7 +224,7 @@
 &none   &none   &none   &none   &none   &none     &trans  &none      &none         &none         &none         &none       &trans
 &none   &none   &none   &none   &none   &none     &trans  &none      &kp N7        &kp N8        &kp N9        &none       &none
 &none   &none   &none   &none   &none   &none     &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none       &none
-&none   &none   &none   &none   &none   &none     &trans  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH   &to 1
+&trans  &none   &none   &none   &none   &none     &trans  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH   &to 1
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans        &kp N0        &kp PERIOD    &kp DELETE
             >;
 
