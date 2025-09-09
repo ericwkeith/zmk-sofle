@@ -148,13 +148,13 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <28 27>;
-            layers = <0 1 4 3 2>;
+            layers = <0 1 4>;
         };
 
         medmouse {
-            bindings = <&to 2>;
+            bindings = <&to 0>;
             key-positions = <35 34>;
-            layers = <0 1 4 3 2>;
+            layers = <0 1 4>;
         };
 
         selectall {
@@ -192,14 +192,14 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        mediummouse {
+        midmouse {
             display-name = "mouse layer";
             bindings = <
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &mmv MOVE_Y(-300)  &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
+&trans  &trans  &trans             &mmv MOVE_Y(-300)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&mo 4   &to 0   &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &to 0     &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &to 1             &to 2     &to 3            &trans   &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -208,11 +208,11 @@
         fastmouse {
             display-name = "mouse layer";
             bindings = <
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &mmv MOVE_Y(-600)  &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans   &trans
+&trans  &trans  &trans             &mmv MOVE_Y(-600)  &trans            &trans    &trans  &kp HOME   &msc MOVE_Y(-20)  &mkp MB3  &msc MOVE_Y(20)  &kp END  &trans
+&mo 4   &to 0   &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &to 0     &trans  &kp RC(A)  &kp RC(C)         &mkp MB1  &kp RC(V)        &kp RET  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &mkp MB2   &to 1             &to 2     &to 3            &trans   &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans     &trans            &trans    &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
