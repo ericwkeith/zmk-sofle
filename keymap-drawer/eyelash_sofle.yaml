@@ -100,9 +100,9 @@ layers:
   - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
-  - Ctl+C
+  - {t: mouse layer, h: toggle}
   - '&mkp MB1'
-  - Ctl+V
+  - {t: mouse layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,9 +113,9 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - {t: mouse layer, h: toggle}
-  - {t: mouse layer, h: toggle}
+  - Ctl+C
   - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -204,4 +204,4 @@ combos:
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
 - p: [26, 27, 28]
   k: Ctl+A
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer]
