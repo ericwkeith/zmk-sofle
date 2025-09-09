@@ -152,7 +152,7 @@
         };
 
         medmouse {
-            bindings = <&to 0>;
+            bindings = <&to 2>;
             key-positions = <35 34>;
             layers = <0 1 4>;
         };
