@@ -106,11 +106,11 @@
 
         base {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5                &kp UP_ARROW    &kp NUMBER_6       &kp N7          &kp N8                   &kp N9                &kp N0     &kp BACKSPACE
-&kp TAB     &kp Q             &kp W           &kp E               &kp R           &kp T                 &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P      &kp BACKSLASH
-&mo 4       &kp A             &kp S           &kp D               &kp F           &kp G                 &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &to 1      &kp SQT
-&to 0       &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B                 &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp SLASH  &to 1
-&kp C_MUTE  &kp LEFT          &kp DOWN        &kp LEFT_GUI        &kp BACKSPACE   &mt LEFT_SHIFT TAB    &kp RET         &kp RET            &kp SPACE       &kp RIGHT_CONTROL        &kp UP_ARROW          &kp RIGHT
+&kp ESCAPE      &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5                &kp UP_ARROW    &kp NUMBER_6       &kp N7          &kp N8                   &kp N9                &kp N0     &kp BACKSPACE
+&kp TAB         &kp Q             &kp W           &kp E               &kp R           &kp T                 &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P      &kp BACKSLASH
+&mo 4           &kp A             &kp S           &kp D               &kp F           &kp G                 &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &to 1      &kp SQT
+&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B                 &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp SLASH  &kp RIGHT_SHIFT
+&kp C_MUTE      &kp LEFT          &kp DOWN        &kp LEFT_GUI        &kp BACKSPACE   &mt LEFT_SHIFT TAB    &kp RET         &kp RET            &kp SPACE       &kp RIGHT_CONTROL        &kp UP_ARROW          &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
