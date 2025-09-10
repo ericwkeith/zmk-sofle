@@ -40,20 +40,6 @@
     };
 
     macros {
-        foxtrot3: eracpass {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp POUND &kp N3>;
-            label = "foxtrot3";
-        };
-
-        foxtrot4: elepass {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp POUND &kp N4>;
-            label = "foxtrot4";
-        };
-
         eracmail: eracmail {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -75,67 +61,18 @@
             label = "EID";
         };
 
-        xcelerate: xcelerate {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp LS(K) &kp E &kp I &kp T &kp H &kp N2 &kp TAB &kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp POUND &kp N3>;
-            label = "XCELERATE";
-        };
-
         Rewrite: Rewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp W &kp I &kp T &kp H &kp SPACE &kp RC(V) &kp O &kp N &kp SPACE>;
+            bindings = <&kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
             label = "REWRITE";
         };
 
-        gmail: gmail {
+        thisisstup: thisisstup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp R &kp I &kp C &kp W &kp K &kp E &kp I &kp T &kp H &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "GMAIL";
-        };
-
-        reads: reads {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp E &kp A &kp D &kp S &kp N2 &kp N3 &kp N4 &kp DLLR>;
-            label = "READS";
-        };
-
-        cei: cei {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp E &kp I>;
-            label = "CEI";
-        };
-
-        element: element {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp L &kp E &kp M &kp E &kp N &kp T>;
-            label = "ELEMENT";
-        };
-
-        auth: auth {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp N4 &kp N8 &kp N9 &kp LS(P) &kp LS(T) &kp TAB &kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp POUND &kp N3 &kp TAB &kp N9 &kp N0 &kp N9 &kp N7>;
-            label = "AUTH";
-        };
-
-        Foxtrot5: Foxtrot5 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(F) &kp O &kp X &kp T &kp R &kp O &kp T &kp PRCNT &kp N5>;
-            label = "FOXTROT5";
-        };
-
-        resreply: resreply {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp E &kp L &kp L &kp O &kp COMMA &kp RET &kp RET &kp LS(T) &kp H &kp E &kp SPACE &kp R &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp SPACE &kp H &kp A &kp S &kp SPACE &kp B &kp E &kp E &kp N &kp SPACE &kp M &kp A &kp D &kp E &kp SPACE &kp A &kp N &kp D &kp SPACE &kp D &kp E &kp T &kp A &kp I &kp L &kp S &kp SPACE &kp W &kp E &kp R &kp E &kp SPACE &kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp T &kp H &kp E &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COLON>;
-            label = "RESREPLY";
+            bindings = <&kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3>;
+            label = "THISISSTUP";
         };
     };
 
@@ -169,11 +106,11 @@
 
         base {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6       &kp N7          &kp N8                   &kp N9                &kp N0                 &kp BACKSPACE
-&kp TAB     &kp Q             &kp W           &kp E               &kp R           &kp T      &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P                  &kp BACKSLASH
-&mo 4       &kp A             &kp S           &kp D               &kp F           &kp G      &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &to 1                  &kp SQT
-&to 0       &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B      &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &mt RIGHT_SHIFT SLASH  &to 1
-&kp C_MUTE  &kp LEFT          &kp DOWN        &kp LEFT_GUI        &kp BACKSPACE   &kp TAB    &kp RET         &kp RET            &kp SPACE       &kp RIGHT_CONTROL        &kp UP_ARROW          &kp RIGHT
+&kp ESCAPE  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4    &kp N5                &kp UP_ARROW    &kp NUMBER_6       &kp N7          &kp N8                   &kp N9                &kp N0     &kp BACKSPACE
+&kp TAB     &kp Q             &kp W           &kp E               &kp R           &kp T                 &kp DOWN_ARROW  &kp Y              &kp U           &kp I                    &kp O                 &kp P      &kp BACKSLASH
+&mo 4       &kp A             &kp S           &kp D               &kp F           &kp G                 &kp LEFT_ARROW  &kp H              &kp J           &kp K                    &kp L                 &to 1      &kp SQT
+&to 0       &mt LEFT_SHIFT Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_GUI V  &kp B                 &kp RIGHT       &mt RIGHT_SHIFT N  &mt LEFT_GUI M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT PERIOD  &kp SLASH  &to 1
+&kp C_MUTE  &kp LEFT          &kp DOWN        &kp LEFT_GUI        &kp BACKSPACE   &mt LEFT_SHIFT TAB    &kp RET         &kp RET            &kp SPACE       &kp RIGHT_CONTROL        &kp UP_ARROW          &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -221,11 +158,11 @@
 
         numfunctions {
             bindings = <
-&none   &none   &none   &none   &none   &none     &trans  &none      &none         &none         &none         &none       &trans
-&none   &none   &none   &none   &none   &none     &trans  &none      &kp N7        &kp N8        &kp N9        &none       &none
-&none   &none   &none   &none   &none   &none     &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none       &none
-&trans  &none   &none   &none   &none   &none     &trans  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH   &to 1
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans        &kp N0        &kp PERIOD    &kp DELETE
+&none   &none        &none   &none   &none   &none     &trans  &none      &none         &none         &none         &none       &trans
+&none   &none        &none   &none   &none   &none     &trans  &none      &kp N7        &kp N8        &kp N9        &none       &none
+&none   &thisisstup  &none   &none   &none   &none     &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none       &none
+&trans  &none        &none   &none   &none   &none     &trans  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH   &to 1
+&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans     &trans        &kp N0        &kp PERIOD    &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
