@@ -119,11 +119,11 @@
 
         slowmouse {
             bindings = <
-&trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans  &trans
-&trans  &none   &mkp MB2           &mmv MOVE_Y(-100)  &mkp MB3          &none       &trans  &kp HOME   &kp END    &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
-&mo 4   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none       &trans  &kp RC(A)  &kp RC(C)  &mkp MB1          &kp RC(V)        &trans  &trans
-&trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &to 1      &to 2             &to 3            &trans  &trans
-&trans  &trans  &trans             &to 0              &trans            &trans      &trans  &trans     &trans     &trans            &trans           &trans
+&trans  &trans  &trans             &trans             &trans            &trans      &trans  &trans     &trans   &trans            &trans           &trans  &trans
+&trans  &none   &mkp MB2           &mmv MOVE_Y(-100)  &mkp MB3          &none       &trans  &kp HOME   &kp END  &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &trans  &trans
+&mo 4   &none   &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none       &trans  &kp RC(C)  &to 1    &mkp MB1          &kp RC(V)        &to 2   &trans
+&trans  &trans  &trans             &trans             &trans            &mkp MB4    &trans  &mkp MB5   &trans   &to 3             &trans           &trans  &trans
+&trans  &trans  &trans             &to 0              &trans            &trans      &trans  &trans     &trans   &trans            &trans           &trans
             >;
 
             display-name = "mouse layer";
