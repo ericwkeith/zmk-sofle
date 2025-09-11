@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: base layer, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,8 +99,8 @@ layers:
   - '&mmv MOVE_X(600)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+A
   - Ctl+C
+  - {t: mouse layer, h: toggle}
   - '&mkp MB1'
   - Ctl+V
   - {t: mouse layer, h: toggle}
@@ -113,15 +113,15 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: mouse layer, h: toggle}
-  - {t: mouse layer, h: toggle}
-  - {t: mouse layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
