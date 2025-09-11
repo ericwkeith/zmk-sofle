@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - {t: '$$mdi:transfer$$', type: trans}
