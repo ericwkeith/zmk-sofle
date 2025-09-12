@@ -261,13 +261,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [48, 49]
+- p: [31, 30]
   k: {t: base layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
 - p: [36, 35]
   k: {t: mouse layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
-- p: [27, 28, 29]
+- p: [27, 26]
   k: Ctl+A
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
 - p: [41, 42]
@@ -279,3 +279,6 @@ combos:
 - p: [40, 41]
   k: Ctl+Z
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
+- p: [43, 44]
+  k: '&Rewrite'
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
