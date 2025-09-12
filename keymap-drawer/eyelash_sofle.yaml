@@ -276,9 +276,12 @@ combos:
 - p: [42, 43]
   k: Ctl+V
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
-- p: [40, 41]
+- p: [40, 39]
   k: Ctl+Z
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
 - p: [43, 44]
   k: '&Rewrite'
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
+- p: [41, 40]
+  k: Ctl+X
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
