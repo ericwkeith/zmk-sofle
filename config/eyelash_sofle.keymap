@@ -114,7 +114,7 @@
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <40 41>;
+            key-positions = <40 39>;
             layers = <0 2 1 3 4 5>;
         };
 
@@ -122,6 +122,12 @@
             bindings = <&Rewrite>;
             key-positions = <43 44>;
             layers = <0 1 4 2 3 5>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <41 40>;
+            layers = <0 1 2 3 4 5>;
         };
     };
 
