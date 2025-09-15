@@ -335,10 +335,10 @@ combos:
 - p: [27, 26]
   k: Ctl+A
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
-- p: [41, 42]
+- p: [29, 28]
   k: Ctl+C
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
-- p: [43, 41]
+- p: [30, 29]
   k: Ctl+V
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
 - p: [40, 41]
