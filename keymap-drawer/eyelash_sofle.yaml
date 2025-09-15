@@ -41,29 +41,29 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - Z
   - {t: X, h: '$$mdi:apple-keyboard-control$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-option$$'}
   - B
   - $$mdi:arrow-right-bold$$
   - N
-  - {t: M, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-control$$', s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ',', h: RIGHT GUI, s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-control$$'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&mkp MB1'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - RIGHT GUI
   - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&thisisstup'
+  - $$mdi:keyboard-tab$$
   - {t: '-', s: _}
   - '7'
   - {t: '8', s: '*'}
