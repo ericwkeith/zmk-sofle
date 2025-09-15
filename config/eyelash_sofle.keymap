@@ -108,7 +108,7 @@
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <42 43>;
+            key-positions = <43 41>;
             layers = <0 1 2 3 4 5>;
         };
 
@@ -182,11 +182,11 @@
 
         numfunctions {
             bindings = <
-&none   &none        &none         &none         &none         &none             &trans  &none   &none   &none   &none   &none   &trans
-&none   &kp PLUS     &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp MINUS         &trans  &none   &none   &none   &none   &none   &none
-&none   &thisisstup  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
-&trans  &kp EQUAL    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
-&trans  &kp DELETE   &kp PERIOD    &kp N0        &kp TAB       &kp RET           &trans  &trans  &trans  &trans  &trans  &trans
+&none        &none          &none         &none         &none         &none             &trans  &none   &none   &none   &none   &none   &trans
+&thisisstup  &kp MINUS      &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
+&none        &kp BACKSPACE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DEL           &trans  &none   &none   &none   &none   &none   &none
+&trans       &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
+&trans       &none          &kp PERIOD    &kp N0        &kp TAB       &kp RET           &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -199,6 +199,16 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
 &trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0          &trans  &trans        &trans        &trans        &trans        &trans        &trans
 &trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans        &trans        &trans        &trans        &trans
+            >;
+        };
+
+        rightHalf {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp U   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
