@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: mouse layer, h: toggle}
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
