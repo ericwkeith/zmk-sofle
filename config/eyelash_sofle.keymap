@@ -85,43 +85,43 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <31 30>;
-            layers = <0 1 4 2 3 5>;
+            layers = <0 1 4 2 3 5 6>;
         };
 
         medmouse {
             bindings = <&to 2>;
             key-positions = <33 34>;
-            layers = <0 1 4 2 3 5>;
+            layers = <0 1 4 2 3 5 6>;
         };
 
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <27 26>;
-            layers = <0 1 4 2 3 5>;
+            layers = <0 1 4 2 3 5 6>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <29 28>;
-            layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5 6>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <30 29>;
-            layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5 6>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <40 41>;
-            layers = <0 2 1 3 4 5>;
+            layers = <0 2 1 3 4 5 6>;
         };
 
         Rewrite {
             bindings = <&Rewrite>;
             key-positions = <43 44>;
-            layers = <0 1 4 2 3 5>;
+            layers = <0 1 4 2 3 5 6>;
         };
     };
 
