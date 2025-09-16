@@ -344,6 +344,6 @@ combos:
 - p: [40, 41]
   k: Ctl+Z
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
-- p: [43, 44]
+- p: [43, 42]
   k: '&Rewrite'
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
