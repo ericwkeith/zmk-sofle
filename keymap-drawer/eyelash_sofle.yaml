@@ -53,7 +53,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-off$$
+  - Gui+Alt+K
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
