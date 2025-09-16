@@ -120,7 +120,7 @@
 
         Rewrite {
             bindings = <&Rewrite>;
-            key-positions = <43 44>;
+            key-positions = <43 42>;
             layers = <0 1 4 2 3 5 6>;
         };
     };
