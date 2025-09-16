@@ -182,11 +182,11 @@
 
         numfunctions {
             bindings = <
-&none    &none          &none         &none         &none         &none             &trans  &none   &none   &none   &none   &none   &trans
-&kp TAB  &kp MINUS      &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
-&none    &kp BACKSPACE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DEL           &trans  &none   &none   &none   &none   &none   &none
-&trans   &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
-&trans   &none          &kp PERIOD    &kp N0        &kp TAB       &kp RET           &trans  &trans  &trans  &trans  &trans  &trans
+&none        &none          &none         &none         &none         &none             &trans  &none   &none   &none   &none   &none   &trans
+&kp TAB      &kp MINUS      &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
+&thisisstup  &kp BACKSPACE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DEL           &trans  &none   &none   &none   &none   &none   &none
+&trans       &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
+&trans       &none          &kp PERIOD    &kp N0        &kp TAB       &kp RET           &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
