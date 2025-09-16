@@ -328,22 +328,22 @@ layers:
 combos:
 - p: [31, 30]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
 - p: [33, 34]
   k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
 - p: [27, 26]
   k: Ctl+A
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
 - p: [43, 44]
   k: '&Rewrite'
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
