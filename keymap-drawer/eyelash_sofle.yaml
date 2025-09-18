@@ -55,15 +55,15 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Gui+Alt+K
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mkp MB1'
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
-  - RIGHT GUI
   - $$mdi:backspace-reverse-outline$$
   mouse layer:
   - {t: '$$mdi:transfer$$', type: trans}
