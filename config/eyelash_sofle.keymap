@@ -123,6 +123,12 @@
             key-positions = <43 42>;
             layers = <0 1 4 2 3 5 6>;
         };
+
+        numpad {
+            bindings = <&to 4>;
+            key-positions = <28 30>;
+            layers = <0 1 2 3 4 5 6>;
+        };
     };
 
     keymap {
@@ -182,11 +188,11 @@
 
         numfunctions {
             bindings = <
-&none    &none         &none         &none         &none          &thisisstup       &trans  &none   &none   &none   &none   &none   &trans
-&kp TAB  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp BACKSLASH  &kp UP_ARROW      &trans  &none   &none   &none   &none   &none   &none
-&trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT       &kp RIGHT         &trans  &none   &none   &none   &none   &none   &none
-&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
-&trans   &kp PERIOD    &kp NUMBER_0  &kp MINUS     &trans         &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&none        &none          &none         &none         &none         &none             &trans  &none   &none   &none   &none   &none   &trans
+&kp TAB      &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp UP_ARROW      &trans  &none   &none   &none   &none   &none   &none
+&trans       &kp MINUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
+&thisisstup  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
+&trans       &kp PERIOD     &kp NUMBER_0  &kp NUMBER_0  &trans        &trans            &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
