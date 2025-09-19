@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - numfunctions
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
   - S
   - D
@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Gui+Alt+K
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -64,7 +64,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -172,9 +172,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&thisisstup'
   - {t: \, s: '|'}
-  - '1'
-  - '2'
-  - '3'
+  - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '2', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -186,71 +186,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - .
   - '0'
-  - '0'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  numbersym:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -328,25 +263,31 @@ layers:
 combos:
 - p: [31, 30]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [33, 34]
   k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [27, 26]
   k: Ctl+A
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [43, 42]
   k: '&Rewrite'
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, numbersym, rightHalf]
+  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [28, 30]
   k: {t: numfunctions, h: toggle}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, numbersym, rightHalf]
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [14, 15]
+  k: $$mdi:keyboard-tab$$
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [14, 15, 16]
+  k: $$mdi:keyboard-esc$$
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
