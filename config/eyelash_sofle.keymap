@@ -141,6 +141,12 @@
             key-positions = <14 15 16>;
             layers = <0 1 2 3 4 5>;
         };
+
+        backspace {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <17 16>;
+            layers = <0 1 2 3 4 5>;
+        };
     };
 
     keymap {
