@@ -143,19 +143,19 @@
         };
 
         backspace {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <17 16 15>;
             layers = <0 1 2 3 4 5>;
         };
 
         home {
-            bindings = <&kp LC(HOME)>;
+            bindings = <&kp HOME>;
             key-positions = <17 18>;
             layers = <0 1 2 3 4 5>;
         };
 
         end {
-            bindings = <&kp LC(END)>;
+            bindings = <&kp END>;
             key-positions = <43 44>;
             layers = <0 1 2 3 4 5>;
         };
