@@ -292,11 +292,11 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [17, 16, 15]
-  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [17, 18]
-  k: Ctl+HOME
+  k: HOME
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [43, 44]
-  k: Ctl+END
+  k: END
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
