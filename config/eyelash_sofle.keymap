@@ -84,7 +84,7 @@
 
         tobase {
             bindings = <&to 0>;
-            key-positions = <31 30>;
+            key-positions = <15 16 17>;
             layers = <0 1 4 2 3 5>;
         };
 
@@ -144,7 +144,7 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <17 16 15>;
+            key-positions = <31 30>;
             layers = <0 1 2 3 4 5>;
         };
 
