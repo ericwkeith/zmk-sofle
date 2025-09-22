@@ -144,7 +144,7 @@
 
         backspace {
             bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <17 16>;
+            key-positions = <17 16 15>;
             layers = <0 1 2 3 4 5>;
         };
 
