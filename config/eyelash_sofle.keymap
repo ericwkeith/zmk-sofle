@@ -168,7 +168,7 @@
             bindings = <
 &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4    &kp N5          &kp UP_ARROW    &kp NUMBER_6     &kp N7             &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
 &kp TAB         &kp Q         &kp W               &kp E           &kp R           &kp T           &kp DOWN_ARROW  &kp Y            &kp U              &kp I                &kp O                     &kp P          &kp BACKSLASH
-&none           &kp A         &kp S               &kp D           &kp F           &kp G           &kp LEFT_ARROW  &kp H            &kp J              &kp K                &kp L                     &kp SEMICOLON  &kp SQT
+&to 4           &kp A         &kp S               &kp D           &kp F           &kp G           &kp LEFT_ARROW  &kp H            &kp J              &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B           &kp RIGHT       &kp N            &mt RIGHT_ALT M    &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
 &kp LG(LA(K))   &none         &kp BACKSPACE       &kp SPACE       &kp RET         &kp LEFT_GUI    &kp RET         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp SPACE            &kp BACKSPACE             &none
             >;
@@ -220,7 +220,7 @@
             bindings = <
 &none        &none          &none                      &none                  &none                  &none             &trans  &none   &none   &none   &none   &none   &trans
 &kp TAB      &kp PLUS       &kp NUMBER_7               &kp N8                 &kp NUMBER_9           &kp UP_ARROW      &trans  &none   &none   &none   &none   &none   &none
-&trans       &kp MINUS      &kp NUMBER_4               &kp NUMBER_5           &kp NUMBER_6           &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
+&to 0        &kp MINUS      &kp NUMBER_4               &kp NUMBER_5           &kp NUMBER_6           &kp SLASH         &trans  &none   &none   &none   &none   &none   &none
 &thisisstup  &kp BACKSLASH  &mt LEFT_CONTROL NUMBER_1  &mt LEFT_GUI NUMBER_2  &mt LEFT_ALT NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
 &trans       &kp PERIOD     &kp NUMBER_0               &trans                 &trans                 &trans            &trans  &trans  &trans  &trans  &trans  &trans
             >;
