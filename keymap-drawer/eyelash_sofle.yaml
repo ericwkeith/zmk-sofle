@@ -261,7 +261,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [31, 30]
+- p: [15, 16, 17]
   k: {t: base layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [33, 34]
@@ -291,7 +291,7 @@ combos:
 - p: [14, 15, 16]
   k: $$mdi:keyboard-esc$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
-- p: [17, 16, 15]
+- p: [31, 30]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [17, 18]
