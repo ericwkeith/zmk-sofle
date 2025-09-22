@@ -291,7 +291,7 @@ combos:
 - p: [14, 15, 16]
   k: $$mdi:keyboard-esc$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
-- p: [17, 16]
+- p: [17, 16, 15]
   k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [17, 18]
