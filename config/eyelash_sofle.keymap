@@ -64,7 +64,7 @@
         Rewrite: Rewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp L &kp E &kp A &kp S &kp E &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp W &kp I &kp T &kp H &kp SPACE &kp LS(R) &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp SPACE &kp LS(N) &kp U &kp M &kp B &kp E &kp R &kp COLON &kp SPACE &kp LS(X) &kp LS(X) &kp SPACE &kp O &kp N &kp SPACE>;
+            bindings = <&kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp W &kp I &kp T &kp H &kp SPACE &kp R &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp SPACE &kp N &kp U &kp M &kp B &kp E &kp R &kp SPACE>;
             label = "REWRITE";
         };
 
