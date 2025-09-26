@@ -195,7 +195,7 @@
 
         clickpaste {
             bindings = <&clickpaste>;
-            key-positions = <28 29 30>;
+            key-positions = <41 42 43>;
             layers = <0 1 2 3 4 5>;
         };
     };
