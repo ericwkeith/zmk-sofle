@@ -74,6 +74,27 @@
             bindings = <&kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3>;
             label = "THISISSTUP";
         };
+
+        ccprefresh: ccprefresh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &kp F5>;
+            label = "CCPREFRESH";
+        };
+
+        dblclickcopy: dblclickcopy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1 &mkp MB1 &kp LC(C)>;
+            label = "DBLCLICKCOPY";
+        };
+
+        clickpaste: clickpaste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1 &kp LC(V)>;
+            label = "CLICKPASTE";
+        };
     };
 
     behaviors {
@@ -157,6 +178,24 @@
         end {
             bindings = <&kp END>;
             key-positions = <43 44>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        ccprefresh {
+            bindings = <&ccprefresh>;
+            key-positions = <0 1>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        dblclickcopy {
+            bindings = <&dblclickcopy>;
+            key-positions = <28 29 30>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        clickpaste {
+            bindings = <&clickpaste>;
+            key-positions = <28 29 30>;
             layers = <0 1 2 3 4 5>;
         };
     };
