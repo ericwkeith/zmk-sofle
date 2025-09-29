@@ -193,8 +193,8 @@
             layers = <0 1 2 3 4 5>;
         };
 
-        clickpaste {
-            bindings = <&clickpaste>;
+        return {
+            bindings = <&kp RET>;
             key-positions = <41 42 43>;
             layers = <0 1 2 3 4 5>;
         };
