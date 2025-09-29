@@ -127,8 +127,8 @@
             layers = <0 1 2 3 4 5>;
         };
 
-        paste {
-            bindings = <&kp LC(V)>;
+        backspace {
+            bindings = <&kp LC(BACKSPACE)>;
             key-positions = <30 29>;
             layers = <0 1 2 3 4 5>;
         };
@@ -163,8 +163,8 @@
             layers = <0 1 2 3 4 5>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
+        paste {
+            bindings = <&kp LC(V)>;
             key-positions = <31 30>;
             layers = <0 1 2 3 4 5>;
         };
@@ -187,8 +187,8 @@
             layers = <0 1 2 3 4 5>;
         };
 
-        dblclickcopy {
-            bindings = <&dblclickcopy>;
+        space {
+            bindings = <&kp SPACE>;
             key-positions = <28 29 30>;
             layers = <0 1 2 3 4 5>;
         };
