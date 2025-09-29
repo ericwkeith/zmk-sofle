@@ -192,6 +192,18 @@
             key-positions = <41 42 43>;
             layers = <0 1 2 3 4 5>;
         };
+
+        spaceright {
+            bindings = <&kp SPACE>;
+            key-positions = <34 35 36>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        returnright {
+            bindings = <&kp RET>;
+            key-positions = <47 48 49>;
+            layers = <0 1 2 3 4 5>;
+        };
     };
 
     keymap {
