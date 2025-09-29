@@ -28,7 +28,7 @@ layers:
   - P
   - {t: \, s: '|'}
   - numfunctions
-  - A
+  - {t: A, h: numfunctions}
   - S
   - D
   - F
@@ -158,7 +158,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base layer, h: toggle, type: held}
-  - {t: '-', s: _}
+  - {t: '-', s: _, type: held alternate}
   - '4'
   - '5'
   - '6'
