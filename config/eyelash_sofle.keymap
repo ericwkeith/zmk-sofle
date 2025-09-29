@@ -127,12 +127,6 @@
             layers = <0 1 2 3 4 5>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <30 29>;
-            layers = <0 1 2 3 4 5>;
-        };
-
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <40 41>;
@@ -145,8 +139,8 @@
             layers = <0 1 4 2 3 5>;
         };
 
-        numpad {
-            bindings = <&to 4>;
+        backspaces {
+            bindings = <&kp BACKSPACE>;
             key-positions = <28 30>;
             layers = <0 1 2 3 4 5>;
         };
@@ -165,7 +159,7 @@
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <31 30>;
+            key-positions = <30 29>;
             layers = <0 1 2 3 4 5>;
         };
 
