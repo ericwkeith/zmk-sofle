@@ -215,7 +215,7 @@
 &kp TAB         &kp Q         &kp W               &kp E           &kp R           &kp T      &kp DOWN_ARROW  &kp Y            &kp U            &kp I                &kp O                     &kp P          &kp BACKSLASH
 &mo 4           &lt 4 A       &kp S               &kp D           &kp F           &kp G      &kp LEFT_ARROW  &kp H            &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B      &kp RIGHT       &kp N            &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
-&kp LG(LA(K))   &kp DELETE    &kp BACKSPACE       &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp RIGHT_SHIFT  &kp SPACE        &kp SPACE            &kp BACKSPACE             &kp DELETE
+&kp LG(LA(K))   &none         &none               &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp RIGHT_SHIFT  &kp SPACE        &kp SPACE            &none                     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
