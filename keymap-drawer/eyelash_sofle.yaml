@@ -306,3 +306,9 @@ combos:
 - p: [41, 42, 43]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [34, 35, 36]
+  k: $$mdi:keyboard-space$$
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [47, 48, 49]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
