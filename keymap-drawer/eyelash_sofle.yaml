@@ -274,7 +274,7 @@ combos:
   k: Ctl+C
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [30, 29]
-  k: A
+  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [40, 41]
   k: Ctl+Z
