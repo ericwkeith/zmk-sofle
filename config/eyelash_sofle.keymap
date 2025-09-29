@@ -128,7 +128,7 @@
         };
 
         backspace {
-            bindings = <&kp A>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <30 29>;
             layers = <0 1 2 3 4 5>;
         };
