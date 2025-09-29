@@ -274,7 +274,7 @@ combos:
   k: Ctl+C
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [30, 29]
-  k: Ctl+V
+  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [40, 41]
   k: Ctl+Z
@@ -292,7 +292,7 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [31, 30]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: Ctl+V
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [17, 18]
   k: HOME
@@ -304,7 +304,7 @@ combos:
   k: '&ccprefresh'
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [28, 29, 30]
-  k: '&dblclickcopy'
+  k: $$mdi:keyboard-space$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [41, 42, 43]
   k: '&clickpaste'
