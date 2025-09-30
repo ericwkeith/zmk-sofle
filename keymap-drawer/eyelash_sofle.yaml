@@ -149,7 +149,7 @@ layers:
   - '7'
   - {t: '8', s: '*'}
   - '9'
-  - $$mdi:arrow-up-bold$$
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -279,9 +279,6 @@ combos:
 - p: [43, 42]
   k: '&Rewrite'
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
-- p: [14, 15]
-  k: $$mdi:keyboard-tab$$
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [14, 15, 16]
   k: $$mdi:keyboard-esc$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
