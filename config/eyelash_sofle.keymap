@@ -117,7 +117,7 @@
 
         selectall {
             bindings = <&kp LC(A)>;
-            key-positions = <27 26>;
+            key-positions = <27 26 28>;
             layers = <0 1 4 2 3 5>;
         };
 
@@ -137,12 +137,6 @@
             bindings = <&Rewrite>;
             key-positions = <43 42>;
             layers = <0 1 4 2 3 5>;
-        };
-
-        backspaces {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <28 30>;
-            layers = <0 1 2 3 4 5>;
         };
 
         tab {
@@ -202,6 +196,24 @@
         returnright {
             bindings = <&kp RET>;
             key-positions = <47 48 49>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <30 31>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        backspaces {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <26 27>;
+            layers = <0 1 2 3 4 5>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <30 27>;
             layers = <0 1 2 3 4 5>;
         };
     };
