@@ -267,7 +267,7 @@ combos:
 - p: [36, 35]
   k: {t: mouse layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
-- p: [27, 26]
+- p: [27, 26, 28]
   k: Ctl+A
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [29, 28]
@@ -279,9 +279,6 @@ combos:
 - p: [43, 42]
   k: '&Rewrite'
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
-- p: [28, 30]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [14, 15]
   k: $$mdi:keyboard-tab$$
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
@@ -311,4 +308,13 @@ combos:
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [47, 48, 49]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [30, 31]
+  k: {t: /, s: '?'}
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [26, 27]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+- p: [30, 27]
+  k: {t: '-', s: _}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
