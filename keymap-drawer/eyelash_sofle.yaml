@@ -149,7 +149,7 @@ layers:
   - '7'
   - {t: '8', s: '*'}
   - '9'
-  - '0'
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -162,7 +162,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '0'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -307,9 +307,6 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [30, 31]
-  k: {t: /, s: '?'}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
-- p: [26, 27]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
 - p: [30, 27]
