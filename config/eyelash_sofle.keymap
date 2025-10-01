@@ -109,12 +109,6 @@
             layers = <0 1 4 2 3 5>;
         };
 
-        medmouse {
-            bindings = <&to 2>;
-            key-positions = <36 35>;
-            layers = <0 1 4 2 3 5>;
-        };
-
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <27 26 28>;
