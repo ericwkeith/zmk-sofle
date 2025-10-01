@@ -264,9 +264,6 @@ combos:
 - p: [15, 16, 17]
   k: {t: base layer, h: toggle}
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
-- p: [36, 35]
-  k: {t: mouse layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
 - p: [27, 26, 28]
   k: Ctl+A
   l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
