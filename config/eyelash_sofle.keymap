@@ -209,7 +209,7 @@
 &kp TAB         &kp Q         &kp W               &kp E           &kp R           &kp T      &kp DOWN_ARROW  &kp Y         &kp U            &kp I                &kp O                     &kp P          &kp BACKSLASH
 &to 4           &lt 4 A       &kp S               &kp D           &kp F           &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B      &kp RIGHT       &kp N         &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RIGHT_SHIFT
-&kp LG(LA(K))   &kp SPACE     &kp SPACE           &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp LEFT_GUI  &kp SPACE        &kp SPACE            &kp SPACE                 &kp SPACE
+&kp K_MUTE      &none         &none               &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp LEFT_GUI  &kp SPACE        &kp SPACE            &none                     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -257,11 +257,11 @@
 
         numfunctions {
             bindings = <
-&none        &none          &none                      &none                  &none                  &none             &trans  &none   &none   &none   &none   &none   &trans
-&kp TAB      &kp PLUS       &kp NUMBER_7               &kp N8                 &kp NUMBER_9           &kp NUMBER_0      &trans  &none   &none   &none   &none   &none   &none
-&to 0        &kp MINUS      &kp NUMBER_4               &kp NUMBER_5           &kp NUMBER_6           &kp BACKSPACE     &trans  &none   &none   &none   &none   &none   &none
-&thisisstup  &kp BACKSLASH  &mt LEFT_CONTROL NUMBER_1  &mt LEFT_GUI NUMBER_2  &mt LEFT_ALT NUMBER_3  &kp DOWN_ARROW    &trans  &none   &none   &none   &none   &none   &none
-&trans       &kp PERIOD     &kp NUMBER_0               &kp NUMBER_0           &kp NUMBER_0           &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&none        &none          &none                      &none                  &none                  &none            &trans  &none   &none   &none   &none   &none   &trans
+&kp TAB      &kp PLUS       &kp NUMBER_7               &kp N8                 &kp NUMBER_9           &kp NUMBER_0     &trans  &none   &none   &none   &none   &none   &none
+&to 0        &kp MINUS      &kp NUMBER_4               &kp NUMBER_5           &kp NUMBER_6           &kp BACKSPACE    &trans  &none   &none   &none   &none   &none   &none
+&thisisstup  &kp BACKSLASH  &mt LEFT_CONTROL NUMBER_1  &mt LEFT_GUI NUMBER_2  &mt LEFT_ALT NUMBER_3  &kp SLASH        &trans  &none   &none   &none   &none   &none   &none
+&trans       &kp PERIOD     &kp NUMBER_0               &kp NUMBER_0           &kp DOWN               &trans           &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
