@@ -52,7 +52,7 @@ layers:
   - {t: ',', h: RIGHT GUI, s: <}
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
   - Gui+Alt+K
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
