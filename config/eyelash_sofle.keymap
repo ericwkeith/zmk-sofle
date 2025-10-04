@@ -257,11 +257,11 @@
 
         numfunctions {
             bindings = <
-&none        &none          &none                      &none                  &none                  &none            &trans  &none   &none   &none   &none   &none   &trans
-&kp TAB      &kp PLUS       &kp NUMBER_7               &kp N8                 &kp NUMBER_9           &kp NUMBER_0     &trans  &none   &none   &none   &none   &none   &none
-&to 0        &kp MINUS      &kp NUMBER_4               &kp NUMBER_5           &kp NUMBER_6           &kp BACKSPACE    &trans  &none   &none   &none   &none   &none   &none
-&thisisstup  &kp BACKSLASH  &mt LEFT_CONTROL NUMBER_1  &mt LEFT_GUI NUMBER_2  &mt LEFT_ALT NUMBER_3  &kp SLASH        &trans  &none   &none   &none   &none   &none   &none
-&trans       &kp PERIOD     &kp NUMBER_0               &kp NUMBER_0           &kp DOWN               &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&none        &none          &none                      &none                  &none                  &none            &trans  &none     &none           &none             &none            &none            &trans
+&kp TAB      &kp PLUS       &kp NUMBER_7               &kp N8                 &kp NUMBER_9           &kp NUMBER_0     &trans  &none     &none           &msc MOVE_Y(-20)  &msc MOVE_Y(20)  &none            &none
+&to 0        &kp MINUS      &kp NUMBER_4               &kp NUMBER_5           &kp NUMBER_6           &kp BACKSPACE    &trans  &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_UP     &mmv MOVE_RIGHT  &none
+&thisisstup  &kp BACKSLASH  &mt LEFT_CONTROL NUMBER_1  &mt LEFT_GUI NUMBER_2  &mt LEFT_ALT NUMBER_3  &kp SLASH        &trans  &none     &none           &none             &none            &none            &none
+&trans       &kp PERIOD     &kp NUMBER_0               &kp NUMBER_0           &kp DOWN               &trans           &trans  &mkp MB2  &mkp MB1        &mkp MB3          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
