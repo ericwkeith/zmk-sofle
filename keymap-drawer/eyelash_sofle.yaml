@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - {t: A, h: fastmouse}
   - S
