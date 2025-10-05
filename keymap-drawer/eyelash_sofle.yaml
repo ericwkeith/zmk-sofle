@@ -28,10 +28,10 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
-  - {t: A, h: numfunctions}
+  - {t: A, h: fastmouse}
   - S
-  - D
-  - {t: F, h: base layer}
+  - {t: D, h: mouse layer}
+  - {t: F, h: fastmouse}
   - G
   - $$mdi:arrow-left-bold$$
   - H
@@ -92,10 +92,10 @@ layers:
   - '&msc MOVE_Y(20)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - numfunctions
+  - fastmouse
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-100)'
-  - '&mmv MOVE_Y(100)'
+  - {t: '&mmv MOVE_Y(100)', type: held}
   - '&mmv MOVE_X(100)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  numfunctions:
+  fastmouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -143,7 +143,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -160,15 +160,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&thisisstup'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -326,54 +326,57 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [15, 16, 17]
+- p: [57, 39]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [27, 26, 28]
   k: Ctl+A
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [43, 42]
   k: '&Rewrite'
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [14, 15, 16]
-  k: $$mdi:keyboard-esc$$
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [17, 18]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [17, 15, 16]
   k: HOME
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [43, 44]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [43, 41, 42]
   k: END
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [0, 1]
   k: '&ccprefresh'
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [28, 29, 30]
-  k: $$mdi:keyboard-space$$
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [41, 42, 43]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [30, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [12, 25]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [12, 11]
   k: '&pin'
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [50, 51]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [57, 0]
   k: '&pin'
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
-- p: [51, 38]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [51, 50]
   k: '&winlogin'
-  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [4, 5]
+  k: '&eracmail'
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [5, 18]
+  k: '&elemail'
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [59, 51]
+  k: {t: fastmouse, h: toggle}
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
+- p: [57, 5]
+  k: '&thisisstup'
+  l: [base layer, mouse layer, fastmouse, rightHalf, numpadleft]
