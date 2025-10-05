@@ -332,7 +332,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - W
+  - $$mdi:arrow-up-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -345,7 +345,7 @@ layers:
   - E
   - R
   - T
-  - S
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -358,7 +358,7 @@ layers:
   - D
   - F
   - G
-  - A
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -371,7 +371,7 @@ layers:
   - C
   - V
   - B
-  - D
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -384,8 +384,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
