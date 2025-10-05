@@ -328,55 +328,55 @@ layers:
 combos:
 - p: [57, 39]
   k: {t: base layer, h: toggle}
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [fastmouse, inverse, arrownum, slowmouse]
 - p: [27, 26, 28]
   k: Ctl+A
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [43, 42]
   k: '&Rewrite'
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [17, 15, 16]
   k: HOME
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [43, 41, 42]
   k: END
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [0, 1]
   k: '&ccprefresh'
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [30, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, fastmouse, inverse, arrownum]
-- p: [12, 11]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+- p: [5, 4, 18]
   k: '&pin'
-  l: [base layer, fastmouse, inverse, arrownum]
-- p: [57, 0]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+- p: [53, 54, 55]
   k: '&pin'
-  l: [base layer, fastmouse, inverse, arrownum]
-- p: [51, 50]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+- p: [4, 5, 17, 18]
   k: '&winlogin'
-  l: [base layer, fastmouse, inverse, arrownum]
-- p: [4, 5]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+- p: [0, 1, 13]
   k: '&eracmail'
-  l: [base layer, fastmouse, inverse, arrownum]
-- p: [5, 18]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+- p: [57, 56, 44]
   k: '&elemail'
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [59, 51]
   k: {t: fastmouse, h: toggle}
-  l: [base layer, fastmouse, inverse, arrownum]
-- p: [57, 5]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+- p: [39, 26, 40]
   k: '&thisisstup'
-  l: [base layer, fastmouse, inverse, arrownum]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
