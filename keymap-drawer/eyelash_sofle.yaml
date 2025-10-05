@@ -325,14 +325,14 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
-  lockqwerty:
+  retrorighthand:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -345,38 +345,38 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - T
   - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - Z
+  - X
+  - C
+  - V
+  - B
   - $$mdi:apple-keyboard-shift$$
   - MUTE
   - $$mdi:backspace-reverse-outline$$
@@ -384,12 +384,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:keyboard-space$$
-  - {t: '[', s: '{'}
+  - $$mdi:mouse-left-click-outline$$
+  - H
+  - J
+  - K
   - {t: ']', s: '}'}
-  - $$mdi:backspace-reverse-outline$$
+  - L
   minikeeb:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -458,7 +458,7 @@ layers:
 combos:
 - p: [57, 39]
   k: {t: base layer, h: toggle}
-  l: [fastmouse, inverse, arrownum, slowmouse, lockqwerty, minikeeb]
+  l: [fastmouse, inverse, arrownum, slowmouse, retrorighthand, minikeeb]
 - p: [27, 26, 28]
   k: Ctl+A
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]
@@ -511,7 +511,7 @@ combos:
   k: '&thisisstup'
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [0, 57, 59, 12]
-  k: {t: lockqwerty, h: toggle}
+  k: {t: retrorighthand, h: toggle}
   l: [base layer]
 - p: [0, 13, 26, 39, 12, 25, 38, 51]
   k: {t: inverse, h: toggle}
