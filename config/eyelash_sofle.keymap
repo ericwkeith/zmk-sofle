@@ -105,7 +105,7 @@
 
         tobase {
             bindings = <&to 0>;
-            key-positions = <15 16 17>;
+            key-positions = <57 39>;
             layers = <0 1 2 3 4>;
         };
 
@@ -133,12 +133,6 @@
             layers = <0 1 2 3 4>;
         };
 
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <14 15 16>;
-            layers = <0 1 2 3 4>;
-        };
-
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <30 29>;
@@ -147,31 +141,19 @@
 
         home {
             bindings = <&kp HOME>;
-            key-positions = <17 18>;
+            key-positions = <17 15 16>;
             layers = <0 1 2 3 4>;
         };
 
         end {
             bindings = <&kp END>;
-            key-positions = <43 44>;
+            key-positions = <43 41 42>;
             layers = <0 1 2 3 4>;
         };
 
         ccprefresh {
             bindings = <&ccprefresh>;
             key-positions = <0 1>;
-            layers = <0 1 2 3 4>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <28 29 30>;
-            layers = <0 1 2 3 4>;
-        };
-
-        return {
-            bindings = <&kp RET>;
-            key-positions = <41 42 43>;
             layers = <0 1 2 3 4>;
         };
 
@@ -189,19 +171,43 @@
 
         piin {
             bindings = <&pin>;
-            key-positions = <12 25>;
+            key-positions = <12 11>;
             layers = <0 1 2 3 4>;
         };
 
         eid {
             bindings = <&pin>;
-            key-positions = <50 51>;
+            key-positions = <57 0>;
             layers = <0 1 2 3 4>;
         };
 
         winlogin {
             bindings = <&winlogin>;
-            key-positions = <51 38>;
+            key-positions = <51 50>;
+            layers = <0 1 2 3 4>;
+        };
+
+        eracmail {
+            bindings = <&eracmail>;
+            key-positions = <4 5>;
+            layers = <0 1 2 3 4>;
+        };
+
+        elemaail {
+            bindings = <&elemail>;
+            key-positions = <5 18>;
+            layers = <0 1 2 3 4>;
+        };
+
+        fastmouse {
+            bindings = <&to 2>;
+            key-positions = <59 51>;
+            layers = <0 1 2 3 4>;
+        };
+
+        workpass {
+            bindings = <&thisisstup>;
+            key-positions = <57 5>;
             layers = <0 1 2 3 4>;
         };
     };
@@ -213,7 +219,7 @@
             bindings = <
 &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6  &kp N7           &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
 &kp TAB         &kp Q         &kp W               &kp E           &kp R           &kp T      &kp DOWN_ARROW  &kp Y         &kp U            &kp I                &kp O                     &kp P          &kp BACKSLASH
-&kp CAPS        &lt 2 A       &kp S               &kp D           &lt 0 F         &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
+&kp CAPS        &lt 2 A       &kp S               &lt 1 D         &lt 2 F         &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B      &kp RIGHT       &kp N         &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RIGHT_SHIFT
 &kp K_MUTE      &none         &none               &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp LEFT_GUI  &kp SPACE        &kp SPACE            &none                     &none
             >;
@@ -235,12 +241,12 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        numfunctions {
+        fastmouse {
             bindings = <
-&none        &none  &none  &none  &none   &none     &trans  &none     &none           &none           &none            &none            &trans
-&none        &none  &none  &none  &none   &none     &trans  &none     &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none            &none
-&none        &none  &none  &none  &none   &none     &trans  &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &none
-&thisisstup  &none  &none  &none  &none   &none     &trans  &none     &none           &none           &none            &none            &none
+&none        &none  &none  &none  &none   &none     &trans  &none     &none           &none           &none            &none   &none
+&none        &none  &none  &none  &none   &none     &trans  &none     &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none   &none
+&none        &none  &none  &none  &none   &none     &trans  &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &none
+&thisisstup  &none  &none  &none  &none   &none     &trans  &none     &none           &none           &none            &none   &none
 &trans       &none  &none  &none  &trans  &trans    &trans  &mkp MB2  &mkp MB1        &mkp MB3        &trans           &trans
             >;
 
