@@ -225,7 +225,7 @@
 
         gamepad {
             bindings = <&to 6>;
-            key-positions = <52 58>;
+            key-positions = <12 51 59 7>;
             layers = <0>;
         };
     };
