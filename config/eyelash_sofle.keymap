@@ -106,109 +106,109 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <57 39>;
-            layers = <0 1 4 3>;
+            layers = <1 4 3 2>;
         };
 
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <27 26 28>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <29 28>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <40 41>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         Rewrite {
             bindings = <&Rewrite>;
             key-positions = <43 42>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <30 29>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         home {
             bindings = <&kp HOME>;
             key-positions = <17 15 16>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         end {
             bindings = <&kp END>;
             key-positions = <43 41 42>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         ccprefresh {
             bindings = <&ccprefresh>;
             key-positions = <0 1>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 31>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <30 27>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
-        piin {
+        maclogin {
             bindings = <&pin>;
-            key-positions = <12 11>;
-            layers = <0 1 4 3>;
+            key-positions = <5 4 18>;
+            layers = <0 1 4 3 2>;
         };
 
         eid {
             bindings = <&pin>;
-            key-positions = <57 0>;
-            layers = <0 1 4 3>;
+            key-positions = <53 54 55>;
+            layers = <0 1 4 3 2>;
         };
 
         winlogin {
             bindings = <&winlogin>;
-            key-positions = <51 50>;
-            layers = <0 1 4 3>;
+            key-positions = <4 5 17 18>;
+            layers = <0 1 4 3 2>;
         };
 
         eracmail {
             bindings = <&eracmail>;
-            key-positions = <4 5>;
-            layers = <0 1 4 3>;
+            key-positions = <0 1 13>;
+            layers = <0 1 4 3 2>;
         };
 
         elemaail {
             bindings = <&elemail>;
-            key-positions = <5 18>;
-            layers = <0 1 4 3>;
+            key-positions = <57 56 44>;
+            layers = <0 1 4 3 2>;
         };
 
         fastmouse {
             bindings = <&to 1>;
             key-positions = <59 51>;
-            layers = <0 1 4 3>;
+            layers = <0 1 4 3 2>;
         };
 
         workpass {
             bindings = <&thisisstup>;
-            key-positions = <57 5>;
-            layers = <0 1 4 3>;
+            key-positions = <39 26 40>;
+            layers = <0 1 4 3 2>;
         };
     };
 
