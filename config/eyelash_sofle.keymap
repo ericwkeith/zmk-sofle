@@ -106,7 +106,7 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <57 39>;
-            layers = <2 1 4 3>;
+            layers = <2 1 4 3 5>;
         };
 
         selectall {
