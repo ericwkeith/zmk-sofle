@@ -106,7 +106,7 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <57 39>;
-            layers = <2 1 4 3 5>;
+            layers = <2 1 4 3 5 6>;
         };
 
         selectall {
@@ -222,6 +222,12 @@
             key-positions = <0 13 26 39 12 25 38 51>;
             layers = <0>;
         };
+
+        gamepad {
+            bindings = <&to 6>;
+            key-positions = <52 58>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -293,6 +299,16 @@
 &kp LEFT_CONTROL  &kp A       &kp S   &kp D      &kp F      &kp G      &kp LEFT   &kp H     &kp J      &kp K      &kp L    &kp SEMI    &kp SQT
 &kp LSHFT         &kp Z       &kp X   &kp C      &kp V      &kp B      &kp RIGHT  &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH    &kp RSHFT
 &kp K_MUTE        &kp DELETE  &none   &kp SPACE  &kp SPACE  &kp RET    &kp RET    &kp RGUI  &kp SPACE  &kp SPACE  &none    &kp DELETE
+            >;
+        };
+
+        gamepad {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &kp W  &none      &none    &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &kp D  &none      &none    &none  &none  &none  &kp L
+&none  &none  &none  &none  &none  &none    &kp A  &none      &none    &none  &none  &kp U  &kp I
+&none  &none  &none  &none  &none  &none    &kp S  &kp J      &kp K    &kp W  &kp H  &kp J  &kp K
+&none  &none  &none  &none  &none  &none    &kp K  &kp RSHFT  &kp RET  &kp A  &kp S  &kp D
             >;
         };
     };
