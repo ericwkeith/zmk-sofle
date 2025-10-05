@@ -709,12 +709,14 @@ rect.held, rect.combo.held {
 </a><text x="462" y="151" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-19">
-<path d="M427,154 l-26,47" class="combo"/>
-<path d="M427,154 l26,-47" class="combo"/>
-<rect rx="6" ry="6" x="413" y="141" width="28" height="26" class="combo"/>
+<path d="M736,152 l144,-87" class="combo"/>
+<path d="M736,152 l143,64" class="combo"/>
+<path d="M736,152 l-186,131" class="combo"/>
+<path d="M736,152 l-106,-104" class="combo"/>
+<rect rx="6" ry="6" x="722" y="139" width="28" height="26" class="combo"/>
 <a href="#gamepad">
-<text x="427" y="154" class="combo tap layer-activator"><tspan style="font-size: 86%">gamepad</tspan></text>
-</a><text x="427" y="165" class="combo hold">toggle</text>
+<text x="736" y="152" class="combo tap layer-activator"><tspan style="font-size: 86%">gamepad</tspan></text>
+</a><text x="736" y="163" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

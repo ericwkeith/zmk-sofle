@@ -516,6 +516,6 @@ combos:
 - p: [0, 13, 26, 39, 12, 25, 38, 51]
   k: {t: inverse, h: toggle}
   l: [base layer]
-- p: [52, 58]
+- p: [12, 51, 59, 7]
   k: {t: gamepad, h: toggle}
   l: [base layer]
