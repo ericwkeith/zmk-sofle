@@ -237,7 +237,7 @@
             bindings = <
 &kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6  &kp N7           &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
 &kp TAB           &kp Q         &kp W               &kp E           &kp R           &kp T      &kp DOWN_ARROW  &kp Y         &kp U            &kp I                &kp O                     &kp P          &none
-&kp LEFT_CONTROL  &lt 2 A       &kp S               &lt 3 D         &lt 2 F         &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
+&kp LEFT_CONTROL  &lt 2 A       &kp S               &kp D           &kp F           &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B      &kp RIGHT       &kp N         &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RIGHT_SHIFT
 &kp K_MUTE        &kp DELETE    &none               &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp LEFT_GUI  &kp SPACE        &kp SPACE            &none                     &kp DELETE
             >;
