@@ -393,7 +393,7 @@ layers:
 combos:
 - p: [57, 39]
   k: {t: base layer, h: toggle}
-  l: [fastmouse, inverse, arrownum, slowmouse]
+  l: [fastmouse, inverse, arrownum, slowmouse, lockqwerty]
 - p: [27, 26, 28]
   k: Ctl+A
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]
