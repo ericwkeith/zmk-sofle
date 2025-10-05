@@ -27,11 +27,11 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: numfunctions, h: toggle}
+  - $$mdi:apple-keyboard-caps$$
   - {t: A, h: numfunctions}
   - S
   - D
-  - F
+  - {t: F, h: base layer}
   - G
   - $$mdi:arrow-left-bold$$
   - H
@@ -82,7 +82,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB2'
-  - '&mmv MOVE_Y(-600)'
+  - '&mmv MOVE_Y(-100)'
   - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -94,16 +94,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - numfunctions
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
-  - '&mmv MOVE_X(600)'
+  - '&mmv MOVE_X(-100)'
+  - '&mmv MOVE_Y(100)'
+  - '&mmv MOVE_X(100)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+C
   - {t: mouse layer, h: toggle}
   - '&mkp MB1'
   - Ctl+V
-  - {t: mouse layer, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -114,7 +114,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: mouse layer, h: toggle}
+  - {t: base layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,12 +144,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-tab$$
-  - +
-  - '7'
-  - {t: '8', s: '*'}
-  - '9'
-  - '0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
@@ -157,12 +157,12 @@ layers:
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: base layer, h: toggle, type: held alternate}
-  - {t: '-', s: _, type: held}
-  - '4'
-  - '5'
-  - '6'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -171,23 +171,23 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&thisisstup'
-  - {t: \, s: '|'}
-  - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '2', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - .
-  - '0'
-  - '0'
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
@@ -260,52 +260,120 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  numpadleft:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - +
+  - '7'
+  - {t: '8', s: '*'}
+  - '9'
+  - '0'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-up$$
+  - '&mmv MOVE_Y(-600)'
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '4'
+  - '5'
+  - '6'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
+  - '1'
+  - '2'
+  - '3'
+  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - .
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [15, 16, 17]
   k: {t: base layer, h: toggle}
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [27, 26, 28]
   k: Ctl+A
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [43, 42]
   k: '&Rewrite'
-  l: [base layer, mouse layer, numfunctions, mouse layer, mouse layer, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [14, 15, 16]
   k: $$mdi:keyboard-esc$$
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [17, 18]
   k: HOME
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [43, 44]
   k: END
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [0, 1]
   k: '&ccprefresh'
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [28, 29, 30]
   k: $$mdi:keyboard-space$$
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [41, 42, 43]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
-- p: [34, 35, 36]
-  k: $$mdi:keyboard-space$$
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
-- p: [47, 48, 49]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [30, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, mouse layer, mouse layer, mouse layer, numfunctions, rightHalf]
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+- p: [12, 25]
+  k: '&pin'
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+- p: [50, 51]
+  k: '&pin'
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
+- p: [51, 38]
+  k: '&winlogin'
+  l: [base layer, mouse layer, numfunctions, rightHalf, numpadleft]
