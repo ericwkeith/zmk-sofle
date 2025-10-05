@@ -106,109 +106,109 @@
         tobase {
             bindings = <&to 0>;
             key-positions = <57 39>;
-            layers = <1 4 3 2>;
+            layers = <2 1 4 3>;
         };
 
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <27 26 28>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <29 28>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <40 41>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         Rewrite {
             bindings = <&Rewrite>;
             key-positions = <43 42>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <30 29>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         home {
             bindings = <&kp HOME>;
             key-positions = <17 15 16>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         end {
             bindings = <&kp END>;
             key-positions = <43 41 42>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         ccprefresh {
             bindings = <&ccprefresh>;
             key-positions = <0 1>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 31>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <30 27>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         maclogin {
             bindings = <&pin>;
             key-positions = <5 4 18>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         eid {
             bindings = <&pin>;
             key-positions = <53 54 55>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         winlogin {
             bindings = <&winlogin>;
             key-positions = <4 5 17 18>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         eracmail {
             bindings = <&eracmail>;
             key-positions = <0 1 13>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         elemaail {
             bindings = <&elemail>;
             key-positions = <57 56 44>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         fastmouse {
-            bindings = <&to 1>;
+            bindings = <&to 2>;
             key-positions = <59 51>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
 
         workpass {
             bindings = <&thisisstup>;
             key-positions = <39 26 40>;
-            layers = <0 1 4 3 2>;
+            layers = <0 2 1 4 3>;
         };
     };
 
@@ -219,21 +219,31 @@
             bindings = <
 &kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4    &kp N5     &kp UP_ARROW    &kp NUMBER_6  &kp N7           &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
 &kp TAB           &kp Q         &kp W               &kp E           &kp R           &kp T      &kp DOWN_ARROW  &kp Y         &kp U            &kp I                &kp O                     &kp P          &none
-&kp LEFT_CONTROL  &lt 1 A       &kp S               &lt 2 D         &lt 1 F         &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
+&kp LEFT_CONTROL  &lt 2 A       &kp S               &lt 3 D         &lt 2 F         &kp G      &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B      &kp RIGHT       &kp N         &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RIGHT_SHIFT
-&kp K_MUTE        &none         &none               &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp LEFT_GUI  &kp SPACE        &kp SPACE            &none                     &none
+&kp K_MUTE        &kp DELETE    &none               &kp SPACE       &kp SPACE       &kp RET    &kp RET         &kp LEFT_GUI  &kp SPACE        &kp SPACE            &none                     &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "base layer";
         };
 
+        inverse {
+            bindings = <
+&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8         &kp N9                &kp NUMBER_0             &kp BACKSPACE      &kp UP_ARROW    &kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4     &kp N5
+&kp Y         &kp U         &kp I                &kp O                 &kp P                    &none              &kp DOWN_ARROW  &kp TAB           &kp Q         &kp W               &kp E           &kp R            &kp T
+&kp H         &kp J         &kp K                &kp L                 &kp SEMICOLON            &kp SQT            &kp LEFT        &kp LEFT_CONTROL  &kp A         &kp S               &kp D           &kp F            &kp G
+&kp N         &kp M         &mt RIGHT_ALT COMMA  &mt RIGHT_GUI PERIOD  &mt RIGHT_CONTROL SLASH  &kp RIGHT_SHIFT    &kp RIGHT       &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt RIGHT_ALT V  &kp B
+&kp K_MUTE    &trans        &trans               &trans                &trans                   &trans             &kp RET         &trans            &trans        &trans              &trans          &trans
+            >;
+        };
+
         fastmouse {
             bindings = <
-&none        &none   &none   &none   &none   &none     &trans  &none     &none              &none              &none             &none     &none
-&none        &none   &none   &none   &none   &none     &trans  &none     &msc SCRL_UP       &mmv MOVE_Y(-600)  &msc SCRL_DOWN    &none     &none
-&none        &none   &none   &none   &none   &none     &trans  &none     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &mkp MB2  &none
-&thisisstup  &none   &none   &none   &none   &none     &trans  &none     &none              &mkp MB3           &none             &none     &mo 2
+&none        &none   &none   &none   &none   &none     &trans  &none     &none              &none              &none             &none   &none
+&none        &none   &none   &none   &none   &none     &trans  &none     &msc SCRL_UP       &mmv MOVE_Y(-600)  &msc SCRL_DOWN    &none   &none
+&none        &none   &none   &none   &none   &none     &trans  &none     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &mo 3   &none
+&thisisstup  &none   &none   &none   &none   &none     &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
 &trans       &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
             >;
 
@@ -242,11 +252,11 @@
 
         slowmouse {
             bindings = <
-&none        &none   &none   &none   &none   &none     &trans  &none     &none              &none              &none             &none     &none
-&none        &none   &none   &none   &none   &none     &trans  &none     &msc SCRL_UP       &mmv MOVE_Y(-100)  &msc SCRL_DOWN    &none     &none
-&none        &none   &none   &none   &none   &none     &trans  &none     &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &mkp MB2  &none
-&thisisstup  &none   &none   &none   &none   &none     &trans  &none     &none              &mkp MB3           &none             &none     &none
-&trans       &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB2           &trans             &trans            &trans
+&none        &none   &none   &none   &none   &none     &trans  &none     &none              &none              &none             &none   &none
+&none        &none   &none   &none   &none   &none     &trans  &none     &msc SCRL_UP       &mmv MOVE_Y(-100)  &msc SCRL_DOWN    &none   &none
+&none        &none   &none   &none   &none   &none     &trans  &none     &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none   &none
+&thisisstup  &none   &none   &none   &none   &none     &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
+&trans       &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -254,24 +264,14 @@
 
         arrownum {
             bindings = <
-&none    &none          &none         &none         &none         &none            &trans  &none   &none           &none         &none      &none   &trans
-&kp TAB  &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0     &trans  &none   &none           &kp UP_ARROW  &none      &none   &none
-&none    &none          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE    &trans  &none   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none   &none
-&none    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH        &trans  &none   &none           &none         &none      &none   &none
-&trans   &none          &none         &kp PERIOD    &kp DOWN      &trans           &trans  &trans  &trans          &trans        &trans     &trans
+&none    &none          &none         &none         &none         &none            &trans  &none          &none           &none         &none      &none    &kp BACKSPACE
+&kp TAB  &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0     &trans  &none          &none           &kp UP_ARROW  &none      &none    &none
+&none    &none          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE    &trans  &none          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none    &none
+&none    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH        &trans  &none          &none           &none         &none      &none    &none
+&trans   &kp DEL        &none         &kp PERIOD    &kp SPACE     &kp RET          &trans  &kp RIGHT_GUI  &kp SPACE       &kp SPACE     &none      &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
-        inverse {
-            bindings = <
-&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp N9  &kp NUMBER_0  &kp BACKSPACE    &trans  &none   &none   &none   &trans  &trans  &trans
-&kp Y         &kp U         &kp I         &kp O   &kp P         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans  &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans  &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans  &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
