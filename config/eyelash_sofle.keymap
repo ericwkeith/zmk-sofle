@@ -222,6 +222,12 @@
             key-positions = <12 51 59 7>;
             layers = <0>;
         };
+
+        winglogin {
+            bindings = <&winlogin>;
+            key-positions = <5 4 17 18>;
+            layers = <0 2 3 4>;
+        };
     };
 
     keymap {
