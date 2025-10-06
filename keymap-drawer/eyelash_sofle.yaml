@@ -495,9 +495,6 @@ combos:
 - p: [53, 54, 55]
   k: '&eid'
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]
-- p: [4, 5, 17, 18]
-  k: '&winlogin'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
 - p: [0, 1, 13]
   k: '&eracmail'
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]

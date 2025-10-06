@@ -678,20 +678,16 @@ rect.held, rect.combo.held {
 <text x="196" y="257" class="combo tap">&amp;eid</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
-<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="33" y="62" width="28" height="26" class="combo"/>
 <text x="47" y="75" class="combo tap"><tspan style="font-size: 67%">&amp;eracmail</tspan></text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <path d="M337,260 l36,24" class="combo"/>
 <path d="M337,260 l-21,-40" class="combo"/>
 <rect rx="6" ry="6" x="323" y="247" width="28" height="26" class="combo"/>
 <text x="337" y="260" class="combo tap"><tspan style="font-size: 75%">&amp;elemail</tspan></text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <path d="M715,259 l-162,31" class="combo"/>
 <path d="M715,259 l162,-31" class="combo"/>
 <rect rx="6" ry="6" x="701" y="246" width="28" height="26" class="combo"/>
@@ -699,11 +695,11 @@ rect.held, rect.combo.held {
 <text x="715" y="259" class="combo tap layer-activator"><tspan style="font-size: 67%">fastmouse</tspan></text>
 </a><text x="715" y="270" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <path d="M462,175 l-416,-114" class="combo"/>
 <path d="M462,175 l-63,103" class="combo"/>
 <path d="M462,175 l63,103" class="combo"/>
@@ -713,7 +709,7 @@ rect.held, rect.combo.held {
 <text x="462" y="175" class="combo tap layer-activator"><tspan style="font-size: 60%">retrorigh…</tspan></text>
 </a><text x="462" y="186" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-18">
+<g class="combo combopos-17">
 <path d="M462,140 l-416,-80" class="combo"/>
 <path d="M462,140 l-415,-27" class="combo"/>
 <path d="M462,140 l-415,27" class="combo"/>
@@ -727,7 +723,7 @@ rect.held, rect.combo.held {
 <text x="462" y="140" class="combo tap layer-activator"><tspan style="font-size: 86%">inverse</tspan></text>
 </a><text x="462" y="151" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-18">
 <path d="M736,152 l144,-87" class="combo"/>
 <path d="M736,152 l143,64" class="combo"/>
 <path d="M736,152 l-186,131" class="combo"/>
@@ -1144,20 +1140,16 @@ rect.held, rect.combo.held {
 <text x="196" y="257" class="combo tap">&amp;eid</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
-<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
-</g>
-<g class="combo combopos-14">
 <rect rx="6" ry="6" x="33" y="62" width="28" height="26" class="combo"/>
 <text x="47" y="75" class="combo tap"><tspan style="font-size: 67%">&amp;eracmail</tspan></text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <path d="M337,260 l36,24" class="combo"/>
 <path d="M337,260 l-21,-40" class="combo"/>
 <rect rx="6" ry="6" x="323" y="247" width="28" height="26" class="combo"/>
 <text x="337" y="260" class="combo tap"><tspan style="font-size: 75%">&amp;elemail</tspan></text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M715,259 l-162,31" class="combo"/>
 <path d="M715,259 l162,-31" class="combo"/>
 <rect rx="6" ry="6" x="701" y="246" width="28" height="26" class="combo"/>
@@ -1165,7 +1157,7 @@ rect.held, rect.combo.held {
 <text x="715" y="259" class="combo tap layer-activator"><tspan style="font-size: 67%">fastmouse</tspan></text>
 </a><text x="715" y="270" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
@@ -1581,20 +1573,16 @@ rect.held, rect.combo.held {
 <text x="196" y="257" class="combo tap">&amp;eid</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
-<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
-</g>
-<g class="combo combopos-14">
 <rect rx="6" ry="6" x="33" y="62" width="28" height="26" class="combo"/>
 <text x="47" y="75" class="combo tap"><tspan style="font-size: 67%">&amp;eracmail</tspan></text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <path d="M337,260 l36,24" class="combo"/>
 <path d="M337,260 l-21,-40" class="combo"/>
 <rect rx="6" ry="6" x="323" y="247" width="28" height="26" class="combo"/>
 <text x="337" y="260" class="combo tap"><tspan style="font-size: 75%">&amp;elemail</tspan></text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M715,259 l-162,31" class="combo"/>
 <path d="M715,259 l162,-31" class="combo"/>
 <rect rx="6" ry="6" x="701" y="246" width="28" height="26" class="combo"/>
@@ -1602,7 +1590,7 @@ rect.held, rect.combo.held {
 <text x="715" y="259" class="combo tap layer-activator"><tspan style="font-size: 67%">fastmouse</tspan></text>
 </a><text x="715" y="270" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
@@ -2017,20 +2005,16 @@ rect.held, rect.combo.held {
 <text x="196" y="257" class="combo tap">&amp;eid</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
-<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
-</g>
-<g class="combo combopos-14">
 <rect rx="6" ry="6" x="33" y="62" width="28" height="26" class="combo"/>
 <text x="47" y="75" class="combo tap"><tspan style="font-size: 67%">&amp;eracmail</tspan></text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <path d="M337,260 l36,24" class="combo"/>
 <path d="M337,260 l-21,-40" class="combo"/>
 <rect rx="6" ry="6" x="323" y="247" width="28" height="26" class="combo"/>
 <text x="337" y="260" class="combo tap"><tspan style="font-size: 75%">&amp;elemail</tspan></text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M715,259 l-162,31" class="combo"/>
 <path d="M715,259 l162,-31" class="combo"/>
 <rect rx="6" ry="6" x="701" y="246" width="28" height="26" class="combo"/>
@@ -2038,7 +2022,7 @@ rect.held, rect.combo.held {
 <text x="715" y="259" class="combo tap layer-activator"><tspan style="font-size: 67%">fastmouse</tspan></text>
 </a><text x="715" y="270" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
@@ -2442,20 +2426,16 @@ rect.held, rect.combo.held {
 <text x="196" y="257" class="combo tap">&amp;eid</text>
 </g>
 <g class="combo combopos-13">
-<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
-<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
-</g>
-<g class="combo combopos-14">
 <rect rx="6" ry="6" x="33" y="62" width="28" height="26" class="combo"/>
 <text x="47" y="75" class="combo tap"><tspan style="font-size: 67%">&amp;eracmail</tspan></text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <path d="M337,260 l36,24" class="combo"/>
 <path d="M337,260 l-21,-40" class="combo"/>
 <rect rx="6" ry="6" x="323" y="247" width="28" height="26" class="combo"/>
 <text x="337" y="260" class="combo tap"><tspan style="font-size: 75%">&amp;elemail</tspan></text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M715,259 l-162,31" class="combo"/>
 <path d="M715,259 l162,-31" class="combo"/>
 <rect rx="6" ry="6" x="701" y="246" width="28" height="26" class="combo"/>
@@ -2463,7 +2443,7 @@ rect.held, rect.combo.held {
 <text x="715" y="259" class="combo tap layer-activator"><tspan style="font-size: 67%">fastmouse</tspan></text>
 </a><text x="715" y="270" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
