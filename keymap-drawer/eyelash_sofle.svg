@@ -733,6 +733,10 @@ rect.held, rect.combo.held {
 <text x="736" y="152" class="combo tap layer-activator"><tspan style="font-size: 75%">minikeeb</tspan></text>
 </a><text x="736" y="163" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
+<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-inverse">
@@ -1594,6 +1598,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
+<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-slowmouse">
@@ -2026,6 +2034,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
 </g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
+<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-arrownum">
@@ -2446,6 +2458,10 @@ rect.held, rect.combo.held {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="33" y="193" width="28" height="26" class="combo"/>
 <text x="47" y="206" class="combo tap"><tspan style="font-size: 60%">&amp;thisisst…</tspan></text>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
+<text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
 </g>
 </g>
 </g>

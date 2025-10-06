@@ -516,3 +516,6 @@ combos:
 - p: [12, 51, 59, 7]
   k: {t: minikeeb, h: toggle}
   l: [base layer]
+- p: [5, 4, 17, 18]
+  k: '&winlogin'
+  l: [base layer, fastmouse, slowmouse, arrownum]
