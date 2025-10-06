@@ -489,9 +489,9 @@ combos:
 - p: [30, 27]
   k: {t: '-', s: _}
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]
-- p: [5, 4, 18]
+- p: [12, 25, 11]
   k: '&pin'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, arrownum, slowmouse, retrorighthand, minikeeb]
 - p: [53, 54, 55]
   k: '&pin'
   l: [base layer, fastmouse, inverse, arrownum, slowmouse]
