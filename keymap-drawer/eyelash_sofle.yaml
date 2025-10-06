@@ -28,7 +28,7 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: arrownum}
+  - {t: A, h: numpad}
   - S
   - D
   - F
@@ -57,7 +57,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: slowmouse}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-command$$
@@ -130,71 +130,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  fastmouse:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-up$$
-  - '&mmv MOVE_Y(-600)'
-  - $$mdi:pan-down$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(-600)'
-  - '&mmv MOVE_Y(600)'
-  - '&mmv MOVE_X(600)'
-  - slowmouse
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&thisisstup'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
-  - '&mkp MB1'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   slowmouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -233,7 +168,7 @@ layers:
   - '&mmv MOVE_X(-100)'
   - '&mmv MOVE_Y(100)'
   - '&mmv MOVE_X(100)'
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&thisisstup'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -252,15 +187,80 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - fastmouse
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  arrownum:
+  fastmouse:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-up$$
+  - '&mmv MOVE_Y(-600)'
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&thisisstup'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB1'
+  - '&mkp MB1'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  numpad:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -281,11 +281,11 @@ layers:
   - '9'
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -294,11 +294,11 @@ layers:
   - '6'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '-', s: _}
+  - '4'
+  - '5'
+  - '6'
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: \, s: '|'}
@@ -307,11 +307,11 @@ layers:
   - '3'
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
+  - '1'
+  - '2'
+  - '3'
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
@@ -458,55 +458,55 @@ layers:
 combos:
 - p: [57, 39]
   k: {t: base layer, h: toggle}
-  l: [fastmouse, inverse, arrownum, slowmouse, retrorighthand, minikeeb]
+  l: [fastmouse, inverse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [27, 26, 28]
   k: Ctl+A
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [43, 42]
   k: '&Rewrite'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [17, 15, 16]
   k: HOME
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [43, 41, 42]
   k: END
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [0, 1]
   k: '&ccprefresh'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [30, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [12, 25, 11]
   k: '&pin'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse, retrorighthand, minikeeb]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [53, 54, 55]
   k: '&eid'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [0, 1, 13]
   k: '&eracmail'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [57, 56, 44]
   k: '&elemail'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [59, 51]
-  k: {t: fastmouse, h: toggle}
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  k: {t: slowmouse, h: toggle}
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [39, 26, 40]
   k: '&thisisstup'
-  l: [base layer, fastmouse, inverse, arrownum, slowmouse]
+  l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [0, 57, 59, 12]
   k: {t: retrorighthand, h: toggle}
   l: [base layer]
@@ -518,4 +518,4 @@ combos:
   l: [base layer]
 - p: [5, 4, 17, 18]
   k: '&winlogin'
-  l: [base layer, fastmouse, slowmouse, arrownum]
+  l: [base layer, fastmouse, slowmouse, numpad]
