@@ -92,7 +92,7 @@
         winlogin: winlogin {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB &thisisstup &kp RET>;
+            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB &kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3 &kp RET>;
             label = "winlogin";
         };
     };
@@ -178,12 +178,6 @@
         eid {
             bindings = <&eid>;
             key-positions = <53 54 55>;
-            layers = <0 2 1 4 3>;
-        };
-
-        winlogin {
-            bindings = <&winlogin>;
-            key-positions = <4 5 17 18>;
             layers = <0 2 1 4 3>;
         };
 
