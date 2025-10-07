@@ -282,11 +282,11 @@
 
         numpad {
             bindings = <
-&none    &none          &none         &none         &none         &none            &trans  &none          &none         &none         &none         &none          &kp BACKSPACE
-&kp TAB  &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0     &trans  &kp PLUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &none
-&none    &none          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE    &trans  &kp MINUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &none
-&none    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH        &trans  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &none
-&trans   &kp DEL        &none         &kp PERIOD    &kp SPACE     &kp RET          &trans  &kp RIGHT_GUI  &kp SPACE     &kp SPACE     &none         &kp DEL
+&none    &none          &none         &none         &none         &none            &trans  &none          &none         &none         &none         &none      &kp BACKSPACE
+&kp TAB  &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp BACKSPACE    &trans  &kp BACKSPACE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &none
+&none    &none          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &trans  &kp MINUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none      &none
+&none    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH        &trans  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &none
+&trans   &kp DEL        &none         &kp PERIOD    &kp NUMBER_0  &kp RET          &trans  &kp RIGHT_GUI  &kp NUMBER_0  &kp PERIOD    &none         &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
