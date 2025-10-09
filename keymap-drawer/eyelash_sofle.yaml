@@ -56,12 +56,12 @@ layers:
   - MUTE
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: slowmouse}
   - {t: '$$mdi:keyboard-return$$', h: fastmouse}
+  - {t: RETURN, h: slowmouse}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
@@ -122,11 +122,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - .
-  - '0'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RETURN
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -253,9 +253,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - fastmouse
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -316,11 +316,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -383,9 +383,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
-  - H
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - J
   - K
   - {t: ']', s: '}'}
@@ -450,13 +450,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - S
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - D
   - F
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
 combos:
-- p: [57, 39]
+- p: [39, 56]
   k: {t: base layer, h: toggle}
   l: [fastmouse, inverse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [27, 26, 28]
@@ -498,22 +498,22 @@ combos:
 - p: [0, 1, 13]
   k: '&eracmail'
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
-- p: [57, 56, 44]
+- p: [56, 44, 55]
   k: '&elemail'
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
-- p: [59, 51]
+- p: [51, 60]
   k: {t: slowmouse, h: toggle}
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [39, 26, 40]
   k: '&thisisstup'
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
-- p: [0, 57, 59, 12]
+- p: [0, 12, 56, 60]
   k: {t: retrorighthand, h: toggle}
   l: [base layer]
 - p: [0, 13, 26, 39, 12, 25, 38, 51]
   k: {t: inverse, h: toggle}
   l: [base layer]
-- p: [12, 51, 59, 7]
+- p: [12, 51, 7, 60]
   k: {t: minikeeb, h: toggle}
   l: [base layer]
 - p: [5, 4, 17, 18]
