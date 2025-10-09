@@ -130,71 +130,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  inverse:
-  - '6'
-  - '7'
-  - '8'
-  - {t: '9', s: (}
-  - '0'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:keyboard-esc$$
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - {t: '5', s: '%'}
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:apple-keyboard-control$$
-  - A
-  - S
-  - D
-  - F
-  - G
-  - N
-  - M
-  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
-  - {t: ., h: RIGHT GUI}
-  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
-  - B
-  - MUTE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   slowmouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -217,9 +152,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-up$$
-  - '&mmv MOVE_Y(-100)'
   - $$mdi:pan-down$$
+  - '&mmv MOVE_Y(-100)'
+  - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -458,60 +393,60 @@ layers:
 combos:
 - p: [39, 56]
   k: {t: base layer, h: toggle}
-  l: [fastmouse, inverse, numpad, slowmouse, retrorighthand, minikeeb]
+  l: [fastmouse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [27, 26, 28]
   k: Ctl+A
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [29, 28]
   k: Ctl+C
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [40, 41]
   k: Ctl+Z
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [43, 42]
   k: '&Rewrite'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 29]
   k: Ctl+V
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [17, 15, 16]
   k: PgUp
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [43, 41, 42]
   k: PgDn
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [0, 1]
   k: '&ccprefresh'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [12, 25, 11]
   k: '&pin'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse, retrorighthand, minikeeb]
+  l: [base layer, fastmouse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [53, 54, 55]
   k: '&eid'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [0, 1, 13]
   k: '&eracmail'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [56, 44, 55]
   k: '&elemail'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [51, 60]
   k: {t: slowmouse, h: toggle}
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [39, 26, 40]
   k: '&thisisstup'
-  l: [base layer, fastmouse, inverse, numpad, slowmouse]
+  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [0, 12, 56, 60]
   k: {t: retrorighthand, h: toggle}
   l: [base layer]
 - p: [0, 13, 26, 39, 12, 25, 38, 51]
-  k: {t: inverse, h: toggle}
+  k: {t: base layer, h: toggle}
   l: [base layer]
 - p: [12, 51, 7, 60]
   k: {t: minikeeb, h: toggle}
