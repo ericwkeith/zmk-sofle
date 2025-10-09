@@ -475,10 +475,10 @@ combos:
   k: Ctl+V
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [17, 15, 16]
-  k: HOME
+  k: PgUp
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [43, 41, 42]
-  k: END
+  k: PgDn
   l: [base layer, fastmouse, inverse, numpad, slowmouse]
 - p: [0, 1]
   k: '&ccprefresh'
