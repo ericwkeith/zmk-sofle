@@ -139,14 +139,14 @@
             layers = <0 4 2 1 3>;
         };
 
-        home {
-            bindings = <&kp HOME>;
+        pageup {
+            bindings = <&kp PAGE_UP>;
             key-positions = <17 15 16>;
             layers = <0 4 2 1 3>;
         };
 
-        end {
-            bindings = <&kp END>;
+        pagedown {
+            bindings = <&kp PAGE_DOWN>;
             key-positions = <43 41 42>;
             layers = <0 4 2 1 3>;
         };
