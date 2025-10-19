@@ -454,3 +454,9 @@ combos:
 - p: [49, 48, 47]
   k: Gui+Sft+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
+- p: [51, 50]
+  k: PgDn
+  l: [base layer, fastmouse, slowmouse]
+- p: [37, 38]
+  k: PgUp
+  l: [base layer, fastmouse, slowmouse]
