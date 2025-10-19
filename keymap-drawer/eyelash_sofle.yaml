@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   base layer:
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -57,11 +57,11 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - numpad
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
   - RETURN
   - '&mkp MB1'
   - '&mkp MB1'
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RIGHT GUI
   - '&mkp MB2'
