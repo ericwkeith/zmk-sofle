@@ -141,19 +141,19 @@
         };
 
         pageup {
-            bindings = <&kp PAGE_UP>;
+            bindings = <&msc SCRL_DOWN>;
             key-positions = <17 15 16>;
             layers = <0 3 1 2>;
         };
 
         pagedown {
-            bindings = <&kp PAGE_DOWN>;
+            bindings = <&msc SCRL_UP>;
             key-positions = <43 41 42>;
             layers = <0 3 1 2>;
         };
 
         ccprefresh {
-            bindings = <&kp ESCAPE>;
+            bindings = <&kp GRAVE>;
             key-positions = <0 1>;
             layers = <0 3 1 2>;
         };
@@ -228,6 +228,18 @@
             bindings = <&winlogin>;
             key-positions = <5 4 17 18>;
             layers = <0 3 2 1>;
+        };
+
+        switchdesktopleft {
+            bindings = <&kp LG(LS(LEFT_ARROW))>;
+            key-positions = <28 29 30>;
+            layers = <0 3 2>;
+        };
+
+        switchdesktopright {
+            bindings = <&kp LG(LS(RIGHT))>;
+            key-positions = <34 35 36>;
+            layers = <0 3 2>;
         };
     };
 
