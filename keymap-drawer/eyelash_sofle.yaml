@@ -42,15 +42,15 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
-  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
+  - X
+  - C
+  - V
   - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - N
-  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ',', h: RIGHT GUI, s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-control$$'}
+  - M
+  - {t: ',', s: <}
+  - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - MUTE
@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RIGHT GUI
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:arrow-down-bold$$
   numpad:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -72,7 +72,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_Y(-200)'
+  - '&mmv MOVE_Y(-300)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -85,7 +85,7 @@ layers:
   - {t: '8', s: '*'}
   - '9'
   - $$mdi:backspace-reverse-outline$$
-  - '&mmv MOVE_Y(200)'
+  - '&mmv MOVE_Y(300)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
@@ -98,7 +98,7 @@ layers:
   - '5'
   - '6'
   - {t: '-', s: _}
-  - '&mmv MOVE_X(-200)'
+  - '&mmv MOVE_X(-300)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -111,7 +111,7 @@ layers:
   - '2'
   - '3'
   - {t: /, s: '?'}
-  - '&mmv MOVE_X(200)'
+  - '&mmv MOVE_X(300)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
