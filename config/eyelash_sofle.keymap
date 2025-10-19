@@ -153,7 +153,7 @@
         };
 
         ccprefresh {
-            bindings = <&ccprefresh>;
+            bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
             layers = <0 3 1 2>;
         };
@@ -236,11 +236,11 @@
 
         base {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4    &kp N5    &kp UP_ARROW    &kp NUMBER_6  &kp N7           &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
-&kp TAB           &kp Q         &kp W               &kp E           &kp R           &kp T     &kp DOWN_ARROW  &kp Y         &kp U            &kp I                &kp O                     &kp P          &kp BACKSLASH
-&kp LEFT_CONTROL  &lt 1 A       &lt 2 S             &kp D           &lt 3 F         &kp G     &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B     &kp RIGHT       &kp N         &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RIGHT_SHIFT
-&kp K_MUTE        &kp DELETE    &none               &lt 2 RET       &lt 3 RETURN    &none     &kp RET         &none         &lt 1 SPACE      &kp SPACE            &none                     &kp DELETE
+&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4    &kp N5        &kp UP_ARROW    &kp NUMBER_6  &kp N7           &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
+&kp TAB           &kp Q         &kp W               &kp E           &kp R           &kp T         &kp DOWN_ARROW  &kp Y         &kp U            &kp I                &kp O                     &kp P          &kp BACKSLASH
+&kp LEFT_SHIFT    &lt 1 A       &lt 2 S             &kp D           &lt 3 F         &kp G         &kp LEFT_ARROW  &kp H         &kp J            &kp K                &kp L                     &kp SEMICOLON  &kp SQT
+&kp LEFT_CONTROL  &kp Z         &mt LEFT_CONTROL X  &mt LEFT_GUI C  &mt LEFT_ALT V  &kp B         &kp RIGHT       &kp N         &mt RIGHT_ALT M  &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RIGHT_SHIFT
+&kp K_MUTE        &kp LEFT_GUI  &kp LEFT_ALT        &none           &lt 1 SPACE     &kp RETURN    &kp RET         &none         &kp SPACE        &none                &kp RIGHT_GUI             &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -249,11 +249,11 @@
 
         numpad {
             bindings = <
-&trans   &trans         &trans        &trans        &trans        &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp BACKSPACE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp DEL        &kp PERIOD    &kp NUMBER_0  &kp RETURN    &none            &trans  &none   &trans  &trans  &trans  &trans
+&none    &none          &none         &none         &none         &none         &none  &none  &none  &none  &none  &none  &none
+&kp TAB  &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp DELETE    &none  &none  &none  &none  &none  &none  &none
+&none    &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &none  &none  &none  &none  &none  &none  &none
+&none    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &none  &none  &none  &none  &none  &none  &none
+&none    &kp NUMBER_0   &kp PERIOD    &none         &none         &none         &none  &none  &none  &none  &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -262,8 +262,8 @@
         slowmouse {
             bindings = <
 &none        &none   &none   &none   &none   &none    &trans  &none  &none              &none              &none             &none   &none
-&none        &none   &none   &none   &none   &none    &trans  &none  &msc SCRL_DOWN     &mmv MOVE_Y(-100)  &msc SCRL_UP      &none   &none
-&none        &none   &none   &none   &none   &none    &trans  &none  &mmv MOVE_X(-100)  &mmv MOVE_Y(100)   &mmv MOVE_X(100)  &none   &none
+&none        &none   &none   &none   &none   &none    &trans  &none  &msc SCRL_DOWN     &mmv MOVE_Y(-200)  &msc SCRL_UP      &none   &none
+&none        &none   &none   &none   &none   &none    &trans  &none  &mmv MOVE_X(-200)  &mmv MOVE_Y(200)   &mmv MOVE_X(200)  &none   &none
 &thisisstup  &none   &none   &none   &none   &none    &trans  &none  &none              &mkp MB3           &none             &none   &mkp MB2
 &trans       &trans  &trans  &trans  &trans  &none    &trans  &none  &mkp MB1           &trans             &trans            &trans
             >;
