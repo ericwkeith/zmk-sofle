@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - '&mmv MOVE_Y(-400)'
+  - '&mmv MOVE_Y(-500)'
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - '&mmv MOVE_Y(400)'
+  - '&mmv MOVE_Y(500)'
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - {t: F, h: fastmouse}
   - G
-  - '&mmv MOVE_X(-400)'
+  - '&mmv MOVE_X(-500)'
   - H
   - J
   - K
@@ -42,11 +42,11 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
-  - X
+  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
   - C
   - V
   - B
-  - '&mmv MOVE_X(400)'
+  - '&mmv MOVE_X(500)'
   - N
   - M
   - {t: ',', s: <}
@@ -60,11 +60,11 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: numpad}
   - RETURN
   - '&mkp MB1'
-  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RIGHT GUI
-  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpad:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -125,11 +125,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB1'
-  - '&mkp MB1'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   slowmouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -255,7 +255,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -397,16 +397,16 @@ combos:
 - p: [27, 26, 28]
   k: Ctl+A
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [29, 28]
+- p: [41, 42]
   k: Ctl+C
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [40, 41]
   k: Ctl+Z
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [43, 42]
+- p: [43, 44]
   k: '&Rewrite'
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [30, 29]
+- p: [42, 43]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [17, 15, 16]
