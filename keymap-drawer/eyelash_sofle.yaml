@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - '&mmv MOVE_Y(-500)'
+  - '&mmv MOVE_Y(-400)'
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - '&mmv MOVE_Y(500)'
+  - '&mmv MOVE_Y(400)'
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - '&mmv MOVE_X(-500)'
+  - '&mmv MOVE_X(-400)'
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - {t: C, h: slowmouse}
   - {t: V, h: fastmouse}
   - B
-  - '&mmv MOVE_X(500)'
+  - '&mmv MOVE_X(400)'
   - N
   - M
   - {t: ',', h: RIGHT GUI, s: <}
@@ -465,4 +465,7 @@ combos:
   l: [base layer, fastmouse, slowmouse]
 - p: [12, 11]
   k: '&mkp MB4'
+  l: [base layer, fastmouse, slowmouse]
+- p: [8, 7]
+  k: $$mdi:keyboard-esc$$
   l: [base layer, fastmouse, slowmouse]
