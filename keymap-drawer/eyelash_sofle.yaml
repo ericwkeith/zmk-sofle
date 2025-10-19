@@ -410,13 +410,13 @@ combos:
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [17, 15, 16]
-  k: PgUp
+  k: $$mdi:pan-down$$
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [43, 41, 42]
-  k: PgDn
+  k: $$mdi:pan-up$$
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [0, 1]
-  k: $$mdi:keyboard-esc$$
+  k: {t: '`', s: '~'}
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 31]
   k: {t: '$$mdi:backspace$$', type: backspace}
@@ -454,3 +454,9 @@ combos:
 - p: [5, 4, 17, 18]
   k: '&winlogin'
   l: [base layer, fastmouse, slowmouse, numpad]
+- p: [28, 29, 30]
+  k: Gui+Sft+$$mdi:arrow-left-bold$$
+  l: [base layer, fastmouse, slowmouse]
+- p: [34, 35, 36]
+  k: Gui+Sft+$$mdi:arrow-right-bold$$
+  l: [base layer, fastmouse, slowmouse]

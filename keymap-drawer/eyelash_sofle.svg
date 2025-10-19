@@ -662,17 +662,18 @@ rect.held, rect.combo.held {
 <path d="M196,89 l37,2" class="combo"/>
 <path d="M196,89 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
-<text x="196" y="89" class="combo tap">PgUp</text>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="187" y="80" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-6">
 <path d="M196,201 l37,2" class="combo"/>
 <path d="M196,201 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
-<text x="196" y="201" class="combo tap">PgDn</text>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="187" y="192" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="56" y="56" class="combo tap">`</text>
+<text x="56" y="45" class="combo shifted">~</text>
 </g>
 <g class="combo backspace combopos-8">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo backspace"/>
@@ -744,6 +745,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
 <text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
+</g>
+<g class="combo combopos-20">
+<path d="M196,145 l-37,2" class="combo"/>
+<path d="M196,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="187" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-21">
+<path d="M728,145 l-37,2" class="combo"/>
+<path d="M728,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="719" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
 </g>
 </g>
@@ -1116,17 +1129,18 @@ rect.held, rect.combo.held {
 <path d="M196,89 l37,2" class="combo"/>
 <path d="M196,89 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
-<text x="196" y="89" class="combo tap">PgUp</text>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="187" y="80" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-7">
 <path d="M196,201 l37,2" class="combo"/>
 <path d="M196,201 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
-<text x="196" y="201" class="combo tap">PgDn</text>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="187" y="192" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="56" y="56" class="combo tap">`</text>
+<text x="56" y="45" class="combo shifted">~</text>
 </g>
 <g class="combo backspace combopos-9">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo backspace"/>
@@ -1548,17 +1562,18 @@ rect.held, rect.combo.held {
 <path d="M196,89 l37,2" class="combo"/>
 <path d="M196,89 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
-<text x="196" y="89" class="combo tap">PgUp</text>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="187" y="80" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-7">
 <path d="M196,201 l37,2" class="combo"/>
 <path d="M196,201 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
-<text x="196" y="201" class="combo tap">PgDn</text>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="187" y="192" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="56" y="56" class="combo tap">`</text>
+<text x="56" y="45" class="combo shifted">~</text>
 </g>
 <g class="combo backspace combopos-9">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo backspace"/>
@@ -1604,6 +1619,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
 <text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
+</g>
+<g class="combo combopos-18">
+<path d="M196,145 l-37,2" class="combo"/>
+<path d="M196,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="187" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-19">
+<path d="M728,145 l-37,2" class="combo"/>
+<path d="M728,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="719" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
 </g>
 </g>
@@ -1978,17 +2005,18 @@ rect.held, rect.combo.held {
 <path d="M196,89 l37,2" class="combo"/>
 <path d="M196,89 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="76" width="28" height="26" class="combo"/>
-<text x="196" y="89" class="combo tap">PgUp</text>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="187" y="80" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
 </g>
 <g class="combo combopos-7">
 <path d="M196,201 l37,2" class="combo"/>
 <path d="M196,201 l-37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="188" width="28" height="26" class="combo"/>
-<text x="196" y="201" class="combo tap">PgDn</text>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="187" y="192" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="47" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="56" y="56" class="combo tap">`</text>
+<text x="56" y="45" class="combo shifted">~</text>
 </g>
 <g class="combo backspace combopos-9">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo backspace"/>
@@ -2034,6 +2062,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
 <text x="280" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;winlogin</tspan></text>
+</g>
+<g class="combo combopos-18">
+<path d="M196,145 l-37,2" class="combo"/>
+<path d="M196,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="187" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+</g>
+<g class="combo combopos-19">
+<path d="M728,145 l-37,2" class="combo"/>
+<path d="M728,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="719" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
 </g>
 </g>
