@@ -249,11 +249,11 @@
 
         numpad {
             bindings = <
-&none             &none          &none         &none         &none         &none         &trans    &none  &none           &none           &none      &none  &none
-&kp TAB           &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp DELETE    &trans    &none  &none           &kp UP_ARROW    &none      &none  &none
-&kp LEFT_SHIFT    &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &trans    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none
-&kp LEFT_CONTROL  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans    &none  &none           &none           &none      &none  &none
-&none             &kp NUMBER_0   &kp PERIOD    &none         &none         &kp RET       &mkp MB2  &none  &none           &none           &none      &none
+&none             &none          &none         &none         &none         &none         &mmv MOVE_Y(-200)  &none  &none           &none           &none      &none  &none
+&kp TAB           &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp DELETE    &mmv MOVE_Y(200)   &none  &none           &kp UP_ARROW    &none      &none  &none
+&kp LEFT_SHIFT    &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &mmv MOVE_X(-200)  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none
+&kp LEFT_CONTROL  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &mmv MOVE_X(200)   &none  &none           &none           &none      &none  &none
+&none             &kp NUMBER_0   &kp PERIOD    &none         &none         &kp RET       &mkp MB2           &none  &none           &none           &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
