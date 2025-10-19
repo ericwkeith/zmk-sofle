@@ -106,7 +106,7 @@
 
         tobase {
             bindings = <&to 0>;
-            key-positions = <39 56>;
+            key-positions = <39 57>;
             layers = <3 1 2 4 5>;
         };
 
@@ -140,19 +140,19 @@
             layers = <0 3 1 2>;
         };
 
-        pageup {
+        scrolldown {
             bindings = <&msc SCRL_DOWN>;
-            key-positions = <17 15 16>;
+            key-positions = <17 15>;
             layers = <0 3 1 2>;
         };
 
-        pagedown {
+        scrollup {
             bindings = <&msc SCRL_UP>;
-            key-positions = <43 41 42>;
+            key-positions = <43 41>;
             layers = <0 3 1 2>;
         };
 
-        ccprefresh {
+        tilde {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
             layers = <0 3 1 2>;
@@ -178,7 +178,7 @@
 
         eid {
             bindings = <&eid>;
-            key-positions = <53 54 55>;
+            key-positions = <53 54 56>;
             layers = <0 3 1 2>;
         };
 
@@ -190,7 +190,7 @@
 
         elemaail {
             bindings = <&elemail>;
-            key-positions = <56 44 55>;
+            key-positions = <56 44 57>;
             layers = <0 3 1 2>;
         };
 
@@ -206,21 +206,9 @@
             layers = <0 3 1 2>;
         };
 
-        retrorighthand {
-            bindings = <&to 4>;
-            key-positions = <0 12 56 60>;
-            layers = <0>;
-        };
-
-        inverse {
+        btclr {
             bindings = <&bt BT_CLR>;
             key-positions = <0 13 26 39>;
-            layers = <0>;
-        };
-
-        minikeeb {
-            bindings = <&to 5>;
-            key-positions = <12 51 7 60>;
             layers = <0>;
         };
 
@@ -232,13 +220,13 @@
 
         switchdesktopleft {
             bindings = <&kp LG(LS(LEFT_ARROW))>;
-            key-positions = <28 29 30>;
+            key-positions = <43 42 41>;
             layers = <0 3 2>;
         };
 
         switchdesktopright {
             bindings = <&kp LG(LS(RIGHT))>;
-            key-positions = <34 35 36>;
+            key-positions = <49 48 47>;
             layers = <0 3 2>;
         };
     };
