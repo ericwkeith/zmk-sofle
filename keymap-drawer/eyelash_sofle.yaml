@@ -460,3 +460,9 @@ combos:
 - p: [37, 38]
   k: PgUp
   l: [base layer, fastmouse, slowmouse]
+- p: [25, 24]
+  k: '&mkp MB5'
+  l: [base layer, fastmouse, slowmouse]
+- p: [12, 11]
+  k: '&mkp MB4'
+  l: [base layer, fastmouse, slowmouse]
