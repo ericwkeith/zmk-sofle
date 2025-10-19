@@ -229,6 +229,18 @@
             key-positions = <49 48 47>;
             layers = <0 3 2>;
         };
+
+        paged {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <51 50>;
+            layers = <0 3 2>;
+        };
+
+        pageu {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <37 38>;
+            layers = <0 3 2>;
+        };
     };
 
     keymap {
