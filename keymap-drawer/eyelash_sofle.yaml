@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - '&mmv MOVE_Y(-400)'
+  - $$mdi:arrow-up-bold$$
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - '&mmv MOVE_Y(400)'
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - '&mmv MOVE_X(-400)'
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - {t: C, h: slowmouse}
   - {t: V, h: fastmouse}
   - B
-  - '&mmv MOVE_X(400)'
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', h: RIGHT GUI, s: <}
@@ -59,10 +59,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&mkp MB1'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   numpad:
