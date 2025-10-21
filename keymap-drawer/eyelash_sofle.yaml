@@ -391,7 +391,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
 combos:
-- p: [39, 57]
+- p: [57, 0]
   k: {t: base layer, h: toggle}
   l: [fastmouse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [27, 26, 28]
@@ -442,16 +442,16 @@ combos:
 - p: [39, 26, 40]
   k: '&thisisstup'
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [0, 13, 26, 39]
+- p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [base layer]
 - p: [5, 4, 17, 18]
   k: '&winlogin'
   l: [base layer, fastmouse, slowmouse, numpad]
-- p: [43, 42, 41]
+- p: [39, 26]
   k: Gui+Ctl+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, slowmouse]
-- p: [15, 16, 17]
+- p: [39, 57]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
 - p: [51, 50]
