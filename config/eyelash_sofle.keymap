@@ -226,7 +226,7 @@
 
         switchdesktopright {
             bindings = <&kp LG(LC(RIGHT))>;
-            key-positions = <39 57>;
+            key-positions = <57 56>;
             layers = <0 3 2>;
         };
 
@@ -270,7 +270,7 @@
 &kp TAB           &kp Q         &kp W               &kp E         &kp R         &kp T      &kp DOWN      &kp Y         &kp U      &kp I                &kp O                     &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S               &kp D         &kp F         &kp G      &kp LEFT      &kp H         &kp J      &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &lt 2 C       &lt 3 V       &kp B      &kp RIGHT     &kp N         &kp M      &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
-&kp K_MUTE        &kp LEFT_GUI  &kp LEFT_ALT        &none         &lt 1 RET     &kp RET    &kp RET       &kp SPACE     &kp SPACE  &kp SPACE            &none                     &none
+&kp K_MUTE        &none         &none               &kp LEFT_GUI  &lt 1 RET     &kp RET    &kp RET       &kp SPACE     &kp SPACE  &kp SPACE            &none                     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
