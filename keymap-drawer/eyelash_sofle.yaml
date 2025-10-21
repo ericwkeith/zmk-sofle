@@ -58,9 +58,9 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: numpad}
-  - Gui+Ctl+$$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB1'
-  - Gui+Ctl+$$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
