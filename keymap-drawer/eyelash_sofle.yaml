@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MUTE
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -451,7 +451,7 @@ combos:
 - p: [39, 26]
   k: Gui+Ctl+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, slowmouse]
-- p: [39, 57]
+- p: [57, 56]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
 - p: [51, 50]
