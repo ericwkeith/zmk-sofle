@@ -226,7 +226,7 @@
 
         switchdesktopright {
             bindings = <&kp LG(LC(RIGHT))>;
-            key-positions = <57 56>;
+            key-positions = <56 44>;
             layers = <0 3 2>;
         };
 
