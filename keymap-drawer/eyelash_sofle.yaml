@@ -451,7 +451,7 @@ combos:
 - p: [39, 26]
   k: Gui+Ctl+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, slowmouse]
-- p: [57, 56]
+- p: [56, 44]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
 - p: [51, 50]
