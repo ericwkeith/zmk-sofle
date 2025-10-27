@@ -96,6 +96,13 @@
             bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB &kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3 &kp RET>;
             label = "winlogin";
         };
+
+        ceiupdate: ceiupdate {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp SPACE &kp I &kp N &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp DOT>;
+            label = "CEIUPDATE";
+        };
     };
 
     behaviors {
@@ -140,9 +147,9 @@
             layers = <0 3 1 2>;
         };
 
-        scrolldown {
-            bindings = <&msc SCRL_DOWN>;
-            key-positions = <17 15>;
+        ceiupdate {
+            bindings = <&ceiupdate>;
+            key-positions = <17 15 16>;
             layers = <0 3 1 2>;
         };
 
@@ -168,12 +175,6 @@
             bindings = <&kp MINUS>;
             key-positions = <30 27>;
             layers = <0 3 1 2>;
-        };
-
-        maclogin {
-            bindings = <&pin>;
-            key-positions = <12 25 11>;
-            layers = <0 3 1 2 4 5>;
         };
 
         eid {
@@ -227,36 +228,6 @@
         switchdesktopright {
             bindings = <&kp LG(LC(RIGHT))>;
             key-positions = <56 44>;
-            layers = <0 3 2>;
-        };
-
-        paged {
-            bindings = <&kp PAGE_DOWN>;
-            key-positions = <51 50>;
-            layers = <0 3 2>;
-        };
-
-        pageu {
-            bindings = <&kp PAGE_UP>;
-            key-positions = <37 38>;
-            layers = <0 3 2>;
-        };
-
-        forward {
-            bindings = <&mkp MB5>;
-            key-positions = <25 24>;
-            layers = <0 3 2>;
-        };
-
-        back {
-            bindings = <&mkp MB4>;
-            key-positions = <12 11>;
-            layers = <0 3 2>;
-        };
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <8 7>;
             layers = <0 3 2>;
         };
     };
