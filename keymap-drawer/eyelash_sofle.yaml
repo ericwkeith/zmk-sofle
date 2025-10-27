@@ -445,9 +445,9 @@ combos:
 - p: [5, 4, 17, 18]
   k: '&winlogin'
   l: [base layer, fastmouse, slowmouse, numpad]
-- p: [39, 26]
+- p: [27, 28, 29]
   k: Gui+Ctl+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, slowmouse]
-- p: [56, 44]
+- p: [28, 29, 30]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
