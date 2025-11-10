@@ -40,12 +40,12 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - {t: X, h: '$$mdi:apple-keyboard-control$$'}
   - {t: C, h: slowmouse}
   - {t: V, h: fastmouse}
-  - B
+  - {t: '0', s: )}
   - $$mdi:arrow-right-bold$$
   - N
   - M
@@ -53,12 +53,12 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-control$$'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - MUTE
-  - '&mkp MB2'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: numpad}
-  - '&mkp MB1'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -122,7 +122,7 @@ layers:
   - '0'
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
