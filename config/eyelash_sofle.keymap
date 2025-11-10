@@ -62,13 +62,6 @@
             label = "EID";
         };
 
-        Rewrite: Rewrite {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
-            label = "REWRITE";
-        };
-
         thisisstup: thisisstup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -132,12 +125,6 @@
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <40 41>;
-            layers = <0 3 1 2>;
-        };
-
-        Rewrite {
-            bindings = <&Rewrite>;
-            key-positions = <43 44>;
             layers = <0 3 1 2>;
         };
 
