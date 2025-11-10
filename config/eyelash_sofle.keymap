@@ -41,59 +41,10 @@
     };
 
     macros {
-        eracmail: eracmail {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp R &kp I &kp C &kp DOT &kp K &kp E &kp I &kp T &kp H &kp AT &kp E &kp H &kp I &kp DOT &kp C &kp O &kp M>;
-            label = "ERACMAIL";
-        };
-
-        elemail: elemail {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp K &kp E &kp I &kp T &kp H &kp AT &kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp C &kp O &kp R &kp P &kp DOT &kp C &kp O &kp M>;
-            label = "ELEMAIL";
-        };
-
-        eid: eid {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB>;
-            label = "EID";
-        };
-
-        thisisstup: thisisstup {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3>;
-            label = "THISISSTUP";
-        };
-
-        ccprefresh: ccprefresh {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp LCLK &kp F5>;
-            label = "CCPREFRESH";
-        };
-
-        pin: pin {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N9 &kp N0 &kp N9 &kp N7 &kp RET>;
-            label = "PIN";
-        };
-
-        winlogin: winlogin {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB &kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3 &kp RET>;
-            label = "winlogin";
-        };
-
         ceiupdate: ceiupdate {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp SPACE &kp I &kp N &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp DOT>;
+            bindings = <&none &kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
             label = "CEIUPDATE";
         };
     };
@@ -104,12 +55,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tobase {
-            bindings = <&to 0>;
-            key-positions = <57 0>;
-            layers = <3 1 2 4 5>;
-        };
-
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <27 26 28>;
@@ -118,31 +63,25 @@
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <41 42>;
+            key-positions = <28 29>;
             layers = <0 3 1 2>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <40 41>;
+            key-positions = <40 41 39>;
             layers = <0 3 1 2>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <42 43>;
+            key-positions = <29 30>;
             layers = <0 3 1 2>;
         };
 
         ceiupdate {
             bindings = <&ceiupdate>;
-            key-positions = <17 15 16>;
-            layers = <0 3 1 2>;
-        };
-
-        scrollup {
-            bindings = <&msc SCRL_UP>;
-            key-positions = <43 41>;
+            key-positions = <31 26>;
             layers = <0 3 1 2>;
         };
 
@@ -154,7 +93,7 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <30 31>;
+            key-positions = <4 5>;
             layers = <0 3 1 2>;
         };
 
@@ -164,32 +103,14 @@
             layers = <0 3 1 2>;
         };
 
-        eid {
-            bindings = <&eid>;
-            key-positions = <53 54 56>;
-            layers = <0 3 1 2>;
-        };
-
-        eracmail {
-            bindings = <&eracmail>;
-            key-positions = <0 1 13>;
-            layers = <0 3 1 2>;
-        };
-
         elemaail {
             bindings = <&elemail>;
             key-positions = <56 44 57>;
             layers = <0 3 1 2>;
         };
 
-        slowmouse {
-            bindings = <&to 2>;
-            key-positions = <51 60>;
-            layers = <0 3 1 2>;
-        };
-
         workpass {
-            bindings = <&thisisstup>;
+            bindings = <&hatethisjob>;
             key-positions = <39 26 40>;
             layers = <0 3 1 2>;
         };
@@ -200,21 +121,15 @@
             layers = <0>;
         };
 
-        winglogin {
-            bindings = <&winlogin>;
-            key-positions = <5 4 17 18>;
-            layers = <0 3 2 1>;
-        };
-
         switchdesktopleft {
             bindings = <&kp LG(LC(LEFT_ARROW))>;
-            key-positions = <27 28 29>;
+            key-positions = <27 26>;
             layers = <0 3 2>;
         };
 
         switchdesktopright {
             bindings = <&kp LG(LC(RIGHT))>;
-            key-positions = <28 29 30>;
+            key-positions = <30 31>;
             layers = <0 3 2>;
         };
     };
@@ -249,11 +164,11 @@
 
         slowmouse {
             bindings = <
-&none        &none   &none   &none   &none   &none    &trans  &none  &none              &none              &none             &none   &none
-&none        &none   &none   &none   &none   &none    &trans  &none  &msc SCRL_DOWN     &mmv MOVE_Y(-200)  &msc SCRL_UP      &none   &none
-&none        &none   &none   &none   &none   &none    &trans  &none  &mmv MOVE_X(-200)  &mmv MOVE_Y(200)   &mmv MOVE_X(200)  &none   &none
-&thisisstup  &none   &none   &none   &none   &none    &trans  &none  &none              &mkp MB3           &none             &none   &mkp MB2
-&trans       &trans  &trans  &trans  &trans  &none    &trans  &none  &mkp MB1           &trans             &trans            &trans
+&none         &none   &none   &none   &none   &none    &trans  &none  &none              &none              &none             &none   &none
+&none         &none   &none   &none   &none   &none    &trans  &none  &msc SCRL_DOWN     &mmv MOVE_Y(-200)  &msc SCRL_UP      &none   &none
+&none         &none   &none   &none   &none   &none    &trans  &none  &mmv MOVE_X(-200)  &mmv MOVE_Y(200)   &mmv MOVE_X(200)  &none   &none
+&hatethisjob  &none   &none   &none   &none   &none    &trans  &none  &none              &mkp MB3           &none             &none   &mkp MB2
+&trans        &trans  &trans  &trans  &trans  &none    &trans  &none  &mkp MB1           &trans             &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -261,11 +176,11 @@
 
         fastmouse {
             bindings = <
-&none        &none   &none   &none   &none   &none    &trans  &none  &none           &none           &none            &none   &none
-&none        &none   &none   &none   &none   &none    &trans  &none  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &none   &none
-&none        &none   &none   &none   &none   &none    &trans  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &none
-&thisisstup  &none   &none   &none   &none   &none    &trans  &none  &none           &mkp MB3        &none            &none   &mkp MB2
-&trans       &trans  &trans  &trans  &trans  &none    &trans  &none  &mkp MB1        &trans          &trans           &trans
+&none         &none   &none   &none   &none   &none    &trans  &none  &none           &none           &none            &none   &none
+&none         &none   &none   &none   &none   &none    &trans  &none  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &none   &none
+&none         &none   &none   &none   &none   &none    &trans  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &none
+&hatethisjob  &none   &none   &none   &none   &none    &trans  &none  &none           &mkp MB3        &none            &none   &mkp MB2
+&trans        &trans  &trans  &trans  &trans  &none    &trans  &none  &mkp MB1        &trans          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
