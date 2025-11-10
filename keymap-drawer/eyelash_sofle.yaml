@@ -403,9 +403,6 @@ combos:
 - p: [40, 41]
   k: Ctl+Z
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [43, 44]
-  k: '&Rewrite'
-  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [42, 43]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
