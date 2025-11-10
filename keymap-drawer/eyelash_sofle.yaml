@@ -170,7 +170,7 @@ layers:
   - '&mmv MOVE_X(200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&thisisstup'
+  - '&hatethisjob'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&thisisstup'
+  - '&hatethisjob'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -391,60 +391,42 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
 combos:
-- p: [57, 0]
-  k: {t: base layer, h: toggle}
-  l: [fastmouse, numpad, slowmouse, retrorighthand, minikeeb]
 - p: [27, 26, 28]
   k: Ctl+A
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [41, 42]
+- p: [28, 29]
   k: Ctl+C
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [40, 41]
+- p: [40, 41, 39]
   k: Ctl+Z
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [42, 43]
+- p: [29, 30]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [17, 15, 16]
+- p: [31, 26]
   k: '&ceiupdate'
-  l: [base layer, fastmouse, numpad, slowmouse]
-- p: [43, 41]
-  k: $$mdi:pan-up$$
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [0, 1]
   k: {t: '`', s: '~'}
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [30, 31]
+- p: [4, 5]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 27]
   k: {t: '-', s: _}
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [53, 54, 56]
-  k: '&eid'
-  l: [base layer, fastmouse, numpad, slowmouse]
-- p: [0, 1, 13]
-  k: '&eracmail'
-  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [56, 44, 57]
   k: '&elemail'
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [51, 60]
-  k: {t: slowmouse, h: toggle}
-  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [39, 26, 40]
-  k: '&thisisstup'
+  k: '&hatethisjob'
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [base layer]
-- p: [5, 4, 17, 18]
-  k: '&winlogin'
-  l: [base layer, fastmouse, slowmouse, numpad]
-- p: [27, 28, 29]
+- p: [27, 26]
   k: Gui+Ctl+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, slowmouse]
-- p: [28, 29, 30]
+- p: [30, 31]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
