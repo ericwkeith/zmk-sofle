@@ -66,8 +66,8 @@ layers:
   - Gui+Ctl+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   numpad:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+C
+  - Ctl+V
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
