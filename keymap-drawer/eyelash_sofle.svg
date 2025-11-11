@@ -656,12 +656,16 @@ rect.held, rect.combo.held {
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="159" y="30" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="47" y="159" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<path d="M140,152 l-38,11" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="131" y="143" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="271" y="138" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
+<path d="M196,145 l37,2" class="combo"/>
+<path d="M196,145 l-37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="187" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
 <g class="combo combopos-10">
 <path d="M28,140 l0,-65" class="combo"/>
@@ -1416,12 +1420,16 @@ rect.held, rect.combo.held {
 <text x="168" y="147" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="47" y="159" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<path d="M140,152 l-38,11" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="131" y="143" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="271" y="138" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
+<path d="M196,145 l37,2" class="combo"/>
+<path d="M196,145 l-37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="187" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
 </g>
 </g>
@@ -1795,12 +1803,16 @@ rect.held, rect.combo.held {
 <text x="168" y="147" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="47" y="159" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
+<path d="M140,152 l38,-8" class="combo"/>
+<path d="M140,152 l-38,11" class="combo"/>
+<rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="131" y="143" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="271" y="138" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
+<path d="M196,145 l37,2" class="combo"/>
+<path d="M196,145 l-37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="187" y="136" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
 </g>
 </g>

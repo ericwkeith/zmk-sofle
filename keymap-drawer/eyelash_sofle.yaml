@@ -285,10 +285,10 @@ combos:
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [base layer]
-- p: [27, 26]
+- p: [29, 28, 27]
   k: Gui+Ctl+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, slowmouse]
-- p: [30, 31]
+- p: [30, 29, 28]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
 - p: [0, 39]
