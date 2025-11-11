@@ -57,7 +57,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: numpad}
