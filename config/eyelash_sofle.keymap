@@ -119,7 +119,7 @@
         };
 
         perworkflow {
-            bindings = <&stupid>;
+            bindings = <&perworkflow>;
             key-positions = <0 5>;
             layers = <0>;
         };
