@@ -303,3 +303,6 @@ combos:
 - p: [39, 57]
   k: '&forrewrite'
   l: [base layer]
+- p: [31, 26]
+  k: '&awaitingupdate'
+  l: [base layer]
