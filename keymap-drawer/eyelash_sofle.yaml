@@ -66,11 +66,11 @@ layers:
   - Gui+Ctl+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   numpad:
+  - $$mdi:keyboard-esc$$
   - Ctl+C
-  - Ctl+V
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - '&mkp MB4'
