@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   numpad:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
