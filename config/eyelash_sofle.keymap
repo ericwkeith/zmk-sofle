@@ -111,6 +111,12 @@
             key-positions = <0 39>;
             layers = <0>;
         };
+
+        stupid {
+            bindings = <&stupid>;
+            key-positions = <13 26>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -119,6 +125,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(H) &kp A &kp T &kp E &kp T &kp H &kp I &kp S &kp J &kp O &kp B &kp POUND &kp N3>;
             label = "HATETHISJOB";
+        };
+
+        stupid: stupid {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3>;
+            label = "STUPID";
         };
     };
 
@@ -131,7 +144,7 @@
 &kp TAB           &kp Q         &kp W               &kp E         &kp R         &kp T        &kp DOWN      &kp Y         &kp U      &kp I                &kp O                     &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S               &kp D         &kp F         &kp G        &kp LEFT      &kp H         &kp J      &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &lt 2 C       &lt 3 V       &kp B        &kp RIGHT     &kp N         &kp M      &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
-&kp K_MUTE        &kp LC(C)     &kp LC(V)           &kp RET       &kp RET       &lt 1 RET    &kp RET       &kp SPACE     &kp SPACE  &kp SPACE            &none                     &none
+&kp K_MUTE        &kp DELETE    &kp LC(C)           &kp LC(V)     &kp RET       &lt 1 RET    &kp RET       &lt 1 SPACE   &kp SPACE  &kp SPACE            &none                     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -140,11 +153,11 @@
 
         numpad {
             bindings = <
-&none             &none          &none         &none         &none         &none         &kp K_NEXT        &none  &none           &none           &none      &none  &none
-&kp TAB           &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp DELETE    &kp K_PREV        &none  &none           &kp UP_ARROW    &none      &none  &none
-&kp LEFT_SHIFT    &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &mkp MB4          &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none  &none
-&kp LEFT_CONTROL  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &mkp MB5          &none  &none           &none           &none      &none  &none
-&trans            &kp NUMBER_0   &kp PERIOD    &none         &none         &none         &kp K_PLAY_PAUSE  &none  &kp RET         &none           &none      &none
+&none             &none          &none         &none         &none         &kp BACKSPACE    &kp K_NEXT        &none          &none         &none         &none         &none         &kp BACKSPACE
+&kp TAB           &kp PLUS       &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0     &kp K_PREV        &kp PLUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+&kp LEFT_SHIFT    &kp DELETE     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS        &mkp MB4          &kp DELETE     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &none
+&kp LEFT_CONTROL  &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH        &mkp MB5          &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp RET
+&trans            &kp NUMBER_0   &kp PERIOD    &none         &kp RET       &kp RET          &kp K_PLAY_PAUSE  &kp SPACE      &kp SPACE     &kp NUMBER_0  &kp PERIOD    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
