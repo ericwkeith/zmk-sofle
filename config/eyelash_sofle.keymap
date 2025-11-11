@@ -117,6 +117,18 @@
             key-positions = <13 26>;
             layers = <0>;
         };
+
+        perworkflow {
+            bindings = <&stupid>;
+            key-positions = <0 5>;
+            layers = <0>;
+        };
+
+        forrewrite {
+            bindings = <&forrewrite>;
+            key-positions = <39 57>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -132,6 +144,20 @@
             #binding-cells = <0>;
             bindings = <&none &kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3>;
             label = "STUPID";
+        };
+
+        perworkflow: perworkflow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(P) &kp E &kp R &kp SPACE &kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W &kp DOT>;
+            label = "PERWORKFLOW";
+        };
+
+        forrewrite: forrewrite {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(F) &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
+            label = "FORREWRITE";
         };
     };
 
