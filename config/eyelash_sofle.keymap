@@ -96,13 +96,13 @@
 
         switchdesktopleft {
             bindings = <&kp LG(LC(LEFT_ARROW))>;
-            key-positions = <27 26>;
+            key-positions = <29 28 27>;
             layers = <0 3 2>;
         };
 
         switchdesktopright {
             bindings = <&kp LG(LC(RIGHT))>;
-            key-positions = <30 31>;
+            key-positions = <30 29 28>;
             layers = <0 3 2>;
         };
 
