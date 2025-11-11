@@ -129,6 +129,12 @@
             key-positions = <39 57>;
             layers = <0>;
         };
+
+        awaitingupdate {
+            bindings = <&awaitingupdate>;
+            key-positions = <31 26>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -158,6 +164,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp LS(F) &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
             label = "FORREWRITE";
+        };
+
+        awaitingupdate: awaitingupdate {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp DOT>;
+            label = "AWAITINGUPDATE";
         };
     };
 
