@@ -298,7 +298,7 @@ combos:
   k: '&stupid'
   l: [base layer]
 - p: [0, 5]
-  k: '&stupid'
+  k: '&perworkflow'
   l: [base layer]
 - p: [39, 57]
   k: '&forrewrite'
