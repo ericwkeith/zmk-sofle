@@ -105,6 +105,21 @@
             key-positions = <30 31>;
             layers = <0 3 2>;
         };
+
+        hatethisjob {
+            bindings = <&hatethisjob>;
+            key-positions = <0 39>;
+            layers = <0>;
+        };
+    };
+
+    macros {
+        hatethisjob: hatethisjob {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp A &kp T &kp E &kp T &kp H &kp I &kp S &kp J &kp O &kp B &kp POUND &kp N3>;
+            label = "HATETHISJOB";
+        };
     };
 
     keymap {
