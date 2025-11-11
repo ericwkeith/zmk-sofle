@@ -403,9 +403,6 @@ combos:
 - p: [29, 30]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [31, 26]
-  k: '&ceiupdate'
-  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [0, 1]
   k: {t: '`', s: '~'}
   l: [base layer, fastmouse, numpad, slowmouse]
@@ -414,12 +411,6 @@ combos:
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, fastmouse, numpad, slowmouse]
-- p: [56, 44, 57]
-  k: '&elemail'
-  l: [base layer, fastmouse, numpad, slowmouse]
-- p: [39, 26, 40]
-  k: '&hatethisjob'
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
