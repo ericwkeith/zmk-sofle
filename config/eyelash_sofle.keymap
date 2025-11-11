@@ -40,15 +40,6 @@
         tap-ms = <100>;
     };
 
-    macros {
-        ceiupdate: ceiupdate {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
-            label = "CEIUPDATE";
-        };
-    };
-
     behaviors {
     };
 
@@ -79,12 +70,6 @@
             layers = <0 3 1 2>;
         };
 
-        ceiupdate {
-            bindings = <&ceiupdate>;
-            key-positions = <31 26>;
-            layers = <0 3 1 2>;
-        };
-
         tilde {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
@@ -100,18 +85,6 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <30 27>;
-            layers = <0 3 1 2>;
-        };
-
-        elemaail {
-            bindings = <&elemail>;
-            key-positions = <56 44 57>;
-            layers = <0 3 1 2>;
-        };
-
-        workpass {
-            bindings = <&hatethisjob>;
-            key-positions = <39 26 40>;
             layers = <0 3 1 2>;
         };
 
