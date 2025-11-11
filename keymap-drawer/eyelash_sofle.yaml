@@ -421,3 +421,6 @@ combos:
 - p: [30, 31]
   k: Gui+Ctl+$$mdi:arrow-right-bold$$
   l: [base layer, fastmouse, slowmouse]
+- p: [0, 39]
+  k: '&hatethisjob'
+  l: [base layer]
