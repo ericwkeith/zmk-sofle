@@ -192,7 +192,7 @@
 
         numpad {
             bindings = <
-&none             &none          &kp RC(RG(LEFT))  &kp RC(RG(RIGHT))  &none         &kp BACKSPACE    &kp UP_ARROW    &mkp MB4       &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &mkp MB5      &kp BACKSPACE
+&kp LC(C)         &kp LC(V)      &kp RC(RG(LEFT))  &kp RC(RG(RIGHT))  &none         &kp BACKSPACE    &kp UP_ARROW    &mkp MB4       &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &mkp MB5      &kp BACKSPACE
 &kp TAB           &kp PLUS       &kp NUMBER_7      &kp N8             &kp NUMBER_9  &kp NUMBER_0     &kp DOWN_ARROW  &kp PLUS       &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0  &none
 &kp LEFT_SHIFT    &kp DELETE     &kp NUMBER_4      &kp NUMBER_5       &kp NUMBER_6  &kp MINUS        &kp LEFT_ARROW  &kp DELETE     &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp MINUS     &none
 &kp LEFT_CONTROL  &kp BACKSLASH  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3  &kp SLASH        &kp RIGHT       &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp SLASH     &kp RET
