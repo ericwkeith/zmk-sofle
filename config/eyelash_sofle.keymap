@@ -127,11 +127,11 @@
 
         base {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp UP_ARROW  &kp NUMBER_6  &kp N7     &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
-&kp TAB           &kp Q         &kp W               &kp E         &kp R         &kp T      &kp DOWN      &kp Y         &kp U      &kp I                &kp O                     &kp P          &kp BACKSLASH
-&kp LEFT_CONTROL  &kp A         &kp S               &kp D         &kp F         &kp G      &kp LEFT      &kp H         &kp J      &kp K                &kp L                     &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &lt 2 C       &lt 3 V       &kp B      &kp RIGHT     &kp N         &kp M      &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
-&kp K_MUTE        &kp LC(C)     &kp LC(V)           &kp RET       &kp RET       &kp RET    &kp RET       &kp SPACE     &kp SPACE  &kp SPACE            &none                     &none
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp UP_ARROW  &kp NUMBER_6  &kp N7     &kp N8               &kp N9                    &kp N0         &kp BACKSPACE
+&kp TAB           &kp Q         &kp W               &kp E         &kp R         &kp T        &kp DOWN      &kp Y         &kp U      &kp I                &kp O                     &kp P          &kp BACKSLASH
+&kp LEFT_CONTROL  &kp A         &kp S               &kp D         &kp F         &kp G        &kp LEFT      &kp H         &kp J      &kp K                &kp L                     &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &lt 2 C       &lt 3 V       &kp B        &kp RIGHT     &kp N         &kp M      &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
+&kp K_MUTE        &kp LC(C)     &kp LC(V)           &kp RET       &kp RET       &lt 1 RET    &kp RET       &kp SPACE     &kp SPACE  &kp SPACE            &none                     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -172,26 +172,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
-        retrorighthand {
-            bindings = <
-&kp ESC           &kp N1      &kp N2  &kp N3  &kp N4     &kp N5    &mmv MOVE_UP     &kp N6  &kp N7  &kp N8  &kp N9             &kp N0  &kp BSPC
-&kp TAB           &kp Q       &kp W   &kp E   &kp R      &kp T     &mmv MOVE_DOWN   &kp Q   &kp W   &kp E   &kp R              &kp T   &kp T
-&kp LEFT_CONTROL  &kp A       &kp S   &kp D   &kp F      &kp G     &mmv MOVE_LEFT   &kp A   &kp S   &kp D   &kp F              &kp G   &kp RET
-&kp LSHFT         &kp Z       &kp X   &kp C   &kp V      &kp B     &mmv MOVE_RIGHT  &kp Z   &kp X   &kp C   &kp V              &kp B   &kp RSHFT
-&kp K_MUTE        &kp DELETE  &none   &none   &kp SPACE  &none     &mkp LCLK        &none   &kp J   &kp K   &kp RIGHT_BRACKET  &kp L
-            >;
-        };
-
-        minikeeb {
-            bindings = <
-&none  &none  &none  &none  &none  &none    &kp UP_ARROW    &kp ESCAPE    &kp NUMBER_1      &kp NUMBER_2       &kp SPACE        &kp O    &kp L
-&none  &none  &none  &none  &none  &none    &kp DOWN_ARROW  &kp TAB       &mkp MB1          &mmv MOVE_UP       &mkp MB2         &kp I    &kp K
-&none  &none  &none  &none  &none  &none    &kp LEFT_ARROW  &kp NUMBER_3  &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT  &kp U    &kp J
-&none  &none  &none  &none  &none  &none    &kp RIGHT       &kp E         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp Y    &kp H
-&none  &none  &none  &none  &none  &none    &none           &none         &kp D             &kp F              &kp LEFT_SHIFT   &kp RET
-            >;
         };
     };
 };
