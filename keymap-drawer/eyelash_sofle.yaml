@@ -55,8 +55,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MUTE
   - $$mdi:backspace-reverse-outline$$
-  - Ctl+C
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -67,10 +67,10 @@ layers:
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   numpad:
   - $$mdi:keyboard-esc$$
-  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - '&mkp MB4'
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  - '4'
-  - '5'
+  - Gui+Ctl+$$mdi:arrow-left-bold$$
+  - Gui+Ctl+$$mdi:arrow-right-bold$$
   - '6'
   - {t: '-', s: _}
   - $$mdi:arrow-left-bold$$
@@ -121,8 +121,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
   - .
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
@@ -261,13 +261,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [27, 26, 28]
+- p: [27, 26]
   k: Ctl+A
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [28, 29]
   k: Ctl+C
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [40, 41, 39]
+- p: [40, 39]
   k: Ctl+Z
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [29, 30]
@@ -282,15 +282,9 @@ combos:
 - p: [30, 27]
   k: {t: '-', s: _}
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [1, 2, 3, 4]
+- p: [0, 57, 39]
   k: $$mdi:bluetooth-off$$
   l: [base layer]
-- p: [29, 28, 27]
-  k: Gui+Ctl+$$mdi:arrow-left-bold$$
-  l: [base layer, fastmouse, slowmouse]
-- p: [30, 29, 28]
-  k: Gui+Ctl+$$mdi:arrow-right-bold$$
-  l: [base layer, fastmouse, slowmouse]
 - p: [0, 39]
   k: '&hatethisjob'
   l: [base layer]
