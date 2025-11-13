@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   numpad:
   - $$mdi:keyboard-esc$$
