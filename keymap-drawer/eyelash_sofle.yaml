@@ -66,7 +66,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   numpad:
-  - $$mdi:keyboard-esc$$
+  - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -299,4 +299,10 @@ combos:
   l: [base layer]
 - p: [31, 26]
   k: '&awaitingupdate'
+  l: [base layer]
+- p: [0, 1]
+  k: '&pend'
+  l: [base layer]
+- p: [13, 14]
+  k: '&perAI'
   l: [base layer]
