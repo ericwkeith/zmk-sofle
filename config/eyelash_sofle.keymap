@@ -94,8 +94,8 @@
             layers = <0>;
         };
 
-        stupid {
-            bindings = <&stupid>;
+        UID {
+            bindings = <&UID>;
             key-positions = <13 26>;
             layers = <0>;
         };
@@ -139,13 +139,6 @@
             label = "HATETHISJOB";
         };
 
-        stupid: stupid {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(T) &kp H &kp I &kp S &kp I &kp S &kp S &kp T &kp U &kp P &kp I &kp D &kp POUND &kp N3>;
-            label = "STUPID";
-        };
-
         perworkflow: perworkflow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -179,6 +172,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp LS(P) &kp E &kp R &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp COLON &kp SPACE &kp RET &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
             label = "PERAI";
+        };
+
+        UID: UID {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB>;
+            label = "UID";
         };
     };
 
