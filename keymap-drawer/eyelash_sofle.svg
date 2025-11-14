@@ -625,62 +625,57 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">`</text>
-<text x="56" y="45" class="combo shifted">~</text>
-</g>
-<g class="combo backspace combopos-5">
+<g class="combo backspace combopos-4">
 <rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="271" y="26" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M168,158 l65,-8" class="combo"/>
 <path d="M168,158 l-65,8" class="combo"/>
 <rect rx="6" ry="6" x="154" y="145" width="28" height="26" class="combo"/>
 <text x="168" y="158" class="combo tap">-</text>
 <text x="168" y="147" class="combo shifted">_</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <path d="M148,192 l-108,-121" class="combo"/>
 <path d="M148,192 l224,95" class="combo"/>
 <path d="M148,192 l-102,28" class="combo"/>
 <rect rx="6" ry="6" x="134" y="179" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="139" y="183" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M28,140 l0,-65" class="combo"/>
 <path d="M28,140 l0,65" class="combo"/>
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
 <text x="28" y="140" class="combo tap"><tspan style="font-size: 60%">&amp;hatethis…</tspan></text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
 <text x="28" y="140" class="combo tap"><tspan style="font-size: 86%">&amp;stupid</tspan></text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M168,46 l-121,9" class="combo"/>
 <path d="M168,46 l121,-9" class="combo"/>
 <rect rx="6" ry="6" x="154" y="33" width="28" height="26" class="combo"/>
 <text x="168" y="46" class="combo tap"><tspan style="font-size: 60%">&amp;perworkf…</tspan></text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-10">
 <path d="M209,259 l-162,-31" class="combo"/>
 <path d="M209,259 l162,31" class="combo"/>
 <rect rx="6" ry="6" x="195" y="246" width="28" height="26" class="combo"/>
 <text x="209" y="259" class="combo tap"><tspan style="font-size: 60%">&amp;forrewri…</tspan></text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-11">
 <path d="M168,158 l121,-9" class="combo"/>
 <path d="M168,158 l-121,9" class="combo"/>
 <rect rx="6" ry="6" x="154" y="145" width="28" height="26" class="combo"/>
 <text x="168" y="158" class="combo tap"><tspan style="font-size: 60%">&amp;awaiting…</tspan></text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
 <text x="56" y="56" class="combo tap">&amp;pend</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="42" y="99" width="28" height="26" class="combo"/>
 <text x="56" y="112" class="combo tap">&amp;perAI</text>
 </g>
@@ -1034,16 +1029,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">`</text>
-<text x="56" y="45" class="combo shifted">~</text>
-</g>
-<g class="combo backspace combopos-5">
+<g class="combo backspace combopos-4">
 <rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="271" y="26" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M168,158 l65,-8" class="combo"/>
 <path d="M168,158 l-65,8" class="combo"/>
 <rect rx="6" ry="6" x="154" y="145" width="28" height="26" class="combo"/>
@@ -1405,16 +1395,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">`</text>
-<text x="56" y="45" class="combo shifted">~</text>
-</g>
-<g class="combo backspace combopos-5">
+<g class="combo backspace combopos-4">
 <rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="271" y="26" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M168,158 l65,-8" class="combo"/>
 <path d="M168,158 l-65,8" class="combo"/>
 <rect rx="6" ry="6" x="154" y="145" width="28" height="26" class="combo"/>
@@ -1772,16 +1757,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <text x="224" y="144" class="combo tap">Ctl+V</text>
 </g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">`</text>
-<text x="56" y="45" class="combo shifted">~</text>
-</g>
-<g class="combo backspace combopos-5">
+<g class="combo backspace combopos-4">
 <rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="271" y="26" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M168,158 l65,-8" class="combo"/>
 <path d="M168,158 l-65,8" class="combo"/>
 <rect rx="6" ry="6" x="154" y="145" width="28" height="26" class="combo"/>
