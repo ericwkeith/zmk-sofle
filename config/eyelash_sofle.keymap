@@ -197,7 +197,7 @@
 &kp TAB           &kp Q         &kp W               &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I                &kp O                     &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S               &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &lt 2 C       &lt 3 V       &kp B           &kp RIGHT     &kp N         &kp M         &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
-&kp K_MUTE        &kp DELETE    &none               &kp SPACE     &kp SPACE     &lt 1 RET       &kp RET       &lt 1 RET     &kp SPACE     &kp SPACE            &none                     &kp SLASH
+&kp K_MUTE        &kp DELETE    &none               &none         &kp RET       &lt 1 RET       &kp RET       &kp SPACE     &kp SPACE     &none                &none                     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -210,7 +210,7 @@
 &kp TAB           &none  &none             &none              &none      &none                &kp DOWN_ARROW  &kp PLUS       &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0  &none
 &kp LC(LG(LEFT))  &none  &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))  &kp RG(V)  &kp RG(RC(RIGHT))    &kp LEFT_ARROW  &kp DELETE     &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp MINUS     &none
 &none             &none  &none             &none              &none      &none                &kp RIGHT       &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp SLASH     &kp RET
-&trans            &none  &none             &kp SPACE          &kp SPACE  &kp RET              &kp RET         &kp RET        &kp NUMBER_0  &kp NUMBER_0      &kp PERIOD    &none
+&trans            &none  &none             &kp SPACE          &kp SPACE  &kp RET              &kp RET         &kp SPACE      &kp NUMBER_0  &kp NUMBER_0      &kp PERIOD    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
