@@ -123,6 +123,18 @@
             key-positions = <31 26>;
             layers = <0>;
         };
+
+        pend {
+            bindings = <&pend>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+
+        perAI {
+            bindings = <&perAI>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -160,6 +172,20 @@
             bindings = <&none &kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp DOT>;
             label = "AWAITINGUPDATE";
         };
+
+        pend: pend {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(E) &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp P &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp D &kp A &kp T &kp E &kp DOT>;
+            label = "PEND";
+        };
+
+        perAI: perAI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(P) &kp E &kp R &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp COLON &kp SPACE &kp RET &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
+            label = "PERAI";
+        };
     };
 
     keymap {
@@ -180,7 +206,7 @@
 
         numpad {
             bindings = <
-&kp ESCAPE        &none  &none             &none              &none      &none                &kp UP_ARROW    &mkp MB4       &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &mkp MB5      &kp BACKSPACE
+&kp TILDE         &none  &none             &none              &none      &none                &kp UP_ARROW    &mkp MB4       &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &mkp MB5      &kp BACKSPACE
 &kp TAB           &none  &none             &none              &none      &none                &kp DOWN_ARROW  &kp PLUS       &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0  &none
 &kp LC(LG(LEFT))  &none  &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))  &kp RG(V)  &kp RG(RC(RIGHT))    &kp LEFT_ARROW  &kp DELETE     &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp MINUS     &none
 &none             &none  &none             &none              &none      &none                &kp RIGHT       &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp SLASH     &kp RET
