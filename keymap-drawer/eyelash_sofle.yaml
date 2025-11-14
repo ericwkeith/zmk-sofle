@@ -93,10 +93,10 @@ layers:
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Gui+$$mdi:arrow-left-bold$$
-  - Gui+Ctl+$$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Ctl+$$mdi:arrow-left-bold$$
   - Gui+Ctl+$$mdi:arrow-right-bold$$
-  - Gui+Ctl+$$mdi:arrow-right-bold$$
+  - Gui+V
   - Gui+Ctl+$$mdi:arrow-right-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:backspace-reverse-outline$$
