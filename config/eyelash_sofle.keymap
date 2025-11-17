@@ -58,12 +58,6 @@
             layers = <0 3 1 2>;
         };
 
-        undo {
-            bindings = <&kp LC(Z)>;
-            key-positions = <40 39 26>;
-            layers = <0 3 1 2>;
-        };
-
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <29 30>;
