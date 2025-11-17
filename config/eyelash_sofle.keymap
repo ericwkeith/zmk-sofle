@@ -135,6 +135,18 @@
             key-positions = <5 4>;
             layers = <0>;
         };
+
+        selectall {
+            bindings = <&kp LC(A)>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <40 39>;
+            layers = <0>;
+        };
     };
 
     macros {
