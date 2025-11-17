@@ -261,19 +261,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [27, 26]
+- p: [0, 1]
   k: Ctl+Gui+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [28, 29]
   k: Ctl+C
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [40, 39]
+- p: [40, 39, 26]
   k: Ctl+Z
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [29, 30]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [4, 5]
+- p: [31, 30]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 27]
@@ -297,12 +297,12 @@ combos:
 - p: [31, 26]
   k: '&awaitingupdate'
   l: [base layer]
-- p: [0, 1]
+- p: [53, 54]
   k: '&pend'
   l: [base layer]
 - p: [13, 14]
   k: '&perAI'
   l: [base layer]
-- p: [31, 30]
+- p: [5, 4]
   k: Ctl+Gui+$$mdi:arrow-right-bold$$
   l: [base layer]
