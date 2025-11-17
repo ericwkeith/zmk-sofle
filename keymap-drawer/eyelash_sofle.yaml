@@ -273,7 +273,7 @@ combos:
 - p: [29, 30]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [31, 30]
+- p: [17, 18]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [30, 27]
