@@ -309,6 +309,6 @@ combos:
 - p: [40, 39]
   k: Ctl+Z
   l: [base layer]
-- p: [29, 30]
+- p: [30, 31]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
