@@ -262,7 +262,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [27, 26]
-  k: Ctl+A
+  k: Ctl+Gui+$$mdi:arrow-left-bold$$
   l: [base layer, fastmouse, numpad, slowmouse]
 - p: [28, 29]
   k: Ctl+C
@@ -302,4 +302,7 @@ combos:
   l: [base layer]
 - p: [13, 14]
   k: '&perAI'
+  l: [base layer]
+- p: [31, 30]
+  k: Ctl+Gui+$$mdi:arrow-right-bold$$
   l: [base layer]
