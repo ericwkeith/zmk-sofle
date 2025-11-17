@@ -141,6 +141,12 @@
             key-positions = <40 39>;
             layers = <0>;
         };
+
+        paste2 {
+            bindings = <&kp LC(V)>;
+            key-positions = <29 30>;
+            layers = <0 3 1 2>;
+        };
     };
 
     macros {
