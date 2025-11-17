@@ -46,8 +46,8 @@
     combos {
         compatible = "zmk,combos";
 
-        selectall {
-            bindings = <&kp LC(A)>;
+        desktopleft {
+            bindings = <&kp LC(LG(LEFT_ARROW))>;
             key-positions = <27 26>;
             layers = <0 3 1 2>;
         };
@@ -127,6 +127,12 @@
         perAI {
             bindings = <&perAI>;
             key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        desktopright {
+            bindings = <&kp RC(RG(RIGHT))>;
+            key-positions = <31 30>;
             layers = <0>;
         };
     };
