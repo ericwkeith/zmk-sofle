@@ -176,7 +176,7 @@
         perAI: perAI {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(P) &kp E &kp R &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp COLON &kp SPACE &kp RET &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
+            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp COLON &kp SPACE &kp RET &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
             label = "PERAI";
         };
 
@@ -197,7 +197,7 @@
 &kp TAB           &kp Q         &kp W               &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I                &kp O                     &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S               &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K                &kp L                     &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &mt LEFT_CONTROL X  &lt 2 C       &lt 3 V       &kp B           &kp RIGHT     &kp N         &kp M         &mt RIGHT_GUI COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH      &kp RET
-&kp K_MUTE        &kp DELETE    &none               &kp RET       &kp RET       &lt 1 RET       &kp RET       &kp SPACE     &kp SPACE     &kp SPACE            &none                     &kp SLASH
+&to 0             &kp DELETE    &none               &kp RET       &kp RET       &lt 1 RET       &kp RET       &kp SPACE     &kp SPACE     &kp SPACE            &none                     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
