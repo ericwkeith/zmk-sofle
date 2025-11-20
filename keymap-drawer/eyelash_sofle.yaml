@@ -330,3 +330,5 @@ combos:
   k: '&shopnovm'
 - p: [56, 57]
   k: '&checkback'
+- p: [56, 57, 55]
+  k: '&hold'
