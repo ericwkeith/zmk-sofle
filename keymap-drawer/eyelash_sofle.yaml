@@ -322,3 +322,5 @@ combos:
   k: '&rentalupdate'
 - p: [25, 12, 11]
   k: '&task'
+- p: [37, 38, 50]
+  k: '&rewritemail'
