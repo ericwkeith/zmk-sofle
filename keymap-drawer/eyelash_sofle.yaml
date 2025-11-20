@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,7 +255,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -276,7 +276,7 @@ combos:
 - p: [30, 27]
   k: {t: '-', s: _}
   l: [base layer, fastmouse, numpad, slowmouse]
-- p: [0, 57, 39]
+- p: [52, 57]
   k: $$mdi:bluetooth-off$$
   l: [base layer]
 - p: [0, 39]
@@ -316,3 +316,7 @@ combos:
   k: '&elemail'
 - p: [5, 4, 18]
   k: '&eracmail'
+- p: [59, 60, 46]
+  k: '&LM4info'
+- p: [60, 46, 61]
+  k: '&rentalupdate'
