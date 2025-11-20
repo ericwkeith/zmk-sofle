@@ -157,6 +157,16 @@
             bindings = <&eracmail>;
             key-positions = <5 4 18>;
         };
+
+        lm4info {
+            bindings = <&LM4info>;
+            key-positions = <59 60 46>;
+        };
+
+        rentalupdate {
+            bindings = <&rentalupdate>;
+            key-positions = <60 46 61>;
+        };
     };
 
     macros {
@@ -221,6 +231,20 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp R &kp I &kp C &kp DOT &kp K &kp E &kp I &kp T &kp H &kp AT &kp E &kp H &kp I &kp DOT &kp C &kp O &kp M>;
             label = "ERACMAIL";
+        };
+
+        LM4info: LM4info {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE &kp I &kp N &kp F &kp O &kp SPACE &kp A &kp N &kp D &kp SPACE &kp S &kp T &kp A &kp T &kp U &kp S>;
+            label = "LM4INFO";
+        };
+
+        rentalupdate: rentalupdate {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
+            label = "RENTALUPDATE";
         };
     };
 
