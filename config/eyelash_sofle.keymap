@@ -172,6 +172,11 @@
             bindings = <&task>;
             key-positions = <25 12 11>;
         };
+
+        rewriteemail {
+            bindings = <&rewritemail>;
+            key-positions = <37 38 50>;
+        };
     };
 
     macros {
@@ -257,6 +262,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp A &kp S &kp K &kp SPACE &kp F &kp I &kp L &kp E &kp SPACE &kp A &kp L &kp R &kp E &kp A &kp D &kp Y &kp SPACE &kp W &kp O &kp R &kp K &kp E &kp D>;
             label = "TASK";
+        };
+
+        rewritemail: rewritemail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E>;
+            label = "REWRITEMAIL";
         };
     };
 
