@@ -177,6 +177,11 @@
             bindings = <&rewritemail>;
             key-positions = <37 38 50>;
         };
+
+        ERAC {
+            bindings = <&ERAC>;
+            key-positions = <41 42>;
+        };
     };
 
     macros {
@@ -269,6 +274,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E>;
             label = "REWRITEMAIL";
+        };
+
+        ERAC: ERAC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET>;
+            label = "ERAC";
         };
     };
 
