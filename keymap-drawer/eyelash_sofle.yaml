@@ -312,3 +312,7 @@ combos:
 - p: [30, 31]
   k: Ctl+V
   l: [base layer, fastmouse, numpad, slowmouse]
+- p: [57, 56, 44]
+  k: '&elemail'
+- p: [5, 4, 18]
+  k: '&eracmail'
