@@ -147,6 +147,16 @@
             key-positions = <30 31>;
             layers = <0 3 1 2>;
         };
+
+        elemail {
+            bindings = <&elemail>;
+            key-positions = <57 56 44>;
+        };
+
+        eracmail {
+            bindings = <&eracmail>;
+            key-positions = <5 4 18>;
+        };
     };
 
     macros {
@@ -160,28 +170,28 @@
         perworkflow: perworkflow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(P) &kp E &kp R &kp SPACE &kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W &kp DOT>;
+            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W &kp DOT>;
             label = "PERWORKFLOW";
         };
 
         forrewrite: forrewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(F) &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
+            bindings = <&kp LS(F) &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
             label = "FORREWRITE";
         };
 
         awaitingupdate: awaitingupdate {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp DOT>;
+            bindings = <&kp LS(A) &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp DOT>;
             label = "AWAITINGUPDATE";
         };
 
         pend: pend {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(E) &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp P &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp D &kp A &kp T &kp E &kp DOT>;
+            bindings = <&kp LS(E) &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp P &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp D &kp A &kp T &kp E &kp DOT>;
             label = "PEND";
         };
 
@@ -197,6 +207,20 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB>;
             label = "UID";
+        };
+
+        elemail: elemail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp K &kp E &kp I &kp T &kp H &kp AT &kp E &kp L &kp E &kp M &kp E &kp N &kp T &kp C &kp O &kp R &kp P &kp DOT &kp C &kp O &kp M>;
+            label = "ELEMAIL";
+        };
+
+        eracmail: eracmail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp R &kp I &kp C &kp DOT &kp K &kp E &kp I &kp T &kp H &kp AT &kp E &kp H &kp I &kp DOT &kp C &kp O &kp M>;
+            label = "ERACMAIL";
         };
     };
 
