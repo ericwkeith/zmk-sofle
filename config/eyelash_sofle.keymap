@@ -182,6 +182,16 @@
             bindings = <&ERAC>;
             key-positions = <41 42>;
         };
+
+        shopnovm {
+            bindings = <&shopnovm>;
+            key-positions = <54 55>;
+        };
+
+        checkback {
+            bindings = <&checkback>;
+            key-positions = <56 57>;
+        };
     };
 
     macros {
@@ -281,6 +291,20 @@
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET>;
             label = "ERAC";
+        };
+
+        shopnovm: shopnovm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N) &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp O &kp R &kp SPACE &kp V &kp O &kp I &kp C &kp E &kp M &kp A &kp I &kp L &kp SPACE &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp P>;
+            label = "SHOPNOVM";
+        };
+
+        checkback: checkback {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp C &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
+            label = "CHECKBACK";
         };
     };
 
