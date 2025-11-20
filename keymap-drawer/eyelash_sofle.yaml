@@ -320,3 +320,5 @@ combos:
   k: '&LM4info'
 - p: [60, 46, 61]
   k: '&rentalupdate'
+- p: [25, 12, 11]
+  k: '&task'
