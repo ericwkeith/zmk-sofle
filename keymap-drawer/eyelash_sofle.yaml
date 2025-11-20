@@ -332,3 +332,5 @@ combos:
   k: '&checkback'
 - p: [56, 57, 55]
   k: '&hold'
+- p: [59, 60, 61]
+  k: '&drivernovm'
