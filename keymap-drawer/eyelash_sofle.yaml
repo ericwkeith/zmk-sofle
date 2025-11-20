@@ -326,3 +326,7 @@ combos:
   k: '&rewritemail'
 - p: [41, 42]
   k: '&ERAC'
+- p: [54, 55]
+  k: '&shopnovm'
+- p: [56, 57]
+  k: '&checkback'
