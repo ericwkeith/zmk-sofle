@@ -324,3 +324,5 @@ combos:
   k: '&task'
 - p: [37, 38, 50]
   k: '&rewritemail'
+- p: [41, 42]
+  k: '&ERAC'
