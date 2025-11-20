@@ -78,7 +78,7 @@
 
         btclr {
             bindings = <&bt BT_CLR>;
-            key-positions = <0 57 39>;
+            key-positions = <52 57>;
             layers = <0>;
         };
 
