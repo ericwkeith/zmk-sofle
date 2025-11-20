@@ -192,6 +192,11 @@
             bindings = <&checkback>;
             key-positions = <56 57>;
         };
+
+        hold {
+            bindings = <&hold>;
+            key-positions = <56 57 55>;
+        };
     };
 
     macros {
@@ -296,7 +301,7 @@
         shopnovm: shopnovm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(N) &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp O &kp R &kp SPACE &kp V &kp O &kp I &kp C &kp E &kp M &kp A &kp I &kp L &kp SPACE &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp P>;
+            bindings = <&kp LS(N) &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE>;
             label = "SHOPNOVM";
         };
 
@@ -305,6 +310,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp C &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
             label = "CHECKBACK";
+        };
+
+        hold: hold {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(D) &kp I &kp S &kp C &kp O &kp N &kp N &kp E &kp C &kp T &kp E &kp D &kp SPACE &kp D &kp U &kp E &kp SPACE &kp T &kp O &kp SPACE &kp H &kp O &kp L &kp D &kp SPACE>;
+            label = "HOLD";
         };
     };
 
