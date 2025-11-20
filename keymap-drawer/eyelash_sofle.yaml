@@ -55,9 +55,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: base layer, h: toggle}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: fastmouse}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: fastmouse}
   - {t: '$$mdi:keyboard-return$$', h: numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
