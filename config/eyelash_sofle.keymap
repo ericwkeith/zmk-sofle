@@ -167,6 +167,11 @@
             bindings = <&rentalupdate>;
             key-positions = <60 46 61>;
         };
+
+        task {
+            bindings = <&task>;
+            key-positions = <25 12 11>;
+        };
     };
 
     macros {
@@ -245,6 +250,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
             label = "RENTALUPDATE";
+        };
+
+        task: task {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp A &kp S &kp K &kp SPACE &kp F &kp I &kp L &kp E &kp SPACE &kp A &kp L &kp R &kp E &kp A &kp D &kp Y &kp SPACE &kp W &kp O &kp R &kp K &kp E &kp D>;
+            label = "TASK";
         };
     };
 
