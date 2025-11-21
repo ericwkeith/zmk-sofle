@@ -334,3 +334,5 @@ combos:
   k: '&hold'
 - p: [59, 60, 61]
   k: '&drivernovm'
+- p: [53, 54, 55]
+  k: '&ceires'
