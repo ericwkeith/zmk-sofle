@@ -208,6 +208,16 @@
             bindings = <&ceires>;
             key-positions = <53 54 55>;
         };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <0 39>;
+        };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <5 44>;
+        };
     };
 
     macros {
