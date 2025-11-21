@@ -401,3 +401,7 @@ combos:
   k: '&drivernovm'
 - p: [53, 54, 55]
   k: '&ceires'
+- p: [0, 39]
+  k: '&mkp MB4'
+- p: [5, 44]
+  k: '&mkp MB5'
