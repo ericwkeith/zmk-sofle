@@ -202,6 +202,11 @@
             bindings = <&drivernovm>;
             key-positions = <59 60 61>;
         };
+
+        ceires {
+            bindings = <&ceires>;
+            key-positions = <53 54 55>;
+        };
     };
 
     macros {
@@ -329,6 +334,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp LS(C) &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp N &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp O &kp R &kp SPACE &kp V &kp O &kp I &kp C &kp E &kp M &kp A &kp I &kp L>;
             label = "DRIVERNOVM";
+        };
+
+        ceires: ceires {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
+            label = "CEIRES";
         };
     };
 
