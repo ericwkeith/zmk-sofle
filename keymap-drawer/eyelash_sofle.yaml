@@ -399,3 +399,6 @@ combos:
   k: '&mkp MB4'
 - p: [5, 44]
   k: '&mkp MB5'
+- p: [26, 27]
+  k: Ctl+A
+  l: [base layer, fastmouse, numpad, slowmouse]
