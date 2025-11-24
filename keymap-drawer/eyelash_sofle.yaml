@@ -368,15 +368,9 @@ combos:
 - p: [5, 4]
   k: Ctl+Gui+$$mdi:arrow-right-bold$$
   l: [base layer]
-- p: [26, 27]
-  k: Ctl+A
-  l: [base layer]
 - p: [40, 39]
   k: Ctl+Z
   l: [base layer]
-- p: [30, 31]
-  k: Ctl+V
-  l: [base layer, fastmouse, numpad, slowmouse]
 - p: [57, 56, 44]
   k: '&elemail'
 - p: [5, 4, 18]
