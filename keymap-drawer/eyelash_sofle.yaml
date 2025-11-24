@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - S
   - D
