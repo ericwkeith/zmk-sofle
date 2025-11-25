@@ -370,6 +370,20 @@
             bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp A &kp R &kp E &kp A &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E>;
             label = "AREAREWRITE";
         };
+
+        calledshop: calledshop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE &kp A &kp N &kp D &kp SPACE>;
+            label = "CALLEDSHOP";
+        };
+
+        lm4updateshop: lm4updateshop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp M &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
+            label = "LM4UPDATESHOP";
+        };
     };
 
     keymap {
@@ -412,11 +426,11 @@
 
         mouse {
             bindings = <
-&none         &none                   &none      &none      &none                    &none          &trans  &none     &none              &none              &none             &none   &kp DEL
-&none         &none                   &none      &none      &none                    &none          &trans  &none     &msc SCRL_DOWN     &mmv MOVE_Y(-400)  &msc SCRL_UP      &none   &none
-&kp LC(A)     &kp LG(LC(LEFT_ARROW))  &kp LC(C)  &kp LC(V)  &kp RG(RC(RIGHT_ARROW))  &forrewrite    &trans  &none     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none   &none
-&hatethisjob  &perAI                  &none      &none      &none                    &none          &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
-&trans        &trans                  &trans     &trans     &trans                   &none          &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
+&none         &none                   &none        &none           &none                    &none          &trans  &none     &none              &none              &none             &none   &kp DEL
+&none         &ERAC                   &calledshop  &lm4updateshop  &checkback               &none          &trans  &none     &msc SCRL_DOWN     &mmv MOVE_Y(-400)  &msc SCRL_UP      &none   &none
+&kp LC(A)     &kp LG(LC(LEFT_ARROW))  &kp LC(C)    &kp LC(V)       &kp RG(RC(RIGHT_ARROW))  &forrewrite    &trans  &none     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none   &none
+&hatethisjob  &perAI                  &none        &none           &none                    &none          &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
+&trans        &trans                  &trans       &trans          &trans                   &none          &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
