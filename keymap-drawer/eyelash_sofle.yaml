@@ -222,12 +222,12 @@ layers:
   - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+A
   - Gui+Ctl+$$mdi:arrow-left-bold$$
   - Ctl+C
   - Ctl+V
   - Gui+Ctl+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&forrewrite'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-400)'
