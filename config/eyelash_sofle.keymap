@@ -225,7 +225,7 @@
         };
 
         arearewrite {
-            bindings = <&rewritemail>;
+            bindings = <&arearewrite>;
             key-positions = <37 38 50 51>;
         };
     };
@@ -353,7 +353,7 @@
         drivernovm: drivernovm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(C) &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp N &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp O &kp R &kp SPACE &kp V &kp O &kp I &kp C &kp E &kp M &kp A &kp I &kp L>;
+            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp N &kp O &kp SPACE &kp V &kp O &kp I &kp C &kp E &kp M &kp A &kp I &kp L>;
             label = "DRIVERNOVM";
         };
 
