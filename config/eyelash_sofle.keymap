@@ -269,7 +269,7 @@
         perAI: perAI {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp COLON &kp SPACE &kp RET &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(P) &kp E &kp R &kp SPACE &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
             label = "PERAI";
         };
 
@@ -412,10 +412,10 @@
 
         mouse {
             bindings = <
-&none         &none                   &none      &none      &none                    &none          &trans  &none     &none              &none              &none             &none   &none
+&none         &none                   &none      &none      &none                    &none          &trans  &none     &none              &none              &none             &none   &kp DEL
 &none         &none                   &none      &none      &none                    &none          &trans  &none     &msc SCRL_DOWN     &mmv MOVE_Y(-400)  &msc SCRL_UP      &none   &none
 &kp LC(A)     &kp LG(LC(LEFT_ARROW))  &kp LC(C)  &kp LC(V)  &kp RG(RC(RIGHT_ARROW))  &forrewrite    &trans  &none     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none   &none
-&hatethisjob  &none                   &none      &none      &none                    &none          &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
+&hatethisjob  &perAI                  &none      &none      &none                    &none          &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
 &trans        &trans                  &trans     &trans     &trans                   &none          &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
             >;
 
