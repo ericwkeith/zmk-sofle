@@ -412,11 +412,11 @@
 
         mouse {
             bindings = <
-&none         &none                   &none      &none      &none                    &none    &trans  &none     &none              &none              &none             &none   &none
-&none         &none                   &none      &none      &none                    &none    &trans  &none     &msc SCRL_DOWN     &mmv MOVE_Y(-400)  &msc SCRL_UP      &none   &none
-&none         &kp LG(LC(LEFT_ARROW))  &kp LC(C)  &kp LC(V)  &kp RG(RC(RIGHT_ARROW))  &none    &trans  &none     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none   &none
-&hatethisjob  &none                   &none      &none      &none                    &none    &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
-&trans        &trans                  &trans     &trans     &trans                   &none    &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
+&none         &none                   &none      &none      &none                    &none          &trans  &none     &none              &none              &none             &none   &none
+&none         &none                   &none      &none      &none                    &none          &trans  &none     &msc SCRL_DOWN     &mmv MOVE_Y(-400)  &msc SCRL_UP      &none   &none
+&kp LC(A)     &kp LG(LC(LEFT_ARROW))  &kp LC(C)  &kp LC(V)  &kp RG(RC(RIGHT_ARROW))  &forrewrite    &trans  &none     &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &none   &none
+&hatethisjob  &none                   &none      &none      &none                    &none          &trans  &none     &none              &mkp MB3           &none             &none   &mkp MB2
+&trans        &trans                  &trans     &trans     &trans                   &none          &trans  &mkp MB1  &mkp MB1           &trans             &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
