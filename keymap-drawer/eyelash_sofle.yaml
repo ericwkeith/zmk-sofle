@@ -235,7 +235,7 @@ layers:
   - '&mmv MOVE_X(400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&hatethisjob'
+  - Ctl+Z
   - '&perAI'
   - '&calleddriver'
   - '&lmforshopinfo'
