@@ -237,9 +237,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&hatethisjob'
   - '&perAI'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&calleddriver'
+  - '&lmforshopinfo'
+  - '&lmforrental'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
