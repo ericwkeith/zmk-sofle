@@ -344,4 +344,4 @@ combos:
   k: _
   l: [base layer, mouse, mouse]
 - p: [37, 38, 50, 51]
-  k: '&rewritemail'
+  k: '&arearewrite'
