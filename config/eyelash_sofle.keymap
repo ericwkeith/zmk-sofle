@@ -192,7 +192,7 @@
         };
 
         ceires {
-            bindings = <&ceires>;
+            bindings = <&email2driv>;
             key-positions = <53 54 55>;
         };
 
@@ -229,8 +229,8 @@
             key-positions = <37 38 50 51>;
         };
 
-        ceires {
-            bindings = <&ceires>;
+        emailed2driv {
+            bindings = <&email2driv>;
             key-positions = <13 18>;
             layers = <0>;
         };
@@ -426,11 +426,11 @@
             label = "SHOPNANV";
         };
 
-        ceires: ceires {
+        email2driv: email2driv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
-            label = "CEIRES";
+            label = "email2driv";
         };
     };
 
