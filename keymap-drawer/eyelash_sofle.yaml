@@ -345,3 +345,6 @@ combos:
   l: [base layer, mouse, mouse]
 - p: [37, 38, 50, 51]
   k: '&arearewrite'
+- p: [13, 18]
+  k: '&ceires'
+  l: [base layer]
