@@ -202,7 +202,7 @@ layers:
   - '&shopnanv'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_Y(-200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -215,7 +215,7 @@ layers:
   - '&lm4updateshop'
   - '&checkback'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_Y(200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-down$$
   - '&mmv MOVE_Y(-400)'
@@ -228,7 +228,7 @@ layers:
   - Ctl+V
   - Gui+Ctl+$$mdi:arrow-right-bold$$
   - '&forrewrite'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_X(-200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(-400)'
   - '&mmv MOVE_Y(400)'
@@ -241,7 +241,7 @@ layers:
   - '&lmforshopinfo'
   - '&lmforrental'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_X(200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB3'
@@ -254,7 +254,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
   - '&mkp MB1'
   - '&mkp MB1'
   - {t: '$$mdi:transfer$$', type: trans}
