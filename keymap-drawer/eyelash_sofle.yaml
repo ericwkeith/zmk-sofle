@@ -329,7 +329,7 @@ combos:
 - p: [59, 60, 61]
   k: '&drivernovm'
 - p: [53, 54, 55]
-  k: '&ceires'
+  k: '&email2driv'
 - p: [0, 39]
   k: '&mkp MB4'
 - p: [5, 44]
@@ -346,5 +346,5 @@ combos:
 - p: [37, 38, 50, 51]
   k: '&arearewrite'
 - p: [13, 18]
-  k: '&ceires'
+  k: '&email2driv'
   l: [base layer]
