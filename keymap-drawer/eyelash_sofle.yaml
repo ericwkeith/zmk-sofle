@@ -245,7 +245,7 @@ layers:
   - '&mmv MOVE_X(-500)'
   - '&mmv MOVE_Y(500)'
   - '&mmv MOVE_X(500)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,9 +257,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB2'
+  - '&mkp MB3'
 combos:
 - p: [0, 1]
   k: Ctl+Gui+$$mdi:arrow-left-bold$$
