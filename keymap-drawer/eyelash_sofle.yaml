@@ -203,8 +203,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_Y(-200)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -217,9 +217,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_Y(200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-down$$
-  - '&mmv MOVE_Y(-400)'
-  - $$mdi:pan-up$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
@@ -229,10 +229,10 @@ layers:
   - Gui+Ctl+$$mdi:arrow-right-bold$$
   - '&forrewrite'
   - '&mmv MOVE_X(-200)'
+  - $$mdi:pan-up$$
+  - '&mmv MOVE_Y(-500)'
+  - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_X(400)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Z
@@ -242,24 +242,24 @@ layers:
   - '&lmforrental'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(200)'
+  - '&mmv MOVE_X(-500)'
+  - '&mmv MOVE_Y(500)'
+  - '&mmv MOVE_X(500)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB1'
-  - '&mkp MB1'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB3'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
 combos:
 - p: [0, 1]
   k: Ctl+Gui+$$mdi:arrow-left-bold$$
