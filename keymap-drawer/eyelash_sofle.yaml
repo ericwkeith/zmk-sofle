@@ -330,10 +330,6 @@ combos:
   k: '&drivernovm'
 - p: [53, 54, 55]
   k: '&email2driv'
-- p: [0, 39]
-  k: '&mkp MB4'
-- p: [5, 44]
-  k: '&mkp MB5'
 - p: [26, 27]
   k: Ctl+A
   l: [base layer, mouse, mouse]
@@ -348,3 +344,7 @@ combos:
 - p: [13, 18]
   k: '&email2driv'
   l: [base layer]
+- p: [5, 3, 4, 17]
+  k: '&ceitotal'
+- p: [5, 57]
+  k: '&to30days'
