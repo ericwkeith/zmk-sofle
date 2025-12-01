@@ -234,6 +234,11 @@
             bindings = <&to30days>;
             key-positions = <5 57>;
         };
+
+        extendedto {
+            bindings = <&extendedto>;
+            key-positions = <20 22>;
+        };
     };
 
     macros {
@@ -445,6 +450,13 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp N3 &kp N0 &kp T &kp H &kp SPACE &kp D &kp A &kp Y>;
             label = "TO30DAYS";
+        };
+
+        extendedto: extendedto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE>;
+            label = "EXTENDEDTO";
         };
     };
 
