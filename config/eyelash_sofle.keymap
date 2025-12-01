@@ -196,16 +196,6 @@
             key-positions = <53 54 55>;
         };
 
-        mb4 {
-            bindings = <&mkp MB4>;
-            key-positions = <0 39>;
-        };
-
-        mb5 {
-            bindings = <&mkp MB5>;
-            key-positions = <5 44>;
-        };
-
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
@@ -233,6 +223,16 @@
             bindings = <&email2driv>;
             key-positions = <13 18>;
             layers = <0>;
+        };
+
+        ceitotal {
+            bindings = <&ceitotal>;
+            key-positions = <5 3 4 17>;
+        };
+
+        to30th {
+            bindings = <&to30days>;
+            key-positions = <5 57>;
         };
     };
 
@@ -431,6 +431,20 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
             label = "email2driv";
+        };
+
+        ceitotal: ceitotal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp E &kp R &kp SPACE &kp C &kp E &kp I &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp SPACE &kp T &kp O &kp T &kp A &kp L &kp SPACE &kp L &kp O &kp S &kp S &kp SPACE>;
+            label = "CEITOTAL";
+        };
+
+        to30days: to30days {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp N3 &kp N0 &kp T &kp H &kp SPACE &kp D &kp A &kp Y>;
+            label = "TO30DAYS";
         };
     };
 
