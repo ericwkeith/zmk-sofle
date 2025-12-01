@@ -348,3 +348,5 @@ combos:
   k: '&ceitotal'
 - p: [5, 57]
   k: '&to30days'
+- p: [20, 22]
+  k: '&extendedto'
