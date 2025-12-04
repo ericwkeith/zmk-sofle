@@ -469,7 +469,7 @@
 &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O          &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L          &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD     &kp SLASH      &kp RET
-&mo 1             &kp LEFT_GUI  &kp SPACE     &kp SPACE     &kp SPACE     &lt 3 RET       &kp RET       &lt 2 RET     &kp SPACE     &kp SPACE     &kp RIGHT_ALT  &kp SLASH
+&mo 1             &kp LEFT_GUI  &kp SPACE     &kp SPACE     &lt 2 SPACE   &lt 3 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_ALT  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -488,17 +488,17 @@
 
         numpad {
             bindings = <
-&kp TILDE  &none  &none  &none  &none      &none      &kp UP_ARROW    &none         &none         &none         &none       &none      &kp BACKSPACE
-&kp TAB    &none  &none  &none  &none      &none      &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none       &none      &none
-&none      &none  &none  &none  &none      &none      &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none       &none      &none
-&none      &none  &none  &none  &none      &none      &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none       &none      &kp RET
-&trans     &none  &none  &none  &kp SPACE  &kp RET    &kp RET         &none         &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD  &kp MINUS
+&kp ESCAPE  &none         &none         &none         &none         &kp BACKSPACE    &kp UP_ARROW    &none         &none         &none         &none       &none      &kp BACKSPACE
+&kp TAB     &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none            &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none       &none      &none
+&none       &none         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none            &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none       &none      &none
+&kp RET     &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none            &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none       &none      &kp RET
+&trans      &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD    &none         &none            &kp RET         &none         &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD  &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        mouse {
+        NAV {
             bindings = <
 &none      &none                   &disconnected  &shopnanv       &none                    &none          &mmv MOVE_Y(-200)  &mkp MB4           &mkp MB5           &none             &none     &none     &kp DEL
 &kp TAB    &ERAC                   &calledshop    &lm4updateshop  &checkback               &none          &mmv MOVE_Y(200)   &none              &none              &none             &none     &none     &none
