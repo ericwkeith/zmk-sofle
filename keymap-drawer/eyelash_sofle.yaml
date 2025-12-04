@@ -58,7 +58,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: mouse}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: numpad, type: held}
   - $$mdi:keyboard-space$$
@@ -131,12 +131,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   numpad:
-  - '~'
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -146,9 +146,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - '7'
@@ -159,9 +159,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - '4'
@@ -170,11 +170,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - '1'
@@ -184,18 +184,18 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '0'
+  - '0'
+  - .
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '0'
   - '0'
   - .
   - {t: '-', s: _}
-  mouse:
+  NAV:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&disconnected'
@@ -266,16 +266,16 @@ combos:
   l: [base layer]
 - p: [28, 29]
   k: Ctl+C
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [29, 30]
   k: Ctl+V
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [17, 18]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [52, 57]
   k: $$mdi:bluetooth-off$$
   l: [base layer]
@@ -332,13 +332,13 @@ combos:
   k: '&email2driv'
 - p: [26, 27]
   k: Ctl+A
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [17, 14]
   k: +
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [40, 43]
   k: _
-  l: [base layer, mouse, mouse]
+  l: [base layer, NAV, NAV]
 - p: [37, 38, 50, 51]
   k: '&arearewrite'
 - p: [13, 18]
