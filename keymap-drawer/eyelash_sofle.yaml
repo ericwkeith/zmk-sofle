@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
   - '0'
   - .
@@ -217,9 +217,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_Y(200)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-down$$
+  - '&mmv MOVE_Y(-500)'
+  - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
@@ -230,9 +230,9 @@ layers:
   - '&forrewrite'
   - '&mmv MOVE_X(-200)'
   - $$mdi:pan-up$$
-  - '&mmv MOVE_Y(-500)'
-  - $$mdi:pan-down$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mmv MOVE_X(-500)'
+  - '&mmv MOVE_Y(500)'
+  - '&mmv MOVE_X(500)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Z
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(200)'
   - '&mmv MOVE_X(-500)'
-  - '&mmv MOVE_Y(500)'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(500)'
   - '&mkp MB2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
