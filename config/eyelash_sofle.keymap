@@ -55,25 +55,25 @@
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <28 29>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <29 30>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <17 18>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <30 27>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         btclr {
@@ -199,19 +199,19 @@
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <17 14>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <40 43>;
-            layers = <0 3 3>;
+            layers = <0 2 2>;
         };
 
         arearewrite {
@@ -469,21 +469,11 @@
 &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
-&mo 1             &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE     &lt 2 SPACE   &lt 3 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
+&kp K_MUTE        &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE     &lt 1 SPACE   &lt 2 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "base layer";
-        };
-
-        boardshift {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &bt BT_NXT  &to 0     &trans  &mo 4   &trans  &trans  &trans  &trans
-            >;
         };
 
         numpad {
@@ -505,19 +495,6 @@
 &kp LC(A)  &kp LG(LC(LEFT_ARROW))  &kp LC(C)      &kp LC(V)       &kp RG(RC(RIGHT_ARROW))  &forrewrite    &mmv MOVE_X(-200)  &msc SCRL_UP       &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &none     &none
 &kp LC(Z)  &perAI                  &calleddriver  &lmforshopinfo  &lmforrental             &none          &mmv MOVE_X(200)   &mmv MOVE_X(-500)  &none              &mmv MOVE_X(500)   &none             &none     &none
 &trans     &trans                  &trans         &trans          &trans                   &none          &none              &mkp MB1           &none              &none              &trans            &mkp MB3
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
-        game {
-            display-name = "base layer";
-            bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0   &kp BACKSPACE
-&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O          &kp P          &kp BACKSLASH
-&kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT    &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD     &kp SLASH      &kp RET
-&mo 1             &kp LEFT_ALT  &kp SPACE     &kp SPACE     &kp SPACE     &lt 3 RET       &kp RET       &lt 2 RET     &kp SPACE     &kp SPACE     &kp RIGHT_GUI  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
