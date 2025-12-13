@@ -245,7 +245,7 @@ layers:
   - '&mmv MOVE_X(-500)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mmv MOVE_X(500)'
-  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
