@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  base layer:
+  macOS base:
   - $$mdi:keyboard-esc$$
   - '1'
   - '2'
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - A
   - S
   - D
@@ -54,10 +54,75 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+3
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - '&mkp MB1'
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: numpad}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: /, s: '?'}
+  windows base:
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - $$mdi:arrow-up-bold$$
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-option$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - Gui+Sft+3
+  - '&mkp MB1'
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -122,7 +187,7 @@ layers:
   - '0'
   - '0'
   - .
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -198,49 +263,49 @@ layers:
 combos:
 - p: [0, 1]
   k: Ctl+Gui+$$mdi:arrow-left-bold$$
-  l: [base layer]
+  l: [NAV]
 - p: [28, 29]
   k: Ctl+C
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [29, 30]
   k: Ctl+V
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [17, 18]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [52, 57]
   k: $$mdi:bluetooth-off$$
-  l: [base layer]
+  l: [NAV]
 - p: [0, 39]
   k: '&hatethisjob'
-  l: [base layer]
+  l: [NAV]
 - p: [13, 26]
   k: '&UID'
-  l: [base layer]
+  l: [NAV]
 - p: [0, 5]
   k: '&perworkflow'
-  l: [base layer]
+  l: [NAV]
 - p: [39, 57]
   k: '&forrewrite'
-  l: [base layer]
+  l: [NAV]
 - p: [31, 26]
   k: '&awaitingupdate'
-  l: [base layer]
+  l: [NAV]
 - p: [53, 54]
   k: '&pend'
-  l: [base layer]
+  l: [NAV]
 - p: [13, 14]
   k: '&perAI'
-  l: [base layer]
+  l: [NAV]
 - p: [5, 4]
   k: Ctl+Gui+$$mdi:arrow-right-bold$$
-  l: [base layer]
+  l: [NAV]
 - p: [40, 39]
   k: Ctl+Z
-  l: [base layer]
+  l: [NAV]
 - p: [57, 56, 44]
   k: '&elemail'
 - p: [5, 4, 18]
@@ -267,18 +332,18 @@ combos:
   k: '&email2driv'
 - p: [26, 27]
   k: Ctl+A
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [17, 14]
   k: +
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [40, 43]
   k: _
-  l: [base layer, NAV, NAV]
+  l: [NAV]
 - p: [37, 38, 50, 51]
   k: '&arearewrite'
 - p: [13, 18]
   k: '&email2driv'
-  l: [base layer]
+  l: [NAV]
 - p: [5, 3, 4, 17]
   k: '&ceitotal'
 - p: [5, 57]
