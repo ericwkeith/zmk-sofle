@@ -49,91 +49,91 @@
         desktopleft {
             bindings = <&kp LC(LG(LEFT_ARROW))>;
             key-positions = <0 1>;
-            layers = <0>;
+            layers = <3>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <28 29>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <29 30>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <17 18>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <30 27>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         btclr {
             bindings = <&bt BT_CLR>;
             key-positions = <52 57>;
-            layers = <0>;
+            layers = <3>;
         };
 
         hatethisjob {
             bindings = <&hatethisjob>;
             key-positions = <0 39>;
-            layers = <0>;
+            layers = <3>;
         };
 
         UID {
             bindings = <&UID>;
             key-positions = <13 26>;
-            layers = <0>;
+            layers = <3>;
         };
 
         perworkflow {
             bindings = <&perworkflow>;
             key-positions = <0 5>;
-            layers = <0>;
+            layers = <3>;
         };
 
         forrewrite {
             bindings = <&forrewrite>;
             key-positions = <39 57>;
-            layers = <0>;
+            layers = <3>;
         };
 
         awaitingupdate {
             bindings = <&awaitingupdate>;
             key-positions = <31 26>;
-            layers = <0>;
+            layers = <3>;
         };
 
         pend {
             bindings = <&pend>;
             key-positions = <53 54>;
-            layers = <0>;
+            layers = <3>;
         };
 
         perAI {
             bindings = <&perAI>;
             key-positions = <13 14>;
-            layers = <0>;
+            layers = <3>;
         };
 
         desktopright {
             bindings = <&kp RC(RG(RIGHT))>;
             key-positions = <5 4>;
-            layers = <0>;
+            layers = <3>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <40 39>;
-            layers = <0>;
+            layers = <3>;
         };
 
         elemail {
@@ -199,19 +199,19 @@
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <17 14>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <40 43>;
-            layers = <0 2 2>;
+            layers = <3>;
         };
 
         arearewrite {
@@ -222,7 +222,7 @@
         emailed2driv {
             bindings = <&email2driv>;
             key-positions = <13 18>;
-            layers = <0>;
+            layers = <3>;
         };
 
         ceitotal {
@@ -463,17 +463,30 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        macBase {
+            display-name = "macOS base";
             bindings = <
-&kp ESCAPE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0   &kp BACKSPACE
-&kp TAB               &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
-&kp LEFT_CONTROL      &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT        &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
-&kp LG(LS(NUMBER_3))  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE     &lt 1 SPACE   &lt 2 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
+&kp ESCAPE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0   &kp BACKSPACE
+&kp TAB               &kp Q         &kp W         &kp E             &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
+&kp LEFT_ALT          &kp A         &kp S         &kp D             &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT        &kp Z         &kp X         &kp C             &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
+&kp LG(LS(NUMBER_3))  &mkp MB1      &kp SPACE     &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 3 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "base layer";
+        };
+
+        winBase {
+            bindings = <
+&kp ESCAPE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0   &kp BACKSPACE
+&kp TAB               &kp Q         &kp W         &kp E         &kp R             &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
+&kp LEFT_ALT          &kp A         &kp S         &kp D         &kp F             &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT        &kp Z         &kp X         &kp C         &kp V             &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
+&kp LG(LS(NUMBER_3))  &mkp MB1      &kp SPACE     &kp LEFT_GUI  &kp LEFT_CONTROL  &lt 3 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "windows base";
         };
 
         numpad {
