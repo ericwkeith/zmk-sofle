@@ -263,90 +263,103 @@ layers:
 combos:
 - p: [0, 1]
   k: Ctl+Gui+$$mdi:arrow-left-bold$$
-  l: [NAV]
+  l: [windows base]
 - p: [28, 29]
   k: Ctl+C
-  l: [NAV]
+  l: [windows base]
 - p: [29, 30]
   k: Ctl+V
-  l: [NAV]
+  l: [windows base]
 - p: [17, 18]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [NAV]
+  l: [macOS base, windows base]
 - p: [30, 27]
   k: {t: '-', s: _}
-  l: [NAV]
+  l: [macOS base, windows base]
 - p: [52, 57]
   k: $$mdi:bluetooth-off$$
-  l: [NAV]
+  l: [macOS base, numpad, windows base, NAV]
 - p: [0, 39]
   k: '&hatethisjob'
-  l: [NAV]
+  l: [windows base]
 - p: [13, 26]
   k: '&UID'
-  l: [NAV]
+  l: [windows base]
 - p: [0, 5]
   k: '&perworkflow'
-  l: [NAV]
+  l: [windows base]
 - p: [39, 57]
   k: '&forrewrite'
-  l: [NAV]
+  l: [windows base]
 - p: [31, 26]
   k: '&awaitingupdate'
-  l: [NAV]
+  l: [windows base]
 - p: [53, 54]
   k: '&pend'
-  l: [NAV]
+  l: [windows base]
 - p: [13, 14]
   k: '&perAI'
-  l: [NAV]
+  l: [windows base]
 - p: [5, 4]
   k: Ctl+Gui+$$mdi:arrow-right-bold$$
-  l: [NAV]
-- p: [40, 39]
-  k: Ctl+Z
-  l: [NAV]
+  l: [windows base]
 - p: [57, 56, 44]
   k: '&elemail'
+  l: [windows base]
 - p: [5, 4, 18]
   k: '&eracmail'
+  l: [windows base]
 - p: [59, 60, 46]
   k: '&LM4info'
+  l: [windows base]
 - p: [60, 46, 61]
   k: '&rentalupdate'
+  l: [windows base]
 - p: [25, 12, 11]
   k: '&task'
+  l: [windows base]
 - p: [37, 38, 50]
   k: '&rewritemail'
+  l: [windows base]
 - p: [41, 42]
   k: '&ERAC'
+  l: [windows base]
 - p: [54, 55]
   k: '&shopnovm'
+  l: [windows base]
 - p: [56, 57]
   k: '&checkback'
+  l: [windows base]
 - p: [56, 57, 55]
   k: '&hold'
+  l: [windows base]
 - p: [59, 60, 61]
   k: '&drivernovm'
+  l: [windows base]
 - p: [53, 54, 55]
   k: '&email2driv'
+  l: [windows base]
 - p: [26, 27]
   k: Ctl+A
-  l: [NAV]
+  l: [windows base]
 - p: [17, 14]
   k: +
-  l: [NAV]
+  l: [macOS base, windows base]
 - p: [40, 43]
   k: _
-  l: [NAV]
+  l: [macOS base, windows base]
 - p: [37, 38, 50, 51]
   k: '&arearewrite'
+  l: [windows base]
 - p: [13, 18]
   k: '&email2driv'
-  l: [NAV]
+  l: [windows base]
 - p: [5, 3, 4, 17]
   k: '&ceitotal'
+  l: [windows base]
 - p: [5, 57]
   k: '&to30days'
+  l: [windows base]
 - p: [20, 22]
   k: '&extendedto'
+  l: [windows base]
