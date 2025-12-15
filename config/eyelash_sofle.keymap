@@ -507,7 +507,7 @@
 &kp TAB    &ERAC                   &calledshop    &lm4updateshop  &checkback               &none          &mmv MOVE_Y(200)   &none              &msc SCRL_DOWN     &mmv MOVE_Y(-500)  &msc SCRL_UP      &none     &none
 &kp LC(A)  &kp LG(LC(LEFT_ARROW))  &kp LC(C)      &kp LC(V)       &kp RG(RC(RIGHT_ARROW))  &forrewrite    &mmv MOVE_X(-200)  &msc SCRL_UP       &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &none     &none
 &kp LC(Z)  &perAI                  &calleddriver  &lmforshopinfo  &lmforrental             &none          &mmv MOVE_X(200)   &mmv MOVE_X(-500)  &none              &mmv MOVE_X(500)   &none             &none     &none
-&trans     &trans                  &trans         &trans          &trans                   &none          &none              &mkp MB1           &none              &none              &none             &mkp MB3
+&to 1      &trans                  &trans         &trans          &trans                   &none          &to 0              &mkp MB1           &none              &none              &none             &mkp MB3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
