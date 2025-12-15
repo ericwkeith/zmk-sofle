@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-option$$
+  - '&mkp MB1'
   - A
   - S
   - D
@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+3
-  - '&mkp MB1'
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -72,7 +72,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - $$mdi:arrow-up-bold$$
+  - '&mmv MOVE_Y(-500)'
   - '6'
   - '7'
   - '8'
@@ -85,20 +85,20 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - '&mmv MOVE_Y(500)'
   - Y
   - U
   - I
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-option$$
+  - '&mkp MB1'
   - A
   - S
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - '&mmv MOVE_X(-500)'
   - H
   - J
   - K
@@ -111,7 +111,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - '&mmv MOVE_X(500)'
   - N
   - M
   - {t: ',', s: <}
@@ -119,12 +119,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - Gui+Sft+3
-  - '&mkp MB1'
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', h: NAV}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
