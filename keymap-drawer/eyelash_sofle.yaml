@@ -72,7 +72,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '&mmv MOVE_Y(-500)'
+  - $$mdi:arrow-up-bold$$
   - '6'
   - '7'
   - '8'
@@ -85,14 +85,14 @@ layers:
   - E
   - R
   - T
-  - '&mmv MOVE_Y(500)'
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
   - O
   - P
   - {t: \, s: '|'}
-  - '&mkp MB1'
+  - numpad
   - A
   - S
   - D
@@ -124,7 +124,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', h: NAV}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
