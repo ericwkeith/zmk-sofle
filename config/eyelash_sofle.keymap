@@ -46,208 +46,112 @@
     combos {
         compatible = "zmk,combos";
 
-        desktopleft {
-            bindings = <&kp LC(LG(LEFT_ARROW))>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
-            layers = <1>;
+            layers = <0>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <28 29>;
-            layers = <1>;
+            layers = <0>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <29 30>;
-            layers = <1>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <17 18>;
-            layers = <0 1>;
-        };
-
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <30 27>;
-            layers = <0 1>;
-        };
-
-        btclr {
-            bindings = <&bt BT_CLR>;
-            key-positions = <52 57>;
-            layers = <0 2 1 3>;
+            layers = <0>;
         };
 
         hatethisjob {
             bindings = <&hatethisjob>;
-            key-positions = <0 39>;
-            layers = <1>;
+            key-positions = <1 2 3 4>;
+            layers = <0>;
         };
 
         UID {
             bindings = <&UID>;
-            key-positions = <13 26>;
-            layers = <1>;
+            key-positions = <14 15 16 17>;
+            layers = <0>;
         };
 
         perworkflow {
             bindings = <&perworkflow>;
             key-positions = <0 5>;
-            layers = <1>;
+            layers = <0>;
         };
 
         forrewrite {
             bindings = <&forrewrite>;
             key-positions = <39 57>;
-            layers = <1>;
+            layers = <0>;
         };
 
         awaitingupdate {
             bindings = <&awaitingupdate>;
             key-positions = <31 26>;
-            layers = <1>;
+            layers = <0>;
         };
 
         pend {
             bindings = <&pend>;
             key-positions = <53 54>;
-            layers = <1>;
+            layers = <0>;
         };
 
-        perAI {
-            bindings = <&perAI>;
-            key-positions = <13 14>;
-            layers = <1>;
-        };
-
-        desktopright {
-            bindings = <&kp RC(RG(RIGHT))>;
+        delete {
+            bindings = <&kp DELETE>;
             key-positions = <5 4>;
-            layers = <1>;
+            layers = <0>;
         };
 
         elemail {
             bindings = <&elemail>;
             key-positions = <57 56 44>;
-            layers = <1>;
+            layers = <0>;
         };
 
         eracmail {
             bindings = <&eracmail>;
             key-positions = <5 4 18>;
-            layers = <1>;
-        };
-
-        lm4info {
-            bindings = <&LM4info>;
-            key-positions = <59 60 46>;
-            layers = <1>;
-        };
-
-        rentalupdate {
-            bindings = <&rentalupdate>;
-            key-positions = <60 46 61>;
-            layers = <1>;
+            layers = <0>;
         };
 
         task {
             bindings = <&task>;
             key-positions = <25 12 11>;
-            layers = <1>;
+            layers = <0>;
         };
 
         rewriteemail {
             bindings = <&rewritemail>;
             key-positions = <37 38 50>;
-            layers = <1>;
+            layers = <0>;
         };
 
         ERAC {
             bindings = <&ERAC>;
-            key-positions = <41 42>;
-            layers = <1>;
-        };
-
-        shopnovm {
-            bindings = <&shopnovm>;
-            key-positions = <54 55>;
-            layers = <1>;
+            key-positions = <2 3>;
+            layers = <0>;
         };
 
         checkback {
             bindings = <&checkback>;
             key-positions = <56 57>;
-            layers = <1>;
-        };
-
-        hold {
-            bindings = <&hold>;
-            key-positions = <56 57 55>;
-            layers = <1>;
-        };
-
-        drivernovm {
-            bindings = <&drivernovm>;
-            key-positions = <59 60 61>;
-            layers = <1>;
+            layers = <0>;
         };
 
         ceires {
             bindings = <&email2driv>;
             key-positions = <53 54 55>;
-            layers = <1>;
+            layers = <0>;
         };
 
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
-            layers = <1>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <17 14>;
-            layers = <0 1>;
-        };
-
-        underscore {
-            bindings = <&kp UNDER>;
-            key-positions = <40 43>;
-            layers = <0 1>;
-        };
-
-        arearewrite {
-            bindings = <&arearewrite>;
-            key-positions = <37 38 50 51>;
-            layers = <1>;
-        };
-
-        emailed2driv {
-            bindings = <&email2driv>;
-            key-positions = <13 18>;
-            layers = <1>;
-        };
-
-        ceitotal {
-            bindings = <&ceitotal>;
-            key-positions = <5 3 4 17>;
-            layers = <1>;
-        };
-
-        to30th {
-            bindings = <&to30days>;
-            key-positions = <5 57>;
-            layers = <1>;
-        };
-
-        extendedto {
-            bindings = <&extendedto>;
-            key-positions = <20 22>;
-            layers = <1>;
+            layers = <0>;
         };
     };
 
@@ -269,7 +173,7 @@
         forrewrite: forrewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE &kp O &kp N &kp SPACE>;
+            bindings = <&kp F &kp O &kp R &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE>;
             label = "FORREWRITE";
         };
 
@@ -283,15 +187,8 @@
         pend: pend {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp P &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp D &kp A &kp T &kp E &kp DOT>;
+            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp P &kp E &kp N &kp D &kp SPACE &kp D &kp A &kp T &kp E &kp SPACE>;
             label = "PEND";
-        };
-
-        perAI: perAI {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(P) &kp E &kp R &kp SPACE &kp RET &kp LS(C) &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
-            label = "PERAI";
         };
 
         UID: UID {
@@ -315,20 +212,6 @@
             label = "ERACMAIL";
         };
 
-        LM4info: LM4info {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp L &kp M &kp SPACE &kp T &kp O &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE &kp I &kp N &kp F &kp O>;
-            label = "LM4INFO";
-        };
-
-        rentalupdate: rentalupdate {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp L &kp M &kp SPACE &kp T &kp O &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
-            label = "RENTALUPDATE";
-        };
-
         task: task {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -346,43 +229,15 @@
         ERAC: ERAC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE>;
             label = "ERAC";
-        };
-
-        shopnovm: shopnovm {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N) &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp A &kp T &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE>;
-            label = "SHOPNOVM";
         };
 
         checkback: checkback {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp C &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
+            bindings = <&kp C &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
             label = "CHECKBACK";
-        };
-
-        hold: hold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(D) &kp I &kp S &kp C &kp O &kp N &kp N &kp E &kp C &kp T &kp E &kp D &kp SPACE &kp D &kp U &kp E &kp SPACE &kp T &kp O &kp SPACE &kp H &kp O &kp L &kp D &kp SPACE>;
-            label = "HOLD";
-        };
-
-        drivernovm: drivernovm {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp N &kp O &kp SPACE &kp V &kp O &kp I &kp C &kp E &kp M &kp A &kp I &kp L>;
-            label = "DRIVERNOVM";
-        };
-
-        ceires: ceires {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp COMMA &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
-            label = "CEIRES";
         };
 
         arearewrite: arearewrite {
@@ -395,50 +250,22 @@
         calledshop: calledshop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE &kp A &kp N &kp D &kp SPACE>;
+            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE>;
             label = "CALLEDSHOP";
         };
 
-        lm4updateshop: lm4updateshop {
+        lm4update: lm4updateshop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp L &kp M &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
+            bindings = <&kp L &kp M &kp SPACE &kp F &kp O &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
             label = "LM4UPDATESHOP";
         };
 
         calleddriver: calleddriver {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp A &kp N &kp D &kp SPACE>;
+            bindings = <&kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE>;
             label = "CALLEDDRIVER";
-        };
-
-        lmforshopinfo: lmforshopinfo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp L &kp M &kp SPACE &kp F &kp O &kp R &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE &kp I &kp N &kp F &kp O &kp FSLH &kp S &kp T &kp A &kp T &kp U &kp S>;
-            label = "LMFORSHOPINFO";
-        };
-
-        lmforrental: lmforrental {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp L &kp M &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
-            label = "LMFORRENTAL";
-        };
-
-        disconnected: disconnected {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp I &kp S &kp C &kp O &kp N &kp N &kp E &kp C &kp T &kp E &kp D &kp SPACE &kp D &kp U &kp E &kp SPACE &kp T &kp O &kp SPACE &kp H &kp O &kp L &kp D &kp SPACE>;
-            label = "DISCONNECTED";
-        };
-
-        shopnanv: shopnanv {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp H &kp E &kp R &kp E &kp SPACE &kp W &kp A &kp S &kp SPACE &kp N &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp I &kp N &kp SPACE &kp S &kp E &kp R &kp V &kp I &kp C &kp E &kp SPACE>;
-            label = "SHOPNANV";
         };
 
         email2driv: email2driv {
@@ -446,27 +273,6 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
             label = "email2driv";
-        };
-
-        ceitotal: ceitotal {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp E &kp R &kp SPACE &kp C &kp E &kp I &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp SPACE &kp T &kp O &kp T &kp A &kp L &kp SPACE &kp L &kp O &kp S &kp S &kp SPACE>;
-            label = "CEITOTAL";
-        };
-
-        to30days: to30days {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp N3 &kp N0 &kp T &kp H &kp SPACE &kp D &kp A &kp Y>;
-            label = "TO30DAYS";
-        };
-
-        extendedto: extendedto {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE>;
-            label = "EXTENDEDTO";
         };
     };
 
@@ -476,51 +282,36 @@
         macBase {
             display-name = "macOS base";
             bindings = <
-&kp ESCAPE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0   &kp BACKSPACE
-&kp TAB               &kp Q         &kp W         &kp E             &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
-&mo 2                 &kp A         &kp S         &kp D             &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT        &kp Z         &kp X         &kp C             &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
-&kp LG(LS(NUMBER_3))  &kp LEFT_ALT  &kp SPACE     &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 3 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
+&kp ESCAPE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0   &kp BACKSPACE
+&kp TAB          &kp Q         &kp W         &kp E             &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
+&mo 1            &kp A         &kp S         &kp D             &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT   &kp Z         &kp X         &kp C             &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
+&lt 2 LG(LS(S))  &kp LEFT_ALT  &kp SPACE     &kp LEFT_CONTROL  &kp LEFT_GUI  &kp RET         &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        winBase {
+        numnav {
             bindings = <
-&kp ESCAPE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5    &kp UP_ARROW       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0   &kp BACKSPACE
-&kp TAB               &kp Q         &kp W         &kp E         &kp R             &kp T           &kp DOWN_ARROW     &kp Y         &kp U         &kp I         &kp O              &kp P          &kp BACKSLASH
-&mo 2                 &kp A         &kp S         &kp D         &kp F             &kp G           &mmv MOVE_X(-500)  &kp H         &kp J         &kp K         &kp L              &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT        &kp Z         &kp X         &kp C         &kp V             &kp B           &mmv MOVE_X(500)   &kp N         &kp M         &kp COMMA     &kp PERIOD         &kp SLASH      &kp RIGHT_SHIFT
-&kp LG(LS(NUMBER_3))  &kp LEFT_ALT  &kp SPACE     &kp LEFT_GUI  &kp LEFT_CONTROL  &lt 3 RET       &mkp MB1           &kp RET       &kp SPACE     &kp SPACE     &kp RIGHT_COMMAND  &kp SLASH
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "windows base";
-        };
-
-        numpad {
-            bindings = <
-&kp ESCAPE  &none         &none         &none         &none          &none    &kp UP_ARROW    &none         &none         &none         &none       &none      &kp BACKSPACE
-&kp TAB     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE  &none    &kp DOWN_ARROW  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none       &none      &none
-&none       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS       &none    &kp LEFT_ARROW  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none       &none      &none
-&none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &none    &kp RIGHT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none       &none      &kp RET
-&trans      &kp NUMBER_0  &kp NUMBER_0  &kp RET       &none          &none    &kp RET         &kp RET       &kp NUMBER_0  &kp NUMBER_0  &kp PERIOD  &kp SLASH
+&none                 &none         &none         &none         &none      &none      &mmv MOVE_UP     &none  &none     &none           &none      &none      &none
+&kp BACKSPACE         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &none      &mmv MOVE_DOWN   &none  &none     &kp UP_ARROW    &none      &none      &none
+&none                 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none      &mmv MOVE_LEFT   &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none      &none
+&kp RET               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER  &none      &mmv MOVE_RIGHT  &none  &none     &none           &none      &none      &none
+&kp LS(LG(NUMBER_3))  &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp RET    &kp RET    &mkp MB1         &none  &none     &none           &none      &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        NAV {
+        controls {
             bindings = <
-&none      &none                   &disconnected  &shopnanv       &none                    &none          &mmv MOVE_Y(-200)  &mkp MB4           &mkp MB5           &none              &none             &none     &kp DEL
-&kp TAB    &ERAC                   &calledshop    &lm4updateshop  &checkback               &none          &mmv MOVE_Y(200)   &none              &msc SCRL_DOWN     &mmv MOVE_Y(-500)  &msc SCRL_UP      &none     &none
-&kp LC(A)  &kp LG(LC(LEFT_ARROW))  &kp LC(C)      &kp LC(V)       &kp RG(RC(RIGHT_ARROW))  &forrewrite    &mmv MOVE_X(-200)  &msc SCRL_UP       &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &none     &none
-&kp LC(Z)  &perAI                  &calleddriver  &lmforshopinfo  &lmforrental             &none          &mmv MOVE_X(200)   &mmv MOVE_X(-500)  &none              &mmv MOVE_X(500)   &none             &none     &none
-&to 1      &trans                  &trans         &trans          &trans                   &none          &to 0              &mkp MB1           &none              &none              &none             &mkp MB3
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &bt BT_CLR    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };
