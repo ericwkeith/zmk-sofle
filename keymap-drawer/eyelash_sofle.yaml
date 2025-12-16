@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - numpad
+  - numnav
   - A
   - S
   - D
@@ -53,313 +53,200 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - Gui+Sft+3
+  - {t: Gui+Sft+S, h: controls}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
-  - {t: /, s: '?'}
-  windows base:
-  - $$mdi:keyboard-esc$$
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - $$mdi:arrow-up-bold$$
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-down-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
-  - numpad
-  - A
-  - S
-  - D
-  - F
-  - G
-  - '&mmv MOVE_X(-500)'
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - '&mmv MOVE_X(500)'
-  - N
-  - M
-  - {t: ',', s: <}
-  - .
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - Gui+Sft+3
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-return$$', h: NAV}
-  - '&mkp MB1'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - {t: /, s: '?'}
-  numpad:
-  - $$mdi:keyboard-esc$$
+  numnav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-down-bold$$
-  - '7'
-  - '8'
-  - '9'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - '4'
-  - '5'
-  - '6'
   - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - '4'
   - '5'
   - '6'
+  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '1'
-  - '2'
-  - '3'
-  - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '1'
   - '2'
   - '3'
+  - _
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Gui+3
   - '0'
   - '0'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
-  - '0'
-  - .
-  - {t: /, s: '?'}
-  NAV:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&disconnected'
-  - '&shopnanv'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_Y(-200)'
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-tab$$
-  - '&ERAC'
-  - '&calledshop'
-  - '&lm4updateshop'
-  - '&checkback'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_Y(200)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-down$$
-  - '&mmv MOVE_Y(-500)'
-  - $$mdi:pan-up$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+A
-  - Gui+Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+C
-  - Ctl+V
-  - Gui+Ctl+$$mdi:arrow-right-bold$$
-  - '&forrewrite'
-  - '&mmv MOVE_X(-200)'
-  - $$mdi:pan-up$$
-  - '&mmv MOVE_X(-500)'
-  - '&mmv MOVE_Y(500)'
-  - '&mmv MOVE_X(500)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+Z
-  - '&perAI'
-  - '&calleddriver'
-  - '&lmforshopinfo'
-  - '&lmforrental'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(200)'
-  - '&mmv MOVE_X(-500)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(500)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: windows base, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: macOS base, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
+  controls:
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 1]
-  k: Ctl+Gui+$$mdi:arrow-left-bold$$
-  l: [windows base]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [macOS base]
 - p: [28, 29]
   k: Ctl+C
-  l: [windows base]
+  l: [macOS base]
 - p: [29, 30]
   k: Ctl+V
-  l: [windows base]
-- p: [17, 18]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [macOS base, windows base]
-- p: [30, 27]
-  k: {t: '-', s: _}
-  l: [macOS base, windows base]
-- p: [52, 57]
-  k: $$mdi:bluetooth-off$$
-  l: [macOS base, numpad, windows base, NAV]
-- p: [0, 39]
+  l: [macOS base]
+- p: [1, 2, 3, 4]
   k: '&hatethisjob'
-  l: [windows base]
-- p: [13, 26]
+  l: [macOS base]
+- p: [14, 15, 16, 17]
   k: '&UID'
-  l: [windows base]
+  l: [macOS base]
 - p: [0, 5]
   k: '&perworkflow'
-  l: [windows base]
+  l: [macOS base]
 - p: [39, 57]
   k: '&forrewrite'
-  l: [windows base]
+  l: [macOS base]
 - p: [31, 26]
   k: '&awaitingupdate'
-  l: [windows base]
+  l: [macOS base]
 - p: [53, 54]
   k: '&pend'
-  l: [windows base]
-- p: [13, 14]
-  k: '&perAI'
-  l: [windows base]
+  l: [macOS base]
 - p: [5, 4]
-  k: Ctl+Gui+$$mdi:arrow-right-bold$$
-  l: [windows base]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [macOS base]
 - p: [57, 56, 44]
   k: '&elemail'
-  l: [windows base]
+  l: [macOS base]
 - p: [5, 4, 18]
   k: '&eracmail'
-  l: [windows base]
-- p: [59, 60, 46]
-  k: '&LM4info'
-  l: [windows base]
-- p: [60, 46, 61]
-  k: '&rentalupdate'
-  l: [windows base]
+  l: [macOS base]
 - p: [25, 12, 11]
   k: '&task'
-  l: [windows base]
+  l: [macOS base]
 - p: [37, 38, 50]
   k: '&rewritemail'
-  l: [windows base]
-- p: [41, 42]
+  l: [macOS base]
+- p: [2, 3]
   k: '&ERAC'
-  l: [windows base]
-- p: [54, 55]
-  k: '&shopnovm'
-  l: [windows base]
+  l: [macOS base]
 - p: [56, 57]
   k: '&checkback'
-  l: [windows base]
-- p: [56, 57, 55]
-  k: '&hold'
-  l: [windows base]
-- p: [59, 60, 61]
-  k: '&drivernovm'
-  l: [windows base]
+  l: [macOS base]
 - p: [53, 54, 55]
   k: '&email2driv'
-  l: [windows base]
+  l: [macOS base]
 - p: [26, 27]
   k: Ctl+A
-  l: [windows base]
-- p: [17, 14]
-  k: +
-  l: [macOS base, windows base]
-- p: [40, 43]
-  k: _
-  l: [macOS base, windows base]
-- p: [37, 38, 50, 51]
-  k: '&arearewrite'
-  l: [windows base]
-- p: [13, 18]
-  k: '&email2driv'
-  l: [windows base]
-- p: [5, 3, 4, 17]
-  k: '&ceitotal'
-  l: [windows base]
-- p: [5, 57]
-  k: '&to30days'
-  l: [windows base]
-- p: [20, 22]
-  k: '&extendedto'
-  l: [windows base]
+  l: [macOS base]
