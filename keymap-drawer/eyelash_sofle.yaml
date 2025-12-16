@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 1]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   l: [macOS base]
 - p: [28, 29]
   k: Ctl+C
@@ -224,7 +224,7 @@ combos:
   k: '&pend'
   l: [macOS base]
 - p: [5, 4]
-  k: $$mdi:backspace-reverse-outline$$
+  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base]
 - p: [57, 56, 44]
   k: '&elemail'
@@ -249,4 +249,16 @@ combos:
   l: [macOS base]
 - p: [26, 27]
   k: Ctl+A
+  l: [macOS base]
+- p: [3, 4]
+  k: '&calledshop'
+  l: [macOS base]
+- p: [1, 2]
+  k: '&calleddriver'
+  l: [macOS base]
+- p: [18, 17]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [macOS base]
+- p: [30, 31]
+  k: $$mdi:keyboard-space$$
   l: [macOS base]
