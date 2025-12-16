@@ -205,10 +205,10 @@ combos:
 - p: [29, 30]
   k: Ctl+V
   l: [macOS base]
-- p: [1, 2, 3, 4]
+- p: [14, 15, 16, 17]
   k: '&hatethisjob'
   l: [macOS base]
-- p: [14, 15, 16, 17]
+- p: [4, 3, 2, 1]
   k: '&UID'
   l: [macOS base]
 - p: [0, 5]
