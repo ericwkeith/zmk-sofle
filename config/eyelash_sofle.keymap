@@ -47,7 +47,7 @@
         compatible = "zmk,combos";
 
         backspace {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp LC(BACKSPACE)>;
             key-positions = <0 1>;
             layers = <0>;
         };
@@ -100,8 +100,8 @@
             layers = <0>;
         };
 
-        delete {
-            bindings = <&kp DELETE>;
+        backkspa {
+            bindings = <&kp BACKSPACE>;
             key-positions = <5 4>;
             layers = <0>;
         };
@@ -151,6 +151,30 @@
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        calledshop {
+            bindings = <&calledshop>;
+            key-positions = <3 4>;
+            layers = <0>;
+        };
+
+        calldriver {
+            bindings = <&calleddriver>;
+            key-positions = <1 2>;
+            layers = <0>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <18 17>;
+            layers = <0>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <30 31>;
             layers = <0>;
         };
     };
