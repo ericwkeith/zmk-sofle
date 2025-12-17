@@ -199,10 +199,10 @@ combos:
 - p: [0, 1]
   k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   l: [macOS base]
-- p: [28, 29]
+- p: [41, 42]
   k: Ctl+C
   l: [macOS base]
-- p: [29, 30]
+- p: [42, 43]
   k: Ctl+V
   l: [macOS base]
 - p: [14, 15, 16, 17]
