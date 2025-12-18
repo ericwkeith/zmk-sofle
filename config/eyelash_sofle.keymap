@@ -194,6 +194,12 @@
             bindings = <&kp DOWN_ARROW>;
             key-positions = <44 43>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <39 40>;
+            layers = <0>;
+        };
     };
 
     macros {
