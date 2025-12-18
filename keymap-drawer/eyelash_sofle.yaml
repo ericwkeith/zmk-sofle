@@ -262,3 +262,9 @@ combos:
 - p: [30, 31]
   k: $$mdi:keyboard-space$$
   l: [macOS base]
+- p: [4, 5, 17]
+  k: '&gmail'
+  l: [macOS base]
+- p: [4, 5, 17, 18]
+  k: '&reads'
+  l: [macOS base]

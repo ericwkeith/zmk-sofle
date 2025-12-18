@@ -710,6 +710,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="271" y="138" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="257" y="41" width="28" height="26" class="combo"/>
+<text x="271" y="54" class="combo tap">&amp;gmail</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="266" y="50" width="28" height="26" class="combo"/>
+<text x="280" y="63" class="combo tap">&amp;reads</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-numnav">
