@@ -177,6 +177,18 @@
             key-positions = <30 31>;
             layers = <0>;
         };
+
+        gmail {
+            bindings = <&gmail>;
+            key-positions = <4 5 17>;
+            layers = <0>;
+        };
+
+        reads {
+            bindings = <&reads>;
+            key-positions = <4 5 17 18>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -297,6 +309,20 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
             label = "email2driv";
+        };
+
+        gmail: gmail {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp R &kp I &kp C &kp W &kp K &kp E &kp I &kp T &kp H &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "GMAIL";
+        };
+
+        reads: reads {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp E &kp A &kp D &kp S &kp N2 &kp N3 &kp N4 &kp DLLR>;
+            label = "READS";
         };
     };
 
