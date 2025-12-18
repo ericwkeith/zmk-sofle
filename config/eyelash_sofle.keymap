@@ -189,6 +189,11 @@
             key-positions = <4 5 17 18>;
             layers = <0>;
         };
+
+        down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <44 43>;
+        };
     };
 
     macros {
