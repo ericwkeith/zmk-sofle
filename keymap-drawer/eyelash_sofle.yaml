@@ -80,10 +80,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '7'
   - '8'
   - '9'
-  - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -93,10 +93,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
   - '5'
   - '6'
-  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -106,10 +106,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
   - '2'
   - '3'
-  - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -122,7 +122,7 @@ layers:
   - '0'
   - '0'
   - '0'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '0'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -238,9 +238,6 @@ combos:
 - p: [37, 38, 50]
   k: '&rewritemail'
   l: [macOS base]
-- p: [2, 3]
-  k: '&ERAC'
-  l: [macOS base]
 - p: [56, 57]
   k: '&checkback'
   l: [macOS base]
@@ -249,12 +246,6 @@ combos:
   l: [macOS base]
 - p: [26, 27]
   k: Ctl+A
-  l: [macOS base]
-- p: [3, 4]
-  k: '&calledshop'
-  l: [macOS base]
-- p: [1, 2]
-  k: '&calleddriver'
   l: [macOS base]
 - p: [18, 17]
   k: $$mdi:backspace-reverse-outline$$
