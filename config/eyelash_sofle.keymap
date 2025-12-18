@@ -318,11 +318,11 @@
 
         numnav {
             bindings = <
-&none                 &none         &none         &none         &none      &none      &mmv MOVE_UP     &none  &none     &none           &none      &none      &none
-&kp BACKSPACE         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &none      &mmv MOVE_DOWN   &none  &none     &kp UP_ARROW    &none      &none      &none
-&none                 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none      &mmv MOVE_LEFT   &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &none      &none
-&kp RET               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER  &none      &mmv MOVE_RIGHT  &none  &none     &none           &none      &none      &none
-&kp LS(LG(NUMBER_3))  &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp RET    &kp RET    &mkp MB1         &none  &none     &none           &none      &kp SLASH
+&none                 &none         &none         &none         &none      &none      &mmv MOVE_UP     &none  &none     &none           &none             &none              &none
+&kp BACKSPACE         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &none      &mmv MOVE_DOWN   &none  &none     &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&none                 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none      &mmv MOVE_LEFT   &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT         &none              &none
+&kp RET               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER  &none      &mmv MOVE_RIGHT  &none  &none     &none           &none             &none              &none
+&kp LS(LG(NUMBER_3))  &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp RET    &kp RET    &mkp MB1         &none  &none     &none           &none             &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
