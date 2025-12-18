@@ -270,3 +270,6 @@ combos:
   l: [macOS base]
 - p: [44, 43]
   k: $$mdi:arrow-down-bold$$
+- p: [39, 40]
+  k: Ctl+Z
+  l: [macOS base]
