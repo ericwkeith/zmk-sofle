@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: /, s: '?'}
   numnav:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -78,7 +78,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '7'
   - '8'
@@ -117,7 +117,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Sft+Gui+3
   - '0'
   - '0'
@@ -268,8 +268,11 @@ combos:
 - p: [4, 5, 17, 18]
   k: '&reads'
   l: [macOS base]
-- p: [44, 43]
+- p: [42, 54]
   k: $$mdi:arrow-down-bold$$
 - p: [39, 40]
   k: Ctl+Z
+  l: [macOS base]
+- p: [44, 43]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [macOS base]
