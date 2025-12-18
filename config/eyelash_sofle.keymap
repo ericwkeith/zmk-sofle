@@ -192,12 +192,18 @@
 
         down {
             bindings = <&kp DOWN_ARROW>;
-            key-positions = <44 43>;
+            key-positions = <42 54>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <39 40>;
+            layers = <0>;
+        };
+
+        retrun {
+            bindings = <&kp RET>;
+            key-positions = <44 43>;
             layers = <0>;
         };
     };
@@ -355,10 +361,10 @@
 
         numnav {
             bindings = <
-&none                 &none         &none         &none         &none      &none      &mmv MOVE_UP     &none  &none     &none           &none             &none              &none
+&kp ESCAPE            &none         &none         &none         &none      &none      &mmv MOVE_UP     &none  &none     &none           &none             &none              &kp BACKSPACE
 &kp BACKSPACE         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &none      &mmv MOVE_DOWN   &none  &none     &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
 &none                 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &none      &mmv MOVE_LEFT   &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT         &none              &none
-&kp RET               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER  &none      &mmv MOVE_RIGHT  &none  &none     &none           &none             &none              &none
+&kp RET               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER  &none      &mmv MOVE_RIGHT  &none  &none     &none           &none             &none              &kp RET
 &kp LS(LG(NUMBER_3))  &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp RET    &kp RET    &mkp MB1         &none  &none     &none           &none             &kp SLASH
             >;
 
