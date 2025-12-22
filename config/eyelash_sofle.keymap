@@ -72,7 +72,7 @@
 
         UID {
             bindings = <&UID>;
-            key-positions = <4 3 2 1>;
+            key-positions = <13 20>;
             layers = <0>;
         };
 
