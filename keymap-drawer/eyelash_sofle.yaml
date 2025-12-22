@@ -117,7 +117,7 @@ layers:
   - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Sft+Gui+3
   - '0'
   - '0'
@@ -126,9 +126,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '0'
+  - '0'
+  - .
   - {t: /, s: '?'}
   controls:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -205,10 +205,10 @@ combos:
 - p: [42, 43]
   k: Ctl+V
   l: [macOS base]
-- p: [14, 15, 16, 17]
+- p: [14, 17]
   k: '&hatethisjob'
   l: [macOS base]
-- p: [13, 20]
+- p: [1, 4]
   k: '&UID'
   l: [macOS base]
 - p: [0, 5]
