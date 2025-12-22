@@ -86,10 +86,10 @@ layers:
   - '9'
   - {t: '-', s: _}
   - '&mmv MOVE_Y(300)'
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-down$$
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -99,12 +99,12 @@ layers:
   - '6'
   - +
   - '&mmv MOVE_X(-300)'
+  - '4'
+  - '5'
+  - '6'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
@@ -112,12 +112,12 @@ layers:
   - '3'
   - _
   - '&mmv MOVE_X(300)'
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB1'
   - Sft+Gui+3
   - '0'
   - '0'
@@ -126,8 +126,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB1'
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   controls:
