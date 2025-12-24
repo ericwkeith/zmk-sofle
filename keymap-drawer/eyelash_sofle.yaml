@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - numnav
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -56,9 +56,9 @@ layers:
   - {t: Gui+Sft+S, h: controls}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: numnav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: numnav}
   - $$mdi:keyboard-space$$
@@ -66,25 +66,25 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: /, s: '?'}
   numnav:
-  - $$mdi:keyboard-esc$$
+  - '~'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '=', s: +}
-  - {t: /, s: '?'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&mmv MOVE_Y(-300)'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&calledshop'
+  - {t: '-', s: _}
   - '7'
   - '8'
   - '9'
-  - {t: '-', s: _}
   - '&mmv MOVE_Y(300)'
   - '7'
   - '8'
@@ -92,25 +92,25 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - .
   - '&ERAC'
+  - +
   - '4'
   - '5'
   - '6'
-  - +
   - '&mmv MOVE_X(-300)'
   - '4'
   - '5'
   - '6'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
   - '1'
   - '2'
   - '3'
-  - _
   - '&mmv MOVE_X(300)'
   - '1'
   - '2'
@@ -119,16 +119,16 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Sft+Gui+3
+  - {t: /, s: '?'}
   - '0'
   - '0'
   - '0'
-  - '0'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - '&mkp MB1'
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - '0'
   - '0'
-  - .
+  - '0'
   - {t: /, s: '?'}
   controls:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
