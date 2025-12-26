@@ -72,7 +72,7 @@ layers:
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&mmv MOVE_Y(-300)'
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -85,7 +85,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '&mmv MOVE_Y(300)'
+  - $$mdi:arrow-down-bold$$
   - '7'
   - '8'
   - '9'
@@ -98,7 +98,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '&mmv MOVE_X(-300)'
+  - $$mdi:arrow-left-bold$$
   - '4'
   - '5'
   - '6'
@@ -111,7 +111,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '&mmv MOVE_X(300)'
+  - $$mdi:arrow-right-bold$$
   - '1'
   - '2'
   - '3'
@@ -124,7 +124,7 @@ layers:
   - '0'
   - '0'
   - {t: '$$mdi:keyboard-return$$', type: held}
-  - '&mkp MB1'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - '0'
   - '0'
