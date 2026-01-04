@@ -251,7 +251,7 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [macOS base]
 - p: [30, 31]
-  k: $$mdi:keyboard-space$$
+  k: Ctl+$$mdi:arrow-up-bold$$
   l: [macOS base]
 - p: [4, 5, 17]
   k: '&gmail'
