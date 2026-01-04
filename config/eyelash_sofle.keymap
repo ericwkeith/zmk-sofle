@@ -155,7 +155,7 @@
         };
 
         space {
-            bindings = <&kp SPACE>;
+            bindings = <&kp LC(UP_ARROW)>;
             key-positions = <30 31>;
             layers = <0>;
         };
