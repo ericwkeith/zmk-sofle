@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Sft+Gui+3
+  - Sft+Gui+4
   - {t: /, s: '?'}
   - '0'
   - '0'
