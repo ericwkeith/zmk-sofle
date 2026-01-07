@@ -347,7 +347,7 @@
 &none                 &calledshop       &kp MINUS          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9     &kp DOWN_ARROW   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &none         &none      &none
 &kp PERIOD            &ERAC             &kp PLUS           &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6     &kp LEFT_ARROW   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &none         &none      &kp PERIOD
 &kp RET               &none             &kp UNDER          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp RIGHT_ARROW  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &none         &none      &kp RET
-&kp LS(LG(NUMBER_3))  &kp SLASH         &kp NUMBER_0       &kp NUMBER_0  &kp NUMBER_0   &kp RET          &kp ENTER        &kp RET        &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp SLASH
+&kp LS(LG(NUMBER_4))  &kp SLASH         &kp NUMBER_0       &kp NUMBER_0  &kp NUMBER_0   &kp RET          &kp ENTER        &kp RET        &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
