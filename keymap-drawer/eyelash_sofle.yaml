@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 1]
-  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  k: '&ERAC'
   l: [macOS base]
 - p: [41, 42]
   k: Ctl+C
@@ -205,10 +205,10 @@ combos:
 - p: [42, 43]
   k: Ctl+V
   l: [macOS base]
-- p: [14, 17]
+- p: [9, 10]
   k: '&hatethisjob'
   l: [macOS base]
-- p: [1, 4]
+- p: [7, 8]
   k: '&UID'
   l: [macOS base]
 - p: [0, 5]
@@ -250,20 +250,18 @@ combos:
 - p: [18, 17]
   k: $$mdi:backspace-reverse-outline$$
   l: [macOS base]
-- p: [30, 31]
-  k: Ctl+$$mdi:arrow-up-bold$$
-  l: [macOS base]
 - p: [4, 5, 17]
   k: '&gmail'
   l: [macOS base]
 - p: [4, 5, 17, 18]
   k: '&reads'
   l: [macOS base]
-- p: [42, 54]
-  k: $$mdi:arrow-down-bold$$
 - p: [39, 40]
   k: Ctl+Z
   l: [macOS base]
-- p: [44, 43]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [1, 2]
+  k: '&calledshop'
+  l: [macOS base]
+- p: [3, 2]
+  k: '&calleddriver'
   l: [macOS base]
