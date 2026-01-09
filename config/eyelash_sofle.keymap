@@ -47,7 +47,7 @@
         compatible = "zmk,combos";
 
         backspace {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&ERAC>;
             key-positions = <0 1>;
             layers = <0>;
         };
@@ -66,13 +66,13 @@
 
         hatethisjob {
             bindings = <&hatethisjob>;
-            key-positions = <14 17>;
+            key-positions = <9 10>;
             layers = <0>;
         };
 
         UID {
             bindings = <&UID>;
-            key-positions = <1 4>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
@@ -154,12 +154,6 @@
             layers = <0>;
         };
 
-        space {
-            bindings = <&kp LC(UP_ARROW)>;
-            key-positions = <30 31>;
-            layers = <0>;
-        };
-
         gmail {
             bindings = <&gmail>;
             key-positions = <4 5 17>;
@@ -172,20 +166,21 @@
             layers = <0>;
         };
 
-        down {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <42 54>;
-        };
-
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <39 40>;
             layers = <0>;
         };
 
-        retrun {
-            bindings = <&kp RET>;
-            key-positions = <44 43>;
+        shop {
+            bindings = <&calledshop>;
+            key-positions = <1 2>;
+            layers = <0>;
+        };
+
+        driver {
+            bindings = <&calleddriver>;
+            key-positions = <3 2>;
             layers = <0>;
         };
     };
