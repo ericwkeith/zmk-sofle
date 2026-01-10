@@ -53,7 +53,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Gui+Sft+S, h: controls}
+  - {t: Gui+Sft+3, h: controls}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -118,7 +118,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Sft+Gui+4
+  - Sft+Gui+S
   - {t: /, s: '?'}
   - '0'
   - '0'
