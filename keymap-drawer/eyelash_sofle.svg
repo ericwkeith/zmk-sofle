@@ -594,8 +594,8 @@ rect.held, rect.combo.held {
 <text x="0" y="-24" class="key shifted">?</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">&amp;ERAC</text>
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">&amp;ERAC</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>
@@ -633,7 +633,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="154" y="242" width="28" height="26" class="combo"/>
-<text x="168" y="256" class="combo tap">&amp;pend</text>
+<text x="168" y="256" class="combo tap"><tspan style="font-size: 60%">&amp;calleddr…</tspan></text>
 </g>
 <g class="combo backspace combopos-9">
 <rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo backspace"/>
@@ -658,14 +658,16 @@ rect.held, rect.combo.held {
 <text x="859" y="187" class="combo tap"><tspan style="font-size: 60%">&amp;rewritem…</tspan></text>
 </g>
 <g class="combo combopos-14">
-<rect rx="6" ry="6" x="338" y="276" width="28" height="26" class="combo"/>
-<text x="352" y="289" class="combo tap"><tspan style="font-size: 60%">&amp;checkback</tspan></text>
-</g>
-<g class="combo combopos-15">
 <path d="M196,257 l-37,2" class="combo"/>
 <path d="M196,257 l37,2" class="combo"/>
 <rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
-<text x="196" y="257" class="combo tap"><tspan style="font-size: 60%">&amp;email2dr…</tspan></text>
+<text x="196" y="257" class="combo tap">&amp;pend</text>
+</g>
+<g class="combo combopos-15">
+<path d="M226,263 l-67,-3" class="combo"/>
+<path d="M226,263 l71,16" class="combo"/>
+<rect rx="6" ry="6" x="212" y="250" width="28" height="26" class="combo"/>
+<text x="226" y="263" class="combo tap"><tspan style="font-size: 60%">&amp;email2dr…</tspan></text>
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="42" y="155" width="28" height="26" class="combo"/>
@@ -688,12 +690,12 @@ rect.held, rect.combo.held {
 <text x="56" y="224" class="combo tap">Ctl+Z</text>
 </g>
 <g class="combo combopos-21">
-<rect rx="6" ry="6" x="98" y="33" width="28" height="26" class="combo"/>
-<text x="112" y="46" class="combo tap"><tspan style="font-size: 60%">&amp;calledsh…</tspan></text>
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
+<text x="56" y="56" class="combo tap"><tspan style="font-size: 60%">&amp;checkback</tspan></text>
 </g>
 <g class="combo combopos-22">
 <rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap"><tspan style="font-size: 60%">&amp;calleddr…</tspan></text>
+<text x="168" y="32" class="combo tap"><tspan style="font-size: 60%">&amp;calledsh…</tspan></text>
 </g>
 <g class="combo combopos-23">
 <path d="M168,46 l-65,8" class="combo"/>
