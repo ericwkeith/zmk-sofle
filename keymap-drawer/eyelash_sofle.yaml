@@ -212,7 +212,7 @@ combos:
   k: '&UID'
   l: [macOS base]
 - p: [0, 5]
-  k: '&perworkflow'
+  k: '&days30'
   l: [macOS base]
 - p: [39, 57]
   k: '&forrewrite'
@@ -264,4 +264,13 @@ combos:
   l: [macOS base]
 - p: [3, 2]
   k: '&calleddriver'
+  l: [macOS base]
+- p: [1, 4]
+  k: '&days10'
+  l: [macOS base]
+- p: [18, 5]
+  k: '&perca'
+  l: [macOS base]
+- p: [0, 13]
+  k: '&perwork'
   l: [macOS base]
