@@ -46,9 +46,9 @@
     combos {
         compatible = "zmk,combos";
 
-        backspace {
+        erac {
             bindings = <&ERAC>;
-            key-positions = <0 1>;
+            key-positions = <15 16>;
             layers = <0>;
         };
 
@@ -94,8 +94,8 @@
             layers = <0>;
         };
 
-        pend {
-            bindings = <&pend>;
+        driver {
+            bindings = <&calleddriver>;
             key-positions = <53 54>;
             layers = <0>;
         };
@@ -130,15 +130,15 @@
             layers = <0>;
         };
 
-        checkback {
-            bindings = <&checkback>;
-            key-positions = <56 57>;
+        pend {
+            bindings = <&pend>;
+            key-positions = <53 54 55>;
             layers = <0>;
         };
 
         ceires {
             bindings = <&email2driv>;
-            key-positions = <53 54 55>;
+            key-positions = <53 54 55 56>;
             layers = <0>;
         };
 
@@ -172,14 +172,14 @@
             layers = <0>;
         };
 
-        shop {
-            bindings = <&calledshop>;
-            key-positions = <1 2>;
+        checkback {
+            bindings = <&checkback>;
+            key-positions = <1 0>;
             layers = <0>;
         };
 
-        driver {
-            bindings = <&calleddriver>;
+        shop {
+            bindings = <&calledshop>;
             key-positions = <3 2>;
             layers = <0>;
         };
