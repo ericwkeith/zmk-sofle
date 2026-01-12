@@ -76,8 +76,8 @@
             layers = <0>;
         };
 
-        perworkflow {
-            bindings = <&perworkflow>;
+        days30 {
+            bindings = <&days30>;
             key-positions = <0 5>;
             layers = <0>;
         };
@@ -183,6 +183,24 @@
             key-positions = <3 2>;
             layers = <0>;
         };
+
+        days10 {
+            bindings = <&days10>;
+            key-positions = <1 4>;
+            layers = <0>;
+        };
+
+        perca {
+            bindings = <&perca>;
+            key-positions = <18 5>;
+            layers = <0>;
+        };
+
+        perwork {
+            bindings = <&perwork>;
+            key-positions = <0 13>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -191,13 +209,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(H) &kp A &kp T &kp E &kp T &kp H &kp I &kp S &kp J &kp O &kp B &kp POUND &kp N3 &kp RET>;
             label = "HATETHISJOB";
-        };
-
-        perworkflow: perworkflow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W &kp DOT>;
-            label = "PERWORKFLOW";
         };
 
         forrewrite: forrewrite {
@@ -317,6 +328,34 @@
             #binding-cells = <0>;
             bindings = <&kp LS(R) &kp E &kp A &kp D &kp S &kp N2 &kp N3 &kp N4 &kp DLLR>;
             label = "READS";
+        };
+
+        days10: days10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp N1 &kp N0 &kp SPACE &kp D &kp A &kp Y &kp S>;
+            label = "DAYS10";
+        };
+
+        days30: days30 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp N3 &kp N0 &kp SPACE &kp D &kp A &kp Y &kp S>;
+            label = "DAYS30";
+        };
+
+        perca: perca {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(C) &kp LS(A) &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
+            label = "PERCA";
+        };
+
+        perwork: perwork {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp E &kp R &kp SPACE &kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
+            label = "PERWORK";
         };
     };
 
