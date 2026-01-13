@@ -47,7 +47,7 @@
         compatible = "zmk,combos";
 
         leftclick {
-            bindings = <&mkp MB1>;
+            bindings = <&mkp MB2>;
             key-positions = <16 17>;
             layers = <0>;
         };
@@ -205,6 +205,12 @@
         rightclick {
             bindings = <&mkp MB2>;
             key-positions = <30 56>;
+            layers = <0>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <18 17>;
             layers = <0>;
         };
     };
