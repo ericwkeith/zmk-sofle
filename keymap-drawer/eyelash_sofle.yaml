@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -54,10 +54,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Gui+Sft+3, h: controls}
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:keyboard-space$$
+  - '&mkp MB1'
   - {t: '$$mdi:keyboard-return$$', h: numnav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: numnav}
@@ -274,6 +274,6 @@ combos:
 - p: [30, 31]
   k: '&ERAC'
   l: [macOS base]
-- p: [30, 26]
+- p: [30, 56]
   k: '&mkp MB2'
   l: [macOS base]
