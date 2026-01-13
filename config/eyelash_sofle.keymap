@@ -46,9 +46,9 @@
     combos {
         compatible = "zmk,combos";
 
-        erac {
-            bindings = <&ERAC>;
-            key-positions = <15 16>;
+        leftclick {
+            bindings = <&mkp MB1>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
@@ -96,7 +96,7 @@
 
         driver {
             bindings = <&calleddriver>;
-            key-positions = <53 54>;
+            key-positions = <44 43>;
             layers = <0>;
         };
 
@@ -148,8 +148,8 @@
             layers = <0>;
         };
 
-        delete {
-            bindings = <&kp DELETE>;
+        rightclick {
+            bindings = <&mkp MB2>;
             key-positions = <18 17>;
             layers = <0>;
         };
@@ -199,6 +199,12 @@
         perwork {
             bindings = <&perwork>;
             key-positions = <0 13>;
+            layers = <0>;
+        };
+
+        erac {
+            bindings = <&ERAC>;
+            key-positions = <30 31>;
             layers = <0>;
         };
     };
