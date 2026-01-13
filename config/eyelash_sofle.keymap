@@ -384,8 +384,8 @@
         numnav {
             bindings = <
 &kp TILDE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL     &kp BACKSLASH  &kp BACKSPACE    &kp UP_ARROW     &kp BACKSPACE  &none         &none         &none         &none      &kp BACKSPACE
-&none          &calledshop       &kp MINUS          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9     &kp DOWN_ARROW   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &none         &none      &none
-&kp PERIOD     &ERAC             &kp PLUS           &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6     &kp LEFT_ARROW   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &none         &none      &kp PERIOD
+&none          &kp PLUS          &kp MINUS          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9     &kp DOWN_ARROW   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &none         &none      &none
+&kp PERIOD     &mkp MB2          &mkp MB3           &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6     &kp LEFT_ARROW   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &none         &none      &kp PERIOD
 &kp RET        &none             &kp UNDER          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp RIGHT_ARROW  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &none         &none      &kp RET
 &kp LS(LG(S))  &kp SLASH         &kp NUMBER_0       &kp NUMBER_0  &kp NUMBER_0   &kp RET          &kp ENTER        &kp RET        &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp SLASH
             >;
