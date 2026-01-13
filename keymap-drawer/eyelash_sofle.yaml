@@ -196,8 +196,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [15, 16]
-  k: '&ERAC'
+- p: [16, 17]
+  k: '&mkp MB1'
   l: [macOS base]
 - p: [41, 42]
   k: Ctl+C
@@ -220,7 +220,7 @@ combos:
 - p: [31, 26]
   k: '&awaitingupdate'
   l: [macOS base]
-- p: [53, 54]
+- p: [44, 43]
   k: '&calleddriver'
   l: [macOS base]
 - p: [5, 4]
@@ -248,7 +248,7 @@ combos:
   k: Ctl+A
   l: [macOS base]
 - p: [18, 17]
-  k: $$mdi:backspace-reverse-outline$$
+  k: '&mkp MB2'
   l: [macOS base]
 - p: [4, 5, 17]
   k: '&gmail'
@@ -273,4 +273,7 @@ combos:
   l: [macOS base]
 - p: [0, 13]
   k: '&perwork'
+  l: [macOS base]
+- p: [30, 31]
+  k: '&ERAC'
   l: [macOS base]
