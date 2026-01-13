@@ -148,12 +148,6 @@
             layers = <0>;
         };
 
-        rightclick {
-            bindings = <&mkp MB2>;
-            key-positions = <18 17>;
-            layers = <0>;
-        };
-
         gmail {
             bindings = <&gmail>;
             key-positions = <4 5 17>;
@@ -205,6 +199,12 @@
         erac {
             bindings = <&ERAC>;
             key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        rightclick {
+            bindings = <&mkp MB2>;
+            key-positions = <30 26>;
             layers = <0>;
         };
     };
