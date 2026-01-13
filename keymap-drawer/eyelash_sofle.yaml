@@ -247,9 +247,6 @@ combos:
 - p: [26, 27]
   k: Ctl+A
   l: [macOS base]
-- p: [18, 17]
-  k: '&mkp MB2'
-  l: [macOS base]
 - p: [4, 5, 17]
   k: '&gmail'
   l: [macOS base]
@@ -276,4 +273,7 @@ combos:
   l: [macOS base]
 - p: [30, 31]
   k: '&ERAC'
+  l: [macOS base]
+- p: [30, 26]
+  k: '&mkp MB2'
   l: [macOS base]
