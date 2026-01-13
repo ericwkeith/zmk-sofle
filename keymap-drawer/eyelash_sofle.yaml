@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [16, 17]
+- p: [29, 30]
   k: '&mkp MB2'
   l: [macOS base]
 - p: [41, 42]
@@ -271,12 +271,9 @@ combos:
 - p: [0, 13]
   k: '&perwork'
   l: [macOS base]
-- p: [30, 31]
-  k: '&ERAC'
-  l: [macOS base]
 - p: [30, 56]
   k: '&mkp MB2'
   l: [macOS base]
-- p: [18, 17]
+- p: [30, 31]
   k: '&mkp MB3'
   l: [macOS base]
