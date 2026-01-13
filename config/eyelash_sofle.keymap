@@ -48,7 +48,7 @@
 
         leftclick {
             bindings = <&mkp MB2>;
-            key-positions = <16 17>;
+            key-positions = <29 30>;
             layers = <0>;
         };
 
@@ -196,12 +196,6 @@
             layers = <0>;
         };
 
-        erac {
-            bindings = <&ERAC>;
-            key-positions = <30 31>;
-            layers = <0>;
-        };
-
         rightclick {
             bindings = <&mkp MB2>;
             key-positions = <30 56>;
@@ -210,7 +204,7 @@
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <18 17>;
+            key-positions = <30 31>;
             layers = <0>;
         };
     };
