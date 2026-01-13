@@ -80,7 +80,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&calledshop'
+  - +
   - {t: '-', s: _}
   - '7'
   - '8'
@@ -93,8 +93,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - .
-  - '&ERAC'
-  - +
+  - '&mkp MB2'
+  - '&mkp MB3'
   - '4'
   - '5'
   - '6'
