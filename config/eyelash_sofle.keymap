@@ -94,9 +94,9 @@
             layers = <0>;
         };
 
-        driver {
-            bindings = <&calleddriver>;
-            key-positions = <44 43>;
+        mouse {
+            bindings = <&mo 3>;
+            key-positions = <31 30>;
             layers = <0>;
         };
 
@@ -132,13 +132,13 @@
 
         pend {
             bindings = <&pend>;
-            key-positions = <53 54 55>;
+            key-positions = <53 55>;
             layers = <0>;
         };
 
         ceires {
             bindings = <&email2driv>;
-            key-positions = <53 54 55 56>;
+            key-positions = <53 57>;
             layers = <0>;
         };
 
@@ -168,7 +168,7 @@
 
         checkback {
             bindings = <&checkback>;
-            key-positions = <1 0>;
+            key-positions = <57 56>;
             layers = <0>;
         };
 
@@ -204,7 +204,7 @@
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <30 31>;
+            key-positions = <43 44>;
             layers = <0>;
         };
     };
@@ -353,7 +353,7 @@
         perca: perca {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(C) &kp LS(A) &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
+            bindings = <&kp P &kp E &kp R &kp SPACE &kp LS(C) &kp LS(A) &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
             label = "PERCA";
         };
 
@@ -403,6 +403,16 @@
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
+        };
+
+        mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans
+            >;
         };
     };
 };
