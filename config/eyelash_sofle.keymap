@@ -96,7 +96,7 @@
 
         mouse {
             bindings = <&mo 3>;
-            key-positions = <31 30>;
+            key-positions = <30 29>;
             layers = <0>;
         };
 
@@ -198,7 +198,7 @@
 
         rightclick {
             bindings = <&mkp MB2>;
-            key-positions = <30 56>;
+            key-positions = <30 31>;
             layers = <0>;
         };
 
