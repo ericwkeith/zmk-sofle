@@ -261,9 +261,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [29, 30]
-  k: '&mkp MB2'
-  l: [macOS base]
 - p: [41, 42]
   k: Ctl+C
   l: [macOS base]
