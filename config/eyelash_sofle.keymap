@@ -119,7 +119,7 @@
         };
 
         rewriteemail {
-            bindings = <&rewritemail>;
+            bindings = <&emailedbranch>;
             key-positions = <37 38 50>;
             layers = <0>;
         };
@@ -131,7 +131,7 @@
         };
 
         ceires {
-            bindings = <&email2driv>;
+            bindings = <&emaileddriver>;
             key-positions = <13 14 15>;
             layers = <0>;
         };
@@ -260,10 +260,10 @@
             label = "TASK";
         };
 
-        rewritemail: rewritemail {
+        emailedbranch: rewritemail {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E>;
+            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE>;
             label = "REWRITEMAIL";
         };
 
@@ -281,10 +281,10 @@
             label = "CHECKBACK";
         };
 
-        arearewrite: arearewrite {
+        andareamanager: arearewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp A &kp R &kp E &kp A &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E>;
+            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp R &kp E &kp A &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE>;
             label = "AREAREWRITE";
         };
 
@@ -295,13 +295,6 @@
             label = "CALLEDSHOP";
         };
 
-        lm4update: lm4updateshop {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp L &kp M &kp SPACE &kp F &kp O &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
-            label = "LM4UPDATESHOP";
-        };
-
         calleddriver: calleddriver {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -309,10 +302,10 @@
             label = "CALLEDDRIVER";
         };
 
-        email2driv: email2driv {
+        emaileddriver: email2driv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp C &kp A &kp L &kp L>;
+            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE>;
             label = "email2driv";
         };
 
