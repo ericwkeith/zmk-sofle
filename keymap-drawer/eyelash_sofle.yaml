@@ -279,7 +279,7 @@ combos:
 - p: [39, 57]
   k: '&forrewrite'
   l: [macOS base]
-- p: [31, 26]
+- p: [13, 14]
   k: '&awaitingupdate'
   l: [macOS base]
 - p: [30, 29]
@@ -303,7 +303,7 @@ combos:
 - p: [53, 55]
   k: '&pend'
   l: [macOS base]
-- p: [53, 57]
+- p: [13, 14, 15]
   k: '&email2driv'
   l: [macOS base]
 - p: [26, 27]
