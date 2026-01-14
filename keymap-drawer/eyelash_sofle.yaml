@@ -298,13 +298,13 @@ combos:
   k: '&task'
   l: [macOS base]
 - p: [37, 38, 50]
-  k: '&rewritemail'
+  k: '&emailedbranch'
   l: [macOS base]
 - p: [53, 55]
   k: '&pend'
   l: [macOS base]
 - p: [13, 14, 15]
-  k: '&email2driv'
+  k: '&emaileddriver'
   l: [macOS base]
 - p: [26, 27]
   k: Ctl+A
