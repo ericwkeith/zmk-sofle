@@ -225,9 +225,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -285,7 +285,7 @@ combos:
 - p: [31, 26]
   k: '&awaitingupdate'
   l: [macOS base]
-- p: [31, 30]
+- p: [30, 29]
   k: mouse
   l: [macOS base]
 - p: [5, 4]
@@ -336,7 +336,7 @@ combos:
 - p: [0, 13]
   k: '&perwork'
   l: [macOS base]
-- p: [30, 56]
+- p: [30, 31]
   k: '&mkp MB2'
   l: [macOS base]
 - p: [43, 44]
