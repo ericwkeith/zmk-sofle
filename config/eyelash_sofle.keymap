@@ -46,12 +46,6 @@
     combos {
         compatible = "zmk,combos";
 
-        leftclick {
-            bindings = <&mkp MB2>;
-            key-positions = <29 30>;
-            layers = <0>;
-        };
-
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <41 42>;
