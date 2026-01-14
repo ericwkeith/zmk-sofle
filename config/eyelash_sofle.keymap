@@ -84,7 +84,7 @@
 
         awaitingupdate {
             bindings = <&awaitingupdate>;
-            key-positions = <31 26>;
+            key-positions = <13 14>;
             layers = <0>;
         };
 
@@ -132,7 +132,7 @@
 
         ceires {
             bindings = <&email2driv>;
-            key-positions = <53 57>;
+            key-positions = <13 14 15>;
             layers = <0>;
         };
 
