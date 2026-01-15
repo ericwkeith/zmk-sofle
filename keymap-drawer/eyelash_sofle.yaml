@@ -267,7 +267,7 @@ combos:
 - p: [42, 43]
   k: Ctl+V
   l: [macOS base]
-- p: [9, 10]
+- p: [20, 21]
   k: '&hatethisjob'
   l: [macOS base]
 - p: [7, 8]
@@ -338,4 +338,7 @@ combos:
   l: [macOS base]
 - p: [43, 44]
   k: '&mkp MB3'
+  l: [macOS base]
+- p: [33, 34]
+  k: '&hatethisjob'
   l: [macOS base]
