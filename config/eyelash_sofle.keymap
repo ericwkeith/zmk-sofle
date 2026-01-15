@@ -60,7 +60,7 @@
 
         hatethisjob {
             bindings = <&hatethisjob>;
-            key-positions = <9 10>;
+            key-positions = <20 21>;
             layers = <0>;
         };
 
@@ -199,6 +199,12 @@
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <43 44>;
+            layers = <0>;
+        };
+
+        hooray {
+            bindings = <&hatethisjob>;
+            key-positions = <33 34>;
             layers = <0>;
         };
     };
@@ -356,6 +362,13 @@
             #binding-cells = <0>;
             bindings = <&kp L &kp E &kp F &kp T &kp SPACE &kp M &kp E &kp S &kp S &kp A &kp G &kp E &kp SPACE>;
             label = "LEFTMESSAGE";
+        };
+
+        hooray: hooray {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp N3>;
+            label = "HOORAY";
         };
     };
 
