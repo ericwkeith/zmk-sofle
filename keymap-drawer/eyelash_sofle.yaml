@@ -319,7 +319,7 @@ combos:
   k: Ctl+Z
   l: [macOS base]
 - p: [57, 56]
-  k: '&checkback'
+  k: Gui+Sft+4
   l: [macOS base]
 - p: [3, 2]
   k: '&calledshop'
