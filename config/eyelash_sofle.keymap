@@ -160,8 +160,8 @@
             layers = <0>;
         };
 
-        checkback {
-            bindings = <&checkback>;
+        sswindow {
+            bindings = <&kp LG(LS(NUMBER_4))>;
             key-positions = <57 56>;
             layers = <0>;
         };
