@@ -58,12 +58,6 @@
             layers = <0>;
         };
 
-        hatethisjob {
-            bindings = <&hatethisjob>;
-            key-positions = <20 21>;
-            layers = <0>;
-        };
-
         UID {
             bindings = <&UID>;
             key-positions = <7 8>;
@@ -203,8 +197,8 @@
         };
 
         hooray {
-            bindings = <&hatethisjob>;
-            key-positions = <33 34>;
+            bindings = <&hooray>;
+            key-positions = <7 12>;
             layers = <0>;
         };
     };
@@ -367,7 +361,7 @@
         hooray: hooray {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp N3>;
+            bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp N3 &kp EXCL>;
             label = "HOORAY";
         };
     };
