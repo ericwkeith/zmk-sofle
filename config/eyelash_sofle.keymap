@@ -162,7 +162,7 @@
 
         shop {
             bindings = <&calledshop>;
-            key-positions = <3 2>;
+            key-positions = <44 31>;
             layers = <0>;
         };
 
@@ -184,14 +184,14 @@
             layers = <0>;
         };
 
-        rightclick {
-            bindings = <&mkp MB2>;
+        ERAC {
+            bindings = <&ERAC>;
             key-positions = <30 31>;
             layers = <0>;
         };
 
-        mb3 {
-            bindings = <&mkp MB3>;
+        driver {
+            bindings = <&calleddriver>;
             key-positions = <43 44>;
             layers = <0>;
         };
