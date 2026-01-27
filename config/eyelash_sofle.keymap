@@ -83,7 +83,7 @@
         };
 
         mouse {
-            bindings = <&mo 3>;
+            bindings = <&mkp MB1>;
             key-positions = <30 29>;
             layers = <0>;
         };
