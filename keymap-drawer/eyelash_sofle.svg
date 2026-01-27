@@ -688,8 +688,8 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-19">
-<rect rx="6" ry="6" x="154" y="18" width="28" height="26" class="combo"/>
-<text x="168" y="32" class="combo tap"><tspan style="font-size: 60%">&amp;calledsh…</tspan></text>
+<rect rx="6" ry="6" x="294" y="162" width="28" height="26" class="combo"/>
+<text x="308" y="175" class="combo tap"><tspan style="font-size: 60%">&amp;calledsh…</tspan></text>
 </g>
 <g class="combo combopos-20">
 <path d="M168,46 l-65,8" class="combo"/>
@@ -707,15 +707,11 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-23">
 <rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<text x="280" y="147" class="combo tap">
-<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB2</tspan>
-</text>
+<text x="280" y="147" class="combo tap">&amp;ERAC</text>
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
-<text x="280" y="203" class="combo tap">
-<tspan x="280" dy="-0.6em">&amp;mkp</tspan><tspan x="280" dy="1.2em">MB3</tspan>
-</text>
+<text x="280" y="203" class="combo tap"><tspan style="font-size: 60%">&amp;calleddr…</tspan></text>
 </g>
 <g class="combo combopos-25">
 <path d="M756,46 l-121,-9" class="combo"/>

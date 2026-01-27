@@ -318,7 +318,7 @@ combos:
 - p: [57, 56]
   k: Gui+Sft+4
   l: [macOS base]
-- p: [3, 2]
+- p: [44, 31]
   k: '&calledshop'
   l: [macOS base]
 - p: [1, 4]
@@ -331,10 +331,10 @@ combos:
   k: '&perwork'
   l: [macOS base]
 - p: [30, 31]
-  k: '&mkp MB2'
+  k: '&ERAC'
   l: [macOS base]
 - p: [43, 44]
-  k: '&mkp MB3'
+  k: '&calleddriver'
   l: [macOS base]
 - p: [7, 12]
   k: '&hooray'
