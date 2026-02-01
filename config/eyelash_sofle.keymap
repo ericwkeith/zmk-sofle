@@ -60,7 +60,7 @@
 
         UID {
             bindings = <&UID>;
-            key-positions = <7 8>;
+            key-positions = <7 12>;
             layers = <0>;
         };
 
@@ -154,12 +154,6 @@
             layers = <0>;
         };
 
-        sswindow {
-            bindings = <&kp LG(LS(NUMBER_4))>;
-            key-positions = <57 56>;
-            layers = <0>;
-        };
-
         shop {
             bindings = <&calledshop>;
             key-positions = <44 31>;
@@ -198,12 +192,12 @@
 
         hooray {
             bindings = <&hooray>;
-            key-positions = <7 12>;
+            key-positions = <20 25>;
             layers = <0>;
         };
 
-        del {
-            bindings = <&kp DEL>;
+        tilde {
+            bindings = <&kp TILDE>;
             key-positions = <0 1>;
             layers = <0 1>;
         };
@@ -382,7 +376,7 @@
 &kp TAB                 &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL        &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT          &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
-&lt 2 LG(LS(NUMBER_3))  &kp LEFT_ALT  &kp SPACE     &kp SPACE     &kp LEFT_GUI  &lt 1 RET       &kp RET       &lt 1 RET     &kp SPACE     &kp SPACE     &kp SPACE     &kp SLASH
+&lt 2 LG(LS(NUMBER_4))  &kp LEFT_ALT  &kp SPACE     &kp SPACE     &kp LEFT_GUI  &kp RET         &kp RET       &lt 1 RET     &kp SPACE     &kp SPACE     &kp SPACE     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -390,11 +384,11 @@
 
         numnav {
             bindings = <
-&kp TILDE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL     &kp BACKSLASH  &kp BACKSPACE    &kp UP_ARROW     &kp BACKSPACE  &none         &none         &none         &none      &kp BACKSPACE
-&none          &kp PLUS          &kp MINUS          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9     &kp DOWN_ARROW   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &none         &none      &none
-&kp PERIOD     &mkp MB2          &mkp MB3           &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6     &kp LEFT_ARROW   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &none         &none      &kp PERIOD
-&kp RET        &none             &kp UNDER          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp RIGHT_ARROW  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &none         &none      &kp RET
-&kp LS(LG(S))  &kp SLASH         &kp NUMBER_0       &kp NUMBER_0  &kp NUMBER_0   &kp RET          &kp ENTER        &kp RET        &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp SLASH
+&none          &none  &none         &none         &none         &none           &kp UP_ARROW     &kp MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER      &none       &kp BACKSPACE
+&none          &none  &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp DOWN_ARROW   &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp EQUAL      &none       &none
+&none          &none  &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6       &kp PLUS       &none       &none
+&none          &none  &kp UNDER     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp BACKSLASH  &kp PERIOD  &kp RET
+&kp LS(LG(S))  &none  &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp RET         &kp ENTER        &kp RET       &kp NUMBER_0      &kp NUMBER_0       &kp NUMBER_0   &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
