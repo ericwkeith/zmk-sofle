@@ -53,12 +53,12 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Gui+Sft+3, h: controls}
+  - {t: Gui+Sft+4, h: controls}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', h: numnav}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: numnav}
   - $$mdi:keyboard-space$$
@@ -66,22 +66,22 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: /, s: '?'}
   numnav:
-  - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - {t: '-', s: _}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '=', s: +}
-  - {t: \, s: '|'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - +
-  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '7'
   - '8'
   - '9'
@@ -89,12 +89,12 @@ layers:
   - '7'
   - '8'
   - '9'
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - .
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
   - '5'
   - '6'
@@ -102,10 +102,10 @@ layers:
   - '4'
   - '5'
   - '6'
+  - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - .
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
   - '1'
@@ -115,17 +115,17 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
+  - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Sft+Gui+S
-  - {t: /, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '0'
   - '0'
   - '0'
-  - {t: '$$mdi:keyboard-return$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - '0'
   - '0'
   - '0'
@@ -267,7 +267,7 @@ combos:
 - p: [42, 43]
   k: Ctl+V
   l: [macOS base]
-- p: [7, 8]
+- p: [7, 12]
   k: '&UID'
   l: [macOS base]
 - p: [0, 5]
@@ -315,9 +315,6 @@ combos:
 - p: [39, 40]
   k: Ctl+Z
   l: [macOS base]
-- p: [57, 56]
-  k: Gui+Sft+4
-  l: [macOS base]
 - p: [44, 31]
   k: '&calledshop'
   l: [macOS base]
@@ -336,9 +333,9 @@ combos:
 - p: [43, 44]
   k: '&calleddriver'
   l: [macOS base]
-- p: [7, 12]
+- p: [20, 25]
   k: '&hooray'
   l: [macOS base]
 - p: [0, 1]
-  k: $$mdi:backspace-reverse-outline$$
+  k: '~'
   l: [macOS base, numnav]
