@@ -201,6 +201,12 @@
             key-positions = <0 1>;
             layers = <0 1>;
         };
+
+        hooray4 {
+            bindings = <&number4money>;
+            key-positions = <33 38>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -363,6 +369,13 @@
             #binding-cells = <0>;
             bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp N3 &kp EXCL>;
             label = "HOORAY";
+        };
+
+        number4money: number4money {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp NUMBER_4 &kp DOLLAR>;
+            label = "NUMBER4MONEY";
         };
     };
 
