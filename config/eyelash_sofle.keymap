@@ -192,7 +192,7 @@
 
         hooray {
             bindings = <&hooray>;
-            key-positions = <20 25>;
+            key-positions = <33 38>;
             layers = <0>;
         };
 
@@ -204,7 +204,7 @@
 
         hooray4 {
             bindings = <&number4money>;
-            key-positions = <33 38>;
+            key-positions = <20 25>;
             layers = <0>;
         };
     };
