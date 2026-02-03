@@ -53,7 +53,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Gui+Sft+4, h: controls}
+  - {t: Gui+Sft+3, h: controls}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -333,9 +333,12 @@ combos:
 - p: [43, 44]
   k: '&calleddriver'
   l: [macOS base]
-- p: [20, 25]
+- p: [33, 38]
   k: '&hooray'
   l: [macOS base]
 - p: [0, 1]
   k: '~'
   l: [macOS base, numnav]
+- p: [20, 25]
+  k: '&number4money'
+  l: [macOS base]
