@@ -58,9 +58,9 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: RETURN, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: RETURN, h: numnav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: numnav}
+  - {t: '$$mdi:keyboard-return$$', h: RIGHT GUI}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -68,10 +68,10 @@ layers:
   numnav:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '-', s: _}
   - $$mdi:arrow-up-bold$$
   - {t: '-', s: _}
   - {t: '[', s: '{'}
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
   - '7'
   - '8'
   - '9'
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
   - '4'
   - '5'
   - '6'
@@ -107,7 +107,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - _
+  - {t: \, s: '|'}
   - '1'
   - '2'
   - '3'
@@ -119,13 +119,13 @@ layers:
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Sft+Gui+S
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
   - '0'
   - '0'
   - '0'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '0'
   - '0'
   - '0'
@@ -341,4 +341,7 @@ combos:
   l: [macOS base, numnav]
 - p: [20, 25]
   k: '&number4money'
+  l: [macOS base]
+- p: [17, 18]
+  k: $$mdi:backspace-reverse-outline$$
   l: [macOS base]
