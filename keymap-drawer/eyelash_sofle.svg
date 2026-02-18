@@ -731,6 +731,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="271" y="82" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+</g>
+<g class="combo combopos-30">
+<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
+<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
+</g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
+<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
+</g>
+<g class="combo combopos-33">
+<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
+<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-numnav">
@@ -1074,6 +1098,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
 <text x="56" y="56" class="combo tap">~</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
+<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
+<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
+<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-controls">
@@ -1405,6 +1453,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
+<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
+<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
+<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
 </g>
 </g>
 </g>
@@ -1738,6 +1810,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
+<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
+<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
+<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
 </g>
 </g>
 </g>
