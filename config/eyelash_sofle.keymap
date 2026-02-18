@@ -106,24 +106,6 @@
             layers = <0>;
         };
 
-        task {
-            bindings = <&task>;
-            key-positions = <25 12 11>;
-            layers = <0>;
-        };
-
-        rewriteemail {
-            bindings = <&emailedbranch>;
-            key-positions = <37 38 50>;
-            layers = <0>;
-        };
-
-        pend {
-            bindings = <&pend>;
-            key-positions = <53 55>;
-            layers = <0>;
-        };
-
         ceires {
             bindings = <&emaileddriver>;
             key-positions = <13 14 15>;
@@ -184,12 +166,6 @@
             layers = <0>;
         };
 
-        hooray {
-            bindings = <&hooray>;
-            key-positions = <33 38>;
-            layers = <0>;
-        };
-
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <0 1>;
@@ -211,27 +187,51 @@
         ERAC {
             bindings = <&ERAC>;
             key-positions = <1 14>;
+            layers = <0>;
         };
 
         attempt {
             bindings = <&attempt>;
             key-positions = <2 15>;
+            layers = <0>;
+        };
+
+        noinfo {
+            bindings = <&noinfo>;
+            key-positions = <7 20>;
+            layers = <0>;
+        };
+
+        emailbranch {
+            bindings = <&Emailedbranch>;
+            key-positions = <8 21>;
+            layers = <0>;
+        };
+
+        andass {
+            bindings = <&andassmgr>;
+            key-positions = <9 22>;
+            layers = <0>;
+        };
+
+        andarea {
+            bindings = <&andarea>;
+            key-positions = <10 23>;
+            layers = <0>;
+        };
+
+        alertcm {
+            bindings = <&alertCM>;
+            key-positions = <11 24>;
         };
 
         unresponsive {
             bindings = <&Unresponsive>;
-            key-positions = <8 21>;
+            key-positions = <25 12>;
         };
     };
 
     macros {
-        hatethisjob: hatethisjob {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp A &kp T &kp E &kp T &kp H &kp I &kp S &kp J &kp O &kp B &kp POUND &kp N3 &kp RET>;
-            label = "HATETHISJOB";
-        };
-
         forrewrite: forrewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -244,13 +244,6 @@
             #binding-cells = <0>;
             bindings = <&kp A &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp DOT>;
             label = "AWAITINGUPDATE";
-        };
-
-        pend: pend {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp P &kp E &kp N &kp D &kp SPACE &kp D &kp A &kp T &kp E &kp SPACE>;
-            label = "PEND";
         };
 
         UID: UID {
@@ -274,32 +267,11 @@
             label = "ERACMAIL";
         };
 
-        task: task {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp A &kp S &kp K &kp SPACE &kp A &kp L &kp R &kp E &kp A &kp D &kp Y &kp SPACE &kp W &kp O &kp R &kp K &kp E &kp D>;
-            label = "TASK";
-        };
-
-        emailedbranch: rewritemail {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE>;
-            label = "REWRITEMAIL";
-        };
-
         ERAC: ERAC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE>;
             label = "ERAC";
-        };
-
-        checkback: checkback {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp H &kp E &kp C &kp K &kp SPACE &kp B &kp A &kp C &kp K &kp SPACE>;
-            label = "CHECKBACK";
         };
 
         andareamanager: arearewrite {
@@ -405,6 +377,41 @@
             #binding-cells = <0>;
             bindings = <&kp LS(U) &kp N &kp R &kp E &kp S &kp P &kp O &kp N &kp S &kp I &kp V &kp E &kp SPACE &kp LS(S) &kp H &kp O &kp P &kp RET>;
             label = "UNRESPONSIVE";
+        };
+
+        Emailedbranch: Emailedbranch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp LS(B) &kp R &kp A &kp N &kp C &kp H &kp SPACE>;
+            label = "EMAILEDBRANCH";
+        };
+
+        andassmgr: andassmgr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp S &kp S &kp I &kp S &kp T &kp A &kp N &kp T &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp S &kp SPACE>;
+            label = "ANDASSMGR";
+        };
+
+        alertCM: alertCM {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(A) &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp LS(C) &kp LS(M) &kp RET>;
+            label = "ALERTCM";
+        };
+
+        noinfo: noinfo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N) &kp O &kp SPACE &kp LS(S) &kp H &kp O &kp P &kp SPACE &kp LS(I) &kp N &kp F &kp O &kp RET>;
+            label = "NOINFO";
+        };
+
+        andarea: andarea {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp R &kp E &kp A &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp S &kp SPACE>;
+            label = "ANDAREA";
         };
     };
 
