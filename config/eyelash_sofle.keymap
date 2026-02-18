@@ -213,6 +213,36 @@
             key-positions = <17 18>;
             layers = <0>;
         };
+
+        attempt1 {
+            bindings = <&attempt1>;
+            key-positions = <1 14>;
+        };
+
+        attempt2 {
+            bindings = <&attempt2>;
+            key-positions = <2 15>;
+        };
+
+        attempt3 {
+            bindings = <&attempt3>;
+            key-positions = <3 16>;
+        };
+
+        attempt4 {
+            bindings = <&attempt4>;
+            key-positions = <4 17>;
+        };
+
+        attempt5 {
+            bindings = <&attempt5>;
+            key-positions = <18 5>;
+        };
+
+        unresponsive {
+            bindings = <&Unresponsive>;
+            key-positions = <7 20>;
+        };
     };
 
     macros {
@@ -382,6 +412,48 @@
             #binding-cells = <0>;
             bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp NUMBER_4 &kp DOLLAR>;
             label = "NUMBER4MONEY";
+        };
+
+        attempt1: attempt1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp N1 &kp RET>;
+            label = "ATTEMPT1";
+        };
+
+        attempt2: attempt2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp LS(A) &kp RET &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp NUMBER_2 &kp RET>;
+            label = "ATTEMPT2";
+        };
+
+        attempt3: attempt3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp NUMBER_3 &kp RET>;
+            label = "ATTEMPT3";
+        };
+
+        attempt4: attempt4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp NUMBER_4 &kp RET>;
+            label = "ATTEMPT4";
+        };
+
+        attempt5: attempt5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp N5 &kp RET>;
+            label = "ATTEMPT5";
+        };
+
+        Unresponsive: Unresponsive {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp RET &kp LS(U) &kp N &kp R &kp E &kp S &kp P &kp O &kp N &kp S &kp I &kp V &kp E &kp SPACE &kp LS(S) &kp H &kp O &kp P &kp RET>;
+            label = "UNRESPONSIVE";
         };
     };
 
