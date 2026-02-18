@@ -704,56 +704,40 @@ rect.held, rect.combo.held {
 <text x="28" y="84" class="combo tap"><tspan style="font-size: 75%">&amp;perwork</tspan></text>
 </g>
 <g class="combo combopos-22">
-<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<text x="280" y="147" class="combo tap">&amp;ERAC</text>
-</g>
-<g class="combo combopos-23">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap"><tspan style="font-size: 60%">&amp;calleddr…</tspan></text>
 </g>
-<g class="combo combopos-24">
+<g class="combo combopos-23">
 <path d="M756,158 l-121,-9" class="combo"/>
 <path d="M756,158 l121,9" class="combo"/>
 <rect rx="6" ry="6" x="742" y="145" width="28" height="26" class="combo"/>
 <text x="756" y="158" class="combo tap"><tspan style="font-size: 86%">&amp;hooray</tspan></text>
 </g>
-<g class="combo combopos-25">
+<g class="combo combopos-24">
 <rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
 <text x="56" y="56" class="combo tap">~</text>
 </g>
-<g class="combo combopos-26">
+<g class="combo combopos-25">
 <path d="M756,102 l-121,-9" class="combo"/>
 <path d="M756,102 l121,9" class="combo"/>
 <rect rx="6" ry="6" x="742" y="89" width="28" height="26" class="combo"/>
 <text x="756" y="102" class="combo tap"><tspan style="font-size: 60%">&amp;number4m…</tspan></text>
 </g>
-<g class="combo combopos-27">
+<g class="combo combopos-26">
 <rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="271" y="82" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-28">
+<g class="combo combopos-27">
 <rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
-<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+<text x="84" y="84" class="combo tap">&amp;ERAC</text>
+</g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 75%">&amp;attempt</tspan></text>
 </g>
 <g class="combo combopos-29">
-<rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
-<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
-</g>
-<g class="combo combopos-30">
-<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
-<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
-</g>
-<g class="combo combopos-31">
-<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
-<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
-</g>
-<g class="combo combopos-32">
-<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
-<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
-</g>
-<g class="combo combopos-33">
-<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
-<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
+<rect rx="6" ry="6" x="658" y="50" width="28" height="26" class="combo"/>
+<text x="672" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
 </g>
 </g>
 </g>
@@ -1100,27 +1084,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
-<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+<text x="84" y="84" class="combo tap">&amp;ERAC</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
-<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 75%">&amp;attempt</tspan></text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
-<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
-<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
-<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
-<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
+<rect rx="6" ry="6" x="658" y="50" width="28" height="26" class="combo"/>
+<text x="672" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
 </g>
 </g>
 </g>
@@ -1456,27 +1428,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
-<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+<text x="84" y="84" class="combo tap">&amp;ERAC</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
-<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 75%">&amp;attempt</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
-<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
-<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
-<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
-<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
+<rect rx="6" ry="6" x="658" y="50" width="28" height="26" class="combo"/>
+<text x="672" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
 </g>
 </g>
 </g>
@@ -1813,27 +1773,15 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
-<text x="84" y="84" class="combo tap"><tspan style="font-size: 67%">&amp;attempt1</tspan></text>
+<text x="84" y="84" class="combo tap">&amp;ERAC</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="126" y="50" width="28" height="26" class="combo"/>
-<text x="140" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt2</tspan></text>
+<text x="140" y="63" class="combo tap"><tspan style="font-size: 75%">&amp;attempt</tspan></text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="182" y="43" width="28" height="26" class="combo"/>
-<text x="196" y="56" class="combo tap"><tspan style="font-size: 67%">&amp;attempt3</tspan></text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="238" y="50" width="28" height="26" class="combo"/>
-<text x="252" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt4</tspan></text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="294" y="50" width="28" height="26" class="combo"/>
-<text x="308" y="63" class="combo tap"><tspan style="font-size: 67%">&amp;attempt5</tspan></text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="602" y="50" width="28" height="26" class="combo"/>
-<text x="616" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
+<rect rx="6" ry="6" x="658" y="50" width="28" height="26" class="combo"/>
+<text x="672" y="63" class="combo tap"><tspan style="font-size: 60%">&amp;Unrespon…</tspan></text>
 </g>
 </g>
 </g>

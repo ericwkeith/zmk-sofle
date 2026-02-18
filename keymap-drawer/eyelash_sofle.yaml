@@ -327,9 +327,6 @@ combos:
 - p: [0, 13]
   k: '&perwork'
   l: [macOS base]
-- p: [30, 31]
-  k: '&ERAC'
-  l: [macOS base]
 - p: [43, 44]
   k: '&calleddriver'
   l: [macOS base]
@@ -346,14 +343,8 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [macOS base]
 - p: [1, 14]
-  k: '&attempt1'
+  k: '&ERAC'
 - p: [2, 15]
-  k: '&attempt2'
-- p: [3, 16]
-  k: '&attempt3'
-- p: [4, 17]
-  k: '&attempt4'
-- p: [18, 5]
-  k: '&attempt5'
-- p: [7, 20]
+  k: '&attempt'
+- p: [8, 21]
   k: '&Unresponsive'
