@@ -221,7 +221,7 @@
         leftmessage: leftmessage {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp L &kp E &kp F &kp T &kp SPACE &kp M &kp E &kp S &kp S &kp A &kp G &kp E &kp SPACE>;
+            bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE>;
             label = "LEFTMESSAGE";
         };
 
@@ -265,6 +265,55 @@
             #binding-cells = <0>;
             bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp R &kp E &kp A &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE>;
             label = "ANDAREA";
+        };
+
+        calledbranch4: calledbranch4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE>;
+            label = "CALLEDBRANCH4";
+        };
+
+        andspoke: andspoke {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp D &kp SPACE &kp S &kp P &kp O &kp K &kp E &kp SPACE &kp T &kp O &kp SPACE>;
+            label = "ANDSPOKE";
+        };
+
+        CEIConfirm: CEIConfirm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp C &kp O &kp N &kp F &kp I &kp R &kp M &kp SPACE>;
+            label = "CEICONFIRM";
+        };
+
+        resnotused: resnotused {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp SPACE &kp N &kp O &kp T &kp SPACE &kp U &kp S &kp E &kp D>;
+            label = "RESNOTUSED";
+        };
+
+        extendedto: extendedto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp T &kp O &kp SPACE>;
+            label = "EXTENDEDTO";
+        };
+
+        repairupdate: repairupdate {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp SPACE>;
+            label = "REPAIRUPDATE";
+        };
+
+        shopinfo: shopinfo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp H &kp O &kp P &kp SPACE &kp I &kp N &kp F &kp O &kp SPACE &kp A &kp N &kp D &kp SPACE &kp S &kp T &kp A &kp T &kp U &kp S &kp SPACE>;
+            label = "SHOPINFO";
         };
     };
 
