@@ -58,32 +58,8 @@
             layers = <0>;
         };
 
-        UID {
-            bindings = <&UID>;
-            key-positions = <7 12>;
-            layers = <0>;
-        };
-
-        days30 {
-            bindings = <&days30>;
-            key-positions = <0 5>;
-            layers = <0>;
-        };
-
-        forrewrite {
-            bindings = <&forrewrite>;
-            key-positions = <39 57>;
-            layers = <0>;
-        };
-
-        awaitingupdate {
-            bindings = <&awaitingupdate>;
-            key-positions = <13 14>;
-            layers = <0>;
-        };
-
         mouse {
-            bindings = <&mkp MB1>;
+            bindings = <&mo 3>;
             key-positions = <30 29>;
             layers = <0>;
         };
@@ -424,7 +400,7 @@
 &kp ESCAPE              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0   &kp BACKSPACE
 &kp TAB                 &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O          &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL        &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT          &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD     &kp SLASH      &mo 3
+&kp LEFT_SHIFT          &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD     &kp SLASH      &mo 4
 &lt 2 LG(LS(NUMBER_3))  &kp LEFT_GUI  &kp SPACE     &kp SPACE     &kp SPACE     &lt 1 RETURN    &kp RET       &lt 1 RET     &kp SPACE     &kp SPACE     &kp RIGHT_ALT  &kp SLASH
             >;
 
@@ -457,11 +433,21 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans             &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &msc SCRL_DOWN     &mmv MOVE_Y(-300)  &msc SCRL_UP      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans             &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans             &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans             &trans             &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &msc SCRL_DOWN     &mmv MOVE_Y(-300)  &msc SCRL_UP      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans             &trans             &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mkp MB1         &trans  &trans             &trans             &trans            &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
