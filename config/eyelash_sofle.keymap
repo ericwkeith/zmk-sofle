@@ -218,14 +218,14 @@
         awaitingupdate: awaitingupdate {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp DOT>;
+            bindings = <&kp A &kp W &kp A &kp I &kp T &kp I &kp N &kp G &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E>;
             label = "AWAITINGUPDATE";
         };
 
         UID: UID {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T &kp TAB>;
+            bindings = <&kp E &kp N4 &kp N8 &kp N9 &kp P &kp T>;
             label = "UID";
         };
 
@@ -274,22 +274,8 @@
         emaileddriver: email2driv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R &kp SPACE>;
+            bindings = <&kp LS(E) &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp T &kp O &kp SPACE &kp D &kp R &kp I &kp V &kp E &kp R>;
             label = "email2driv";
-        };
-
-        gmail: gmail {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp R &kp I &kp C &kp W &kp K &kp E &kp I &kp T &kp H &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "GMAIL";
-        };
-
-        reads: reads {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp E &kp A &kp D &kp S &kp N2 &kp N3 &kp N4 &kp DLLR>;
-            label = "READS";
         };
 
         days10: days10 {
@@ -327,13 +313,6 @@
             label = "LEFTMESSAGE";
         };
 
-        hooray: hooray {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp N3 &kp EXCL>;
-            label = "HOORAY";
-        };
-
         number4money: number4money {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -344,49 +323,35 @@
         attempt: attempt1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp POUND>;
             label = "ATTEMPT1";
-        };
-
-        Unresponsive: Unresponsive {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(U) &kp N &kp R &kp E &kp S &kp P &kp O &kp N &kp S &kp I &kp V &kp E &kp SPACE &kp LS(S) &kp H &kp O &kp P &kp RET>;
-            label = "UNRESPONSIVE";
         };
 
         Emailedbranch: Emailedbranch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp LS(B) &kp R &kp A &kp N &kp C &kp H &kp SPACE>;
+            bindings = <&kp LS(E) &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp LS(B) &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE>;
             label = "EMAILEDBRANCH";
         };
 
         andassmgr: andassmgr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp S &kp S &kp I &kp S &kp T &kp A &kp N &kp T &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp S &kp SPACE>;
+            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp S &kp S &kp I &kp S &kp T &kp A &kp N &kp T &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE>;
             label = "ANDASSMGR";
         };
 
         alertCM: alertCM {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp LS(C) &kp LS(M) &kp RET>;
+            bindings = <&kp LS(A) &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp LS(C) &kp LS(M) &kp SPACE>;
             label = "ALERTCM";
-        };
-
-        noinfo: noinfo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N) &kp O &kp SPACE &kp LS(S) &kp H &kp O &kp P &kp SPACE &kp LS(I) &kp N &kp F &kp O &kp RET>;
-            label = "NOINFO";
         };
 
         andarea: andarea {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp R &kp E &kp A &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp S &kp SPACE>;
+            bindings = <&kp A &kp N &kp D &kp SPACE &kp LS(A) &kp R &kp E &kp A &kp SPACE &kp LS(M) &kp A &kp N &kp A &kp G &kp E &kp R &kp SPACE>;
             label = "ANDAREA";
         };
     };
