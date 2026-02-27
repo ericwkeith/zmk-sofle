@@ -82,12 +82,6 @@
             layers = <0>;
         };
 
-        ceires {
-            bindings = <&emaileddriver>;
-            key-positions = <13 14 15>;
-            layers = <0>;
-        };
-
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
@@ -112,98 +106,16 @@
             layers = <0>;
         };
 
-        shop {
-            bindings = <&calledshop>;
-            key-positions = <44 31>;
-            layers = <0>;
-        };
-
-        days10 {
-            bindings = <&days10>;
-            key-positions = <1 4>;
-            layers = <0>;
-        };
-
-        perca {
-            bindings = <&perca>;
-            key-positions = <18 5>;
-            layers = <0>;
-        };
-
-        perwork {
-            bindings = <&perwork>;
-            key-positions = <0 13>;
-            layers = <0>;
-        };
-
-        driver {
-            bindings = <&calleddriver>;
-            key-positions = <43 44>;
-            layers = <0>;
-        };
-
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <0 1>;
             layers = <0 1>;
         };
 
-        hooray4 {
-            bindings = <&number4money>;
-            key-positions = <20 25>;
-            layers = <0>;
-        };
-
         Delete {
             bindings = <&kp DEL>;
             key-positions = <17 18>;
             layers = <0>;
-        };
-
-        ERAC {
-            bindings = <&ERAC>;
-            key-positions = <1 14>;
-            layers = <0>;
-        };
-
-        attempt {
-            bindings = <&attempt>;
-            key-positions = <2 15>;
-            layers = <0>;
-        };
-
-        noinfo {
-            bindings = <&noinfo>;
-            key-positions = <7 20>;
-            layers = <0>;
-        };
-
-        emailbranch {
-            bindings = <&Emailedbranch>;
-            key-positions = <8 21>;
-            layers = <0>;
-        };
-
-        andass {
-            bindings = <&andassmgr>;
-            key-positions = <9 22>;
-            layers = <0>;
-        };
-
-        andarea {
-            bindings = <&andarea>;
-            key-positions = <10 23>;
-            layers = <0>;
-        };
-
-        alertcm {
-            bindings = <&alertCM>;
-            key-positions = <11 24>;
-        };
-
-        unresponsive {
-            bindings = <&Unresponsive>;
-            key-positions = <25 12>;
         };
     };
 
