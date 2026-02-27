@@ -402,13 +402,13 @@
             >;
         };
 
-        layer_4 {
+        macrosetc {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &days30   &days10  &ext3     &resnotused  &CEIConfirm  &emaileddriver
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &perwork  &perca   &alertCM  &trans       &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans   &trans    &trans       &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans   &trans    &trans       &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans   &trans    &trans       &trans
             >;
         };
     };
