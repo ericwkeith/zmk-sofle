@@ -344,9 +344,6 @@ combos:
 - p: [5, 4, 18]
   k: '&eracmail'
   l: [macOS base]
-- p: [13, 14, 15]
-  k: '&emaileddriver'
-  l: [macOS base]
 - p: [26, 27]
   k: Ctl+A
   l: [macOS base]
@@ -359,49 +356,9 @@ combos:
 - p: [39, 40]
   k: Ctl+Z
   l: [macOS base]
-- p: [44, 31]
-  k: '&calledshop'
-  l: [macOS base]
-- p: [1, 4]
-  k: '&days10'
-  l: [macOS base]
-- p: [18, 5]
-  k: '&perca'
-  l: [macOS base]
-- p: [0, 13]
-  k: '&perwork'
-  l: [macOS base]
-- p: [43, 44]
-  k: '&calleddriver'
-  l: [macOS base]
 - p: [0, 1]
   k: '~'
   l: [macOS base, numnav]
-- p: [20, 25]
-  k: '&number4money'
-  l: [macOS base]
 - p: [17, 18]
   k: $$mdi:backspace-reverse-outline$$
   l: [macOS base]
-- p: [1, 14]
-  k: '&ERAC'
-  l: [macOS base]
-- p: [2, 15]
-  k: '&attempt'
-  l: [macOS base]
-- p: [7, 20]
-  k: '&noinfo'
-  l: [macOS base]
-- p: [8, 21]
-  k: '&Emailedbranch'
-  l: [macOS base]
-- p: [9, 22]
-  k: '&andassmgr'
-  l: [macOS base]
-- p: [10, 23]
-  k: '&andarea'
-  l: [macOS base]
-- p: [11, 24]
-  k: '&alertCM'
-- p: [25, 12]
-  k: '&Unresponsive'
