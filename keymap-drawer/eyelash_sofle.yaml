@@ -321,10 +321,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&forrewrite'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&Emailedbranch'
+  - '&andassmgr'
+  - '&andarea'
+  - '&calledbranch4'
 combos:
 - p: [41, 42]
   k: Ctl+C
