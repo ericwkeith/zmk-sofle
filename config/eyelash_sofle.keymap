@@ -88,18 +88,6 @@
             layers = <0>;
         };
 
-        gmail {
-            bindings = <&gmail>;
-            key-positions = <4 5 17>;
-            layers = <0>;
-        };
-
-        reads {
-            bindings = <&reads>;
-            key-positions = <4 5 17 18>;
-            layers = <0>;
-        };
-
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <39 40>;
