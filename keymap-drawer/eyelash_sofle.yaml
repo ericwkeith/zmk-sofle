@@ -347,12 +347,6 @@ combos:
 - p: [26, 27]
   k: Ctl+A
   l: [macOS base]
-- p: [4, 5, 17]
-  k: '&gmail'
-  l: [macOS base]
-- p: [4, 5, 17, 18]
-  k: '&reads'
-  l: [macOS base]
 - p: [39, 40]
   k: Ctl+Z
   l: [macOS base]
