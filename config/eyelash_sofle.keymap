@@ -358,11 +358,11 @@
 
         numnav {
             bindings = <
-&none          &none      &kp UNDER      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS       &kp UP_ARROW     &kp MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER      &none       &kp BACKSPACE
-&none          &none      &kp EQUAL      &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp DOWN_ARROW   &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp EQUAL      &none       &none
-&none          &none      &kp PLUS       &kp NUMBER_4      &kp NUMBER_5       &kp NUMBER_6    &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6       &kp PLUS       &none       &none
-&none          &none      &kp BACKSLASH  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3    &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp BACKSLASH  &kp PERIOD  &kp RET
-&kp LS(LG(S))  &kp SLASH  &kp NUMBER_0   &kp NUMBER_0      &kp NUMBER_0       &kp RET         &kp ENTER        &kp RET       &kp NUMBER_0      &kp NUMBER_0       &kp NUMBER_0   &kp SLASH
+&kp K_PREV     &kp K_NEXT  &kp UNDER      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS       &kp UP_ARROW     &kp MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDER      &none       &kp BACKSPACE
+&none          &none       &kp EQUAL      &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp DOWN_ARROW   &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp EQUAL      &none       &none
+&none          &none       &kp PLUS       &kp NUMBER_4      &kp NUMBER_5       &kp NUMBER_6    &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6       &kp PLUS       &none       &none
+&none          &none       &kp BACKSLASH  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3    &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp BACKSLASH  &kp PERIOD  &kp RET
+&kp LS(LG(S))  &kp SLASH   &kp NUMBER_0   &kp NUMBER_0      &kp NUMBER_0       &kp RET         &kp ENTER        &kp RET       &kp NUMBER_0      &kp NUMBER_0       &kp NUMBER_0   &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
