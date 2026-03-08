@@ -66,8 +66,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: /, s: '?'}
   numnav:
-  - PREV
-  - NEXT
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
   - _
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
