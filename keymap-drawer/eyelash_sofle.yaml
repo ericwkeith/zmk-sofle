@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - macrosetc
+  - {t: '$$mdi:keyboard-return$$', h: macrosetc}
   - {t: Gui+Sft+3, h: controls}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
