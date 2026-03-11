@@ -118,7 +118,7 @@ layers:
   - {t: \, s: '|'}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Sft+Gui+S
+  - Sft+Gui+4
   - {t: /, s: '?'}
   - '0'
   - '0'
