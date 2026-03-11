@@ -64,7 +64,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - {t: /, s: '?'}
+  - {t: /, h: macrosetc, s: '?'}
   numnav:
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
@@ -324,7 +324,7 @@ layers:
   - '&Emailedbranch'
   - '&andassmgr'
   - '&andarea'
-  - '&calledbranch4'
+  - {t: '&calledbranch4', type: held alternate}
 combos:
 - p: [41, 42]
   k: Ctl+C
