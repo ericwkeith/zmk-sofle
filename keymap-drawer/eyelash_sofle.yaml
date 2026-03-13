@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: RETURN, h: numnav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: macrosetc}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -234,7 +234,7 @@ layers:
   - '&leftmessage'
   - '&shopinfo'
   - '&extendedto'
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '&UID', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -247,7 +247,7 @@ layers:
   - '&poss'
   - '&CST'
   - '&attempt'
-  - '&UID'
+  - '&forrewrite'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,7 +255,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&forrewrite'
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - '&Emailedbranch'
   - '&andassmgr'
   - '&andarea'
