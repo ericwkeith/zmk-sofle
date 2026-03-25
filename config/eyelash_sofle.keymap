@@ -64,8 +64,8 @@
             layers = <0>;
         };
 
-        backkspa {
-            bindings = <&kp BACKSPACE>;
+        delete {
+            bindings = <&kp DELETE>;
             key-positions = <5 4>;
             layers = <0>;
         };
@@ -94,16 +94,10 @@
             layers = <0>;
         };
 
-        tilde {
-            bindings = <&kp TILDE>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
             layers = <0 1>;
-        };
-
-        Delete {
-            bindings = <&kp DEL>;
-            key-positions = <17 18>;
-            layers = <0>;
         };
     };
 
