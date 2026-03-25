@@ -353,7 +353,7 @@
         numnav {
             bindings = <
 &kp C_PREV            &kp C_NEXT  &kp UNDER      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS       &kp UP_ARROW     &none    &none         &kp EQUAL     &kp SLASH     &kp ASTERISK  &kp BACKSPACE
-&trans                &none       &kp EQUAL      &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp DOWN_ARROW   &none    &kp N7        &kp N8        &kp N9        &kp MINUS     &none
+&kp TAB               &none       &kp EQUAL      &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9    &kp DOWN_ARROW   &none    &kp N7        &kp N8        &kp N9        &kp MINUS     &none
 &none                 &none       &kp PLUS       &kp NUMBER_4      &kp NUMBER_5       &kp NUMBER_6    &kp LEFT_ARROW   &none    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &none
 &kp C_PAUSE           &none       &kp BACKSLASH  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3    &kp RIGHT_ARROW  &none    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp RET
 &kp LS(LG(NUMBER_4))  &kp SLASH   &kp NUMBER_0   &kp NUMBER_0      &kp NUMBER_0       &kp RET         &kp ENTER        &kp RET  &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0  &kp SLASH
@@ -375,7 +375,7 @@
         macrosetc {
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans            &trans  &days30          &days10         &ext3         &resnotused  &CEIConfirm     &emaileddriver
-&bt BT_PRV    &bt BT_NXT    &trans        &trans        &trans        &trans            &trans  &perwork         &perca          &alertCM      &trans       &trans          &number4money
+&kp TAB       &none         &trans        &trans        &trans        &trans            &trans  &perwork         &perca          &alertCM      &trans       &trans          &number4money
 &trans        &trans        &trans        &trans        &trans        &trans            &trans  &calledshop      &calleddriver   &leftmessage  &shopinfo    &extendedto     &UID
 &trans        &trans        &trans        &trans        &trans        &trans            &trans  &awaitingupdate  &total          &poss         &CST         &attempt        &forrewrite
 &trans        &bt BT_CLR    &trans        &trans        &trans        &bt BT_CLR_ALL    &trans  &none            &Emailedbranch  &andassmgr    &andarea     &calledbranch4
