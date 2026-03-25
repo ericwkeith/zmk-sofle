@@ -73,11 +73,11 @@ layers:
   - {t: ']', s: '}'}
   - {t: '-', s: _}
   - $$mdi:arrow-up-bold$$
-  - {t: '-', s: _}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
+  - {t: /, s: '?'}
+  - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -86,11 +86,11 @@ layers:
   - '8'
   - '9'
   - $$mdi:arrow-down-bold$$
-  - '7'
-  - '8'
-  - '9'
-  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -99,11 +99,11 @@ layers:
   - '5'
   - '6'
   - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
-  - '5'
+  - {t: '5', s: '%'}
   - '6'
   - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PAUSE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -112,10 +112,10 @@ layers:
   - '2'
   - '3'
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
   - '2'
   - '3'
-  - {t: \, s: '|'}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Sft+Gui+4
