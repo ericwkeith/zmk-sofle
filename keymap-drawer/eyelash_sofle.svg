@@ -636,9 +636,9 @@ rect.held, rect.combo.held {
 <a href="#mouse">
 <text x="224" y="144" class="combo tap layer-activator">mouse</text>
 </a></g>
-<g class="combo backspace combopos-3">
-<rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="271" y="26" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="266" y="22" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="271" y="26" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-4">
 <path d="M337,260 l36,24" class="combo"/>
@@ -658,13 +658,9 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="211" width="28" height="26" class="combo"/>
 <text x="56" y="224" class="combo tap">Ctl+Z</text>
 </g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">~</text>
-</g>
-<g class="combo combopos-9">
-<rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="271" y="82" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<g class="combo backspace combopos-8">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="47" y="47" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
@@ -1007,9 +1003,9 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">/</text>
 <text x="0" y="-24" class="key shifted">?</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo"/>
-<text x="56" y="56" class="combo tap">~</text>
+<g class="combo backspace combopos-0">
+<rect rx="6" ry="6" x="42" y="43" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="47" y="47" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>

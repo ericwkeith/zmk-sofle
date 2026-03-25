@@ -271,7 +271,7 @@ combos:
   k: mouse
   l: [macOS base]
 - p: [5, 4]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: $$mdi:backspace-reverse-outline$$
   l: [macOS base]
 - p: [57, 56, 44]
   k: '&elemail'
@@ -286,8 +286,5 @@ combos:
   k: Ctl+Z
   l: [macOS base]
 - p: [0, 1]
-  k: '~'
+  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base, numnav]
-- p: [17, 18]
-  k: $$mdi:backspace-reverse-outline$$
-  l: [macOS base]
