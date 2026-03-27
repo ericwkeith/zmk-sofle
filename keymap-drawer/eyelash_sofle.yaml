@@ -69,22 +69,22 @@ layers:
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
   - _
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: \, s: '|'}
+  - '*'
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
   - {t: '=', s: +}
-  - {t: /, s: '?'}
+  - {t: \, s: '|'}
   - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - PAUSE
-  - {t: '=', s: +}
-  - '7'
-  - '8'
-  - '9'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
@@ -94,10 +94,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - +
   - '4'
-  - '5'
+  - {t: '5', s: '%'}
   - '6'
+  - +
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
@@ -107,10 +107,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: \, s: '|'}
   - '1'
   - '2'
   - '3'
+  - .
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
@@ -119,7 +119,7 @@ layers:
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - BT CLR ALL
-  - $$mdi:bluetooth-off$$
+  - {t: /, s: '?'}
   - '0'
   - '0'
   - '0'
