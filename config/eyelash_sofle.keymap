@@ -375,8 +375,8 @@
         macrosetc {
             bindings = <
 &trans   &trans  &trans  &trans  &trans  &trans    &trans  &days30          &days10         &ext3         &resnotused  &CEIConfirm     &emaileddriver
-&kp TAB  &trans  &trans  &trans  &trans  &trans    &trans  &perwork         &perca          &alertCM      &none        &none           &number4money
-&trans   &trans  &trans  &trans  &trans  &trans    &trans  &calledshop      &calleddriver   &leftmessage  &shopinfo    &extendedto     &UID
+&kp TAB  &trans  &trans  &trans  &trans  &trans    &trans  &perwork         &perca          &alertCM      &none        &none           &UID
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &calledshop      &calleddriver   &leftmessage  &shopinfo    &extendedto     &number4money
 &trans   &trans  &trans  &trans  &trans  &trans    &trans  &awaitingupdate  &total          &poss         &CST         &attempt        &forrewrite
 &trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans           &Emailedbranch  &andassmgr    &andarea     &calledbranch4
             >;
