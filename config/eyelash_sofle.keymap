@@ -366,8 +366,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans    &trans             &trans             &trans            &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans    &msc SCRL_DOWN     &mmv MOVE_Y(-300)  &msc SCRL_UP      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans    &mmv MOVE_X(-300)  &mkp MB1           &mmv MOVE_X(300)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans    &mkp MB2           &mmv MOVE_Y(300)   &mkp MB3          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans    &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans    &mkp MB1           &mkp MB3           &mkp MB2          &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &mkp MB1         &mkp MB2  &mkp MB1           &mkp MB3           &trans            &trans
             >;
         };
