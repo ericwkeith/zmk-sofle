@@ -352,11 +352,11 @@
 
         numnav {
             bindings = <
-&bt BT_SEL 0    &bt BT_SEL 1  &kp UNDER       &kp EQUAL       &kp BACKSLASH    &kp ASTRK     &kp UP_ARROW     &none     &kp UNDER     &kp EQUAL     &kp BACKSLASH  &kp ASTERISK  &kp BACKSPACE
-&kp TAB         &bt BT_SEL 2  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp MINUS     &kp DOWN_ARROW   &mkp MB3  &kp N7        &kp N8        &kp N9         &kp MINUS     &none
-&none           &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PLUS      &kp LEFT_ARROW   &mkp MB2  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS      &none
-&kp C_PREVIOUS  &kp C_NEXT    &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp PERIOD    &kp RIGHT_ARROW  &mkp MB1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp PERIOD    &kp RET
-&bt BT_CLR_ALL  &kp SLASH     &kp NUMBER_0    &kp NUMBER_0    &kp NUMBER_0     &none         &kp ENTER        &kp RET   &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0   &kp SLASH
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &none    &kp UP_ARROW     &none     &kp UNDER     &kp EQUAL     &kp BACKSLASH  &kp ASTERISK  &kp BACKSPACE
+&kp TAB         &kp C_PAUSE   &none         &none  &none  &none    &kp DOWN_ARROW   &mkp MB3  &kp N7        &kp N8        &kp N9         &kp MINUS     &none
+&kp C_PREV      &kp C_NEXT    &none         &none  &none  &none    &kp LEFT_ARROW   &mkp MB2  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS      &none
+&none           &none         &none         &none  &none  &none    &kp RIGHT_ARROW  &mkp MB1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp PERIOD    &kp RET
+&bt BT_CLR_ALL  &none         &none         &none  &none  &none    &kp ENTER        &kp RET   &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0   &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
