@@ -344,7 +344,7 @@
 &kp TAB                        &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL               &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &mt RIGHT_SHIFT RET
-&mt LEFT_ALT LG(LS(NUMBER_3))  &kp LEFT_GUI  &kp SPACE     &kp SPACE     &lt 2 SPACE   &lt 1 RETURN    &kp RET       &lt 3 RET     &kp SPACE     &kp SPACE     &kp SPACE     &kp SLASH
+&mt LEFT_ALT LG(LS(NUMBER_3))  &kp LEFT_GUI  &kp SPACE     &kp SPACE     &lt 2 SPACE   &lt 1 RETURN    &kp RET       &lt 3 RET     &lt 2 SPACE   &kp SPACE     &kp SPACE     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -352,10 +352,10 @@
 
         numnav {
             bindings = <
-&kp C_PREV      &kp C_NEXT    &kp UNDER       &kp EQUAL       &kp BACKSLASH    &kp ASTRK     &kp UP_ARROW     &none     &kp UNDER     &kp EQUAL     &kp BACKSLASH  &kp ASTERISK  &kp BACKSPACE
-&kp TAB         &kp C_PAUSE   &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp MINUS     &kp DOWN_ARROW   &mkp MB3  &kp N7        &kp N8        &kp N9         &kp MINUS     &none
+&bt BT_SEL 0    &bt BT_SEL 1  &kp UNDER       &kp EQUAL       &kp BACKSLASH    &kp ASTRK     &kp UP_ARROW     &none     &kp UNDER     &kp EQUAL     &kp BACKSLASH  &kp ASTERISK  &kp BACKSPACE
+&kp TAB         &bt BT_SEL 2  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp MINUS     &kp DOWN_ARROW   &mkp MB3  &kp N7        &kp N8        &kp N9         &kp MINUS     &none
 &none           &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PLUS      &kp LEFT_ARROW   &mkp MB2  &kp NUMBER_4  &kp N5        &kp NUMBER_6   &kp PLUS      &none
-&bt BT_SEL 0    &bt BT_SEL 1  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp PERIOD    &kp RIGHT_ARROW  &mkp MB1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp PERIOD    &kp RET
+&kp C_PREVIOUS  &kp C_NEXT    &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp PERIOD    &kp RIGHT_ARROW  &mkp MB1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp PERIOD    &kp RET
 &bt BT_CLR_ALL  &kp SLASH     &kp NUMBER_0    &kp NUMBER_0    &kp NUMBER_0     &none         &kp ENTER        &kp RET   &kp NUMBER_0  &kp NUMBER_0  &kp NUMBER_0   &kp SLASH
             >;
 
@@ -364,11 +364,11 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans    &trans             &trans             &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans    &msc SCRL_DOWN     &mmv MOVE_Y(-300)  &msc SCRL_UP      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans    &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans    &mkp MB1           &mkp MB3           &mkp MB2          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp MB1         &mkp MB2  &mkp MB1           &mkp MB3           &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans             &trans             &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &mkp MB1           &mmv MOVE_Y(-300)  &mkp MB2          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN     &mkp MB3           &msc SCRL_UP      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mkp MB1         &trans  &trans             &trans             &trans            &trans
             >;
         };
 
