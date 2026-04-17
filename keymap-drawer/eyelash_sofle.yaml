@@ -76,7 +76,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
   - {t: '=', s: +}
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - '*'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
@@ -103,8 +103,8 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
+  - {t: '-', s: _}
   - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
