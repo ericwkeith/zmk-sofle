@@ -108,7 +108,7 @@
 
         NA {
             bindings = <&NA>;
-            key-positions = <30 31>;
+            key-positions = <43 44>;
             layers = <0>;
         };
     };
