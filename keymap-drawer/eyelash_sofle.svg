@@ -663,12 +663,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="47" y="47" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<text x="280" y="147" class="combo tap"><tspan style="font-size: 75%">&amp;unknown</tspan></text>
+<rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
+<text x="280" y="91" class="combo tap"><tspan style="font-size: 75%">&amp;unknown</tspan></text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
-<text x="280" y="147" class="combo tap">&amp;NA</text>
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">&amp;NA</text>
 </g>
 </g>
 </g>

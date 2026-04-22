@@ -288,9 +288,9 @@ combos:
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base, numnav, mouse, macrosetc]
-- p: [30, 31]
+- p: [17, 18]
   k: '&unknown'
   l: [macOS base]
-- p: [30, 31]
+- p: [43, 44]
   k: '&NA'
   l: [macOS base]
