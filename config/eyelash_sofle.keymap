@@ -99,6 +99,18 @@
             key-positions = <0 1>;
             layers = <0 1 2 3>;
         };
+
+        unknown {
+            bindings = <&unknown>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
+
+        NA {
+            bindings = <&NA>;
+            key-positions = <30 31>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -331,6 +343,20 @@
             #binding-cells = <0>;
             bindings = <&kp A &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp C &kp L &kp I &kp E &kp N &kp T &kp SPACE &kp S &kp E &kp R &kp V &kp I &kp C &kp E &kp S &kp SPACE>;
             label = "CST";
+        };
+
+        unknown: unknown {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp N &kp K>;
+            label = "unknown";
+        };
+
+        NA: NA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N) &kp LS(A)>;
+            label = "NA";
         };
     };
 
