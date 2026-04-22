@@ -102,7 +102,7 @@
 
         unknown {
             bindings = <&unknown>;
-            key-positions = <30 31>;
+            key-positions = <17 18>;
             layers = <0>;
         };
 
