@@ -90,8 +90,8 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
