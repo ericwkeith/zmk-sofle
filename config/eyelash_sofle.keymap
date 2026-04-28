@@ -366,11 +366,11 @@
         macBase {
             display-name = "macOS base";
             bindings = <
-&kp ESCAPE                     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
-&kp TAB                        &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BACKSLASH
-&kp LEFT_CONTROL               &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT                 &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
-&mt LEFT_ALT LG(LS(NUMBER_3))  &kp LEFT_GUI  &kp SPACE     &kp SPACE     &lt 1 SPACE   &lt 3 RETURN    &kp RET       &kp RET       &lt 2 SPACE   &kp SPACE     &kp SPACE     &kp SLASH
+&kp ESCAPE              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
+&kp TAB                 &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BACKSLASH
+&kp LEFT_CONTROL        &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT          &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
+&mt LEFT_ALT LG(LS(S))  &kp LEFT_GUI  &kp SPACE     &kp SPACE     &lt 1 SPACE   &lt 3 RETURN    &kp RET       &kp RET       &lt 2 SPACE   &kp SPACE     &kp SPACE     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -378,11 +378,11 @@
 
         numnav {
             bindings = <
-&none           &none  &none  &none  &none  &none    &kp UP_ARROW     &kp UNDER     &kp EQUAL     &kp SLASH     &kp ASTERISK  &kp BACKSPACE     &kp BACKSPACE
-&kp TAB         &none  &none  &none  &none  &none    &kp DOWN_ARROW   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none           &none  &none  &none  &none  &none    &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp HOME          &kp PAGE_UP
-&kp LEFT_SHIFT  &none  &none  &none  &none  &none    &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RET       &kp END           &kp PAGE_DOWN
-&none           &none  &none  &none  &none  &none    &kp ENTER        &kp NUMBER_0  &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
+&trans          &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW     &kp UNDER     &kp EQUAL     &kp SLASH     &kp ASTERISK  &kp BACKSPACE     &kp BACKSPACE
+&kp TAB         &trans  &trans  &trans  &trans  &trans    &kp DOWN_ARROW   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp MINUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans          &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp HOME          &kp PAGE_UP
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_ARROW  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RET       &kp END           &kp PAGE_DOWN
+&bt BT_CLR_ALL  &trans  &trans  &trans  &none   &trans    &kp ENTER        &kp NUMBER_0  &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -390,21 +390,21 @@
 
         mouse {
             bindings = <
-&trans          &trans        &trans        &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans             &trans             &trans            &trans  &trans
-&trans          &trans        &trans        &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &mkp MB1           &mmv MOVE_Y(-300)  &mkp MB2          &trans  &trans
-&trans          &trans        &trans        &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
-&trans          &trans        &trans        &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN     &mkp MB3           &msc SCRL_UP      &trans  &trans
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &mkp MB1         &trans  &trans             &trans             &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans             &trans             &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &mkp MB1           &mmv MOVE_Y(-300)  &mkp MB2          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &msc SCRL_DOWN     &mkp MB3           &msc SCRL_UP      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mkp MB1         &trans  &none              &trans             &trans            &trans
             >;
         };
 
         macrosetc {
             bindings = <
-&trans          &trans        &trans        &trans  &trans  &trans    &trans  &days30          &days10         &ext3         &resnotused  &CEIConfirm     &emaileddriver
+&forrewrite     &trans        &trans        &trans  &trans  &trans    &trans  &days30          &days10         &ext3         &resnotused  &CEIConfirm     &emaileddriver
 &kp TAB         &trans        &trans        &trans  &trans  &trans    &trans  &perwork         &perca          &alertCM      &none        &none           &UID
 &trans          &trans        &trans        &trans  &trans  &trans    &trans  &calledshop      &calleddriver   &leftmessage  &shopinfo    &extendedto     &number4money
-&trans          &trans        &trans        &trans  &trans  &trans    &trans  &awaitingupdate  &total          &poss         &CST         &attempt        &forrewrite
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &trans  &trans           &Emailedbranch  &andassmgr    &andarea     &calledbranch4
+&trans          &trans        &trans        &trans  &trans  &trans    &trans  &awaitingupdate  &total          &poss         &CST         &attempt        &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &none     &trans  &trans           &Emailedbranch  &andassmgr    &andarea     &calledbranch4
             >;
         };
     };
