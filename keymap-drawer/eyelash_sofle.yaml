@@ -209,7 +209,7 @@ layers:
   - '&resnotused'
   - '&CEIConfirm'
   - '&emaileddriver'
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
