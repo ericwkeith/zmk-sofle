@@ -378,7 +378,7 @@
 
         numnav {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW     &kp UNDER     &kp EQUAL     &kp SLASH     &kp ASTERISK  &kp BACKSPACE     &kp BACKSPACE
+&trans          &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW     &trans        &trans        &kp EQUAL     &kp SLASH     &kp ASTERISK      &kp BACKSPACE
 &kp TAB         &trans  &trans  &trans  &trans  &trans    &kp DOWN_ARROW   &kp PLUS      &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans          &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW   &kp MINUS     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp HOME          &kp PAGE_UP
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_ARROW  &kp UNDER     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp END           &kp PAGE_DOWN
