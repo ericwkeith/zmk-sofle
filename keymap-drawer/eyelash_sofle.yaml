@@ -86,10 +86,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
-  - '7'
+  - +
+  - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - '9'
-  - {t: '-', s: _}
+  - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,10 +99,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
+  - {t: '-', s: _}
   - '4'
-  - '5'
+  - {t: '5', s: '%'}
   - '6'
-  - +
   - HOME
   - PgUp
   - $$mdi:apple-keyboard-shift$$
@@ -112,10 +112,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
+  - _
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - END
   - PgDn
   - BT CLR ALL
