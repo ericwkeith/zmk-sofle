@@ -107,7 +107,7 @@
         };
 
         NA {
-            bindings = <&NA>;
+            bindings = <&calledshop>;
             key-positions = <43 44>;
             layers = <0>;
         };
