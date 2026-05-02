@@ -58,7 +58,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: numnav}
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: macrosetc}
   - {t: '$$mdi:keyboard-space$$', h: numnav}
