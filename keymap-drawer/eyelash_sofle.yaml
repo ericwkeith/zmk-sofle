@@ -53,12 +53,12 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Gui+Sft+S, h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-command$$
+  - {t: Gui+Sft+S, h: macrosetc}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: numnav}
-  - {t: RETURN, h: macrosetc}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: macrosetc}
   - {t: '$$mdi:keyboard-space$$', h: numnav}
@@ -248,13 +248,13 @@ layers:
   - '&CST'
   - '&attempt'
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BT CLR ALL
   - {type: held alternate}
   - '&Emailedbranch'
   - '&andassmgr'
