@@ -201,14 +201,14 @@
         perca: perca {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp E &kp R &kp SPACE &kp LS(C) &kp LS(A) &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
+            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(C) &kp LS(A) &kp SPACE &kp LS(N) &kp O &kp N &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp D &kp SPACE &kp W &kp O &kp R &kp F &kp K &kp L &kp O &kp W>;
             label = "PERCA";
         };
 
         perwork: perwork {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp E &kp R &kp SPACE &kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
+            bindings = <&kp P &kp E &kp R &kp SPACE &kp N &kp O &kp N &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp D &kp SPACE &kp W &kp O &kp R &kp K &kp F &kp L &kp O &kp W>;
             label = "PERWORK";
         };
 
