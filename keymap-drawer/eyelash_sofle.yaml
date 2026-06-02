@@ -294,3 +294,5 @@ combos:
 - p: [43, 44]
   k: '&calledshop'
   l: [macOS base]
+- p: [2, 3]
+  k: Ctl+$$mdi:arrow-up-bold$$
