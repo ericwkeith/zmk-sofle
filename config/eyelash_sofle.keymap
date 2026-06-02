@@ -111,6 +111,11 @@
             key-positions = <43 44>;
             layers = <0>;
         };
+
+        mission {
+            bindings = <&kp LC(UP_ARROW)>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
