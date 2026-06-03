@@ -58,12 +58,6 @@
             layers = <0 1 2 3>;
         };
 
-        mouse {
-            bindings = <&mo 2>;
-            key-positions = <30 29>;
-            layers = <0>;
-        };
-
         delete {
             bindings = <&kp DELETE>;
             key-positions = <5 4>;
@@ -98,18 +92,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
             layers = <0 1 2 3>;
-        };
-
-        unknown {
-            bindings = <&unknown>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
-
-        NA {
-            bindings = <&calledshop>;
-            key-positions = <43 44>;
-            layers = <0>;
         };
 
         mission {
@@ -154,13 +136,6 @@
             label = "ERACMAIL";
         };
 
-        ERAC: ERAC {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE>;
-            label = "ERAC";
-        };
-
         andareamanager: arearewrite {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -203,13 +178,6 @@
             label = "DAYS30";
         };
 
-        perca: perca {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp E &kp R &kp SPACE &kp LS(C) &kp LS(A) &kp SPACE &kp LS(N) &kp O &kp N &kp SPACE &kp M &kp A &kp N &kp A &kp G &kp E &kp D &kp SPACE &kp W &kp O &kp R &kp F &kp K &kp L &kp O &kp W>;
-            label = "PERCA";
-        };
-
         perwork: perwork {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -231,13 +199,6 @@
             label = "NUMBER4MONEY";
         };
 
-        attempt: attempt1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE &kp POUND>;
-            label = "ATTEMPT1";
-        };
-
         Emailedbranch: Emailedbranch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -252,13 +213,6 @@
             label = "ANDASSMGR";
         };
 
-        alertCM: alertCM {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp LS(C) &kp LS(M) &kp SPACE>;
-            label = "ALERTCM";
-        };
-
         andarea: andarea {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -271,97 +225,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE>;
             label = "CALLEDBRANCH4";
-        };
-
-        andspoke: andspoke {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp D &kp SPACE &kp S &kp P &kp O &kp K &kp E &kp SPACE &kp T &kp O &kp SPACE>;
-            label = "ANDSPOKE";
-        };
-
-        CEIConfirm: CEIConfirm {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp C &kp O &kp N &kp F &kp I &kp R &kp M &kp SPACE>;
-            label = "CEICONFIRM";
-        };
-
-        resnotused: resnotused {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(R) &kp E &kp S &kp E &kp R &kp V &kp A &kp T &kp I &kp O &kp N &kp SPACE &kp N &kp O &kp T &kp SPACE &kp U &kp S &kp E &kp D>;
-            label = "RESNOTUSED";
-        };
-
-        extendedto: extendedto {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp T &kp O &kp SPACE>;
-            label = "EXTENDEDTO";
-        };
-
-        repairupdate: repairupdate {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp SPACE>;
-            label = "REPAIRUPDATE";
-        };
-
-        shopinfo: shopinfo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp H &kp O &kp P &kp SPACE &kp I &kp N &kp F &kp O &kp SPACE &kp A &kp N &kp D &kp SPACE &kp S &kp T &kp A &kp T &kp U &kp S &kp SPACE>;
-            label = "SHOPINFO";
-        };
-
-        ext3: ext3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp X &kp T &kp E &kp N &kp D &kp E &kp D &kp SPACE &kp N3 &kp SPACE &kp D &kp A &kp Y &kp S &kp SPACE>;
-            label = "EXT3";
-        };
-
-        perceinotes: perceinotes {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp E &kp R &kp SPACE &kp LS(C) &kp LS(E) &kp LS(I) &kp SPACE &kp N &kp O &kp T &kp E &kp S &kp SPACE>;
-            label = "PERCEINOTES";
-        };
-
-        poss: poss {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp O &kp S &kp S &kp I &kp B &kp L &kp E &kp SPACE &kp LS(T) &kp LS(L) &kp SPACE>;
-            label = "POSS";
-        };
-
-        total: total {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp O &kp T &kp A &kp L &kp SPACE &kp L &kp O &kp S &kp S &kp SPACE>;
-            label = "TOTAL";
-        };
-
-        CST: CST {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp C &kp L &kp I &kp E &kp N &kp T &kp SPACE &kp S &kp E &kp R &kp V &kp I &kp C &kp E &kp S &kp SPACE>;
-            label = "CST";
-        };
-
-        unknown: unknown {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp K>;
-            label = "unknown";
-        };
-
-        NA: NA {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N) &kp LS(A)>;
-            label = "NA";
         };
     };
 
@@ -405,11 +268,11 @@
 
         macrosetc {
             bindings = <
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &days30          &days10         &ext3         &resnotused  &CEIConfirm     &emaileddriver
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &perwork         &perca          &alertCM      &none        &none           &UID
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &calledshop      &calleddriver   &leftmessage  &shopinfo    &extendedto     &number4money
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &awaitingupdate  &total          &poss         &CST         &attempt        &forrewrite
-&none   &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &none     &bt BT_CLR_ALL  &trans           &Emailedbranch  &andassmgr    &andarea     &calledbranch4
+&trans  &trans        &trans        &trans  &trans  &trans    &trans          &days30          &days10         &trans        &trans    &trans          &emaileddriver
+&trans  &trans        &trans        &trans  &trans  &trans    &trans          &perwork         &trans          &trans        &trans    &trans          &UID
+&trans  &trans        &trans        &trans  &trans  &trans    &trans          &calledshop      &calleddriver   &leftmessage  &trans    &trans          &number4money
+&trans  &trans        &trans        &trans  &trans  &trans    &trans          &awaitingupdate  &trans          &trans        &trans    &trans          &forrewrite
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &bt BT_CLR_ALL  &trans           &Emailedbranch  &andassmgr    &andarea  &calledbranch4
             >;
         };
     };
