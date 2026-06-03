@@ -160,8 +160,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -205,9 +205,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&days30'
   - '&days10'
-  - '&ext3'
-  - '&resnotused'
-  - '&CEIConfirm'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&emaileddriver'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -217,10 +217,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&perwork'
-  - '&perca'
-  - '&alertCM'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&UID'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -232,8 +232,8 @@ layers:
   - '&calledshop'
   - '&calleddriver'
   - '&leftmessage'
-  - '&shopinfo'
-  - '&extendedto'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&number4money'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -243,17 +243,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&awaitingupdate'
-  - '&total'
-  - '&poss'
-  - '&CST'
-  - '&attempt'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&forrewrite'
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {type: held}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {type: held alternate}
   - '&Emailedbranch'
@@ -267,9 +267,6 @@ combos:
 - p: [42, 43]
   k: Ctl+V
   l: [macOS base, numnav, mouse, macrosetc]
-- p: [30, 29]
-  k: mouse
-  l: [macOS base]
 - p: [5, 4]
   k: $$mdi:backspace-reverse-outline$$
   l: [macOS base, numnav, mouse]
@@ -288,11 +285,5 @@ combos:
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base, numnav, mouse, macrosetc]
-- p: [17, 18]
-  k: '&unknown'
-  l: [macOS base]
-- p: [43, 44]
-  k: '&calledshop'
-  l: [macOS base]
 - p: [2, 3]
   k: Ctl+$$mdi:arrow-up-bold$$
