@@ -285,5 +285,5 @@ combos:
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base, numnav, mouse, macrosetc]
-- p: [2, 3]
+- p: [39, 57]
   k: Ctl+$$mdi:arrow-up-bold$$
