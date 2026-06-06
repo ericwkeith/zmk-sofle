@@ -96,7 +96,7 @@
 
         mission {
             bindings = <&kp LC(UP_ARROW)>;
-            key-positions = <2 3>;
+            key-positions = <39 57>;
         };
     };
 
