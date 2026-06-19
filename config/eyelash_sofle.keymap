@@ -195,7 +195,7 @@
         number4money: number4money {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp O &kp O &kp R &kp A &kp Y &kp F &kp O &kp R &kp POUND &kp NUMBER_4 &kp HASH>;
+            bindings = <&kp LS(S) &kp T &kp O &kp R &kp Y &kp W &kp A &kp R &kp S &kp POUND &kp N4 &kp N5>;
             label = "NUMBER4MONEY";
         };
 
