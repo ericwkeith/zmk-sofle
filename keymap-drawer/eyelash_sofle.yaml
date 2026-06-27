@@ -53,7 +53,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Gui+Sft+S, h: macrosetc}
+  - {t: Gui+Sft+3, h: macrosetc}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -130,71 +130,6 @@ layers:
   - '0'
   - .
   - {t: /, s: '?'}
-  mouse:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
-  - '&mmv MOVE_Y(-300)'
-  - '&mkp MB2'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv MOVE_X(-300)'
-  - '&mmv MOVE_Y(300)'
-  - '&mmv MOVE_X(300)'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-down$$
-  - '&mkp MB3'
-  - $$mdi:pan-up$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB1'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   macrosetc:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -263,13 +198,13 @@ layers:
 combos:
 - p: [41, 42]
   k: Ctl+C
-  l: [macOS base, numnav, mouse, macrosetc]
+  l: [macOS base, numnav, macrosetc]
 - p: [42, 43]
   k: Ctl+V
-  l: [macOS base, numnav, mouse, macrosetc]
+  l: [macOS base, numnav, macrosetc]
 - p: [5, 4]
   k: $$mdi:backspace-reverse-outline$$
-  l: [macOS base, numnav, mouse]
+  l: [macOS base, numnav]
 - p: [57, 56, 44]
   k: '&elemail'
   l: [macOS base]
@@ -278,12 +213,12 @@ combos:
   l: [macOS base]
 - p: [26, 27]
   k: Ctl+A
-  l: [macOS base, mouse, numnav, macrosetc]
+  l: [macOS base, numnav, macrosetc]
 - p: [39, 40]
   k: Ctl+Z
-  l: [macOS base, numnav, mouse, macrosetc]
+  l: [macOS base, numnav, macrosetc]
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [macOS base, numnav, mouse, macrosetc]
+  l: [macOS base, numnav, macrosetc]
 - p: [39, 57]
   k: Ctl+$$mdi:arrow-up-bold$$
