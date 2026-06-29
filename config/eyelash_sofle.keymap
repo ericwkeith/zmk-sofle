@@ -98,6 +98,11 @@
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <39 57>;
         };
+
+        sswindow {
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            key-positions = <52 39>;
+        };
     };
 
     macros {
