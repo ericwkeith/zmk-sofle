@@ -222,3 +222,5 @@ combos:
   l: [macOS base, numnav, macrosetc]
 - p: [39, 57]
   k: Ctl+$$mdi:arrow-up-bold$$
+- p: [52, 39]
+  k: Gui+Sft+4
