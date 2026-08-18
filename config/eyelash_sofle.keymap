@@ -110,12 +110,6 @@
             key-positions = <11 12>;
             layers = <0>;
         };
-
-        bt1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <11 12>;
-            layers = <0>;
-        };
     };
 
     macros {
