@@ -270,11 +270,11 @@
 
         macrosetc {
             bindings = <
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &days30          &days10         &trans        &trans    &trans          &emaileddriver
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &perwork         &trans          &trans        &trans    &trans          &UID
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &calledshop      &calleddriver   &leftmessage  &trans    &trans          &number4money
-&trans  &trans        &trans        &trans  &trans  &trans    &trans          &awaitingupdate  &trans          &trans        &trans    &trans          &forrewrite
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &bt BT_CLR_ALL  &trans           &Emailedbranch  &andassmgr    &andarea  &calledbranch4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &days30          &days10         &trans        &trans    &trans          &emaileddriver
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &perwork         &trans          &trans        &trans    &trans          &UID
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &calledshop      &calleddriver   &leftmessage  &trans    &trans          &number4money
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &awaitingupdate  &trans          &trans        &trans    &trans          &forrewrite
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &Emailedbranch  &andassmgr    &andarea  &calledbranch4
             >;
         };
     };
