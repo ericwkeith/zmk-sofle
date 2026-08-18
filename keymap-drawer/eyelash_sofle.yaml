@@ -222,9 +222,9 @@ combos:
   l: [macOS base, numnav, macrosetc]
 - p: [39, 57]
   k: Ctl+$$mdi:arrow-up-bold$$
-- p: [7, 8]
+- p: [0, 1, 2]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
   l: [macOS base]
-- p: [11, 12]
+- p: [5, 4, 3]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
   l: [macOS base]
