@@ -228,6 +228,3 @@ combos:
 - p: [11, 12]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
   l: [macOS base]
-- p: [11, 12]
-  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: [macOS base]
