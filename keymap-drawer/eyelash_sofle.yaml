@@ -228,9 +228,12 @@ combos:
 - p: [5, 4, 3]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
   l: [macOS base]
-- p: [43, 44]
+- p: [43, 42, 41]
   k: '&mkp MB2'
   l: [macOS base, numnav, macrosetc]
-- p: [31, 30]
+- p: [40, 41, 42]
   k: '&mkp MB3'
+  l: [macOS base, numnav, macrosetc]
+- p: [29, 30]
+  k: '&mkp MB1'
   l: [macOS base, numnav, macrosetc]
