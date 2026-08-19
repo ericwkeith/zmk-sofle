@@ -110,6 +110,18 @@
             key-positions = <5 4 3>;
             layers = <0>;
         };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <43 44>;
+            layers = <0 1 2>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <31 30>;
+            layers = <0 1 2>;
+        };
     };
 
     macros {
