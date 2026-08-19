@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB3'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - +
@@ -93,10 +93,10 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:pan-up$$
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&mkp MB2'
+  - '&mmv MOVE_X(-300)'
+  - '&mmv MOVE_Y(300)'
+  - '&mmv MOVE_Y(-300)'
+  - '&mmv MOVE_X(300)'
   - $$mdi:pan-down$$
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
