@@ -82,7 +82,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
@@ -93,11 +93,11 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
@@ -227,4 +227,10 @@ combos:
   l: [macOS base]
 - p: [5, 4, 3]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  l: [macOS base]
+- p: [15, 16]
+  k: '&mkp MB3'
+  l: [macOS base]
+- p: [16, 17]
+  k: '&mkp MB2'
   l: [macOS base]
