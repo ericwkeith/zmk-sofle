@@ -53,7 +53,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - PLAY PAUSE
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: numnav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: macrosetc}
-  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
+  - {t: '$$mdi:keyboard-space$$', h: numnav}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: /, s: '?'}
@@ -121,12 +121,12 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - {t: '&mkp MB2', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '0', s: )}
+  - {t: '0', s: ), type: held alternate}
   - '0'
   - .
   - {t: /, s: '?'}
