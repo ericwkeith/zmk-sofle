@@ -81,8 +81,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv MOVE_Y(-300)'
+  - '&mmv MOVE_Y(-300)'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
@@ -95,7 +95,7 @@ layers:
   - $$mdi:pan-up$$
   - '&mmv MOVE_X(-300)'
   - '&mmv MOVE_Y(300)'
-  - '&mmv MOVE_Y(-300)'
+  - '&mmv MOVE_Y(300)'
   - '&mmv MOVE_X(300)'
   - $$mdi:pan-down$$
   - $$mdi:arrow-left-bold$$
@@ -228,12 +228,9 @@ combos:
 - p: [5, 4, 3]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
   l: [macOS base]
-- p: [43, 42, 41]
+- p: [42, 41, 40]
   k: '&mkp MB2'
   l: [macOS base, numnav, macrosetc]
-- p: [40, 41, 42]
+- p: [41, 42, 43]
   k: '&mkp MB3'
-  l: [macOS base, numnav, macrosetc]
-- p: [29, 30]
-  k: '&mkp MB1'
   l: [macOS base, numnav, macrosetc]
