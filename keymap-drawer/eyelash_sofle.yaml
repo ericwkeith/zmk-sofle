@@ -229,7 +229,7 @@ layers:
   - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB3'
   - '&mmv MOVE_X(-300)'
   - '&mmv MOVE_Y(300)'
   - '&mmv MOVE_X(300)'
@@ -242,7 +242,7 @@ layers:
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,9 +255,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB2'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
