@@ -262,7 +262,7 @@
 &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A         &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
-&kp LEFT_GUI      &kp LEFT_ALT  &kp SPACE     &kp SPACE     &mkp MB1      &lt 1 RET       &kp RET       &lt 2 RETURN  &lt 1 SPACE   &kp SPACE     &kp SPACE     &kp SLASH
+&kp LEFT_GUI      &kp LEFT_ALT  &kp SPACE     &kp SPACE     &mo 3         &lt 1 RET       &kp RET       &lt 2 RETURN  &lt 1 SPACE   &kp SPACE     &kp SPACE     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -287,6 +287,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &calledshop      &calleddriver   &leftmessage  &trans    &trans          &number4money
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &awaitingupdate  &trans          &trans        &trans    &trans          &forrewrite
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &Emailedbranch  &andassmgr    &andarea  &calledbranch4
+            >;
+        };
+
+        mousenav {
+            bindings = <
+&trans  &trans  &trans  &trans        &trans          &trans    &trans  &trans    &trans             &trans             &trans            &trans  &trans
+&trans  &trans  &trans  &trans        &trans          &trans    &trans  &trans    &trans             &mmv MOVE_Y(-300)  &trans            &trans  &trans
+&trans  &trans  &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans    &trans  &trans    &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans  &trans
+&trans  &trans  &trans  &kp LC(C)     &kp LC(V)       &trans    &trans  &trans    &trans             &trans             &trans            &trans  &trans
+&trans  &trans  &trans  &trans        &trans          &trans    &trans  &mkp MB2  &mkp MB1           &mkp MB3           &trans            &trans
             >;
         };
     };
