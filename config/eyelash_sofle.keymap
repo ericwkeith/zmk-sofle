@@ -122,6 +122,12 @@
             key-positions = <30 29>;
             layers = <0 1 2>;
         };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <7 8>;
+            layers = <0>;
+        };
     };
 
     macros {
