@@ -234,3 +234,6 @@ combos:
 - p: [30, 29]
   k: '&mkp MB3'
   l: [macOS base, numnav, macrosetc]
+- p: [7, 8]
+  k: {t: /, s: '?'}
+  l: [macOS base]
