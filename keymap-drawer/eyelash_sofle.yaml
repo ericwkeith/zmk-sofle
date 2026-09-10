@@ -68,10 +68,10 @@ layers:
   numnav:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - _
+  - {t: /, s: '?'}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -81,10 +81,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv MOVE_Y(-300)'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - $$mdi:arrow-down-bold$$
   - +
   - {t: '7', s: '&'}
@@ -94,10 +94,10 @@ layers:
   - {t: ']', s: '}'}
   - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv MOVE_X(-300)'
-  - '&mmv MOVE_Y(300)'
-  - '&mmv MOVE_X(300)'
-  - $$mdi:pan-down$$
+  - {t: '-', s: _}
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
@@ -107,10 +107,10 @@ layers:
   - PgUp
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - END
+  - _
+  - '1'
+  - '2'
+  - '3'
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
@@ -119,10 +119,10 @@ layers:
   - END
   - PgDn
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
+  - .
+  - {t: '0', s: )}
+  - {t: '0', s: )}
+  - {t: '0', s: )}
   - {t: '&mkp MB2', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
