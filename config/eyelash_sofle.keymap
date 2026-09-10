@@ -269,8 +269,8 @@
 
         numnav {
             bindings = <
-&perwork        &days30     &days10    &kp MINUS     &kp UNDER     &kp SLASH       &kp UP_ARROW     &trans     &trans        &kp EQUAL     &kp SLASH     &kp ASTERISK      &kp BACKSPACE
-&kp TAB         &trans      &kp PLUS   &kp N7        &kp N8        &kp N9          &kp DOWN_ARROW   &kp PLUS   &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp BACKSPACE   &days30     &days10    &kp MINUS     &kp UNDER     &kp SLASH       &kp UP_ARROW     &trans     &trans        &kp EQUAL     &kp SLASH     &kp ASTERISK      &kp BACKSPACE
+&kp TAB         &perwork    &kp PLUS   &kp N7        &kp N8        &kp N9          &kp DOWN_ARROW   &kp PLUS   &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans          &trans      &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp HOME          &kp PAGE_UP
 &kp LEFT_SHIFT  &trans      &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp END           &kp PAGE_DOWN
 &bt BT_CLR_ALL  &kp PERIOD  &kp N0     &kp PERIOD    &kp N0        &none           &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
