@@ -52,8 +52,8 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT GUI
+  - PLAY PAUSE
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -66,9 +66,9 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: /, s: '?'}
   numnav:
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '=', s: +}
+  - '&perwork'
+  - '&days30'
+  - '&days10'
   - {t: '-', s: _}
   - _
   - {t: /, s: '?'}
@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:pan-up$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - '4'
@@ -121,9 +121,9 @@ layers:
   - BT CLR ALL
   - .
   - {t: '0', s: )}
+  - .
   - {t: '0', s: )}
-  - {t: '0', s: )}
-  - {t: '&mkp MB2', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '0', s: ), type: held alternate}
@@ -183,7 +183,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&forrewrite'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
