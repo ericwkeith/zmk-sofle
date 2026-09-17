@@ -69,22 +69,22 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&days30'
   - '&days10'
-  - {t: '-', s: _}
-  - _
+  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - {t: /, s: '?'}
-  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - '&perwork'
-  - +
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - '9'
+  - +
   - $$mdi:arrow-down-bold$$
   - +
   - {t: '7', s: '&'}
@@ -94,34 +94,34 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
   - '4'
   - {t: '5', s: '%'}
-  - '6'
+  - {t: '5', s: '%'}
+  - {t: '-', s: _}
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - HOME
-  - PgUp
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
   - '1'
   - '2'
   - '3'
+  - _
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
   - '2'
   - '3'
-  - END
-  - PgDn
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT CLR ALL
+  - {t: /, s: '?'}
   - .
   - {t: '0', s: )}
-  - .
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
