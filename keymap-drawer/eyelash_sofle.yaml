@@ -71,9 +71,9 @@ layers:
   - '&days10'
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: /, s: '?'}
+  - +
   - $$mdi:arrow-up-bold$$
-  - {t: /, s: '?'}
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -84,9 +84,9 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - '9'
-  - +
+  - {t: /, s: '?'}
   - $$mdi:arrow-down-bold$$
-  - +
+  - {t: /, s: '?'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
