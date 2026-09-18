@@ -67,17 +67,17 @@ layers:
   - {t: /, s: '?'}
   numnav:
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&days30'
-  - '&days10'
-  - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - +
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - $$mdi:arrow-up-bold$$
-  - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - '&perwork'
@@ -92,8 +92,8 @@ layers:
   - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&days30'
+  - '&perwork'
   - '4'
   - {t: '5', s: '%'}
   - {t: '5', s: '%'}
@@ -103,10 +103,10 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
+  - F11
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&days10'
   - '1'
   - '2'
   - '3'
@@ -116,8 +116,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
+  - F12
   - BT CLR ALL
   - {t: /, s: '?'}
   - .
