@@ -269,10 +269,10 @@
 
         numnav {
             bindings = <
-&kp BACKSPACE   &days30    &days10       &kp EQUAL     &none         &kp PLUS          &kp UP_ARROW     &kp PLUS   &trans        &kp EQUAL     &none         &none             &kp BACKSPACE
+&kp BACKSPACE   &kp F1     &kp F2        &kp F3        &kp F4        &kp F5            &kp UP_ARROW     &kp F6     &kp F7        &kp F8        &kp F9        &kp F10           &kp BACKSPACE
 &kp TAB         &perwork   &kp N7        &kp N8        &kp NUMBER_9  &kp SLASH         &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &trans     &kp NUMBER_4  &kp N5        &kp N5        &kp MINUS         &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none             &none
-&kp LEFT_SHIFT  &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE    &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none             &none
+&days30         &perwork   &kp NUMBER_4  &kp N5        &kp N5        &kp MINUS         &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp F11
+&kp LEFT_SHIFT  &days10    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE    &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp F12
 &bt BT_CLR_ALL  &kp SLASH  &kp PERIOD    &kp N0        &kp N0        &none             &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
             >;
 
