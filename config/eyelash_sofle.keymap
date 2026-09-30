@@ -121,6 +121,12 @@
             bindings = <&forrewrite>;
             key-positions = <44 43>;
         };
+
+        downish {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <30 31>;
+            layers = <0 1 2>;
+        };
     };
 
     macros {
