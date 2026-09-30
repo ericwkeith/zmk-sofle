@@ -657,6 +657,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap"><tspan style="font-size: 60%">&amp;forrewri…</tspan></text>
 </g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">PgDn</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-numnav">
@@ -1044,6 +1048,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap"><tspan style="font-size: 60%">&amp;forrewri…</tspan></text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">PgDn</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-macrosetc">
@@ -1405,6 +1413,10 @@ rect.held, rect.combo.held {
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
 <text x="280" y="203" class="combo tap"><tspan style="font-size: 60%">&amp;forrewri…</tspan></text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">PgDn</text>
 </g>
 </g>
 </g>

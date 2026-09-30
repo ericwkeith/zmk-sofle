@@ -233,3 +233,6 @@ combos:
   l: [macOS base, numnav, macrosetc]
 - p: [44, 43]
   k: '&forrewrite'
+- p: [30, 31]
+  k: PgDn
+  l: [macOS base, numnav, macrosetc]
