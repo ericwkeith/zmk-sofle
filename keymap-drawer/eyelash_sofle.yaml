@@ -296,11 +296,8 @@ combos:
 - p: [30, 29]
   k: '&mkp MB3'
   l: [macOS base, numnav, macrosetc]
-- p: [44, 43]
+- p: [44, 39]
   k: '&forrewrite'
-- p: [30, 31]
-  k: PgDn
-  l: [macOS base, numnav, macrosetc]
 - p: [26, 31]
   k: '&awaitingupdate'
   l: [macOS base]
