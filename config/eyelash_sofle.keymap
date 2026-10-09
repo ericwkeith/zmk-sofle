@@ -127,6 +127,36 @@
             key-positions = <26 31>;
             layers = <0>;
         };
+
+        userID {
+            bindings = <&UID>;
+            key-positions = <0 5>;
+            layers = <0>;
+        };
+
+        pass {
+            bindings = <&number4money>;
+            key-positions = <13 18>;
+            layers = <0>;
+        };
+
+        emailedBM {
+            bindings = <&Emailedbranch>;
+            key-positions = <5 18>;
+            layers = <0>;
+        };
+
+        andassist {
+            bindings = <&andassmgr>;
+            key-positions = <4 17>;
+            layers = <0>;
+        };
+
+        andareamgr {
+            bindings = <&andareamanager>;
+            key-positions = <3 16>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -287,11 +317,11 @@
 
         macrosetc {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &days30          &days10         &trans        &trans    &trans          &emaileddriver
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &perwork         &trans          &trans        &trans    &trans          &UID
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &calledshop      &calleddriver   &leftmessage  &trans    &trans          &number4money
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &awaitingupdate  &trans          &trans        &trans    &trans          &forrewrite
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &Emailedbranch  &andassmgr    &andarea  &calledbranch4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans          &trans        &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans          &trans        &trans    &trans  &UID
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &calledshop  &calleddriver   &leftmessage  &trans    &trans  &number4money
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans          &trans        &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &Emailedbranch  &andassmgr    &andarea  &trans
             >;
         };
 
