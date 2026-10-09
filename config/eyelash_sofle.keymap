@@ -49,13 +49,13 @@
         copy {
             bindings = <&kp LC(C)>;
             key-positions = <41 42>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
             key-positions = <42 43>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         delete {
@@ -79,19 +79,19 @@
         selectall {
             bindings = <&kp LC(A)>;
             key-positions = <26 27>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <39 40>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         mission {
@@ -114,7 +114,7 @@
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <30 29>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         forrewrite {
@@ -155,6 +155,18 @@
         andareamgr {
             bindings = <&andareamanager>;
             key-positions = <3 16>;
+            layers = <0>;
+        };
+
+        calledshop {
+            bindings = <&calledshop>;
+            key-positions = <0 13>;
+            layers = <0>;
+        };
+
+        calleddrier {
+            bindings = <&calleddriver>;
+            key-positions = <1 14>;
             layers = <0>;
         };
     };
@@ -293,11 +305,11 @@
         macBase {
             display-name = "macOS base";
             bindings = <
-&kp ESCAPE          &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
-&kp TAB             &kp Q             &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U          &kp I         &kp O         &kp P          &kp BACKSLASH
-&kp LEFT_ALT        &kp A             &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J          &kp K         &kp L         &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT      &kp Z             &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M          &kp COMMA     &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
-&lt 3 C_PLAY_PAUSE  &kp LEFT_CONTROL  &kp SPACE     &kp SPACE     &kp LEFT_GUI  &lt 1 RET       &kp RET       &lt 2 RETURN  &kp RIGHT_GUI  &kp SPACE     &kp SPACE     &kp SLASH
+&kp ESCAPE          &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp UP_ARROW  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
+&kp TAB             &kp Q             &kp W         &kp E         &kp R         &kp T           &kp DOWN      &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BACKSLASH
+&kp LEFT_ALT        &kp A             &kp S         &kp D         &kp F         &kp G           &kp LEFT      &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT      &kp Z             &kp X         &kp C         &kp V         &kp B           &kp RIGHT     &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp RIGHT_SHIFT
+&lt 2 C_PLAY_PAUSE  &kp LEFT_CONTROL  &kp SPACE     &kp SPACE     &kp LEFT_GUI  &lt 1 RET       &kp RET       &kp RET       &kp SPACE     &kp SPACE     &kp SPACE     &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -315,23 +327,13 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        macrosetc {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans          &trans        &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans          &trans        &trans    &trans  &UID
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &calledshop  &calleddriver   &leftmessage  &trans    &trans  &number4money
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans          &trans        &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &Emailedbranch  &andassmgr    &andarea  &trans
-            >;
-        };
-
         BTControls {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans          &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans          &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans          &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &bt BT_CLR_ALL  &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none         &none           &none         &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none         &none           &none         &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none         &none           &none         &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+&none         &bt BT_CLR_ALL  &none         &none  &none  &none    &none  &none  &none  &none  &none  &none
             >;
         };
     };
