@@ -160,14 +160,41 @@
 
         calledshop {
             bindings = <&calledshop>;
+            key-positions = <31 30>;
+            layers = <0>;
+        };
+
+        calleddriver {
+            bindings = <&calleddriver>;
+            key-positions = <44 43>;
+            layers = <0>;
+        };
+
+        ERAC {
+            bindings = <&ERAC>;
+            key-positions = <55 54>;
+        };
+
+        noteaiopen {
+            bindings = <&notedAIopen>;
             key-positions = <0 13>;
             layers = <0>;
         };
 
-        calleddrier {
-            bindings = <&calleddriver>;
+        repaircomp {
+            bindings = <&repairscomp>;
             key-positions = <1 14>;
             layers = <0>;
+        };
+
+        totalloss {
+            bindings = <&totall>;
+            key-positions = <39 26>;
+        };
+
+        alertedcst {
+            bindings = <&alertcst>;
+            key-positions = <27 40>;
         };
     };
 
@@ -256,13 +283,6 @@
             label = "PERWORK";
         };
 
-        leftmessage: leftmessage {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE>;
-            label = "LEFTMESSAGE";
-        };
-
         number4money: number4money {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -296,6 +316,41 @@
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp L &kp L &kp E &kp D &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp SPACE &kp T &kp O &kp SPACE &kp R &kp E &kp W &kp R &kp I &kp T &kp E &kp SPACE>;
             label = "CALLEDBRANCH4";
+        };
+
+        ERAC: ERAC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE>;
+            label = "ERAC";
+        };
+
+        alertcst: alertcst {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp L &kp E &kp R &kp T &kp E &kp D &kp SPACE &kp C &kp L &kp I &kp E &kp N &kp T &kp SPACE &kp S &kp E &kp R &kp V &kp I &kp C &kp E &kp S &kp SPACE>;
+            label = "alertcst";
+        };
+
+        totall: totall {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp O &kp T &kp A &kp L &kp SPACE &kp L &kp O &kp S &kp S &kp SPACE>;
+            label = "TOTALL";
+        };
+
+        notedAIopen: notedAIopen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N) &kp O &kp T &kp E &kp D &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp O &kp P &kp E &kp N &kp SPACE>;
+            label = "notedAIopen";
+        };
+
+        repairscomp: repairscomp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp S &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E &kp D &kp SPACE>;
+            label = "REPAIRSCOMP";
         };
     };
 
