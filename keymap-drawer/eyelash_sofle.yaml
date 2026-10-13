@@ -251,9 +251,21 @@ combos:
 - p: [3, 16]
   k: '&andareamanager'
   l: [macOS base]
-- p: [0, 13]
+- p: [31, 30]
   k: '&calledshop'
   l: [macOS base]
-- p: [1, 14]
+- p: [44, 43]
   k: '&calleddriver'
   l: [macOS base]
+- p: [55, 54]
+  k: '&ERAC'
+- p: [0, 13]
+  k: '&notedAIopen'
+  l: [macOS base]
+- p: [1, 14]
+  k: '&repairscomp'
+  l: [macOS base]
+- p: [39, 26]
+  k: '&totall'
+- p: [27, 40]
+  k: '&alertcst'
