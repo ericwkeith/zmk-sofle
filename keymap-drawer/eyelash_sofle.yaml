@@ -269,3 +269,5 @@ combos:
   k: '&totall'
 - p: [27, 40]
   k: '&alertcst'
+- p: [53, 54]
+  k: '&alerttocm'

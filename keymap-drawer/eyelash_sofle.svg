@@ -712,6 +712,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="70" y="183" width="28" height="26" class="combo"/>
 <text x="84" y="196" class="combo tap"><tspan style="font-size: 67%">&amp;alertcst</tspan></text>
 </g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="154" y="242" width="28" height="26" class="combo"/>
+<text x="168" y="256" class="combo tap"><tspan style="font-size: 60%">&amp;alerttocm</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-numnav">
@@ -1113,6 +1117,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="70" y="183" width="28" height="26" class="combo"/>
 <text x="84" y="196" class="combo tap"><tspan style="font-size: 67%">&amp;alertcst</tspan></text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="154" y="242" width="28" height="26" class="combo"/>
+<text x="168" y="256" class="combo tap"><tspan style="font-size: 60%">&amp;alerttocm</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-BTControls">
@@ -1466,6 +1474,10 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="70" y="183" width="28" height="26" class="combo"/>
 <text x="84" y="196" class="combo tap"><tspan style="font-size: 67%">&amp;alertcst</tspan></text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="154" y="242" width="28" height="26" class="combo"/>
+<text x="168" y="256" class="combo tap"><tspan style="font-size: 60%">&amp;alerttocm</tspan></text>
 </g>
 </g>
 </g>
