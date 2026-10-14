@@ -196,6 +196,11 @@
             bindings = <&alertcst>;
             key-positions = <27 40>;
         };
+
+        alert2cm {
+            bindings = <&alerttocm>;
+            key-positions = <53 54>;
+        };
     };
 
     macros {
@@ -351,6 +356,13 @@
             #binding-cells = <0>;
             bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp S &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E &kp D &kp SPACE>;
             label = "REPAIRSCOMP";
+        };
+
+        alerttocm: alerttocm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp L &kp E &kp R &kp T &kp SPACE &kp T &kp O &kp SPACE &kp C &kp M &kp SPACE>;
+            label = "ALERTTOCM";
         };
     };
 
