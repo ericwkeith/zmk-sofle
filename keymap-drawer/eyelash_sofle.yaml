@@ -80,7 +80,7 @@ layers:
   - F10
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '&perwork'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - '9'
@@ -92,8 +92,8 @@ layers:
   - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&days30'
-  - '&perwork'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:pan-up$$
   - '4'
   - {t: '5', s: '%'}
   - {t: '5', s: '%'}
@@ -106,7 +106,7 @@ layers:
   - {t: '=', s: +}
   - F11
   - $$mdi:apple-keyboard-shift$$
-  - '&days10'
+  - END
   - '1'
   - '2'
   - '3'
