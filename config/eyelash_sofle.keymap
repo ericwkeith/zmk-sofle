@@ -119,7 +119,7 @@
 
         forrewrite {
             bindings = <&forrewrite>;
-            key-positions = <49 50 51 62 63 43 42 41>;
+            key-positions = <43 42 41>;
         };
 
         awaitcei {
