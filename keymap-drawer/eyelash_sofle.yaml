@@ -231,7 +231,7 @@ combos:
 - p: [30, 29]
   k: '&mkp MB3'
   l: [macOS base, numnav]
-- p: [44, 39]
+- p: [49, 50, 51, 62, 63, 43, 42, 41]
   k: '&forrewrite'
 - p: [26, 31]
   k: '&awaitingupdate'
