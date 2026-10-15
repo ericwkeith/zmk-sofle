@@ -347,14 +347,14 @@
         notedAIopen: notedAIopen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(N) &kp O &kp T &kp E &kp D &kp SPACE &kp LS(A) &kp LS(I) &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp O &kp P &kp E &kp N &kp SPACE>;
+            bindings = <&kp LS(N) &kp O &kp T &kp E &kp D &kp SPACE &kp LS(A) &kp LS(I) &kp SLASH &kp LS(X) &kp C &kp E &kp L &kp E &kp R &kp A &kp T &kp E &kp SPACE>;
             label = "notedAIopen";
         };
 
         repairscomp: repairscomp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp S &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E &kp D &kp SPACE>;
+            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp S &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E &kp D &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp O &kp P &kp E &kp N>;
             label = "REPAIRSCOMP";
         };
 
