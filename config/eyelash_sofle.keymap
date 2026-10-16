@@ -374,7 +374,7 @@
         repairscomp: repairscomp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp S &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E &kp D &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp O &kp P &kp E &kp N>;
+            bindings = <&kp R &kp E &kp P &kp A &kp I &kp R &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E &kp COMMA &kp SPACE &kp R &kp E &kp N &kp T &kp A &kp L &kp SPACE &kp O &kp P &kp E &kp N &kp SPACE>;
             label = "REPAIRSCOMP";
         };
 
