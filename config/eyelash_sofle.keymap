@@ -201,6 +201,26 @@
             bindings = <&alerttocm>;
             key-positions = <53 54>;
         };
+
+        ext30days {
+            bindings = <&days30>;
+            key-positions = <30 44>;
+        };
+
+        ext10days {
+            bindings = <&days10>;
+            key-positions = <31 43>;
+        };
+
+        pernonmanage {
+            bindings = <&perwork>;
+            key-positions = <44 31>;
+        };
+
+        unkn {
+            bindings = <&unkn>;
+            key-positions = <17 30>;
+        };
     };
 
     macros {
@@ -363,6 +383,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp A &kp L &kp E &kp R &kp T &kp SPACE &kp T &kp O &kp SPACE &kp C &kp M &kp SPACE>;
             label = "ALERTTOCM";
+        };
+
+        unkn: unkn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp N &kp K &kp N>;
+            label = "UNKN";
         };
     };
 
