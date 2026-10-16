@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:pan-up$$
   - '4'
   - {t: '5', s: '%'}
@@ -105,7 +105,7 @@ layers:
   - '6'
   - {t: '=', s: +}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:arrow-down-bold$$
   - END
   - '1'
   - '2'
