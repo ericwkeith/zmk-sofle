@@ -271,3 +271,11 @@ combos:
   k: '&alertcst'
 - p: [53, 54]
   k: '&alerttocm'
+- p: [30, 44]
+  k: '&days30'
+- p: [31, 43]
+  k: '&days10'
+- p: [44, 31]
+  k: '&perwork'
+- p: [17, 30]
+  k: '&unkn'
