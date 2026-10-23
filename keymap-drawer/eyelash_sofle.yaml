@@ -277,5 +277,10 @@ combos:
   k: '&days10'
 - p: [44, 31]
   k: '&perwork'
+  l: [macOS base]
 - p: [17, 30]
   k: '&unkn'
+  l: [macOS base]
+- p: [43, 44, 42]
+  k: '&leftmessage'
+  l: [macOS base]
