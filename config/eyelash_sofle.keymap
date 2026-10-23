@@ -240,6 +240,11 @@
             bindings = <&novm>;
             key-positions = <31 30 29>;
         };
+
+        cmd9 {
+            bindings = <&kp LG(N9)>;
+            key-positions = <0 57>;
+        };
     };
 
     macros {
