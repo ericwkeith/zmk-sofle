@@ -284,3 +284,8 @@ combos:
 - p: [43, 44, 42]
   k: '&leftmessage'
   l: [macOS base]
+- p: [16, 17, 18]
+  k: '&disconnected'
+  l: [macOS base]
+- p: [31, 30, 29]
+  k: '&novm'
