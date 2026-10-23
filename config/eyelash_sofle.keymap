@@ -215,11 +215,19 @@
         pernonmanage {
             bindings = <&perwork>;
             key-positions = <44 31>;
+            layers = <0>;
         };
 
         unkn {
             bindings = <&unkn>;
             key-positions = <17 30>;
+            layers = <0>;
+        };
+
+        leftmessage {
+            bindings = <&leftmessage>;
+            key-positions = <43 44 42>;
+            layers = <0>;
         };
     };
 
@@ -390,6 +398,13 @@
             #binding-cells = <0>;
             bindings = <&kp U &kp N &kp K &kp N>;
             label = "UNKN";
+        };
+
+        leftmessage: leftmessage {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp COMMA &kp SPACE &kp A &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
+            label = "LEFTMESSAGE";
         };
     };
 
