@@ -229,6 +229,17 @@
             key-positions = <43 44 42>;
             layers = <0>;
         };
+
+        disconnected {
+            bindings = <&disconnected>;
+            key-positions = <16 17 18>;
+            layers = <0>;
+        };
+
+        novm {
+            bindings = <&novm>;
+            key-positions = <31 30 29>;
+        };
     };
 
     macros {
@@ -405,6 +416,20 @@
             #binding-cells = <0>;
             bindings = <&kp LS(L) &kp LS(M) &kp SPACE &kp F &kp O &kp R &kp SPACE &kp U &kp P &kp D &kp A &kp T &kp E &kp COMMA &kp SPACE &kp A &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
             label = "LEFTMESSAGE";
+        };
+
+        disconnected: disconnected {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp S &kp C &kp O &kp N &kp N &kp E &kp C &kp T &kp SPACE &kp P &kp E &kp R &kp SPACE &kp H &kp O &kp L &kp D &kp COMMA &kp SPACE &kp A &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
+            label = "DISCONNECTED";
+        };
+
+        novm: novm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp O &kp SPACE &kp A &kp N &kp S &kp W &kp E &kp R &kp SPACE &kp O &kp R &kp SPACE &kp V &kp M &kp COMMA &kp SPACE &kp A &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
+            label = "NOVM";
         };
     };
 
