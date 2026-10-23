@@ -289,3 +289,5 @@ combos:
   l: [macOS base]
 - p: [31, 30, 29]
   k: '&novm'
+- p: [0, 57]
+  k: Gui+9
