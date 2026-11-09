@@ -700,12 +700,12 @@ rect.held, rect.combo.held {
 <text x="224" y="256" class="combo tap">&amp;ERAC</text>
 </g>
 <g class="combo combopos-22">
-<rect rx="6" ry="6" x="14" y="71" width="28" height="26" class="combo"/>
-<text x="28" y="84" class="combo tap"><tspan style="font-size: 60%">&amp;notedAIo…</tspan></text>
+<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
+<text x="84" y="84" class="combo tap"><tspan style="font-size: 60%">&amp;notedAIo…</tspan></text>
 </g>
 <g class="combo combopos-23">
-<rect rx="6" ry="6" x="70" y="71" width="28" height="26" class="combo"/>
-<text x="84" y="84" class="combo tap"><tspan style="font-size: 60%">&amp;repairsc…</tspan></text>
+<rect rx="6" ry="6" x="14" y="71" width="28" height="26" class="combo"/>
+<text x="28" y="84" class="combo tap"><tspan style="font-size: 60%">&amp;repairsc…</tspan></text>
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="14" y="183" width="28" height="26" class="combo"/>
@@ -758,6 +758,12 @@ rect.held, rect.combo.held {
 <path d="M209,175 l165,109" class="combo"/>
 <rect rx="6" ry="6" x="195" y="162" width="28" height="26" class="combo"/>
 <text x="209" y="175" class="combo tap">Gui+9</text>
+</g>
+<g class="combo combopos-35">
+<path d="M196,257 l-37,2" class="combo"/>
+<path d="M196,257 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
+<text x="196" y="257" class="combo tap"><tspan style="font-size: 60%">&amp;calledbr…</tspan></text>
 </g>
 </g>
 </g>
@@ -1184,6 +1190,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="195" y="162" width="28" height="26" class="combo"/>
 <text x="209" y="175" class="combo tap">Gui+9</text>
 </g>
+<g class="combo combopos-17">
+<path d="M196,257 l-37,2" class="combo"/>
+<path d="M196,257 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
+<text x="196" y="257" class="combo tap"><tspan style="font-size: 60%">&amp;calledbr…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-BTControls">
@@ -1561,6 +1573,12 @@ rect.held, rect.combo.held {
 <path d="M209,175 l165,109" class="combo"/>
 <rect rx="6" ry="6" x="195" y="162" width="28" height="26" class="combo"/>
 <text x="209" y="175" class="combo tap">Gui+9</text>
+</g>
+<g class="combo combopos-10">
+<path d="M196,257 l-37,2" class="combo"/>
+<path d="M196,257 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="182" y="244" width="28" height="26" class="combo"/>
+<text x="196" y="257" class="combo tap"><tspan style="font-size: 60%">&amp;calledbr…</tspan></text>
 </g>
 </g>
 </g>

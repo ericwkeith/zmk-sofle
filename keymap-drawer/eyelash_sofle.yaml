@@ -259,10 +259,10 @@ combos:
   l: [macOS base]
 - p: [55, 54]
   k: '&ERAC'
-- p: [0, 13]
+- p: [1, 14]
   k: '&notedAIopen'
   l: [macOS base]
-- p: [1, 14]
+- p: [0, 13]
   k: '&repairscomp'
   l: [macOS base]
 - p: [39, 26]
@@ -291,3 +291,5 @@ combos:
   k: '&novm'
 - p: [0, 57]
   k: Gui+9
+- p: [53, 54, 55]
+  k: '&calledbranch'
