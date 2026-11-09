@@ -177,13 +177,13 @@
 
         noteaiopen {
             bindings = <&notedAIopen>;
-            key-positions = <0 13>;
+            key-positions = <1 14>;
             layers = <0>;
         };
 
         repaircomp {
             bindings = <&repairscomp>;
-            key-positions = <1 14>;
+            key-positions = <0 13>;
             layers = <0>;
         };
 
@@ -244,6 +244,11 @@
         cmd9 {
             bindings = <&kp LG(N9)>;
             key-positions = <0 57>;
+        };
+
+        calledbranch {
+            bindings = <&calledbranch>;
+            key-positions = <53 54 55>;
         };
     };
 
