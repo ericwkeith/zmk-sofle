@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
   - '4'
   - {t: '5', s: '%'}
@@ -105,7 +105,7 @@ layers:
   - '6'
   - {t: '=', s: +}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
+  - .
   - END
   - '1'
   - '2'
@@ -242,19 +242,19 @@ combos:
 - p: [13, 18]
   k: '&number4money'
   l: [macOS base]
-- p: [5, 18]
+- p: [0, 57]
   k: '&Emailedbranch'
   l: [macOS base]
-- p: [4, 17]
+- p: [1, 57]
   k: '&andassmgr'
   l: [macOS base]
-- p: [3, 16]
+- p: [2, 57]
   k: '&andareamanager'
   l: [macOS base]
-- p: [31, 30]
+- p: [57, 5]
   k: '&calledshop'
   l: [macOS base]
-- p: [44, 43]
+- p: [4, 57]
   k: '&calleddriver'
   l: [macOS base]
 - p: [55, 54]
@@ -271,11 +271,11 @@ combos:
   k: '&alertcst'
 - p: [53, 54]
   k: '&alerttocm'
-- p: [30, 44]
+- p: [57, 56]
   k: '&days30'
-- p: [31, 43]
+- p: [57, 44]
   k: '&days10'
-- p: [44, 31]
+- p: [57, 55]
   k: '&perwork'
   l: [macOS base]
 - p: [17, 30]
@@ -289,7 +289,5 @@ combos:
   l: [macOS base]
 - p: [31, 30, 29]
   k: '&novm'
-- p: [0, 57]
-  k: Gui+9
-- p: [53, 54, 55]
+- p: [57, 3]
   k: '&calledbranch'
