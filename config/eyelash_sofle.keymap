@@ -450,6 +450,27 @@
             bindings = <&kp A &kp S &kp D &kp F>;
             label = "ASDF";
         };
+
+        attempt: attempt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE &kp LS(A) &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
+            label = "ATTEMPT";
+        };
+
+        attempt1: attempt1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(R) &kp LS(A) &kp LS(C) &kp SPACE &kp A &kp T &kp T &kp E &kp M &kp P &kp T &kp SPACE>;
+            label = "ATTEMPT1";
+        };
+
+        attempt3: attempt3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp M &kp A &kp I &kp L &kp E &kp D &kp SPACE &kp S &kp H &kp O &kp P &kp SPACE>;
+            label = "ATTEMPT3";
+        };
     };
 
     keymap {
@@ -470,11 +491,11 @@
 
         numnav {
             bindings = <
-&kp BACKSPACE   &none      &none      &none      &none      &kp DELETE    &kp UP_ARROW     &none      &none         &none         &none         &none             &kp BACKSPACE
-&kp TAB         &none      &none      &none      &none      &none         &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none           &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &ERAC         &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp UP_ARROW
-&kp PERIOD      &kp LC(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &asdf         &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp DOWN
-&bt BT_CLR_ALL  &none      &none      &none      &none      &none         &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
+&kp BACKSPACE   &attempt1  &leftmessage   &attempt3    &none      &kp DELETE     &kp UP_ARROW     &none      &none         &none         &none         &none             &kp BACKSPACE
+&kp TAB         &none      &calleddriver  &calledshop  &none      &none          &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&none           &kp LC(A)  &kp LC(X)      &kp LC(C)    &kp LC(V)  &forrewrite    &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp UP_ARROW
+&kp PERIOD      &kp LC(Z)  &kp LG(X)      &kp LG(C)    &kp LG(V)  &attempt       &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp DOWN
+&bt BT_CLR_ALL  &none      &none          &none        &none      &none          &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
