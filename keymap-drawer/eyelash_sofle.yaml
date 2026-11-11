@@ -94,10 +94,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - '&ERAC'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
@@ -107,10 +107,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - .
   - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - '&ERAC'
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - '&asdf'
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
