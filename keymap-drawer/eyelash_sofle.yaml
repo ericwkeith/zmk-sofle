@@ -67,9 +67,9 @@ layers:
   - {t: /, s: '?'}
   numnav:
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&attempt1'
+  - '&leftmessage'
+  - '&attempt3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
@@ -81,8 +81,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&calleddriver'
+  - '&calledshop'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -97,7 +97,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - '&ERAC'
+  - '&forrewrite'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
@@ -110,7 +110,7 @@ layers:
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - '&asdf'
+  - '&attempt'
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
