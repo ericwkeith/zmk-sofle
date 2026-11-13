@@ -94,9 +94,9 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+A
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - '&forrewrite'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
@@ -107,10 +107,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - .
   - Ctl+Z
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - '&attempt'
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - '&ERAC'
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
