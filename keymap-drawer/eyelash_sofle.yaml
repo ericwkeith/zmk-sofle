@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&calleddriver'
   - '&calledshop'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&calledbranch'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: /, s: '?'}
@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&awaitingupdate'
   - Ctl+A
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
@@ -110,7 +110,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - '&ERAC'
+  - '&days10'
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
@@ -118,11 +118,11 @@ layers:
   - '3'
   - +
   - $$mdi:arrow-down-bold$$
-  - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&ERAC'
+  - '&alerttocm'
+  - '&perwork'
+  - '&days30'
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -211,28 +211,15 @@ combos:
 - p: [5, 4, 18]
   k: '&eracmail'
   l: [macOS base]
-- p: [26, 27]
-  k: Ctl+A
-  l: [macOS base, numnav]
 - p: [39, 40]
   k: Ctl+Z
   l: [macOS base, numnav]
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base, numnav]
-- p: [39, 57]
-  k: Ctl+$$mdi:arrow-up-bold$$
-- p: [0, 1, 2]
-  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  l: [macOS base]
-- p: [5, 4, 3]
-  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: [macOS base]
 - p: [30, 29]
   k: '&mkp MB3'
   l: [macOS base, numnav]
-- p: [43, 42, 41]
-  k: '&forrewrite'
 - p: [26, 31]
   k: '&awaitingupdate'
   l: [macOS base]
@@ -257,8 +244,6 @@ combos:
 - p: [4, 57]
   k: '&calleddriver'
   l: [macOS base]
-- p: [55, 54]
-  k: '&ERAC'
 - p: [1, 14]
   k: '&notedAIopen'
   l: [macOS base]
@@ -269,18 +254,6 @@ combos:
   k: '&totall'
 - p: [27, 40]
   k: '&alertcst'
-- p: [53, 54]
-  k: '&alerttocm'
-- p: [57, 56]
-  k: '&days30'
-- p: [57, 44]
-  k: '&days10'
-- p: [57, 55]
-  k: '&perwork'
-  l: [macOS base]
-- p: [17, 30]
-  k: '&unkn'
-  l: [macOS base]
 - p: [43, 44, 42]
   k: '&leftmessage'
   l: [macOS base]
@@ -289,5 +262,3 @@ combos:
   l: [macOS base]
 - p: [31, 30, 29]
   k: '&novm'
-- p: [57, 3]
-  k: '&calledbranch'
