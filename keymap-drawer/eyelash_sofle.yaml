@@ -96,8 +96,8 @@ layers:
   - Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
+  - HOME
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
