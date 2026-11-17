@@ -70,7 +70,7 @@ layers:
   - '&attempt1'
   - '&leftmessage'
   - '&attempt3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&ERAC'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -80,10 +80,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '&ERAC'
+  - '&calledbranch4'
   - '&calleddriver'
   - '&calledshop'
-  - '&calledbranch'
+  - HOME
   - '&alerttocm'
   - $$mdi:arrow-down-bold$$
   - {t: /, s: '?'}
@@ -94,10 +94,10 @@ layers:
   - {t: ']', s: '}'}
   - '&awaitingupdate'
   - Ctl+A
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - END
-  - HOME
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - '&forrewrite'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
   - '4'
@@ -107,10 +107,10 @@ layers:
   - $$mdi:arrow-up-bold$$
   - .
   - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - '&forrewrite'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
+  - '&days10'
   - $$mdi:arrow-right-bold$$
   - _
   - '1'
@@ -119,10 +119,10 @@ layers:
   - +
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&days30'
-  - '&days10'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&perwork'
+  - '&days30'
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -211,9 +211,6 @@ combos:
 - p: [5, 4, 18]
   k: '&eracmail'
   l: [macOS base]
-- p: [39, 40]
-  k: Ctl+Z
-  l: [macOS base, numnav]
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [macOS base, numnav]
@@ -237,12 +234,6 @@ combos:
   l: [macOS base]
 - p: [2, 57]
   k: '&andareamanager'
-  l: [macOS base]
-- p: [57, 5]
-  k: '&calledshop'
-  l: [macOS base]
-- p: [4, 57]
-  k: '&calleddriver'
   l: [macOS base]
 - p: [1, 14]
   k: '&notedAIopen'
