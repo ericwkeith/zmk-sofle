@@ -67,7 +67,7 @@ layers:
   - {t: /, s: '?'}
   numnav:
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&attempt1'
+  - '&alertcst'
   - '&leftmessage'
   - '&attempt3'
   - '&notedAIopen'
@@ -120,7 +120,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&alerttocm'
-  - '&alertcst'
+  - '&attempt'
   - '&perwork'
   - '&days30'
   - {t: '$$mdi:minus-circle-outline$$', type: held}
