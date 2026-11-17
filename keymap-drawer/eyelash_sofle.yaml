@@ -94,9 +94,9 @@ layers:
   - {t: ']', s: '}'}
   - '&awaitingupdate'
   - Ctl+A
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&forrewrite'
   - $$mdi:arrow-left-bold$$
   - {t: '-', s: _}
