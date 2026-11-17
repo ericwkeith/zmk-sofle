@@ -76,12 +76,6 @@
             layers = <0>;
         };
 
-        undo {
-            bindings = <&kp LC(Z)>;
-            key-positions = <39 40>;
-            layers = <0 1>;
-        };
-
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
@@ -127,18 +121,6 @@
         andareamgr {
             bindings = <&andareamanager>;
             key-positions = <2 57>;
-            layers = <0>;
-        };
-
-        calledshop {
-            bindings = <&calledshop>;
-            key-positions = <57 5>;
-            layers = <0>;
-        };
-
-        calleddriver {
-            bindings = <&calleddriver>;
-            key-positions = <4 57>;
             layers = <0>;
         };
 
@@ -426,11 +408,11 @@
 
         numnav {
             bindings = <
-&kp BACKSPACE    &attempt1  &leftmessage   &attempt3    &none          &kp DELETE     &kp UP_ARROW     &none      &none         &none         &none         &none             &kp BACKSPACE
-&kp TAB          &ERAC      &calleddriver  &calledshop  &calledbranch  &alerttocm     &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&awaitingupdate  &kp LC(A)  &none          &none        &kp END        &kp HOME       &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp UP_ARROW
-&kp PERIOD       &kp LC(Z)  &kp LC(X)      &kp LC(C)    &kp LC(V)      &forrewrite    &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp DOWN
-&none            &days30    &days10        &none        &perwork       &none          &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
+&kp BACKSPACE    &attempt1       &leftmessage   &attempt3    &ERAC      &kp DELETE     &kp UP_ARROW     &none      &none         &none         &none         &none             &kp BACKSPACE
+&kp TAB          &calledbranch4  &calleddriver  &calledshop  &kp HOME   &alerttocm     &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&awaitingupdate  &kp LC(A)       &kp LC(X)      &kp LC(C)    &kp LC(V)  &forrewrite    &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp UP_ARROW
+&kp PERIOD       &kp LC(Z)       &none          &none        &kp END    &days10        &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp DOWN
+&none            &none           &none          &perwork     &days30    &none          &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
