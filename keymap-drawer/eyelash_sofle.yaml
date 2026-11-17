@@ -196,12 +196,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [41, 42]
-  k: Ctl+C
-  l: [macOS base, numnav]
-- p: [42, 43]
-  k: Ctl+V
-  l: [macOS base, numnav]
 - p: [5, 4]
   k: $$mdi:backspace-reverse-outline$$
   l: [macOS base, numnav]
@@ -213,9 +207,6 @@ combos:
   l: [macOS base]
 - p: [0, 1]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [macOS base, numnav]
-- p: [30, 29]
-  k: '&mkp MB3'
   l: [macOS base, numnav]
 - p: [26, 31]
   k: '&awaitingupdate'
