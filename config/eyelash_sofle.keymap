@@ -76,12 +76,6 @@
             layers = <0>;
         };
 
-        selectall {
-            bindings = <&kp LC(A)>;
-            key-positions = <26 27>;
-            layers = <0 1>;
-        };
-
         undo {
             bindings = <&kp LC(Z)>;
             key-positions = <39 40>;
@@ -94,32 +88,10 @@
             layers = <0 1>;
         };
 
-        mission {
-            bindings = <&kp LC(UP_ARROW)>;
-            key-positions = <39 57>;
-        };
-
-        bt0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <0 1 2>;
-            layers = <0>;
-        };
-
-        bt1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <5 4 3>;
-            layers = <0>;
-        };
-
         mb3 {
             bindings = <&mkp MB3>;
             key-positions = <30 29>;
             layers = <0 1>;
-        };
-
-        forrewrite {
-            bindings = <&forrewrite>;
-            key-positions = <43 42 41>;
         };
 
         awaitcei {
@@ -170,11 +142,6 @@
             layers = <0>;
         };
 
-        ERAC {
-            bindings = <&ERAC>;
-            key-positions = <55 54>;
-        };
-
         noteaiopen {
             bindings = <&notedAIopen>;
             key-positions = <1 14>;
@@ -197,33 +164,6 @@
             key-positions = <27 40>;
         };
 
-        alert2cm {
-            bindings = <&alerttocm>;
-            key-positions = <53 54>;
-        };
-
-        ext30days {
-            bindings = <&days30>;
-            key-positions = <57 56>;
-        };
-
-        ext10days {
-            bindings = <&days10>;
-            key-positions = <57 44>;
-        };
-
-        pernonmanage {
-            bindings = <&perwork>;
-            key-positions = <57 55>;
-            layers = <0>;
-        };
-
-        unkn {
-            bindings = <&unkn>;
-            key-positions = <17 30>;
-            layers = <0>;
-        };
-
         leftmessage {
             bindings = <&leftmessage>;
             key-positions = <43 44 42>;
@@ -239,11 +179,6 @@
         novm {
             bindings = <&novm>;
             key-positions = <31 30 29>;
-        };
-
-        calledbranch {
-            bindings = <&calledbranch>;
-            key-positions = <57 3>;
         };
     };
 
@@ -491,11 +426,11 @@
 
         numnav {
             bindings = <
-&kp BACKSPACE   &attempt1  &leftmessage   &attempt3    &none      &kp DELETE     &kp UP_ARROW     &none      &none         &none         &none         &none             &kp BACKSPACE
-&kp TAB         &none      &calleddriver  &calledshop  &none      &none          &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&none           &kp LC(A)  &kp LG(X)      &kp LG(C)    &kp LG(V)  &forrewrite    &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp UP_ARROW
-&kp PERIOD      &kp LC(Z)  &kp LC(X)      &kp LC(C)    &kp LC(V)  &ERAC          &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp DOWN
-&bt BT_CLR_ALL  &none      &none          &none        &none      &none          &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
+&kp BACKSPACE    &attempt1  &leftmessage   &attempt3    &none          &kp DELETE     &kp UP_ARROW     &none      &none         &none         &none         &none             &kp BACKSPACE
+&kp TAB          &none      &calleddriver  &calledshop  &calledbranch  &none          &kp DOWN_ARROW   &kp SLASH  &kp N7        &kp N8        &kp N9        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&awaitingupdate  &kp LC(A)  &kp LG(X)      &kp LG(C)    &kp LG(V)      &forrewrite    &kp LEFT_ARROW   &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL         &kp UP_ARROW
+&kp PERIOD       &kp LC(Z)  &kp LC(X)      &kp LC(C)    &kp LC(V)      &days10        &kp RIGHT_ARROW  &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS          &kp DOWN
+&none            &ERAC      &alerttocm     &perwork     &days30        &none          &kp ENTER        &kp RET    &kp N0        &kp NUMBER_0  &kp PERIOD    &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
