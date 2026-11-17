@@ -70,7 +70,7 @@ layers:
   - '&attempt1'
   - '&leftmessage'
   - '&attempt3'
-  - '&ERAC'
+  - '&notedAIopen'
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -80,11 +80,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '&calledbranch4'
+  - '&totall'
   - '&calleddriver'
   - '&calledshop'
-  - HOME
-  - '&alerttocm'
+  - '&repairscomp'
+  - '&ERAC'
   - $$mdi:arrow-down-bold$$
   - {t: /, s: '?'}
   - {t: '7', s: '&'}
@@ -107,8 +107,8 @@ layers:
   - $$mdi:arrow-up-bold$$
   - .
   - Ctl+Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&attempt'
+  - '&calledbranch'
   - END
   - '&days10'
   - $$mdi:arrow-right-bold$$
@@ -119,8 +119,8 @@ layers:
   - +
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&alerttocm'
+  - '&alertcst'
   - '&perwork'
   - '&days30'
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -225,12 +225,6 @@ combos:
   l: [macOS base]
 - p: [2, 57]
   k: '&andareamanager'
-  l: [macOS base]
-- p: [1, 14]
-  k: '&notedAIopen'
-  l: [macOS base]
-- p: [0, 13]
-  k: '&repairscomp'
   l: [macOS base]
 - p: [39, 26]
   k: '&totall'
