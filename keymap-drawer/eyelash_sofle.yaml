@@ -226,10 +226,6 @@ combos:
 - p: [2, 57]
   k: '&andareamanager'
   l: [macOS base]
-- p: [39, 26]
-  k: '&totall'
-- p: [27, 40]
-  k: '&alertcst'
 - p: [43, 44, 42]
   k: '&leftmessage'
   l: [macOS base]
