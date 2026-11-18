@@ -106,16 +106,6 @@
             layers = <0>;
         };
 
-        totalloss {
-            bindings = <&totall>;
-            key-positions = <39 26>;
-        };
-
-        alertedcst {
-            bindings = <&alertcst>;
-            key-positions = <27 40>;
-        };
-
         leftmessage {
             bindings = <&leftmessage>;
             key-positions = <43 44 42>;
