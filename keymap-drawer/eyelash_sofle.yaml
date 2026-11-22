@@ -118,7 +118,7 @@ layers:
   - '3'
   - +
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&bl BL_TOG'
   - '&alerttocm'
   - '&attempt'
   - '&perwork'
